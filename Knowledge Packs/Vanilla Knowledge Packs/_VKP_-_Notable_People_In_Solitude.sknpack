@@ -134,7 +134,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"CWImperialFaction\")",
         "content": "General Tullius commands the Imperial Legion in Skyrim from Castle Dour in Solitude. Cyrodiilic, hard-line, has no patience for what he sees as Nord superstition.",
         "display_name": "General Tullius - Imperial Commander",
         "emotion": "",
@@ -153,7 +153,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"CWImperialFaction\")",
         "content": "Legate Rikke is Tullius's second-in-command. Nord, Imperial-sworn, an old comrade of Ulfric Stormcloak from before the war — a fact that haunts both of them.",
         "display_name": "Legate Rikke - Tullius's Second",
         "emotion": "",
@@ -258,7 +258,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"SolitudeBardsCollegeFaction\")",
         "content": "Viarmo is the headmaster of the Bards College in Solitude — Altmer, scholar of poetry and politics. He has been searching for the lost Verse of Olaf for the annual festival.",
         "display_name": "Viarmo - Bards College Headmaster",
         "emotion": "",
@@ -280,7 +280,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"SolitudeBardsCollegeFaction\")",
         "content": "Inge Six-Fingers teaches the lute at the Bards College and is famously feuding with Pantea Ateia who teaches voice.",
         "display_name": "Inge Six-Fingers - Lute Master",
         "emotion": "",
@@ -301,7 +301,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"SolitudeBardsCollegeFaction\")",
         "content": "Pantea Ateia teaches voice at the Bards College and treats every other instructor as a hack — especially Inge Six-Fingers.",
         "display_name": "Pantea Ateia - Voice Master",
         "emotion": "",
@@ -322,7 +322,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"SolitudeBardsCollegeFaction\")",
         "content": "Giraud Gemane teaches history at the Bards College. Breton, slightly disorganized, willing to send students chasing relics for the College's collection.",
         "display_name": "Giraud Gemane - History Master",
         "emotion": "",
@@ -592,7 +592,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"SolitudeBardsCollegeFaction\")",
         "content": "Aia Arria is a Redguard student at the Bards College in Solitude, learning the bardic arts.",
         "display_name": "Aia Arria - Bards College Student",
         "emotion": "",
@@ -611,7 +611,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"SolitudeBardsCollegeFaction\")",
         "content": "Ataf is a Redguard student at the Bards College in Solitude, studying the bardic traditions.",
         "display_name": "Ataf - Bards College Student",
         "emotion": "",
@@ -630,7 +630,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"SolitudeBardsCollegeFaction\")",
         "content": "Bendt is a Nord student at the Bards College in Solitude, a journeyman bard who can be hired as a traveling bodyguard.",
         "display_name": "Bendt - Bards College Student",
         "emotion": "",
@@ -649,7 +649,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"SolitudeBardsCollegeFaction\")",
         "content": "Illdi is a Nord bard who teaches at the Bards College and can be hired to perform in inns across Skyrim.",
         "display_name": "Illdi - Bards College Instructor",
         "emotion": "",
@@ -670,7 +670,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"SolitudeBardsCollegeFaction\")",
         "content": "Jorn is the elderly Nord caretaker at the Bards College in Solitude, keeping the building clean for the staff and students.",
         "display_name": "Jorn - Bards College Caretaker",
         "emotion": "",
@@ -811,7 +811,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"CWImperialFaction\")",
         "content": "Captain Aldis commands the Solitude guard from Castle Dour — a capable Imperial officer who upholds the law in the city and aids those who earn his trust.",
         "display_name": "Captain Aldis - Guard Captain",
         "emotion": "",
@@ -831,7 +831,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"CWImperialFaction\")",
         "content": "Legate Adventus Caesennius is a stern Cyrodiilic Legate stationed at Castle Dour, serving directly under General Tullius.",
         "display_name": "Legate Adventus Caesennius - Imperial Legate",
         "emotion": "",
@@ -851,7 +851,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"CWImperialFaction\")",
         "content": "Bjartur is a Nord courier at Castle Dour who delivers messages across Haafingar for the Imperial Legion.",
         "display_name": "Bjartur - Legion Courier",
         "emotion": "",
@@ -871,7 +871,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"CWImperialFaction\")",
         "content": "The Emperor Titus Mede II appears at Vittoria Vici's wedding in Solitude — but this is a body double, a decoy used to protect the real Emperor from assassination.",
         "display_name": "Emperor Titus Mede II (Decoy)",
         "emotion": "",
@@ -890,7 +890,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"CWImperialFaction\")",
         "content": "Gianna is an Imperial serving woman at Castle Dour, keeping the officers' quarters tidy and the mess hall stocked.",
         "display_name": "Gianna - Castle Dour Servant",
         "emotion": "",

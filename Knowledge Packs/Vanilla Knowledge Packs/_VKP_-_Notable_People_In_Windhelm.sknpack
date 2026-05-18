@@ -34,7 +34,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\") or is_in_faction(actorUUID, \"@CWSonsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\") or is_in_faction(actorUUID, \"CWSonsFaction\")",
         "content": "Galmar Stone-Fist commands the Stormcloak military under Ulfric. Hard old Nord, scarred, the kind of war-chief who runs his sons through their drills before dawn.",
         "display_name": "Galmar Stone-Fist - Ulfric's Second",
         "emotion": "",
@@ -98,7 +98,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\") or is_in_faction(actorUUID, \"@CWSonsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\") or is_in_faction(actorUUID, \"CWSonsFaction\")",
         "content": "Yrsarald Thrice-Pierced is one of Ulfric's senior Stormcloak officers — the man named for the three arrows he survived at the Battle of Markarth. Drinks at the Palace tables when he isn't in the field.",
         "display_name": "Yrsarald Thrice-Pierced - Stormcloak Officer",
         "emotion": "",

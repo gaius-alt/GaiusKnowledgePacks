@@ -219,7 +219,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\") or is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\") or is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Brynjolf is the red-haired Nord working the Riften marketplace as a vendor of fake potions — and as the Thieves Guild's recruiter. Second to Mercer Frey beneath the city.",
         "display_name": "Brynjolf - Thieves Guild Recruiter",
         "emotion": "",
@@ -242,7 +242,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\") or is_in_faction(actorUUID, \"@ThievesGuildFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\") or is_in_faction(actorUUID, \"ThievesGuildFaction\")",
         "content": "Mercer Frey is the Guildmaster of the Thieves Guild — a Breton who has been quietly steering the Guild into ruin. Only his inner circle knows him at all.",
         "display_name": "Mercer Frey - Guildmaster",
         "emotion": "",
@@ -263,7 +263,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Delvin Mallory hands out jobs at the Ragged Flagon for the Thieves Guild. Older Breton, knows everyone in the trade, half-in-love with Vex.",
         "display_name": "Delvin Mallory - Job Coordinator",
         "emotion": "",
@@ -284,7 +284,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Vex is the Thieves Guild's most dangerous specialist — Imperial woman, sharp-tongued, will tell you exactly what's wrong with your last heist.",
         "display_name": "Vex - Specialist",
         "emotion": "",
@@ -306,7 +306,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Tonilia is the Thieves Guild's main fence — Redguard, runs the Guild's stolen goods through the Ragged Flagon.",
         "display_name": "Tonilia - Guild Fence",
         "emotion": "",
@@ -327,7 +327,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Vekel the Man runs the bar at the Ragged Flagon. Loyal to the Guild — keeps the drinks flowing and the gossip moving.",
         "display_name": "Vekel the Man - Ragged Flagon",
         "emotion": "",
@@ -348,7 +348,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Sapphire is one of the Thieves Guild's rougher members. Young Imperial, terrifying when she wants to be, and currently squeezing Shadr at the stables for a debt.",
         "display_name": "Sapphire - Thief",
         "emotion": "",
@@ -1694,7 +1694,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Arnskar Ember-Master is a blacksmith who works in the Ragged Flagon. He was a former smith for the Guild and maintains weapons and armor for its members.",
         "display_name": "Arnskar Ember-Master - Flagon Blacksmith",
         "emotion": "",
@@ -1715,7 +1715,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Dirge is the Nord bouncer at the Ragged Flagon and Maul's brother. He keeps unwanted visitors out of the Guild's headquarters.",
         "display_name": "Dirge - Flagon Bouncer",
         "emotion": "",
@@ -1737,7 +1737,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Galathil is a Dunmer face sculptor who offers her services in the Ragged Flagon. She can change a client's appearance for a steep price.",
         "display_name": "Galathil - Face Sculptor",
         "emotion": "",
@@ -1759,7 +1759,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Herluin Lothaire is a Breton patron who can be found drinking in the Ragged Flagon. He keeps to himself and watches the Guild's dealings.",
         "display_name": "Herluin Lothaire - Flagon Patron",
         "emotion": "",
@@ -1780,7 +1780,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Syndus is a Dunmer who frequents the Ragged Flagon. He is known to take on odd jobs for the Guild when coin is short.",
         "display_name": "Syndus - Flagon Regular",
         "emotion": "",
@@ -1801,7 +1801,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Vanryth Gatharian is a Dunmer who supplies the Thieves Guild with goods and can be found in the Ragged Flagon. He handles logistics for Guild operations.",
         "display_name": "Vanryth Gatharian - Guild Supplier",
         "emotion": "",
@@ -1822,7 +1822,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Cynric Endell is a Breton member of the Thieves Guild. He can be found training or loitering in the Cistern beneath the Ragged Flagon.",
         "display_name": "Cynric Endell - Guild Thief",
         "emotion": "",
@@ -1843,7 +1843,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Etienne Rarnis is a Breton thief who operates out of the Cistern. He handles lockpicking and infiltration jobs for the Guild.",
         "display_name": "Etienne Rarnis - Guild Thief",
         "emotion": "",
@@ -1864,7 +1864,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Garthar is a Nord member of the Thieves Guild who can be found in the Cistern. He is one of the Guild's muscle for difficult jobs.",
         "display_name": "Garthar - Guild Thief",
         "emotion": "",
@@ -1885,7 +1885,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Niruin is a Bosmer thief who operates from the Cistern. He is a skilled archer and scout for the Thieves Guild.",
         "display_name": "Niruin - Guild Scout",
         "emotion": "",
@@ -1906,7 +1906,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Ravyn Imyan is a Dunmer thief who lives and works from the Cistern. He specializes in night work and shadow operations.",
         "display_name": "Ravyn Imyan - Guild Thief",
         "emotion": "",
@@ -1927,7 +1927,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Rune is an Imperial member of the Thieves Guild. He can be found in the Cistern studying maps and planning heists.",
         "display_name": "Rune - Guild Thief",
         "emotion": "",
@@ -1948,7 +1948,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Thrynn is a Nord thief who operates from the Cistern. He is a reliable hand for the Guild's more straightforward jobs.",
         "display_name": "Thrynn - Guild Thief",
         "emotion": "",
@@ -1969,7 +1969,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
         "content": "Vipir the Fleet is a Nord thief and one of the Guild's most reliable operatives in the Cistern. He boasts that he has never been caught by any lock or trap.",
         "display_name": "Vipir the Fleet - Guild Thief",
         "emotion": "",

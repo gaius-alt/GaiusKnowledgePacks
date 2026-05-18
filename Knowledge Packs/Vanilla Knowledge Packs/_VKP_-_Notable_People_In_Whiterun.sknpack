@@ -304,7 +304,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"CompanionsFaction\")",
         "content": "Kodlak Whitemane is the Harbinger of the Companions — first among equals at Jorrvaskr. Old, scarred, and respected. He carries the beast blood and would see his soul saved before his death.",
         "display_name": "Kodlak Whitemane - Harbinger of the Companions",
         "emotion": "",
@@ -326,7 +326,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"CompanionsFaction\")",
         "content": "Aela the Huntress is a member of the Companions' inner Circle — a red-haired Nord huntress who tracks the Silver Hand with the patience of a wolf.",
         "display_name": "Aela the Huntress - Companions Circle",
         "emotion": "",
@@ -348,7 +348,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"CompanionsFaction\")",
         "content": "Vilkas and Farkas are twin warriors of the Companions' Circle. Vilkas is sharp and bookish for a Nord; Farkas is the quieter of the two, with a slower wit but unmatched strength.",
         "display_name": "Vilkas and Farkas - Companions Twins",
         "emotion": "",
@@ -371,7 +371,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"CompanionsFaction\")",
         "content": "Skjor is an old veteran of the Companions' Circle — one eye, a long temper, and a longstanding grudge against the Silver Hand.",
         "display_name": "Skjor - Companions Circle",
         "emotion": "",
@@ -393,7 +393,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"CompanionsFaction\")",
         "content": "Athis is a Dunmer warrior of the Companions at Jorrvaskr — one of the few mer among the Nord-heavy circle of shield-brothers.",
         "display_name": "Athis - Companions Shield-Brother",
         "emotion": "",
@@ -414,7 +414,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"CompanionsFaction\")",
         "content": "Njada Stonearm is a sharp-tongued Nord woman among the Companions at Jorrvaskr. She spars with new recruits and tests their mettle without mercy.",
         "display_name": "Njada Stonearm - Companions Shield-Sister",
         "emotion": "",
@@ -434,7 +434,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"CompanionsFaction\")",
         "content": "Ria is an Imperial woman who recently joined the Companions — eager to prove herself among the Nords of Jorrvaskr.",
         "display_name": "Ria - Companions Recruit",
         "emotion": "",
@@ -455,7 +455,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"CompanionsFaction\")",
         "content": "Torvar is a Companion with a reputation for drinking more than he fights — though he can hold his own when roused.",
         "display_name": "Torvar - Companions Drunk",
         "emotion": "",
@@ -475,7 +475,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"CompanionsFaction\")",
         "content": "Brill is a young Companion shield-brother who works the forge at Jorrvaskr, learning the craft under Eorlund Gray-Mane's shadow.",
         "display_name": "Brill - Companions Forge-Apprentice",
         "emotion": "",
@@ -496,7 +496,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"CompanionsFaction\")",
         "content": "Tilma the Haggard is the elderly maid who has kept Jorrvaskr clean for longer than anyone can remember. She grumbles at the mess the Companions make but cares for them all.",
         "display_name": "Tilma the Haggard - Jorrvaskr Maid",
         "emotion": "",

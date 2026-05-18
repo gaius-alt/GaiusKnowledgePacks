@@ -183,7 +183,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\") or is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\") or is_in_faction(actorUUID, \"CollegeofWinterholdFaction\")",
                 "content": "Nelacar is the Altmer mage renting a back room at the Frozen Hearth. He left the College of Winterhold over the Black Star affair — he was a colleague of Malyn Varen, and knows what really happened to Azura's Star.",
                 "display_name": "Nelacar - Mage at the Inn",
                 "emotion": "",
@@ -207,7 +207,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\") or is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\") or is_in_faction(actorUUID, \"CollegeofWinterholdFaction\")",
                 "content": "Aranea Ienith tends the Shrine of Azura above Winterhold — the last priestess of the Dawn and Dusk Mother in Skyrim. She offers visions to any who reach the statue.",
                 "display_name": "Aranea Ienith - Priestess of Azura",
                 "emotion": "",
@@ -231,7 +231,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Savos Aren is the Arch-Mage of the College of Winterhold — a Dunmer who carries old guilt over what happened at Labyrinthian. Cautious, measured, watching the College for signs of trouble.",
                 "display_name": "Savos Aren - Arch-Mage",
                 "emotion": "",
@@ -253,7 +253,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Mirabelle Ervine is the Master Wizard at the College — second to the Arch-Mage and the one who actually runs things. Sharp-tongued, brisk Breton with little patience for fools.",
                 "display_name": "Mirabelle Ervine - Master Wizard",
                 "emotion": "",
@@ -274,7 +274,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Tolfdir is the master of Alteration at the College and mentor to most apprentices. Old, kind, more interested in teaching safety than the deeper arts — until Saarthal.",
                 "display_name": "Tolfdir - Alteration Master",
                 "emotion": "",
@@ -296,7 +296,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
                 "content": "Faralda stands at the bridge to the College and decides who may cross. Altmer, master of Destruction, has no time for those who cannot prove a basic spell.",
                 "display_name": "Faralda - Gatekeeper",
                 "emotion": "",
@@ -318,7 +318,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Ancano is the Thalmor 'advisor' assigned to the College of Winterhold. None of the mages want him there. He watches everything, and most expect he's not just watching.",
                 "display_name": "Ancano - Thalmor Advisor",
                 "emotion": "",
@@ -341,7 +341,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Urag gro-Shub runs the Arcanaeum — the College's library. Orc, ferocious about his books, friendly enough to mages who treat them with respect.",
                 "display_name": "Urag gro-Shub - Librarian",
                 "emotion": "",
@@ -363,7 +363,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Enthir is the Bosmer who deals contraband out of his Hall of Attainment room — anything from a rare ingredient to an outright forbidden tome. Quiet about his customers.",
                 "display_name": "Enthir - College Fence",
                 "emotion": "",
@@ -385,7 +385,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Colette Marence teaches Restoration at the College. Constantly defends the school from her colleagues' dismissal of it as 'not a real magical art.'",
                 "display_name": "Colette Marence - Restoration",
                 "emotion": "",
@@ -405,7 +405,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Drevis Neloren teaches Illusion at the College. Dunmer, prone to invisibility pranks, brilliant if you can pin him down for an actual lesson.",
                 "display_name": "Drevis Neloren - Illusion",
                 "emotion": "",
@@ -426,7 +426,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Phinis Gestor teaches Conjuration at the College — atronachs, daedra, and the binding rites. Methodical and unconcerned with mortals' opinions.",
                 "display_name": "Phinis Gestor - Conjuration",
                 "emotion": "",
@@ -446,7 +446,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Gelebros is the ghost of a College mage who haunts the Hall of the Elements at night. He drifts through muttering about his time among the living.",
                 "display_name": "Gelebros - College Ghost",
                 "emotion": "",
@@ -467,7 +467,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Quaranir is a member of the Psijic Order who arrives at the College of Winterhold to warn them about the Eye of Magnus. He speaks in riddles and vanishes as mysteriously as he appears.",
                 "display_name": "Quaranir - Psijic Order Emissary",
                 "emotion": "",
@@ -489,7 +489,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Tandil is an Altmer mage at the College of Winterhold who offers basic training in magic. He can be found wandering the Hall of the Elements.",
                 "display_name": "Tandil - College Mage",
                 "emotion": "",
@@ -509,7 +509,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Arniel Gane is a Dunmer mage obsessed with the Dwemer's disappearance. His experiments in recreating the event lead him to seek Keening, the legendary Dwemer dagger, and his research takes a dangerous turn.",
                 "display_name": "Arniel Gane - Dwemer Researcher",
                 "emotion": "",
@@ -531,7 +531,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Brelyna Maryon is a shy Dunmer student at the College of Winterhold with a talent for accidentally transforming herself and others. She is one of three College apprentices who may accompany the Dragonborn on their travels.",
                 "display_name": "Brelyna Maryon - Apprentice",
                 "emotion": "",
@@ -553,7 +553,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "J'zargo is a confident Khajiit student at the College of Winterhold who fancies himself the best mage among the apprentices. He experiments with lightning-based scrolls and is one of three students who may become a follower.",
                 "display_name": "J'zargo - Apprentice",
                 "emotion": "",
@@ -575,7 +575,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Nirya is an Altmer student at the College of Winterhold who nurses a rivalry with Brelyna Maryon. She studies Alteration and considers herself above the other apprentices.",
                 "display_name": "Nirya - Apprentice",
                 "emotion": "",
@@ -596,7 +596,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Onmund is a Nord student at the College of Winterhold, unusual for his race's distrust of magic. He worries about his family's disapproval but is determined to master his abilities, and is one of three students who may become a follower.",
                 "display_name": "Onmund - Apprentice",
                 "emotion": "",
@@ -618,7 +618,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Sergius Turrianus teaches Enchanting at the College of Winterhold. He runs a brisk business selling enchanted items and offers training in the school of Enchanting.",
                 "display_name": "Sergius Turrianus - Enchanting Teacher",
                 "emotion": "",
@@ -724,7 +724,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "The Augur of Dunlain is a being of pure magical energy living in the Midden beneath the College of Winterhold. Once a mage who tried to channel Aetherius directly, he now exists as a sentient mass of magic, offering cryptic guidance to those who seek him.",
                 "display_name": "Augur of Dunlain - Midden Entity",
                 "emotion": "",
@@ -747,7 +747,7 @@
             },
             {
                 "always_inject": false,
-                "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+                "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
                 "content": "Velehk Sain is a Dremora merchant who can be summoned in the Midden as part of the College of Winterhold's questline. He offers to trade daedric weapons and armor in exchange for being freed from his summoning circle.",
                 "display_name": "Velehk Sain - Dremora Merchant",
                 "emotion": "",
