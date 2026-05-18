@@ -25,7 +25,10 @@
           "Stormcloak",
           "High King",
           "Markarth",
-          "Thalmor"
+          "Thalmor",
+          "rebellion",
+          "military",
+          "leadership"
         ],
         "type": "KNOWLEDGE"
       },
@@ -43,7 +46,10 @@
           "Stormcloak",
           "Windhelm",
           "Palace of the Kings",
-          "Ulfric"
+          "Ulfric",
+          "military",
+          "soldier",
+          "rebellion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -61,7 +67,10 @@
           "steward",
           "Windhelm",
           "Ulfric",
-          "Palace of the Kings"
+          "Palace of the Kings",
+          "governance",
+          "administration",
+          "stewardship"
         ],
         "type": "KNOWLEDGE"
       },
@@ -79,7 +88,11 @@
           "court mage",
           "Windhelm",
           "Ulfric",
-          "Necromancer's Amulet"
+          "Necromancer's Amulet",
+          "magic",
+          "investigation",
+          "necromancy",
+          "mystery"
         ],
         "type": "KNOWLEDGE"
       },
@@ -97,7 +110,10 @@
           "Stormcloak",
           "Windhelm",
           "officer",
-          "Palace of the Kings"
+          "Palace of the Kings",
+          "military",
+          "soldier",
+          "rebellion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -115,7 +131,10 @@
           "Windhelm",
           "Imperial",
           "alternative Jarl",
-          "Dunmer ally"
+          "Dunmer ally",
+          "nobility",
+          "leadership",
+          "discrimination"
         ],
         "type": "KNOWLEDGE"
       },
@@ -134,7 +153,10 @@
           "Galmar",
           "drunk",
           "racist",
-          "Gray Quarter"
+          "Gray Quarter",
+          "discrimination",
+          "violence",
+          "tavern"
         ],
         "type": "KNOWLEDGE"
       },
@@ -152,7 +174,10 @@
           "Candlehearth Hall",
           "Windhelm",
           "innkeeper",
-          "Susanna"
+          "Susanna",
+          "hospitality",
+          "grief",
+          "tavern"
         ],
         "type": "KNOWLEDGE"
       },
@@ -171,7 +196,10 @@
           "Friga",
           "Nilsine",
           "grief",
-          "clan"
+          "clan",
+          "mother",
+          "murder",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -190,7 +218,10 @@
           "Tova",
           "Friga",
           "grief",
-          "docks"
+          "docks",
+          "shipping",
+          "family",
+          "murder"
         ],
         "type": "KNOWLEDGE"
       },
@@ -208,7 +239,10 @@
           "Windhelm",
           "Friga",
           "grief",
-          "surviving twin"
+          "surviving twin",
+          "family",
+          "murder",
+          "loss"
         ],
         "type": "KNOWLEDGE"
       },
@@ -227,7 +261,10 @@
           "Black Sacrament",
           "Dark Brotherhood",
           "Grelod",
-          "orphan"
+          "orphan",
+          "childhood",
+          "assassination",
+          "youth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -246,7 +283,10 @@
           "Museum of the Strange",
           "collector",
           "Butcher",
-          "murder"
+          "murder",
+          "curiosity",
+          "antiques",
+          "necromancy"
         ],
         "type": "KNOWLEDGE"
       },
@@ -266,7 +306,10 @@
           "Arkay",
           "Butcher",
           "Susanna",
-          "Friga"
+          "Friga",
+          "priestess",
+          "faith",
+          "religion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -285,7 +328,10 @@
           "Windhelm",
           "Gray Quarter",
           "Dunmer",
-          "cornerclub"
+          "cornerclub",
+          "tavern",
+          "hospitality",
+          "refugee"
         ],
         "type": "KNOWLEDGE"
       },
@@ -304,7 +350,10 @@
           "Gray Quarter",
           "Dunmer",
           "East Empire Company",
-          "Cruel-Sea"
+          "Cruel-Sea",
+          "trade",
+          "commerce",
+          "caravan"
         ],
         "type": "KNOWLEDGE"
       },
@@ -323,7 +372,10 @@
           "Windhelm",
           "Gray Quarter",
           "Dunmer",
-          "fence"
+          "fence",
+          "shopkeeping",
+          "trade",
+          "thievery"
         ],
         "type": "KNOWLEDGE"
       },
@@ -342,7 +394,10 @@
           "market",
           "Altmer",
           "fence",
-          "Thieves Guild"
+          "Thieves Guild",
+          "trade",
+          "commerce",
+          "shopkeeping"
         ],
         "type": "KNOWLEDGE"
       },
@@ -360,7 +415,10 @@
           "Windhelm",
           "smithy",
           "Stormcloak",
-          "Hermir"
+          "Hermir",
+          "smithing",
+          "metalwork",
+          "crafting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -378,7 +436,10 @@
           "Argonian",
           "Windhelm",
           "Assemblage",
-          "docks"
+          "docks",
+          "labor",
+          "discrimination",
+          "dockworker"
         ],
         "type": "KNOWLEDGE"
       },
@@ -396,7 +457,10 @@
           "Argonian",
           "Windhelm",
           "Assemblage",
-          "docks"
+          "docks",
+          "labor",
+          "discrimination",
+          "dockworker"
         ],
         "type": "KNOWLEDGE"
       },
@@ -414,7 +478,10 @@
           "Argonian",
           "Windhelm",
           "Assemblage",
-          "docks"
+          "docks",
+          "labor",
+          "discrimination",
+          "dockworker"
         ],
         "type": "KNOWLEDGE"
       },
@@ -432,7 +499,10 @@
           "Argonian",
           "Windhelm",
           "Assemblage",
-          "docks"
+          "docks",
+          "labor",
+          "discrimination",
+          "dockworker"
         ],
         "type": "KNOWLEDGE"
       },
@@ -450,7 +520,10 @@
           "Dunmer",
           "Windhelm",
           "Gray Quarter",
-          "Atheron"
+          "Atheron",
+          "refugee",
+          "discrimination",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -468,7 +541,10 @@
           "Dunmer",
           "Windhelm",
           "Gray Quarter",
-          "Atheron"
+          "Atheron",
+          "refugee",
+          "discrimination",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -486,7 +562,10 @@
           "Dunmer",
           "Windhelm",
           "Hlaalu Farm",
-          "farmer"
+          "farmer",
+          "farming",
+          "agriculture",
+          "refugee"
         ],
         "type": "KNOWLEDGE"
       },
@@ -504,7 +583,10 @@
           "Windhelm",
           "smithy",
           "apprentice",
-          "Nord"
+          "Nord",
+          "smithing",
+          "crafting",
+          "metalwork"
         ],
         "type": "KNOWLEDGE"
       },
@@ -521,7 +603,10 @@
           "Bolfrida Brandy-Mug",
           "Windhelm",
           "Brandy-Mug Farm",
-          "farmer"
+          "farmer",
+          "farming",
+          "agriculture",
+          "market"
         ],
         "type": "KNOWLEDGE"
       },
@@ -538,7 +623,10 @@
           "Adonato Leotelli",
           "Windhelm",
           "Candlehearth Hall",
-          "Imperial"
+          "Imperial",
+          "merchant",
+          "trade",
+          "travel"
         ],
         "type": "KNOWLEDGE"
       },
@@ -556,7 +644,10 @@
           "Windhelm",
           "beggar",
           "veteran",
-          "Markarth"
+          "Markarth",
+          "poverty",
+          "soldier",
+          "homeless"
         ],
         "type": "KNOWLEDGE"
       },
@@ -573,7 +664,10 @@
           "Captain Lonely-Gale",
           "Windhelm",
           "Candlehearth Hall",
-          "sailor"
+          "sailor",
+          "seafaring",
+          "retired",
+          "captain"
         ],
         "type": "KNOWLEDGE"
       },
@@ -590,7 +684,10 @@
           "Luaffyn",
           "Windhelm",
           "Candlehearth Hall",
-          "Bosmer"
+          "Bosmer",
+          "traveler",
+          "tavern",
+          "regular"
         ],
         "type": "KNOWLEDGE"
       },
@@ -607,7 +704,10 @@
           "Nils",
           "Windhelm",
           "Candlehearth Hall",
-          "Nord"
+          "Nord",
+          "racism",
+          "discrimination",
+          "drunk"
         ],
         "type": "KNOWLEDGE"
       },
@@ -625,7 +725,9 @@
           "Windhelm",
           "Candlehearth Hall",
           "mercenary",
-          "follower"
+          "follower",
+          "soldier",
+          "warrior"
         ],
         "type": "KNOWLEDGE"
       },
@@ -643,7 +745,10 @@
           "Windhelm",
           "Candlehearth Hall",
           "Butcher",
-          "murder victim"
+          "murder victim",
+          "servitude",
+          "murder",
+          "tragedy"
         ],
         "type": "KNOWLEDGE"
       },
@@ -661,7 +766,10 @@
           "Windhelm",
           "East Empire Company",
           "docks",
-          "Imperial"
+          "Imperial",
+          "trade",
+          "commerce",
+          "shipping"
         ],
         "type": "KNOWLEDGE"
       },
@@ -679,7 +787,10 @@
           "Windhelm",
           "East Empire Company",
           "docks",
-          "Dunmer"
+          "Dunmer",
+          "trade",
+          "commerce",
+          "shipping"
         ],
         "type": "KNOWLEDGE"
       },
@@ -697,7 +808,10 @@
           "Windhelm",
           "Hjerim",
           "housecarl",
-          "Nord"
+          "Nord",
+          "guard",
+          "security",
+          "servitude"
         ],
         "type": "KNOWLEDGE"
       },
@@ -715,7 +829,10 @@
           "Dunmer",
           "Windhelm",
           "Hlaalu Farm",
-          "farmhand"
+          "farmhand",
+          "farming",
+          "agriculture",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -732,7 +849,10 @@
           "Tulvur",
           "Windhelm",
           "Hollyfrost Farm",
-          "farmer"
+          "farmer",
+          "farming",
+          "agriculture",
+          "youth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -750,7 +870,10 @@
           "Windhelm",
           "Cruel-Sea",
           "Nord",
-          "clan"
+          "clan",
+          "family",
+          "nobility",
+          "youth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -768,7 +891,10 @@
           "Windhelm",
           "Cruel-Sea",
           "Nord",
-          "clan"
+          "clan",
+          "family",
+          "nobility",
+          "widow"
         ],
         "type": "KNOWLEDGE"
       },
@@ -786,7 +912,10 @@
           "Windhelm",
           "Cruel-Sea",
           "Dunmer",
-          "Sadri"
+          "Sadri",
+          "family",
+          "marriage",
+          "discrimination"
         ],
         "type": "KNOWLEDGE"
       },
@@ -804,7 +933,10 @@
           "Windhelm",
           "Cruel-Sea",
           "Nord",
-          "clan"
+          "clan",
+          "family",
+          "nobility",
+          "tradition"
         ],
         "type": "KNOWLEDGE"
       },
@@ -822,7 +954,10 @@
           "Windhelm",
           "New Gnisis Cornerclub",
           "Gray Quarter",
-          "Orsimer"
+          "Orsimer",
+          "barmaid",
+          "hospitality",
+          "tavern"
         ],
         "type": "KNOWLEDGE"
       },
@@ -841,7 +976,10 @@
           "New Gnisis Cornerclub",
           "Thalmor",
           "Bosmer",
-          "Embassy"
+          "Embassy",
+          "espionage",
+          "courier",
+          "smuggler"
         ],
         "type": "KNOWLEDGE"
       },
@@ -859,7 +997,10 @@
           "Windhelm",
           "New Gnisis Cornerclub",
           "Gray Quarter",
-          "Dunmer"
+          "Dunmer",
+          "refugee",
+          "discrimination",
+          "drink"
         ],
         "type": "KNOWLEDGE"
       },
@@ -876,7 +1017,10 @@
           "Gort",
           "Windhelm",
           "laborer",
-          "Nord"
+          "Nord",
+          "labor",
+          "poverty",
+          "worker"
         ],
         "type": "KNOWLEDGE"
       },
@@ -893,7 +1037,10 @@
           "J'datharr",
           "Windhelm",
           "Khajiit",
-          "caravan"
+          "caravan",
+          "travel",
+          "trade",
+          "discrimination"
         ],
         "type": "KNOWLEDGE"
       },
@@ -910,7 +1057,10 @@
           "Silda the Unseen",
           "Windhelm",
           "beggar",
-          "blind"
+          "blind",
+          "poverty",
+          "vagrant",
+          "survival"
         ],
         "type": "KNOWLEDGE"
       },
@@ -928,7 +1078,10 @@
           "Windhelm",
           "orphan",
           "flower vendor",
-          "child"
+          "child",
+          "poverty",
+          "youth",
+          "street vendor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -946,7 +1099,10 @@
           "Windhelm",
           "Palace of the Kings",
           "cook",
-          "Nord"
+          "Nord",
+          "domestic",
+          "servitude",
+          "kitchen"
         ],
         "type": "KNOWLEDGE"
       },
@@ -965,7 +1121,10 @@
           "Temple of Talos",
           "priestess",
           "Nord",
-          "Talos"
+          "Talos",
+          "faith",
+          "worship",
+          "religion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -984,7 +1143,10 @@
           "Temple of Talos",
           "priest",
           "Nord",
-          "Talos"
+          "Talos",
+          "faith",
+          "worship",
+          "religion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1002,7 +1164,10 @@
           "Windhelm",
           "The North Wind",
           "Gray Quarter",
-          "Dunmer"
+          "Dunmer",
+          "merchant",
+          "shopkeeping",
+          "trade"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1020,7 +1185,10 @@
           "Windhelm",
           "The North Wind",
           "Gray Quarter",
-          "Dunmer"
+          "Dunmer",
+          "shop assistant",
+          "shopkeeping",
+          "youth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1038,7 +1206,10 @@
           "Windhelm",
           "The North Wind",
           "Gray Quarter",
-          "Dunmer"
+          "Dunmer",
+          "refugee",
+          "discrimination",
+          "resident"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1056,7 +1227,10 @@
           "Windhelm",
           "The Northern Maiden",
           "captain",
-          "Nord"
+          "Nord",
+          "sailing",
+          "seafaring",
+          "shipping"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1074,7 +1248,10 @@
           "Windhelm",
           "The Northern Maiden",
           "sailor",
-          "Nord"
+          "Nord",
+          "seafaring",
+          "shipping",
+          "crew"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1092,7 +1269,10 @@
           "Windhelm",
           "The Northern Maiden",
           "sailor",
-          "Nord"
+          "Nord",
+          "seafaring",
+          "shipping",
+          "crew"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1110,7 +1290,10 @@
           "Windhelm",
           "The White Phial",
           "alchemy",
-          "Altmer"
+          "Altmer",
+          "elderly",
+          "dying",
+          "herbalism"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1128,7 +1311,10 @@
           "Windhelm",
           "The White Phial",
           "alchemy",
-          "Dunmer"
+          "Dunmer",
+          "apprentice",
+          "herbalism",
+          "shopkeeping"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1146,7 +1332,10 @@
           "Windhelm",
           "Butcher",
           "investigator",
-          "Imperial"
+          "Imperial",
+          "murder",
+          "investigation",
+          "mystery"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1164,7 +1353,10 @@
           "Windhelm",
           "stables",
           "stablemaster",
-          "Nord"
+          "Nord",
+          "horses",
+          "livestock",
+          "stable"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1182,7 +1374,10 @@
           "Windhelm",
           "stables",
           "stable hand",
-          "Nord"
+          "Nord",
+          "horses",
+          "livestock",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1200,7 +1395,10 @@
           "Windhelm",
           "stables",
           "stable hand",
-          "Dunmer"
+          "Dunmer",
+          "horses",
+          "discrimination",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       }

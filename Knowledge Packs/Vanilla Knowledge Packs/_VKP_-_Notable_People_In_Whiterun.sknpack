@@ -25,7 +25,10 @@
           "Dragonsreach",
           "Imperial",
           "Cloud District",
-          "Dragonborn"
+          "Dragonborn",
+          "nobility",
+          "governance",
+          "leadership"
         ],
         "type": "KNOWLEDGE"
       },
@@ -42,7 +45,10 @@
           "Dagny",
           "Balgruuf",
           "Whiterun",
-          "Dragonsreach"
+          "Dragonsreach",
+          "nobility",
+          "youth",
+          "child"
         ],
         "type": "KNOWLEDGE"
       },
@@ -59,7 +65,10 @@
           "Frothar",
           "Balgruuf",
           "Whiterun",
-          "Dragonsreach"
+          "Dragonsreach",
+          "nobility",
+          "youth",
+          "warrior"
         ],
         "type": "KNOWLEDGE"
       },
@@ -77,7 +86,10 @@
           "Balgruuf",
           "Whiterun",
           "Dragonsreach",
-          "Mephala"
+          "Mephala",
+          "nobility",
+          "youth",
+          "daedric"
         ],
         "type": "KNOWLEDGE"
       },
@@ -94,7 +106,10 @@
           "Fianna",
           "Whiterun",
           "Dragonsreach",
-          "maid"
+          "maid",
+          "servitude",
+          "domestic",
+          "cleaning"
         ],
         "type": "KNOWLEDGE"
       },
@@ -111,7 +126,10 @@
           "Gerda",
           "Whiterun",
           "Dragonsreach",
-          "cook"
+          "cook",
+          "cooking",
+          "servitude",
+          "domestic"
         ],
         "type": "KNOWLEDGE"
       },
@@ -128,7 +146,10 @@
           "Hjornskar Head-Smasher",
           "Whiterun",
           "Dragonsreach",
-          "guard"
+          "guard",
+          "security",
+          "military",
+          "violence"
         ],
         "type": "KNOWLEDGE"
       },
@@ -147,7 +168,10 @@
           "Legate",
           "Whiterun",
           "Dragonsreach",
-          "Civil War"
+          "Civil War",
+          "military",
+          "soldier",
+          "occupation"
         ],
         "type": "KNOWLEDGE"
       },
@@ -166,7 +190,10 @@
           "housecarl",
           "Balgruuf",
           "Whiterun",
-          "Dragonsreach"
+          "Dragonsreach",
+          "bodyguard",
+          "loyalty",
+          "guard"
         ],
         "type": "KNOWLEDGE"
       },
@@ -183,7 +210,10 @@
           "Commander Caius",
           "Whiterun",
           "guard",
-          "Guard Barracks"
+          "Guard Barracks",
+          "security",
+          "military",
+          "command"
         ],
         "type": "KNOWLEDGE"
       },
@@ -201,7 +231,10 @@
           "steward",
           "Whiterun",
           "Imperial",
-          "Adrianne Avenicci"
+          "Adrianne Avenicci",
+          "governance",
+          "administration",
+          "politics"
         ],
         "type": "KNOWLEDGE"
       },
@@ -220,7 +253,10 @@
           "Whiterun",
           "dragons",
           "Dragonstone",
-          "Dragonborn"
+          "Dragonborn",
+          "magic",
+          "scholar",
+          "research"
         ],
         "type": "KNOWLEDGE"
       },
@@ -238,7 +274,10 @@
           "Whiterun",
           "Balgruuf",
           "brother",
-          "Stormcloak sympathies"
+          "Stormcloak sympathies",
+          "nobility",
+          "warrior",
+          "politics"
         ],
         "type": "KNOWLEDGE"
       },
@@ -256,7 +295,10 @@
           "housecarl",
           "Breezehome",
           "Whiterun",
-          "Dragonborn"
+          "Dragonborn",
+          "follower",
+          "bodyguard",
+          "warrior"
         ],
         "type": "KNOWLEDGE"
       },
@@ -275,7 +317,10 @@
           "Companions",
           "Jorrvaskr",
           "Whiterun",
-          "werewolf"
+          "werewolf",
+          "warrior",
+          "leadership",
+          "honor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -294,7 +339,10 @@
           "Circle",
           "Whiterun",
           "huntress",
-          "werewolf"
+          "werewolf",
+          "warrior",
+          "hunting",
+          "tracking"
         ],
         "type": "KNOWLEDGE"
       },
@@ -314,7 +362,10 @@
           "Circle",
           "Whiterun",
           "twins",
-          "werewolf"
+          "werewolf",
+          "warrior",
+          "honor",
+          "brotherhood"
         ],
         "type": "KNOWLEDGE"
       },
@@ -333,7 +384,10 @@
           "Circle",
           "Whiterun",
           "veteran",
-          "werewolf"
+          "werewolf",
+          "warrior",
+          "grudge",
+          "combat"
         ],
         "type": "KNOWLEDGE"
       },
@@ -351,7 +405,10 @@
           "Dunmer",
           "Companions",
           "Jorrvaskr",
-          "Whiterun"
+          "Whiterun",
+          "warrior",
+          "mercenary",
+          "companion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -368,7 +425,10 @@
           "Njada Stonearm",
           "Companions",
           "Jorrvaskr",
-          "Whiterun"
+          "Whiterun",
+          "warrior",
+          "combat",
+          "training"
         ],
         "type": "KNOWLEDGE"
       },
@@ -386,7 +446,10 @@
           "Imperial",
           "Companions",
           "Jorrvaskr",
-          "Whiterun"
+          "Whiterun",
+          "warrior",
+          "recruit",
+          "ambition"
         ],
         "type": "KNOWLEDGE"
       },
@@ -403,7 +466,10 @@
           "Torvar",
           "Companions",
           "Jorrvaskr",
-          "Whiterun"
+          "Whiterun",
+          "warrior",
+          "drunk",
+          "alcohol"
         ],
         "type": "KNOWLEDGE"
       },
@@ -421,7 +487,10 @@
           "Companions",
           "Jorrvaskr",
           "Whiterun",
-          "forge"
+          "forge",
+          "warrior",
+          "smithing",
+          "apprentice"
         ],
         "type": "KNOWLEDGE"
       },
@@ -439,7 +508,10 @@
           "Jorrvaskr",
           "Companions",
           "Whiterun",
-          "maid"
+          "maid",
+          "servitude",
+          "domestic",
+          "elderly"
         ],
         "type": "KNOWLEDGE"
       },
@@ -458,7 +530,10 @@
           "blacksmith",
           "Whiterun",
           "Gray-Mane",
-          "Stormcloak"
+          "Stormcloak",
+          "smithing",
+          "forge",
+          "crafting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -476,7 +551,10 @@
           "Gray-Mane",
           "Stormcloak",
           "Whiterun",
-          "elder"
+          "elder",
+          "politics",
+          "rebellion",
+          "nobility"
         ],
         "type": "KNOWLEDGE"
       },
@@ -494,7 +572,10 @@
           "Gray-Mane",
           "Stormcloak",
           "Whiterun",
-          "Fralia"
+          "Fralia",
+          "soldier",
+          "war",
+          "captive"
         ],
         "type": "KNOWLEDGE"
       },
@@ -512,7 +593,10 @@
           "Gray-Mane",
           "Whiterun",
           "Thorald",
-          "Thalmor"
+          "Thalmor",
+          "family",
+          "matriarch",
+          "captivity"
         ],
         "type": "KNOWLEDGE"
       },
@@ -528,7 +612,10 @@
         "tags": [
           "Olfina Gray-Mane",
           "Gray-Mane",
-          "Whiterun"
+          "Whiterun",
+          "family",
+          "feud",
+          "youth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -546,7 +633,10 @@
           "Battle-Born",
           "Imperial",
           "Whiterun",
-          "Idolaf"
+          "Idolaf",
+          "nobility",
+          "patriarch",
+          "politics"
         ],
         "type": "KNOWLEDGE"
       },
@@ -562,7 +652,10 @@
         "tags": [
           "Alfhild Battle-Born",
           "Battle-Born",
-          "Whiterun"
+          "Whiterun",
+          "family",
+          "matriarch",
+          "nobility"
         ],
         "type": "KNOWLEDGE"
       },
@@ -578,7 +671,10 @@
         "tags": [
           "Bergritte Battle-Born",
           "Battle-Born",
-          "Whiterun"
+          "Whiterun",
+          "family",
+          "elderly",
+          "nobility"
         ],
         "type": "KNOWLEDGE"
       },
@@ -596,7 +692,9 @@
           "Battle-Born",
           "Imperial",
           "Legion",
-          "Whiterun"
+          "Whiterun",
+          "soldier",
+          "military"
         ],
         "type": "KNOWLEDGE"
       },
@@ -613,7 +711,10 @@
           "Jon Battle-Born",
           "Battle-Born",
           "Bannered Mare",
-          "Whiterun"
+          "Whiterun",
+          "family",
+          "conflict",
+          "tavern"
         ],
         "type": "KNOWLEDGE"
       },
@@ -629,7 +730,10 @@
         "tags": [
           "Lars Battle-Born",
           "Battle-Born",
-          "Whiterun"
+          "Whiterun",
+          "child",
+          "youth",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -645,7 +749,10 @@
         "tags": [
           "Gwendolyn",
           "Battle-Born Farm",
-          "Whiterun"
+          "Whiterun",
+          "farming",
+          "labor",
+          "agriculture"
         ],
         "type": "KNOWLEDGE"
       },
@@ -663,7 +770,9 @@
           "Bannered Mare",
           "innkeeper",
           "Whiterun",
-          "market"
+          "market",
+          "hospitality",
+          "tavern"
         ],
         "type": "KNOWLEDGE"
       },
@@ -680,7 +789,10 @@
           "Mikael",
           "Bannered Mare",
           "bard",
-          "Whiterun"
+          "Whiterun",
+          "music",
+          "song",
+          "entertainment"
         ],
         "type": "KNOWLEDGE"
       },
@@ -700,7 +812,10 @@
           "refugee",
           "Alik'r",
           "Hammerfell",
-          "Iman"
+          "Iman",
+          "conflict",
+          "hiding",
+          "politics"
         ],
         "type": "KNOWLEDGE"
       },
@@ -717,7 +832,11 @@
           "Sinmir",
           "Bannered Mare",
           "Stormcloak",
-          "Whiterun"
+          "Whiterun",
+          "soldier",
+          "bitterness",
+          "alcohol",
+          "war"
         ],
         "type": "KNOWLEDGE"
       },
@@ -735,7 +854,10 @@
           "general store",
           "Whiterun",
           "Breton",
-          "Plains District"
+          "Plains District",
+          "shopkeeping",
+          "commerce",
+          "trade"
         ],
         "type": "KNOWLEDGE"
       },
@@ -752,7 +874,10 @@
           "Sigurd",
           "Belethor",
           "Whiterun",
-          "general store"
+          "general store",
+          "shopkeeping",
+          "assistant",
+          "commerce"
         ],
         "type": "KNOWLEDGE"
       },
@@ -771,7 +896,10 @@
           "Whiterun",
           "Plains District",
           "Nurelion",
-          "Cyrodiil"
+          "Cyrodiil",
+          "alchemy",
+          "herbalism",
+          "shopkeeping"
         ],
         "type": "KNOWLEDGE"
       },
@@ -790,7 +918,10 @@
           "smith",
           "Whiterun",
           "Proventus Avenicci",
-          "Ulfberth War-Bear"
+          "Ulfberth War-Bear",
+          "smithing",
+          "forge",
+          "crafting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -808,7 +939,10 @@
           "Warmaiden's",
           "Whiterun",
           "smith",
-          "Adrianne Avenicci"
+          "Adrianne Avenicci",
+          "shopkeeping",
+          "commerce",
+          "trade"
         ],
         "type": "KNOWLEDGE"
       },
@@ -826,7 +960,10 @@
           "Whiterun",
           "market",
           "produce",
-          "Mila"
+          "Mila",
+          "shopkeeping",
+          "commerce",
+          "parenthood"
         ],
         "type": "KNOWLEDGE"
       },
@@ -843,7 +980,10 @@
           "Mila Valentia",
           "Whiterun",
           "market",
-          "Carlotta Valentia"
+          "Carlotta Valentia",
+          "child",
+          "youth",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -861,7 +1001,10 @@
           "Drunken Huntsman",
           "Bosmer",
           "Whiterun",
-          "Plains District"
+          "Plains District",
+          "shopkeeping",
+          "tavern",
+          "hunting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -880,7 +1023,10 @@
           "Whiterun",
           "Drunken Huntsman",
           "market",
-          "Elrindir"
+          "Elrindir",
+          "hunting",
+          "butcher",
+          "commerce"
         ],
         "type": "KNOWLEDGE"
       },
@@ -898,7 +1044,10 @@
           "Dunmer",
           "mercenary",
           "Whiterun",
-          "Drunken Huntsman"
+          "Drunken Huntsman",
+          "warrior",
+          "sellsword",
+          "follower"
         ],
         "type": "KNOWLEDGE"
       },
@@ -916,7 +1065,10 @@
           "Whiterun",
           "Drunken Huntsman",
           "Cloud District",
-          "Ahlam"
+          "Ahlam",
+          "nobility",
+          "politics",
+          "social"
         ],
         "type": "KNOWLEDGE"
       },
@@ -932,7 +1084,10 @@
         "tags": [
           "Ahlam",
           "Whiterun",
-          "Nazeem"
+          "Nazeem",
+          "marriage",
+          "solitude",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -951,7 +1106,11 @@
           "Temple of Kynareth",
           "Whiterun",
           "Gildergreen",
-          "healer"
+          "healer",
+          "faith",
+          "religion",
+          "priestess",
+          "worship"
         ],
         "type": "KNOWLEDGE"
       },
@@ -969,7 +1128,10 @@
           "Kynareth",
           "Temple of Kynareth",
           "Whiterun",
-          "acolyte"
+          "acolyte",
+          "faith",
+          "religion",
+          "worship"
         ],
         "type": "KNOWLEDGE"
       },
@@ -987,7 +1149,10 @@
           "Kynareth",
           "Gildergreen",
           "Whiterun",
-          "pilgrim"
+          "pilgrim",
+          "faith",
+          "religion",
+          "nature"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1004,7 +1169,11 @@
           "Rulnik Wind-Strider",
           "Kynareth",
           "Temple of Kynareth",
-          "Whiterun"
+          "Whiterun",
+          "faith",
+          "religion",
+          "worship",
+          "acolyte"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1023,7 +1192,11 @@
           "preacher",
           "Whiterun",
           "Wind District",
-          "Concordat"
+          "Concordat",
+          "faith",
+          "religion",
+          "rebellion",
+          "worship"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1041,7 +1214,10 @@
           "Whiterun",
           "market",
           "Khajiit",
-          "merchant"
+          "merchant",
+          "trade",
+          "commerce",
+          "ambition"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1059,7 +1235,9 @@
           "drunk",
           "Whiterun",
           "beggar",
-          "Argonian Bloodwine"
+          "Argonian Bloodwine",
+          "poverty",
+          "alcohol"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1077,7 +1255,10 @@
           "orphan",
           "Whiterun",
           "beggar",
-          "market"
+          "market",
+          "child",
+          "poverty",
+          "youth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1094,7 +1275,10 @@
           "Uthgerd the Unbroken",
           "Whiterun",
           "follower",
-          "warrior"
+          "warrior",
+          "disgrace",
+          "violence",
+          "fighter"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1111,7 +1295,10 @@
           "Olava the Feeble",
           "Whiterun",
           "Plains District",
-          "prophecy"
+          "prophecy",
+          "fortune",
+          "divination",
+          "elderly"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1130,7 +1317,10 @@
           "sword",
           "family heirloom",
           "Saffir",
-          "Braith"
+          "Braith",
+          "family",
+          "quest",
+          "theft"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1148,7 +1338,10 @@
           "Redguard",
           "Whiterun",
           "Amren",
-          "Braith"
+          "Braith",
+          "family",
+          "mother",
+          "marriage"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1166,7 +1359,10 @@
           "Whiterun",
           "Amren",
           "Saffir",
-          "Lars Battle-Born"
+          "Lars Battle-Born",
+          "bullying",
+          "child",
+          "youth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1183,7 +1379,11 @@
           "Andurs",
           "Arkay",
           "Hall of the Dead",
-          "Whiterun"
+          "Whiterun",
+          "faith",
+          "religion",
+          "priest",
+          "death"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1201,7 +1401,10 @@
           "Honningbrew Meadery",
           "Whiterun",
           "Maven Black-Briar",
-          "mead"
+          "mead",
+          "brewing",
+          "business",
+          "bitterness"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1219,7 +1422,10 @@
           "Honningbrew Meadery",
           "Imperial",
           "Whiterun",
-          "Black-Briar"
+          "Black-Briar",
+          "brewing",
+          "management",
+          "commerce"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1235,7 +1441,10 @@
         "tags": [
           "Eimar",
           "Honningbrew Meadery",
-          "Whiterun"
+          "Whiterun",
+          "labor",
+          "brewing",
+          "worker"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1252,7 +1461,10 @@
           "Severio Pelagia",
           "Pelagia Farm",
           "Whiterun",
-          "farmer"
+          "farmer",
+          "farming",
+          "agriculture",
+          "struggle"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1269,7 +1481,10 @@
           "Gloth",
           "Orc",
           "Pelagia Farm",
-          "Whiterun"
+          "Whiterun",
+          "farming",
+          "labor",
+          "agriculture"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1286,7 +1501,10 @@
           "Nimriel",
           "Dunmer",
           "Pelagia Farm",
-          "Whiterun"
+          "Whiterun",
+          "farming",
+          "labor",
+          "agriculture"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1303,7 +1521,10 @@
           "Wilmuth",
           "Chillfurrow Farm",
           "Whiterun",
-          "farmer"
+          "farmer",
+          "farming",
+          "agriculture",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1320,7 +1541,10 @@
           "Bjorlam",
           "Whiterun Stables",
           "carriage",
-          "Whiterun"
+          "Whiterun",
+          "transport",
+          "travel",
+          "horses"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1337,7 +1561,10 @@
           "Skulvar Sable-Hilt",
           "Whiterun Stables",
           "Whiterun",
-          "horses"
+          "horses",
+          "stable",
+          "trade",
+          "commerce"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1353,7 +1580,10 @@
         "tags": [
           "Lillith Maiden-Loom",
           "Whiterun Stables",
-          "Whiterun"
+          "Whiterun",
+          "stable",
+          "horses",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1369,7 +1599,10 @@
         "tags": [
           "Jervar",
           "Whiterun Stables",
-          "Whiterun"
+          "Whiterun",
+          "stable",
+          "horses",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       }

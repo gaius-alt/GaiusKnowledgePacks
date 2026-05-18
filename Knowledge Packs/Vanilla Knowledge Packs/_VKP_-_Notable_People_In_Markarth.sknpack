@@ -24,7 +24,10 @@
           "Markarth",
           "Reach",
           "Imperial",
-          "Forsworn"
+          "Forsworn",
+          "nobility",
+          "governance",
+          "leadership"
         ],
         "type": "KNOWLEDGE"
       },
@@ -42,7 +45,10 @@
           "Stormcloak",
           "Markarth",
           "Silver-Blood",
-          "alternative Jarl"
+          "alternative Jarl",
+          "nobility",
+          "governance",
+          "leadership"
         ],
         "type": "KNOWLEDGE"
       },
@@ -60,7 +66,10 @@
           "steward",
           "Markarth",
           "Igmund",
-          "uncle"
+          "uncle",
+          "nobility",
+          "governance",
+          "administration"
         ],
         "type": "KNOWLEDGE"
       },
@@ -78,7 +87,10 @@
           "housecarl",
           "Markarth",
           "Igmund",
-          "Redguard"
+          "Redguard",
+          "guard",
+          "protection",
+          "military"
         ],
         "type": "KNOWLEDGE"
       },
@@ -98,7 +110,10 @@
           "Dwemer",
           "Aicantar",
           "Understone Keep",
-          "Nchuand-Zel"
+          "Nchuand-Zel",
+          "scholarship",
+          "archaeology",
+          "dwarven"
         ],
         "type": "KNOWLEDGE"
       },
@@ -117,7 +132,10 @@
           "Calcelmo",
           "Markarth",
           "Dwemer",
-          "apprentice"
+          "apprentice",
+          "scholarship",
+          "archaeology",
+          "dwarven"
         ],
         "type": "KNOWLEDGE"
       },
@@ -136,7 +154,10 @@
           "Understone Keep",
           "Forsworn",
           "Madanach",
-          "secret"
+          "secret",
+          "conspiracy",
+          "rebellion",
+          "espionage"
         ],
         "type": "KNOWLEDGE"
       },
@@ -156,7 +177,10 @@
           "Treasury House",
           "Madanach",
           "Betrid",
-          "crime"
+          "crime",
+          "commerce",
+          "nobility",
+          "conspiracy"
         ],
         "type": "KNOWLEDGE"
       },
@@ -173,7 +197,10 @@
           "Betrid Silver-Blood",
           "Markarth",
           "Thonar",
-          "Treasury House"
+          "Treasury House",
+          "nobility",
+          "marriage",
+          "commerce"
         ],
         "type": "KNOWLEDGE"
       },
@@ -192,7 +219,10 @@
           "Markarth",
           "innkeeper",
           "Frabbi",
-          "Hreinn"
+          "Hreinn",
+          "hospitality",
+          "tavern",
+          "marriage"
         ],
         "type": "KNOWLEDGE"
       },
@@ -210,7 +240,10 @@
           "Silver-Blood Inn",
           "Markarth",
           "Kleppr",
-          "Hreinn"
+          "Hreinn",
+          "hospitality",
+          "tavern",
+          "marriage"
         ],
         "type": "KNOWLEDGE"
       },
@@ -229,7 +262,10 @@
           "Markarth",
           "trader",
           "Calcelmo",
-          "Dibella"
+          "Dibella",
+          "commerce",
+          "shopkeeping",
+          "trade"
         ],
         "type": "KNOWLEDGE"
       },
@@ -249,7 +285,10 @@
           "apothecary",
           "Reachwoman",
           "Muiri",
-          "Hroki"
+          "Hroki",
+          "alchemy",
+          "medicine",
+          "herbalism"
         ],
         "type": "KNOWLEDGE"
       },
@@ -268,7 +307,10 @@
           "Markarth",
           "apprentice",
           "Alain Dufont",
-          "betrayal"
+          "betrayal",
+          "alchemy",
+          "medicine",
+          "herbalism"
         ],
         "type": "KNOWLEDGE"
       },
@@ -286,7 +328,10 @@
           "Markarth Smelter",
           "Orc",
           "smith",
-          "Tacitus"
+          "Tacitus",
+          "smithing",
+          "metalwork",
+          "crafting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -305,7 +350,10 @@
           "Temple of Dibella",
           "Markarth",
           "Senna",
-          "Sybille of Dibella"
+          "Sybille of Dibella",
+          "faith",
+          "worship",
+          "religion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -324,7 +372,10 @@
           "Cidhna Mine",
           "Markarth",
           "King in Rags",
-          "Forsworn King"
+          "Forsworn King",
+          "imprisonment",
+          "rebellion",
+          "captivity"
         ],
         "type": "KNOWLEDGE"
       },
@@ -342,7 +393,10 @@
           "Cidhna Mine",
           "Markarth",
           "Forsworn",
-          "Orc"
+          "Orc",
+          "guard",
+          "imprisonment",
+          "captivity"
         ],
         "type": "KNOWLEDGE"
       },
@@ -360,7 +414,10 @@
           "Markarth",
           "skald",
           "Talos",
-          "Forsworn"
+          "Forsworn",
+          "music",
+          "song",
+          "poetry"
         ],
         "type": "KNOWLEDGE"
       },
@@ -379,7 +436,10 @@
           "Markarth",
           "Understone Keep",
           "Justiciar",
-          "Talos"
+          "Talos",
+          "elves",
+          "diplomacy",
+          "religion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -398,7 +458,10 @@
           "Markarth",
           "Orc",
           "blacksmith",
-          "Ghorza"
+          "Ghorza",
+          "smithing",
+          "metalwork",
+          "crafting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -416,7 +479,10 @@
           "housecarl",
           "Markarth",
           "Vlindrel Hall",
-          "Nord"
+          "Nord",
+          "follower",
+          "companion",
+          "combat"
         ],
         "type": "KNOWLEDGE"
       },
@@ -434,7 +500,10 @@
           "Markarth Guard",
           "Imperial",
           "Calcelmo",
-          "Markarth"
+          "Markarth",
+          "guard",
+          "security",
+          "military"
         ],
         "type": "KNOWLEDGE"
       },
@@ -451,7 +520,10 @@
           "Legate Emmanuel Admand",
           "Imperial Legion",
           "Understone Keep",
-          "Markarth"
+          "Markarth",
+          "military",
+          "soldier",
+          "legion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -469,7 +541,10 @@
           "Warrens",
           "Markarth",
           "Forsworn Conspiracy",
-          "investigator"
+          "investigator",
+          "conspiracy",
+          "crime",
+          "investigation"
         ],
         "type": "KNOWLEDGE"
       },
@@ -487,7 +562,10 @@
           "Warrens",
           "Markarth",
           "Forsworn",
-          "Madanach"
+          "Madanach",
+          "conspiracy",
+          "espionage",
+          "rebellion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -505,7 +583,10 @@
           "Namira",
           "Markarth",
           "Hall of the Dead",
-          "Taste of Death"
+          "Taste of Death",
+          "daedra",
+          "worship",
+          "cannibalism"
         ],
         "type": "KNOWLEDGE"
       },
@@ -523,7 +604,10 @@
           "Arkay",
           "Hall of the Dead",
           "Markarth",
-          "Eola"
+          "Eola",
+          "faith",
+          "worship",
+          "religion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -541,7 +625,9 @@
           "Silver-Blood Inn",
           "Markarth",
           "mercenary",
-          "Redguard"
+          "Redguard",
+          "combat",
+          "employment"
         ],
         "type": "KNOWLEDGE"
       },
@@ -559,7 +645,10 @@
           "Silver-Blood Inn",
           "Markarth",
           "Vigilant of Stendarr",
-          "daedra"
+          "daedra",
+          "faith",
+          "worship",
+          "vigilance"
         ],
         "type": "KNOWLEDGE"
       },
@@ -576,7 +665,10 @@
           "Hogni Red-Arm",
           "Silver-Blood Inn",
           "Markarth",
-          "Nord"
+          "Nord",
+          "brawling",
+          "fighting",
+          "tavern"
         ],
         "type": "KNOWLEDGE"
       },
@@ -594,7 +686,10 @@
           "Markarth",
           "bard",
           "Silver-Blood Inn",
-          "Nord"
+          "Nord",
+          "music",
+          "song",
+          "poetry"
         ],
         "type": "KNOWLEDGE"
       },
@@ -611,7 +706,10 @@
           "Endon",
           "Markarth",
           "Breton",
-          "noble"
+          "noble",
+          "nobility",
+          "wealth",
+          "privilege"
         ],
         "type": "KNOWLEDGE"
       },
@@ -628,7 +726,10 @@
           "Anwen",
           "Temple of Dibella",
           "Markarth",
-          "priestess"
+          "priestess",
+          "faith",
+          "worship",
+          "beauty"
         ],
         "type": "KNOWLEDGE"
       },
@@ -646,7 +747,10 @@
           "Temple of Dibella",
           "Markarth",
           "priestess",
-          "Hamal"
+          "Hamal",
+          "faith",
+          "worship",
+          "religion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -664,7 +768,10 @@
           "Temple of Dibella",
           "Markarth",
           "Sybille of Dibella",
-          "Nord"
+          "Nord",
+          "faith",
+          "worship",
+          "candidate"
         ],
         "type": "KNOWLEDGE"
       },
@@ -681,7 +788,10 @@
           "Orla",
           "Temple of Dibella",
           "Markarth",
-          "priestess"
+          "priestess",
+          "faith",
+          "worship",
+          "pacifism"
         ],
         "type": "KNOWLEDGE"
       },
@@ -699,7 +809,10 @@
           "Salvius Farm",
           "Markarth",
           "Imperial",
-          "farmer"
+          "farmer",
+          "farming",
+          "agriculture",
+          "subsistence"
         ],
         "type": "KNOWLEDGE"
       },
@@ -717,7 +830,10 @@
           "Left Hand Mine",
           "Markarth",
           "Nord",
-          "miner"
+          "miner",
+          "mining",
+          "labor",
+          "work"
         ],
         "type": "KNOWLEDGE"
       },
@@ -735,7 +851,10 @@
           "Left Hand Mine",
           "Markarth",
           "Nord",
-          "miner"
+          "miner",
+          "mining",
+          "labor",
+          "work"
         ],
         "type": "KNOWLEDGE"
       },
@@ -753,7 +872,10 @@
           "Left Hand Mine",
           "Markarth",
           "Nord",
-          "miner"
+          "miner",
+          "mining",
+          "labor",
+          "distrust"
         ],
         "type": "KNOWLEDGE"
       },
@@ -771,7 +893,10 @@
           "Kolskeggr Mine",
           "Markarth",
           "Orc",
-          "miner"
+          "miner",
+          "mining",
+          "labor",
+          "work"
         ],
         "type": "KNOWLEDGE"
       },
@@ -789,7 +914,10 @@
           "Kolskeggr Mine",
           "Markarth",
           "Imperial",
-          "miner"
+          "miner",
+          "mining",
+          "labor",
+          "veteran"
         ],
         "type": "KNOWLEDGE"
       },
@@ -807,7 +935,10 @@
           "Nepos the Nose",
           "Markarth",
           "Forsworn",
-          "agent"
+          "agent",
+          "espionage",
+          "conspiracy",
+          "rebellion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -825,7 +956,10 @@
           "Nepos the Nose",
           "Markarth",
           "Forsworn",
-          "agent"
+          "agent",
+          "espionage",
+          "conspiracy",
+          "fear"
         ],
         "type": "KNOWLEDGE"
       },
@@ -843,7 +977,10 @@
           "Nepos the Nose",
           "Markarth",
           "Forsworn",
-          "agent"
+          "agent",
+          "espionage",
+          "conspiracy",
+          "revenge"
         ],
         "type": "KNOWLEDGE"
       },
@@ -861,7 +998,10 @@
           "Markarth Stables",
           "Markarth",
           "Nord",
-          "stablemaster"
+          "stablemaster",
+          "stable",
+          "horses",
+          "transport"
         ],
         "type": "KNOWLEDGE"
       },
@@ -878,7 +1018,10 @@
           "Urzoga gra-Shugurz",
           "Markarth Smelter",
           "Markarth",
-          "Orc"
+          "Orc",
+          "smithing",
+          "metalwork",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -895,7 +1038,10 @@
           "Cosnach",
           "Warrens",
           "Markarth",
-          "Breton"
+          "Breton",
+          "poverty",
+          "vagrant",
+          "alcoholism"
         ],
         "type": "KNOWLEDGE"
       },
@@ -913,7 +1059,10 @@
           "Warrens",
           "Markarth",
           "Breton",
-          "beggar"
+          "beggar",
+          "poverty",
+          "vagrant",
+          "survival"
         ],
         "type": "KNOWLEDGE"
       },
@@ -931,7 +1080,10 @@
           "Warrens",
           "Markarth",
           "Breton",
-          "beggar"
+          "beggar",
+          "poverty",
+          "vagrant",
+          "survival"
         ],
         "type": "KNOWLEDGE"
       },
@@ -948,7 +1100,10 @@
           "Garvey",
           "Warrens",
           "Markarth",
-          "Breton"
+          "Breton",
+          "poverty",
+          "vagrant",
+          "illness"
         ],
         "type": "KNOWLEDGE"
       },
@@ -965,7 +1120,10 @@
           "Dryston",
           "Warrens",
           "Markarth",
-          "Imperial"
+          "Imperial",
+          "poverty",
+          "vagrant",
+          "veteran"
         ],
         "type": "KNOWLEDGE"
       },
@@ -982,7 +1140,10 @@
           "Hathrasil",
           "Warrens",
           "Markarth",
-          "Redguard"
+          "Redguard",
+          "poverty",
+          "vagrant",
+          "unemployment"
         ],
         "type": "KNOWLEDGE"
       },
@@ -999,7 +1160,10 @@
           "Omluag",
           "Warrens",
           "Markarth",
-          "Nord"
+          "Nord",
+          "poverty",
+          "vagrant",
+          "survival"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1017,7 +1181,10 @@
           "Silver-Blood Inn",
           "Markarth",
           "Kleppr",
-          "Frabbi"
+          "Frabbi",
+          "family",
+          "youth",
+          "hospitality"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1034,7 +1201,10 @@
           "Hroki",
           "Silver-Blood Inn",
           "Markarth",
-          "Nord"
+          "Nord",
+          "tavern",
+          "patron",
+          "observation"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1051,7 +1221,10 @@
           "Margret",
           "Silver-Blood Inn",
           "Markarth",
-          "Nord"
+          "Nord",
+          "tavern",
+          "nostalgia",
+          "conversation"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1068,7 +1241,10 @@
           "Lynea",
           "Silver-Blood Inn",
           "Markarth",
-          "Nord"
+          "Nord",
+          "tavern",
+          "mining",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1085,7 +1261,10 @@
           "Imedhnain",
           "Arnleif and Sons",
           "Markarth",
-          "Dunmer"
+          "Dunmer",
+          "shopkeeping",
+          "commerce",
+          "trade"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1102,7 +1281,10 @@
           "Adara",
           "Markarth",
           "Endon",
-          "Breton"
+          "Breton",
+          "marriage",
+          "nobility",
+          "wealth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1120,7 +1302,10 @@
           "Markarth",
           "Endon",
           "Breton",
-          "servant"
+          "servant",
+          "servitude",
+          "domestic",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1137,7 +1322,10 @@
           "Vigdis Salvius",
           "Salvius Farm",
           "Markarth",
-          "Imperial"
+          "Imperial",
+          "farming",
+          "agriculture",
+          "marriage"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1155,7 +1343,10 @@
           "Left Hand Mine",
           "Markarth",
           "Nord",
-          "Daighre"
+          "Daighre",
+          "mining",
+          "family",
+          "youth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1173,7 +1364,10 @@
           "Left Hand Mine",
           "Markarth",
           "Imperial",
-          "Skaggi"
+          "Skaggi",
+          "marriage",
+          "mining",
+          "regret"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1191,7 +1385,10 @@
           "Left Hand Mine",
           "Markarth",
           "Redguard",
-          "miner"
+          "miner",
+          "mining",
+          "labor",
+          "solitude"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1209,7 +1406,10 @@
           "Left Hand Mine",
           "Markarth",
           "Nord",
-          "miner"
+          "miner",
+          "mining",
+          "labor",
+          "trust"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1227,7 +1427,10 @@
           "Left Hand Mine",
           "Markarth",
           "Imperial",
-          "miner"
+          "miner",
+          "mining",
+          "labor",
+          "experience"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1245,7 +1448,10 @@
           "Cidhna Mine",
           "Markarth",
           "Nord",
-          "prisoner"
+          "prisoner",
+          "imprisonment",
+          "captivity",
+          "crime"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1264,7 +1470,10 @@
           "Markarth",
           "Reachman",
           "prisoner",
-          "Forsworn"
+          "Forsworn",
+          "imprisonment",
+          "captivity",
+          "rebellion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1282,7 +1491,10 @@
           "Cidhna Mine",
           "Markarth",
           "Nord",
-          "prisoner"
+          "prisoner",
+          "imprisonment",
+          "captivity",
+          "crime"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1301,7 +1513,10 @@
           "Markarth",
           "Reachman",
           "prisoner",
-          "Forsworn"
+          "Forsworn",
+          "imprisonment",
+          "captivity",
+          "rebellion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1320,7 +1535,10 @@
           "Markarth",
           "Reachman",
           "prisoner",
-          "Forsworn"
+          "Forsworn",
+          "imprisonment",
+          "captivity",
+          "fear"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1337,7 +1555,10 @@
           "Mulush gro-Shugurz",
           "Markarth Smelter",
           "Markarth",
-          "Orc"
+          "Orc",
+          "smithing",
+          "metalwork",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1356,7 +1577,10 @@
           "Markarth",
           "Imperial",
           "apprentice",
-          "Ghorza"
+          "Ghorza",
+          "smithing",
+          "metalwork",
+          "crafting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1374,7 +1598,10 @@
           "Understone Keep",
           "Markarth",
           "Imperial",
-          "noble"
+          "noble",
+          "nobility",
+          "diplomacy",
+          "politics"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1392,7 +1619,10 @@
           "Understone Keep",
           "Markarth",
           "Nord",
-          "guard"
+          "guard",
+          "security",
+          "military",
+          "protection"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1410,7 +1640,10 @@
           "Understone Keep",
           "Markarth",
           "Nord",
-          "servant"
+          "servant",
+          "servitude",
+          "domestic",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1429,7 +1662,10 @@
           "Markarth",
           "Nord",
           "servant",
-          "Silver-Blood"
+          "Silver-Blood",
+          "servitude",
+          "domestic",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1447,7 +1683,10 @@
           "Treasury House",
           "Markarth",
           "Imperial",
-          "Betrid"
+          "Betrid",
+          "companion",
+          "gossip",
+          "elderly"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1465,7 +1704,10 @@
           "Treasury House",
           "Markarth",
           "Imperial",
-          "Silver-Blood"
+          "Silver-Blood",
+          "nobility",
+          "commerce",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1483,7 +1725,10 @@
           "Treasury House",
           "Markarth",
           "Redguard",
-          "servant"
+          "servant",
+          "servitude",
+          "domestic",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1501,7 +1746,10 @@
           "Markarth Stables",
           "Markarth",
           "Redguard",
-          "stablehand"
+          "stablehand",
+          "stable",
+          "horses",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1519,7 +1767,10 @@
           "Markarth Stables",
           "Markarth",
           "Imperial",
-          "stablehand"
+          "stablehand",
+          "stable",
+          "horses",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1536,7 +1787,10 @@
           "Vigilance",
           "Markarth Stables",
           "Markarth",
-          "dog"
+          "dog",
+          "animal",
+          "loyalty",
+          "companion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1554,7 +1808,10 @@
           "Markarth Ruins",
           "Markarth",
           "Dwemer",
-          "researcher"
+          "researcher",
+          "scholarship",
+          "archaeology",
+          "dwarven"
         ],
         "type": "KNOWLEDGE"
       }

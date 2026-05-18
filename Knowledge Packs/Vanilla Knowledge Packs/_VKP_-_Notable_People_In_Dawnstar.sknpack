@@ -24,7 +24,9 @@
           "Dawnstar",
           "Pale",
           "Stormcloak",
-          "nightmares"
+          "nightmares",
+          "paranoia",
+          "governance"
         ],
         "type": "KNOWLEDGE"
       },
@@ -42,7 +44,10 @@
           "White Hall",
           "Dawnstar",
           "servant",
-          "Skald"
+          "Skald",
+          "servitude",
+          "domestic",
+          "drudgery"
         ],
         "type": "KNOWLEDGE"
       },
@@ -60,7 +65,10 @@
           "housecarl",
           "Dawnstar",
           "Skald",
-          "Pale"
+          "Pale",
+          "soldier",
+          "military",
+          "bodyguard"
         ],
         "type": "KNOWLEDGE"
       },
@@ -79,7 +87,9 @@
           "retired",
           "Dawnstar",
           "Horik Halfhand",
-          "alternative Jarl"
+          "alternative Jarl",
+          "military",
+          "governance"
         ],
         "type": "KNOWLEDGE"
       },
@@ -96,7 +106,10 @@
           "Horik Halfhand",
           "Brina Merilis",
           "retired Legion",
-          "Dawnstar"
+          "Dawnstar",
+          "veteran",
+          "soldier",
+          "retirement"
         ],
         "type": "KNOWLEDGE"
       },
@@ -114,7 +127,10 @@
           "Windpeak Inn",
           "Dawnstar",
           "innkeeper",
-          "Karita"
+          "Karita",
+          "hospitality",
+          "innkeeping",
+          "fatherhood"
         ],
         "type": "KNOWLEDGE"
       },
@@ -132,7 +148,10 @@
           "Windpeak Inn",
           "Dawnstar",
           "bard",
-          "Thoring"
+          "Thoring",
+          "music",
+          "song",
+          "gossip"
         ],
         "type": "KNOWLEDGE"
       },
@@ -152,7 +171,10 @@
           "Dawnstar",
           "Nightcaller Temple",
           "Vaermina",
-          "former cultist"
+          "former cultist",
+          "faith",
+          "worship",
+          "redemption"
         ],
         "type": "KNOWLEDGE"
       },
@@ -170,7 +192,10 @@
           "Iron-Breaker Mine",
           "Dawnstar",
           "Leigelf",
-          "feud"
+          "feud",
+          "mining",
+          "ownership",
+          "rivalry"
         ],
         "type": "KNOWLEDGE"
       },
@@ -188,7 +213,10 @@
           "Quicksilver Mine",
           "Dawnstar",
           "Beitild",
-          "feud"
+          "feud",
+          "mining",
+          "ownership",
+          "rivalry"
         ],
         "type": "KNOWLEDGE"
       },
@@ -207,7 +235,10 @@
           "Dawnstar",
           "museum",
           "Razor",
-          "Mehrunes Dagon"
+          "Mehrunes Dagon",
+          "curator",
+          "history",
+          "cult"
         ],
         "type": "KNOWLEDGE"
       },
@@ -225,7 +256,9 @@
           "Dawnstar",
           "docks",
           "Night Falls on Sentinel",
-          "sea captain"
+          "sea captain",
+          "sailing",
+          "seafaring"
         ],
         "type": "KNOWLEDGE"
       },
@@ -242,7 +275,10 @@
           "Rustleif",
           "blacksmith",
           "Dawnstar",
-          "Seren"
+          "Seren",
+          "smithing",
+          "metalwork",
+          "craftsmanship"
         ],
         "type": "KNOWLEDGE"
       },
@@ -259,7 +295,10 @@
           "Frida",
           "Mortar and Pestle",
           "Dawnstar",
-          "apothecary"
+          "apothecary",
+          "alchemy",
+          "herbalism",
+          "remedies"
         ],
         "type": "KNOWLEDGE"
       },
@@ -277,7 +316,10 @@
           "court wizard",
           "Dawnstar",
           "Skald",
-          "Imperial sympathizer"
+          "Imperial sympathizer",
+          "magic",
+          "sorcery",
+          "cowardice"
         ],
         "type": "KNOWLEDGE"
       },
@@ -295,7 +337,10 @@
           "Stormcloak",
           "Dawnstar",
           "White Hall",
-          "commander"
+          "commander",
+          "soldier",
+          "military",
+          "officer"
         ],
         "type": "KNOWLEDGE"
       },
@@ -313,7 +358,10 @@
           "Quicksilver Mine",
           "Dawnstar",
           "miner",
-          "Leigelf"
+          "Leigelf",
+          "mining",
+          "labor",
+          "faith"
         ],
         "type": "KNOWLEDGE"
       },
@@ -332,7 +380,10 @@
           "Dawnstar",
           "miner",
           "nightmares",
-          "Beitild"
+          "Beitild",
+          "mining",
+          "labor",
+          "superstition"
         ],
         "type": "KNOWLEDGE"
       },
@@ -349,7 +400,9 @@
           "Bodil",
           "Iron-Breaker Mine",
           "Dawnstar",
-          "miner"
+          "miner",
+          "mining",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -366,7 +419,9 @@
           "Gjak",
           "Iron-Breaker Mine",
           "Dawnstar",
-          "miner"
+          "miner",
+          "mining",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -384,7 +439,9 @@
           "Iron-Breaker Mine",
           "Dawnstar",
           "miner",
-          "Irgnir"
+          "Irgnir",
+          "mining",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -401,7 +458,9 @@
           "Borgny",
           "Quicksilver Mine",
           "Dawnstar",
-          "miner"
+          "miner",
+          "mining",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -418,7 +477,9 @@
           "Edith",
           "Quicksilver Mine",
           "Dawnstar",
-          "miner"
+          "miner",
+          "mining",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -435,7 +496,9 @@
           "Lond",
           "Quicksilver Mine",
           "Dawnstar",
-          "miner"
+          "miner",
+          "mining",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -454,7 +517,11 @@
           "Dawnstar",
           "Rustleif",
           "Hammerfell",
-          "Redguard"
+          "Redguard",
+          "smithing",
+          "metalwork",
+          "family",
+          "relocation"
         ],
         "type": "KNOWLEDGE"
       },
@@ -471,7 +538,10 @@
           "Abelone",
           "Windpeak Inn",
           "Dawnstar",
-          "worker"
+          "worker",
+          "labor",
+          "servitude",
+          "domestic"
         ],
         "type": "KNOWLEDGE"
       },
@@ -488,7 +558,10 @@
           "Guthrum",
           "Sea Squall",
           "Dawnstar",
-          "sailor"
+          "sailor",
+          "sailing",
+          "seafaring",
+          "aging"
         ],
         "type": "KNOWLEDGE"
       },
@@ -507,7 +580,10 @@
           "Dawnstar",
           "Dunmer",
           "sailor",
-          "Captain Wayfinder"
+          "Captain Wayfinder",
+          "sailing",
+          "seafaring",
+          "resentment"
         ],
         "type": "KNOWLEDGE"
       }

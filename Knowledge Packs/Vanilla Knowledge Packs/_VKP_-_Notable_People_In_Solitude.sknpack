@@ -43,7 +43,9 @@
           "steward",
           "Solitude",
           "Elisif",
-          "Blue Palace"
+          "Blue Palace",
+          "governance",
+          "administration"
         ],
         "type": "KNOWLEDGE"
       },
@@ -61,7 +63,9 @@
           "thane",
           "Solitude",
           "Erikur",
-          "Blue Palace"
+          "Blue Palace",
+          "nobility",
+          "adviser"
         ],
         "type": "KNOWLEDGE"
       },
@@ -80,7 +84,9 @@
           "Solitude",
           "merchant",
           "Gulum-Ei",
-          "Blue Palace"
+          "Blue Palace",
+          "trade",
+          "commerce"
         ],
         "type": "KNOWLEDGE"
       },
@@ -99,7 +105,9 @@
           "Solitude",
           "vampire",
           "Blue Palace",
-          "Elisif"
+          "Elisif",
+          "magic",
+          "nobility"
         ],
         "type": "KNOWLEDGE"
       },
@@ -117,7 +125,10 @@
           "housecarl",
           "Elisif",
           "Solitude",
-          "Blue Palace"
+          "Blue Palace",
+          "bodyguard",
+          "warrior",
+          "protection"
         ],
         "type": "KNOWLEDGE"
       },
@@ -175,7 +186,10 @@
           "Solitude",
           "innkeeper",
           "Sorex",
-          "Vivienne"
+          "Vivienne",
+          "tavern",
+          "hospitality",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -193,7 +207,10 @@
           "Winking Skeever",
           "Solitude",
           "Corpulus",
-          "Vivienne"
+          "Vivienne",
+          "service",
+          "innkeeping",
+          "hospitality"
         ],
         "type": "KNOWLEDGE"
       },
@@ -211,7 +228,10 @@
           "Winking Skeever",
           "Solitude",
           "wine",
-          "spiced wine"
+          "spiced wine",
+          "hospitality",
+          "innkeeping",
+          "trade"
         ],
         "type": "KNOWLEDGE"
       },
@@ -229,7 +249,10 @@
           "Winking Skeever",
           "Bards College",
           "bard",
-          "Solitude"
+          "Solitude",
+          "music",
+          "song",
+          "performance"
         ],
         "type": "KNOWLEDGE"
       },
@@ -248,7 +271,10 @@
           "Solitude",
           "Altmer",
           "headmaster",
-          "King Olaf"
+          "King Olaf",
+          "education",
+          "scholarship",
+          "poetry"
         ],
         "type": "KNOWLEDGE"
       },
@@ -266,7 +292,10 @@
           "Bards College",
           "Solitude",
           "lute",
-          "Pantea Ateia"
+          "Pantea Ateia",
+          "education",
+          "music",
+          "instrument"
         ],
         "type": "KNOWLEDGE"
       },
@@ -284,7 +313,10 @@
           "Bards College",
           "Solitude",
           "voice",
-          "Inge"
+          "Inge",
+          "education",
+          "music",
+          "song"
         ],
         "type": "KNOWLEDGE"
       },
@@ -302,7 +334,9 @@
           "Bards College",
           "Solitude",
           "history",
-          "Breton"
+          "Breton",
+          "education",
+          "scholarship"
         ],
         "type": "KNOWLEDGE"
       },
@@ -321,7 +355,10 @@
           "Solitude",
           "Altmer",
           "Endarie",
-          "clothier"
+          "clothier",
+          "shopkeeping",
+          "commerce",
+          "fashion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -339,7 +376,10 @@
           "Radiant Raiment",
           "Solitude",
           "Altmer",
-          "Taarie"
+          "Taarie",
+          "clothier",
+          "shopkeeping",
+          "commerce"
         ],
         "type": "KNOWLEDGE"
       },
@@ -358,7 +398,10 @@
           "Solitude",
           "apothecary",
           "Falion",
-          "missing daughter"
+          "missing daughter",
+          "alchemy",
+          "herbalism",
+          "grief"
         ],
         "type": "KNOWLEDGE"
       },
@@ -413,7 +456,11 @@
           "Hall of the Dead",
           "Solitude",
           "Arkay",
-          "Potema"
+          "Potema",
+          "priest",
+          "faith",
+          "death",
+          "religion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -431,7 +478,10 @@
           "Temple of the Divines",
           "Solitude",
           "priest",
-          "Freir"
+          "Freir",
+          "faith",
+          "religion",
+          "worship"
         ],
         "type": "KNOWLEDGE"
       },
@@ -449,7 +499,11 @@
           "Solitude",
           "Roggvir",
           "grief",
-          "Amulet of Talos"
+          "Amulet of Talos",
+          "mourning",
+          "loss",
+          "family",
+          "tragedy"
         ],
         "type": "KNOWLEDGE"
       },
@@ -469,7 +523,10 @@
           "wrecker",
           "Lights Out",
           "Deeja",
-          "lighthouse"
+          "lighthouse",
+          "piracy",
+          "crime",
+          "deception"
         ],
         "type": "KNOWLEDGE"
       },
@@ -488,7 +545,10 @@
           "Sheogorath",
           "madman",
           "Pelagius",
-          "statue"
+          "statue",
+          "madness",
+          "insanity",
+          "religion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -504,7 +564,10 @@
         "tags": [
           "Addvar",
           "fisherman",
-          "Solitude"
+          "Solitude",
+          "fishing",
+          "seafaring",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -520,7 +583,10 @@
         "tags": [
           "Svari",
           "child",
-          "Solitude"
+          "Solitude",
+          "youth",
+          "childhood",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -536,7 +602,10 @@
         "tags": [
           "Aia Arria",
           "Bards College",
-          "Solitude"
+          "Solitude",
+          "student",
+          "music",
+          "education"
         ],
         "type": "KNOWLEDGE"
       },
@@ -552,7 +621,10 @@
         "tags": [
           "Ataf",
           "Bards College",
-          "Solitude"
+          "Solitude",
+          "student",
+          "music",
+          "education"
         ],
         "type": "KNOWLEDGE"
       },
@@ -568,7 +640,10 @@
         "tags": [
           "Bendt",
           "Bards College",
-          "Solitude"
+          "Solitude",
+          "student",
+          "music",
+          "bodyguard"
         ],
         "type": "KNOWLEDGE"
       },
@@ -585,7 +660,11 @@
           "Illdi",
           "Bards College",
           "bard",
-          "Solitude"
+          "Solitude",
+          "music",
+          "education",
+          "song",
+          "performance"
         ],
         "type": "KNOWLEDGE"
       },
@@ -602,7 +681,10 @@
           "Jorn",
           "Bards College",
           "caretaker",
-          "Solitude"
+          "Solitude",
+          "service",
+          "domestic",
+          "janitor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -619,7 +701,10 @@
           "Kayd",
           "Bits and Pieces",
           "merchant",
-          "Solitude"
+          "Solitude",
+          "trade",
+          "shopkeeping",
+          "commerce"
         ],
         "type": "KNOWLEDGE"
       },
@@ -636,7 +721,10 @@
           "Sayma",
           "Bits and Pieces",
           "merchant",
-          "Solitude"
+          "Solitude",
+          "trade",
+          "shopkeeping",
+          "commerce"
         ],
         "type": "KNOWLEDGE"
       },
@@ -653,7 +741,10 @@
           "Erdi",
           "Blue Palace",
           "servant",
-          "Solitude"
+          "Solitude",
+          "service",
+          "domestic",
+          "staff"
         ],
         "type": "KNOWLEDGE"
       },
@@ -670,7 +761,10 @@
           "Odar",
           "Blue Palace",
           "groom",
-          "Solitude"
+          "Solitude",
+          "stable",
+          "horses",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -687,7 +781,10 @@
           "Una",
           "Blue Palace",
           "servant",
-          "Solitude"
+          "Solitude",
+          "service",
+          "domestic",
+          "staff"
         ],
         "type": "KNOWLEDGE"
       },
@@ -704,7 +801,11 @@
           "Irnskar Ironhand",
           "housecarl",
           "Bryling",
-          "Solitude"
+          "Solitude",
+          "veteran",
+          "warrior",
+          "war",
+          "bodyguard"
         ],
         "type": "KNOWLEDGE"
       },
@@ -721,7 +822,10 @@
           "Captain Aldis",
           "Castle Dour",
           "guard captain",
-          "Solitude"
+          "Solitude",
+          "soldier",
+          "military",
+          "law"
         ],
         "type": "KNOWLEDGE"
       },
@@ -739,7 +843,9 @@
           "Legate",
           "Imperial Legion",
           "Castle Dour",
-          "Solitude"
+          "Solitude",
+          "military",
+          "soldier"
         ],
         "type": "KNOWLEDGE"
       },
@@ -756,7 +862,10 @@
           "Bjartur",
           "Castle Dour",
           "courier",
-          "Solitude"
+          "Solitude",
+          "messenger",
+          "military",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -792,7 +901,10 @@
           "Gianna",
           "Castle Dour",
           "servant",
-          "Solitude"
+          "Solitude",
+          "service",
+          "domestic",
+          "staff"
         ],
         "type": "KNOWLEDGE"
       },
@@ -809,7 +921,10 @@
           "Snorreid",
           "East Empire Company",
           "dockworker",
-          "Solitude"
+          "Solitude",
+          "shipping",
+          "labor",
+          "docks"
         ],
         "type": "KNOWLEDGE"
       },
@@ -826,7 +941,10 @@
           "Gisli",
           "Erikur",
           "steward",
-          "Solitude"
+          "Solitude",
+          "business",
+          "commerce",
+          "trade"
         ],
         "type": "KNOWLEDGE"
       },
@@ -843,7 +961,10 @@
           "Melaran",
           "Erikur",
           "servant",
-          "Solitude"
+          "Solitude",
+          "service",
+          "domestic",
+          "staff"
         ],
         "type": "KNOWLEDGE"
       },
@@ -859,7 +980,10 @@
         "tags": [
           "Evette San",
           "Solitude",
-          "mother"
+          "mother",
+          "family",
+          "widow",
+          "parenthood"
         ],
         "type": "KNOWLEDGE"
       },
@@ -875,7 +999,10 @@
         "tags": [
           "Octieve San",
           "child",
-          "Solitude"
+          "Solitude",
+          "youth",
+          "childhood",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -893,7 +1020,10 @@
           "Fletcher",
           "merchant",
           "Solitude",
-          "Khajiit"
+          "Khajiit",
+          "shopkeeping",
+          "archery",
+          "crafting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -910,7 +1040,10 @@
           "Jawanan",
           "Fletcher",
           "apprentice",
-          "Solitude"
+          "Solitude",
+          "crafting",
+          "bowyer",
+          "student"
         ],
         "type": "KNOWLEDGE"
       },
@@ -927,7 +1060,10 @@
           "Ahtar",
           "executioner",
           "Solitude",
-          "follower"
+          "follower",
+          "execution",
+          "justice",
+          "mercenary"
         ],
         "type": "KNOWLEDGE"
       },
@@ -943,7 +1079,10 @@
         "tags": [
           "Jala",
           "Solitude",
-          "Ahtar"
+          "Ahtar",
+          "housemate",
+          "concern",
+          "friendship"
         ],
         "type": "KNOWLEDGE"
       },
@@ -961,7 +1100,10 @@
           "Katla's Farm",
           "stable boy",
           "child",
-          "Solitude"
+          "Solitude",
+          "orphan",
+          "youth",
+          "stable"
         ],
         "type": "KNOWLEDGE"
       },
@@ -978,7 +1120,10 @@
           "Katla",
           "Katla's Farm",
           "farmer",
-          "Solitude"
+          "Solitude",
+          "farming",
+          "agriculture",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -995,7 +1140,10 @@
           "Knud",
           "Katla's Farm",
           "child",
-          "Solitude"
+          "Solitude",
+          "youth",
+          "farming",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1012,7 +1160,10 @@
           "Snilling",
           "Katla's Farm",
           "farmer",
-          "Solitude"
+          "Solitude",
+          "farming",
+          "labor",
+          "agriculture"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1029,7 +1180,11 @@
           "Alexia Vici",
           "Vittoria Vici",
           "Solitude",
-          "Imperial"
+          "Imperial",
+          "visitor",
+          "family",
+          "politics",
+          "wedding"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1046,7 +1201,10 @@
           "Noster Eagle-Eye",
           "veteran",
           "Solitude",
-          "pirate treasure"
+          "pirate treasure",
+          "retired",
+          "piracy",
+          "war"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1065,7 +1223,11 @@
           "Solitude",
           "Greta",
           "Ulfric",
-          "Torygg"
+          "Torygg",
+          "execution",
+          "justice",
+          "martyr",
+          "tragedy"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1084,7 +1246,10 @@
           "pirate",
           "Argonian",
           "Solitude",
-          "Jaree-Ra"
+          "Jaree-Ra",
+          "crime",
+          "piracy",
+          "wrecking"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1101,7 +1266,10 @@
           "Jolf",
           "fisherman",
           "Winking Skeever",
-          "Solitude"
+          "Solitude",
+          "fishing",
+          "seafaring",
+          "patron"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1119,7 +1287,10 @@
           "housecarl",
           "Proudspire Manor",
           "follower",
-          "Solitude"
+          "Solitude",
+          "bodyguard",
+          "warrior",
+          "protection"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1136,7 +1307,10 @@
           "Dorian",
           "Red Wave",
           "Solitude",
-          "sailor"
+          "sailor",
+          "sailing",
+          "seafaring",
+          "crew"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1153,7 +1327,10 @@
           "Eris",
           "Red Wave",
           "Solitude",
-          "sailor"
+          "sailor",
+          "sailing",
+          "seafaring",
+          "crew"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1171,7 +1348,10 @@
           "Red Wave",
           "captain",
           "Solitude",
-          "ship"
+          "ship",
+          "sailing",
+          "seafaring",
+          "transport"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1188,7 +1368,10 @@
           "Safia",
           "Red Wave",
           "Solitude",
-          "sailor"
+          "sailor",
+          "sailing",
+          "seafaring",
+          "crew"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1205,7 +1388,10 @@
           "Xander",
           "Red Wave",
           "Solitude",
-          "sailor"
+          "sailor",
+          "sailing",
+          "seafaring",
+          "crew"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1222,7 +1408,10 @@
           "Beirand",
           "Solitude Blacksmith",
           "blacksmith",
-          "Solitude"
+          "Solitude",
+          "smithing",
+          "metalwork",
+          "crafting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1239,7 +1428,10 @@
           "Heimvar",
           "Solitude Blacksmith",
           "apprentice",
-          "Solitude"
+          "Solitude",
+          "smithing",
+          "crafting",
+          "metalwork"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1256,7 +1448,10 @@
           "Hjorunn",
           "Solitude Sawmill",
           "lumber",
-          "Solitude"
+          "Solitude",
+          "sawmill",
+          "woodcutting",
+          "industry"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1273,7 +1468,11 @@
           "Kharag gro-Shurkul",
           "Solitude Sawmill",
           "Orc",
-          "Solitude"
+          "Solitude",
+          "sawmill",
+          "labor",
+          "lumber",
+          "industry"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1290,7 +1489,10 @@
           "Fridrika",
           "Solitude Stables",
           "stable hand",
-          "Solitude"
+          "Solitude",
+          "horses",
+          "stable",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1307,7 +1509,10 @@
           "Geimund",
           "Solitude Stables",
           "stable hand",
-          "Solitude"
+          "Solitude",
+          "horses",
+          "stable",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1324,7 +1529,10 @@
           "Horm",
           "Solitude Stables",
           "stable hand",
-          "Solitude"
+          "Solitude",
+          "horses",
+          "stable",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1341,7 +1549,10 @@
           "Thaer",
           "Solitude Stables",
           "stable hand",
-          "Solitude"
+          "Solitude",
+          "horses",
+          "stable",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1358,7 +1569,10 @@
           "Freir",
           "Temple of the Divines",
           "acolyte",
-          "Solitude"
+          "Solitude",
+          "faith",
+          "religion",
+          "worship"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1375,7 +1589,10 @@
           "Silana Petreia",
           "Temple of the Divines",
           "beggar",
-          "Solitude"
+          "Solitude",
+          "poverty",
+          "vagrant",
+          "faith"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1393,7 +1610,10 @@
           "Winking Skeever",
           "spellsword",
           "follower",
-          "Solitude"
+          "Solitude",
+          "mercenary",
+          "magic",
+          "combat"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1412,7 +1632,10 @@
           "fence",
           "Argonian",
           "Dark Brotherhood",
-          "Solitude"
+          "Solitude",
+          "crime",
+          "smuggling",
+          "underworld"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1430,7 +1653,10 @@
           "Winking Skeever",
           "child",
           "Solitude",
-          "Corpulus"
+          "Corpulus",
+          "youth",
+          "childhood",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1448,7 +1674,10 @@
           "Vittoria Vici",
           "bodyguard",
           "East Empire Company",
-          "Solitude"
+          "Solitude",
+          "protection",
+          "soldier",
+          "security"
         ],
         "type": "KNOWLEDGE"
       }

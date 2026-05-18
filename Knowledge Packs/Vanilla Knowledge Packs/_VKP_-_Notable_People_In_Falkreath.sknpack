@@ -23,7 +23,9 @@
           "Jarl",
           "Falkreath",
           "Imperial",
-          "nephew of Dengeir"
+          "nephew of Dengeir",
+          "nobility",
+          "governance"
         ],
         "type": "KNOWLEDGE"
       },
@@ -42,7 +44,9 @@
           "Falkreath",
           "Stormcloak",
           "Vighar",
-          "conspiracy"
+          "conspiracy",
+          "nobility",
+          "paranoia"
         ],
         "type": "KNOWLEDGE"
       },
@@ -60,7 +64,10 @@
           "housecarl",
           "Falkreath",
           "Siddgeir",
-          "Tekla"
+          "Tekla",
+          "bodyguard",
+          "warrior",
+          "protection"
         ],
         "type": "KNOWLEDGE"
       },
@@ -78,7 +85,10 @@
           "steward",
           "Falkreath",
           "Altmer",
-          "Siddgeir"
+          "Siddgeir",
+          "stewardship",
+          "administration",
+          "governance"
         ],
         "type": "KNOWLEDGE"
       },
@@ -97,7 +107,10 @@
           "Dead Man's Drink",
           "Falkreath",
           "Imperial",
-          "Narri"
+          "Narri",
+          "innkeeping",
+          "hospitality",
+          "tavern"
         ],
         "type": "KNOWLEDGE"
       },
@@ -116,7 +129,10 @@
           "Falkreath",
           "Barbas",
           "Clavicus Vile",
-          "stolen book"
+          "stolen book",
+          "smithing",
+          "metalwork",
+          "crafting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -136,7 +152,10 @@
           "Falkreath",
           "Altmer",
           "Thalmor Justiciar",
-          "past"
+          "past",
+          "faith",
+          "worship",
+          "funeral"
         ],
         "type": "KNOWLEDGE"
       },
@@ -154,7 +173,10 @@
           "Hall of the Dead",
           "Arkay",
           "Falkreath",
-          "Thaddeus"
+          "Thaddeus",
+          "funeral",
+          "burial",
+          "faith"
         ],
         "type": "KNOWLEDGE"
       },
@@ -174,7 +196,10 @@
           "Lavinia",
           "Indara Caerellia",
           "Sinding",
-          "grief"
+          "grief",
+          "farming",
+          "mourning",
+          "loss"
         ],
         "type": "KNOWLEDGE"
       },
@@ -192,7 +217,10 @@
           "Gray Pine Goods",
           "Falkreath",
           "Imperial",
-          "Bolund"
+          "Bolund",
+          "trade",
+          "commerce",
+          "shopkeeping"
         ],
         "type": "KNOWLEDGE"
       },
@@ -210,7 +238,10 @@
           "Gray Pine Goods",
           "Falkreath",
           "Stormcloak",
-          "Solaf"
+          "Solaf",
+          "trade",
+          "commerce",
+          "shopkeeping"
         ],
         "type": "KNOWLEDGE"
       },
@@ -227,7 +258,10 @@
           "Zaria",
           "Falkreath",
           "longhouse",
-          "steward's helper"
+          "steward's helper",
+          "alchemy",
+          "apothecary",
+          "medicine"
         ],
         "type": "KNOWLEDGE"
       },
@@ -245,7 +279,10 @@
           "Falkreath",
           "veteran",
           "stolen book",
-          "grief"
+          "grief",
+          "soldier",
+          "mourning",
+          "military"
         ],
         "type": "KNOWLEDGE"
       },
@@ -264,7 +301,10 @@
           "Falkreath",
           "Breton",
           "Mathies",
-          "Lavinia"
+          "Lavinia",
+          "farming",
+          "grief",
+          "loss"
         ],
         "type": "KNOWLEDGE"
       },
@@ -282,7 +322,10 @@
           "Dead Man's Drink",
           "Falkreath",
           "Redguard",
-          "bouncer"
+          "bouncer",
+          "security",
+          "enforcement",
+          "innkeeping"
         ],
         "type": "KNOWLEDGE"
       },
@@ -300,7 +343,10 @@
           "Dead Man's Drink",
           "Falkreath",
           "Valga Vinicia",
-          "Imperial"
+          "Imperial",
+          "innkeeping",
+          "hospitality",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -319,7 +365,10 @@
           "Falkreath",
           "hunter",
           "werewolf",
-          "Sinding"
+          "Sinding",
+          "hunting",
+          "wilderness",
+          "injury"
         ],
         "type": "KNOWLEDGE"
       },
@@ -337,7 +386,10 @@
           "Falkreath",
           "Dengeir of Stuhn",
           "Helvard",
-          "maid"
+          "maid",
+          "servitude",
+          "domestic",
+          "service"
         ],
         "type": "KNOWLEDGE"
       },
@@ -356,7 +408,10 @@
           "Falkreath",
           "Hircine",
           "Ring of Hircine",
-          "Barracks"
+          "Barracks",
+          "lycanthropy",
+          "curse",
+          "murder"
         ],
         "type": "KNOWLEDGE"
       },
@@ -374,7 +429,10 @@
           "Imperial",
           "Falkreath",
           "Legate",
-          "Tullius"
+          "Tullius",
+          "soldier",
+          "military",
+          "garrison"
         ],
         "type": "KNOWLEDGE"
       },
@@ -392,7 +450,10 @@
           "housecarl",
           "Falkreath",
           "Redguard",
-          "Thane"
+          "Thane",
+          "bodyguard",
+          "warrior",
+          "follower"
         ],
         "type": "KNOWLEDGE"
       },
@@ -409,7 +470,10 @@
           "Arcturus",
           "Dark Brotherhood",
           "Falkreath",
-          "Sithis"
+          "Sithis",
+          "assassination",
+          "cult",
+          "murder"
         ],
         "type": "KNOWLEDGE"
       },
@@ -427,7 +491,10 @@
           "Dark Brotherhood",
           "Falkreath",
           "Astrid",
-          "werewolf"
+          "werewolf",
+          "assassination",
+          "lycanthropy",
+          "enforcement"
         ],
         "type": "KNOWLEDGE"
       },
@@ -446,7 +513,10 @@
           "Falkreath",
           "Listener",
           "Night Mother",
-          "Arnbjorn"
+          "Arnbjorn",
+          "assassination",
+          "leadership",
+          "murder"
         ],
         "type": "KNOWLEDGE"
       },
@@ -464,7 +534,10 @@
           "Dark Brotherhood",
           "Falkreath",
           "vampire",
-          "alchemist"
+          "alchemist",
+          "assassination",
+          "deception",
+          "murder"
         ],
         "type": "KNOWLEDGE"
       },
@@ -483,7 +556,10 @@
           "Falkreath",
           "Keeper",
           "Night Mother",
-          "jester"
+          "jester",
+          "assassination",
+          "cult",
+          "devotion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -500,7 +576,10 @@
           "Festus Krex",
           "Dark Brotherhood",
           "Falkreath",
-          "mage"
+          "mage",
+          "assassination",
+          "sorcery",
+          "murder"
         ],
         "type": "KNOWLEDGE"
       },
@@ -518,7 +597,10 @@
           "Dark Brotherhood",
           "Falkreath",
           "Dunmer",
-          "assassin"
+          "assassin",
+          "assassination",
+          "murder",
+          "seduction"
         ],
         "type": "KNOWLEDGE"
       },
@@ -536,7 +618,10 @@
           "Dark Brotherhood",
           "Falkreath",
           "Redguard",
-          "assassin"
+          "assassin",
+          "assassination",
+          "murder",
+          "administration"
         ],
         "type": "KNOWLEDGE"
       },
@@ -555,7 +640,10 @@
           "Falkreath",
           "Listener",
           "Sithis",
-          "Black Sacrament"
+          "Black Sacrament",
+          "assassination",
+          "cult",
+          "worship"
         ],
         "type": "KNOWLEDGE"
       },
@@ -573,7 +661,10 @@
           "Dark Brotherhood",
           "Falkreath",
           "Argonian",
-          "Shadowscale"
+          "Shadowscale",
+          "assassination",
+          "murder",
+          "cult"
         ],
         "type": "KNOWLEDGE"
       }

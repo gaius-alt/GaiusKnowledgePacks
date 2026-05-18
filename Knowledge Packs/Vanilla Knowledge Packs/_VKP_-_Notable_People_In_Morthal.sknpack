@@ -24,7 +24,9 @@
           "Morthal",
           "Hjaalmarch",
           "Imperial",
-          "visions"
+          "visions",
+          "nobility",
+          "governance"
         ],
         "type": "KNOWLEDGE"
       },
@@ -42,7 +44,10 @@
           "steward",
           "Morthal",
           "Idgrod",
-          "Hjaalmarch"
+          "Hjaalmarch",
+          "stewardship",
+          "governance",
+          "marriage"
         ],
         "type": "KNOWLEDGE"
       },
@@ -60,7 +65,9 @@
           "Morthal",
           "heir",
           "visions",
-          "Idgrod"
+          "Idgrod",
+          "nobility",
+          "youth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -78,7 +85,9 @@
           "Morthal",
           "sickly",
           "Idgrod's son",
-          "seer"
+          "seer",
+          "youth",
+          "illness"
         ],
         "type": "KNOWLEDGE"
       },
@@ -96,7 +105,10 @@
           "housecarl",
           "Morthal",
           "Idgrod",
-          "Hjaalmarch"
+          "Hjaalmarch",
+          "guard",
+          "protection",
+          "warrior"
         ],
         "type": "KNOWLEDGE"
       },
@@ -114,7 +126,10 @@
           "Imperial",
           "Morthal",
           "Hjaalmarch",
-          "Legate"
+          "Legate",
+          "soldier",
+          "legate",
+          "military"
         ],
         "type": "KNOWLEDGE"
       },
@@ -132,7 +147,10 @@
           "housecarl",
           "Morthal",
           "Hjaalmarch",
-          "Thane"
+          "Thane",
+          "guard",
+          "protection",
+          "warrior"
         ],
         "type": "KNOWLEDGE"
       },
@@ -152,7 +170,8 @@
           "mage",
           "vampirism",
           "cure",
-          "Agni"
+          "Agni",
+          "magic"
         ],
         "type": "KNOWLEDGE"
       },
@@ -170,7 +189,9 @@
           "Morthal",
           "Falion",
           "orphan",
-          "apprentice"
+          "apprentice",
+          "youth",
+          "tragedy"
         ],
         "type": "KNOWLEDGE"
       },
@@ -188,7 +209,9 @@
           "innkeeper",
           "Moorside Inn",
           "Morthal",
-          "Redguard"
+          "Redguard",
+          "innkeeping",
+          "hospitality"
         ],
         "type": "KNOWLEDGE"
       },
@@ -206,7 +229,9 @@
           "Moorside Inn",
           "Orc",
           "bard",
-          "Morthal"
+          "Morthal",
+          "music",
+          "song"
         ],
         "type": "KNOWLEDGE"
       },
@@ -224,7 +249,9 @@
           "Thaumaturgist's Hut",
           "alchemist",
           "Morthal",
-          "Lurbuk"
+          "Lurbuk",
+          "alchemy",
+          "thaumaturgy"
         ],
         "type": "KNOWLEDGE"
       },
@@ -243,7 +270,9 @@
           "burned house",
           "Alva",
           "Helgi",
-          "grief"
+          "grief",
+          "loss",
+          "tragedy"
         ],
         "type": "KNOWLEDGE"
       },
@@ -262,7 +291,9 @@
           "Hroggar",
           "vampire",
           "Movarth",
-          "seductress"
+          "seductress",
+          "vampirism",
+          "undead"
         ],
         "type": "KNOWLEDGE"
       },
@@ -280,7 +311,9 @@
           "Morthal",
           "hunter",
           "Laelette",
-          "missing wife"
+          "missing wife",
+          "hunting",
+          "wilderness"
         ],
         "type": "KNOWLEDGE"
       },
@@ -297,7 +330,9 @@
           "Virkmund",
           "Morthal",
           "Thonnir",
-          "woodcutter"
+          "woodcutter",
+          "labor",
+          "woodcutting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -314,7 +349,9 @@
           "Benor",
           "Morthal",
           "brawler",
-          "mercenary"
+          "mercenary",
+          "fighting",
+          "warrior"
         ],
         "type": "KNOWLEDGE"
       },
@@ -331,7 +368,9 @@
           "Jorgen",
           "sawmill",
           "Morthal",
-          "Lami"
+          "Lami",
+          "labor",
+          "milling"
         ],
         "type": "KNOWLEDGE"
       }

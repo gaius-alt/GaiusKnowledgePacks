@@ -23,7 +23,10 @@
           "Jarl",
           "Riften",
           "Stormcloak",
-          "Maven Black-Briar"
+          "Maven Black-Briar",
+          "nobility",
+          "governance",
+          "leadership"
         ],
         "type": "KNOWLEDGE"
       },
@@ -43,7 +46,9 @@
           "Thieves Guild",
           "Dark Brotherhood",
           "matriarch",
-          "mead"
+          "mead",
+          "corruption",
+          "crime"
         ],
         "type": "KNOWLEDGE"
       },
@@ -61,7 +66,9 @@
           "steward",
           "Mistveil Keep",
           "Maven",
-          "Imperial"
+          "Imperial",
+          "nobility",
+          "governance"
         ],
         "type": "KNOWLEDGE"
       },
@@ -79,7 +86,10 @@
           "Black-Briar",
           "Riften jail",
           "murder",
-          "Svidi"
+          "Svidi",
+          "imprisonment",
+          "crime",
+          "nobility"
         ],
         "type": "KNOWLEDGE"
       },
@@ -97,7 +107,10 @@
           "Black-Briar",
           "Maven",
           "alchemist",
-          "Elgrim"
+          "Elgrim",
+          "alchemy",
+          "apprenticeship",
+          "nobility"
         ],
         "type": "KNOWLEDGE"
       },
@@ -116,7 +129,9 @@
           "Mistveil Keep",
           "Bosmer",
           "Laila",
-          "corrupt"
+          "corrupt",
+          "governance",
+          "bribery"
         ],
         "type": "KNOWLEDGE"
       },
@@ -134,7 +149,8 @@
           "court mage",
           "Mistveil Keep",
           "absent-minded",
-          "alchemy"
+          "alchemy",
+          "magic"
         ],
         "type": "KNOWLEDGE"
       },
@@ -153,7 +169,9 @@
           "Mistveil Keep",
           "Laila",
           "Snow-Shod",
-          "Stormcloak"
+          "Stormcloak",
+          "warrior",
+          "guardian"
         ],
         "type": "KNOWLEDGE"
       },
@@ -172,7 +190,10 @@
           "Grimsever",
           "Thieves Guild",
           "Aerin",
-          "champion"
+          "champion",
+          "warrior",
+          "justice",
+          "follower"
         ],
         "type": "KNOWLEDGE"
       },
@@ -189,7 +210,10 @@
           "Aerin",
           "Mjoll",
           "Riften",
-          "Aerin's House"
+          "Aerin's House",
+          "companion",
+          "follower",
+          "rescue"
         ],
         "type": "KNOWLEDGE"
       },
@@ -208,7 +232,11 @@
           "Riften",
           "Ratway",
           "Cistern",
-          "Mercer Frey"
+          "Mercer Frey",
+          "thievery",
+          "crime",
+          "recruitment",
+          "deception"
         ],
         "type": "KNOWLEDGE"
       },
@@ -226,7 +254,10 @@
           "Guildmaster",
           "Thieves Guild",
           "Cistern",
-          "Riften"
+          "Riften",
+          "thievery",
+          "crime",
+          "betrayal"
         ],
         "type": "KNOWLEDGE"
       },
@@ -244,7 +275,10 @@
           "Thieves Guild",
           "jobs",
           "Ragged Flagon",
-          "Vex"
+          "Vex",
+          "thievery",
+          "crime",
+          "heist"
         ],
         "type": "KNOWLEDGE"
       },
@@ -263,7 +297,10 @@
           "specialist",
           "Imperial",
           "Goldenglow",
-          "Ragged Flagon"
+          "Ragged Flagon",
+          "thievery",
+          "crime",
+          "heist"
         ],
         "type": "KNOWLEDGE"
       },
@@ -281,7 +318,10 @@
           "Thieves Guild",
           "fence",
           "Redguard",
-          "Ragged Flagon"
+          "Ragged Flagon",
+          "thievery",
+          "crime",
+          "fencing"
         ],
         "type": "KNOWLEDGE"
       },
@@ -299,7 +339,10 @@
           "Ragged Flagon",
           "innkeeper",
           "Thieves Guild",
-          "Cistern"
+          "Cistern",
+          "hospitality",
+          "thievery",
+          "bartending"
         ],
         "type": "KNOWLEDGE"
       },
@@ -316,7 +359,11 @@
           "Sapphire",
           "Thieves Guild",
           "Ragged Flagon",
-          "Shadr"
+          "Shadr",
+          "thievery",
+          "crime",
+          "debt",
+          "intimidation"
         ],
         "type": "KNOWLEDGE"
       },
@@ -335,7 +382,9 @@
           "Argonian",
           "Riften",
           "Talen-Jei",
-          "innkeeper"
+          "innkeeper",
+          "hospitality",
+          "tavern"
         ],
         "type": "KNOWLEDGE"
       },
@@ -354,7 +403,11 @@
           "Argonian",
           "Riften",
           "Keerava",
-          "amethysts"
+          "amethysts",
+          "hospitality",
+          "tavern",
+          "marriage",
+          "romance"
         ],
         "type": "KNOWLEDGE"
       },
@@ -373,7 +426,10 @@
           "blacksmith",
           "Riften",
           "Asbjorn",
-          "Jarl"
+          "Jarl",
+          "smithing",
+          "crafting",
+          "metalwork"
         ],
         "type": "KNOWLEDGE"
       },
@@ -391,7 +447,10 @@
           "Bunkhouse",
           "Riften",
           "Dibella",
-          "Svana"
+          "Svana",
+          "lodging",
+          "religion",
+          "promiscuity"
         ],
         "type": "KNOWLEDGE"
       },
@@ -410,7 +469,9 @@
           "Riften",
           "priest",
           "weddings",
-          "Dinya"
+          "Dinya",
+          "religion",
+          "marriage"
         ],
         "type": "KNOWLEDGE"
       },
@@ -428,7 +489,10 @@
           "Riften Fishery",
           "Nivenor",
           "fishery",
-          "Haelga"
+          "Haelga",
+          "fishing",
+          "industry",
+          "wealth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -445,7 +509,10 @@
           "Nivenor",
           "Bolli's House",
           "Bolli",
-          "Riften"
+          "Riften",
+          "marriage",
+          "unhappiness",
+          "domestic"
         ],
         "type": "KNOWLEDGE"
       },
@@ -463,7 +530,10 @@
           "Pawned Prawn",
           "Riften",
           "Drifa",
-          "Thieves Guild"
+          "Thieves Guild",
+          "trade",
+          "commerce",
+          "extortion"
         ],
         "type": "KNOWLEDGE"
       },
@@ -481,7 +551,11 @@
           "Black-Briar Meadery",
           "Dunmer",
           "Riften",
-          "Romlyn"
+          "Romlyn",
+          "mead",
+          "brewing",
+          "industry",
+          "management"
         ],
         "type": "KNOWLEDGE"
       },
@@ -500,7 +574,10 @@
           "Dunmer",
           "Riften",
           "Indaryn",
-          "smuggling"
+          "smuggling",
+          "mead",
+          "brewing",
+          "industry"
         ],
         "type": "KNOWLEDGE"
       },
@@ -518,7 +595,10 @@
           "Hafjorg",
           "Elgrim's Elixirs",
           "alchemy",
-          "Ingun"
+          "Ingun",
+          "herbalism",
+          "apprenticeship",
+          "medicine"
         ],
         "type": "KNOWLEDGE"
       },
@@ -536,7 +616,10 @@
           "Riften market",
           "Dunmer",
           "Pawned Prawn",
-          "Saerlund"
+          "Saerlund",
+          "trade",
+          "commerce",
+          "heritage"
         ],
         "type": "KNOWLEDGE"
       },
@@ -553,7 +636,10 @@
           "Madesi",
           "jeweler",
           "Argonian",
-          "Riften market"
+          "Riften market",
+          "trade",
+          "commerce",
+          "crafting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -570,7 +656,9 @@
           "Marise Aravel",
           "Riften market",
           "Dunmer",
-          "food vendor"
+          "food vendor",
+          "trade",
+          "commerce"
         ],
         "type": "KNOWLEDGE"
       },
@@ -588,7 +676,10 @@
           "Riften market",
           "armor",
           "Thieves Guild fence",
-          "Imperial"
+          "Imperial",
+          "trade",
+          "commerce",
+          "training"
         ],
         "type": "KNOWLEDGE"
       },
@@ -605,7 +696,10 @@
           "Maul",
           "Maven Black-Briar",
           "enforcer",
-          "Riften gate"
+          "Riften gate",
+          "intimidation",
+          "crime",
+          "enforcement"
         ],
         "type": "KNOWLEDGE"
       },
@@ -624,7 +718,10 @@
           "Riften",
           "cruel",
           "Aventus",
-          "Dark Brotherhood"
+          "Dark Brotherhood",
+          "cruelty",
+          "orphan",
+          "abuse"
         ],
         "type": "KNOWLEDGE"
       },
@@ -642,7 +739,10 @@
           "Honorhall Orphanage",
           "Riften",
           "Imperial",
-          "kindly"
+          "kindly",
+          "orphan",
+          "compassion",
+          "caregiving"
         ],
         "type": "KNOWLEDGE"
       },
@@ -658,7 +758,10 @@
         "tags": [
           "Edda",
           "beggar",
-          "Riften"
+          "Riften",
+          "poverty",
+          "grief",
+          "vagrant"
         ],
         "type": "KNOWLEDGE"
       },
@@ -675,7 +778,9 @@
           "Snilf",
           "beggar",
           "Argonian",
-          "Riften"
+          "Riften",
+          "poverty",
+          "vagrant"
         ],
         "type": "KNOWLEDGE"
       },
@@ -692,7 +797,10 @@
           "From-Deepest-Fathoms",
           "Argonian",
           "Haelga's Bunkhouse",
-          "Riften"
+          "Riften",
+          "labor",
+          "dockworker",
+          "lodging"
         ],
         "type": "KNOWLEDGE"
       },
@@ -709,7 +817,10 @@
           "Niluva Hlaalu",
           "Dunmer",
           "Haelga's Bunkhouse",
-          "Riften"
+          "Riften",
+          "gossip",
+          "lodging",
+          "observer"
         ],
         "type": "KNOWLEDGE"
       },
@@ -727,7 +838,10 @@
           "Haelga's Bunkhouse",
           "Haelga",
           "Riften",
-          "Dibella"
+          "Dibella",
+          "lodging",
+          "family",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -744,7 +858,10 @@
           "Tythis Ulen",
           "Dunmer",
           "Haelga's Bunkhouse",
-          "Riften"
+          "Riften",
+          "labor",
+          "odd jobs",
+          "lodging"
         ],
         "type": "KNOWLEDGE"
       },
@@ -761,7 +878,10 @@
           "Ungrien",
           "Nord",
           "Haelga's Bunkhouse",
-          "Riften"
+          "Riften",
+          "lodging",
+          "reclusive",
+          "mystery"
         ],
         "type": "KNOWLEDGE"
       },
@@ -779,7 +899,10 @@
           "Argonian",
           "Riften Fishery",
           "Haelga's Bunkhouse",
-          "skooma"
+          "skooma",
+          "addiction",
+          "fishing",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -796,7 +919,11 @@
           "Alessandra",
           "Hall of the Dead",
           "Arkay",
-          "Riften"
+          "Riften",
+          "religion",
+          "death",
+          "funeral",
+          "priestess"
         ],
         "type": "KNOWLEDGE"
       },
@@ -813,7 +940,10 @@
           "Iona",
           "housecarl",
           "Honeyside",
-          "Riften"
+          "Riften",
+          "guardian",
+          "follower",
+          "combat"
         ],
         "type": "KNOWLEDGE"
       },
@@ -830,7 +960,10 @@
           "Francois Beaufort",
           "Honorhall Orphanage",
           "Riften",
-          "orphan"
+          "orphan",
+          "youth",
+          "childhood",
+          "cruelty"
         ],
         "type": "KNOWLEDGE"
       },
@@ -847,7 +980,10 @@
           "Hroar",
           "Honorhall Orphanage",
           "Riften",
-          "orphan"
+          "orphan",
+          "youth",
+          "childhood",
+          "cruelty"
         ],
         "type": "KNOWLEDGE"
       },
@@ -864,7 +1000,10 @@
           "Runa Fair-Shield",
           "Honorhall Orphanage",
           "Riften",
-          "orphan"
+          "orphan",
+          "youth",
+          "defiance",
+          "cruelty"
         ],
         "type": "KNOWLEDGE"
       },
@@ -881,7 +1020,10 @@
           "Samuel",
           "Honorhall Orphanage",
           "Riften",
-          "orphan"
+          "orphan",
+          "youth",
+          "childhood",
+          "cruelty"
         ],
         "type": "KNOWLEDGE"
       },
@@ -898,7 +1040,10 @@
           "Dravin Llanith",
           "Merryfair Farm",
           "Riften",
-          "farmer"
+          "farmer",
+          "farming",
+          "agriculture",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -915,7 +1060,10 @@
           "Synda Llanith",
           "Merryfair Farm",
           "Riften",
-          "farmer"
+          "farmer",
+          "farming",
+          "agriculture",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -932,7 +1080,11 @@
           "Drifa",
           "Pawned Prawn",
           "Bersi Honey-Hand",
-          "Riften"
+          "Riften",
+          "trade",
+          "commerce",
+          "marriage",
+          "anxiety"
         ],
         "type": "KNOWLEDGE"
       },
@@ -949,7 +1101,10 @@
           "Snippy",
           "Argonian",
           "Riften Fishery",
-          "Riften"
+          "Riften",
+          "fishing",
+          "labor",
+          "industry"
         ],
         "type": "KNOWLEDGE"
       },
@@ -966,7 +1121,10 @@
           "Swims-In-Deep-Water",
           "Argonian",
           "Riften Fishery",
-          "Riften"
+          "Riften",
+          "fishing",
+          "labor",
+          "industry"
         ],
         "type": "KNOWLEDGE"
       },
@@ -983,7 +1141,10 @@
           "Viriya",
           "Argonian",
           "Riften Fishery",
-          "Riften"
+          "Riften",
+          "fishing",
+          "labor",
+          "industry"
         ],
         "type": "KNOWLEDGE"
       },
@@ -999,7 +1160,10 @@
         "tags": [
           "Molgrom Twice-Killed",
           "Riften Jail",
-          "Riften"
+          "Riften",
+          "imprisonment",
+          "survival",
+          "crime"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1015,7 +1179,10 @@
         "tags": [
           "Threki the Innocent",
           "Riften Jail",
-          "Riften"
+          "Riften",
+          "imprisonment",
+          "injustice",
+          "innocence"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1032,7 +1199,10 @@
           "Hofgrir Horse-Crusher",
           "Riften Stables",
           "Riften",
-          "stablemaster"
+          "stablemaster",
+          "horses",
+          "stable",
+          "trade"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1050,7 +1220,11 @@
           "Riften Stables",
           "Sapphire",
           "Thieves Guild",
-          "Riften"
+          "Riften",
+          "stable",
+          "debt",
+          "labor",
+          "horses"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1067,7 +1241,10 @@
           "Sigaar",
           "Riften Stables",
           "Redguard",
-          "Riften"
+          "Riften",
+          "stable",
+          "labor",
+          "horses"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1084,7 +1261,10 @@
           "Orini Dral",
           "Riften Warehouse",
           "Dunmer",
-          "Riften"
+          "Riften",
+          "warehouse",
+          "labor",
+          "nervous"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1101,7 +1281,10 @@
           "Sarthis Idren",
           "Riften Warehouse",
           "skooma",
-          "Riften"
+          "Riften",
+          "crime",
+          "drugs",
+          "dealership"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1118,7 +1301,10 @@
           "Addvild",
           "Snow-Shod Farm",
           "Nord",
-          "Riften"
+          "Riften",
+          "farming",
+          "agriculture",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1135,7 +1321,10 @@
           "Leonara Arius",
           "Snow-Shod Farm",
           "Imperial",
-          "Riften"
+          "Riften",
+          "farming",
+          "agriculture",
+          "labor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1153,7 +1342,9 @@
           "Snow-Shod Manor",
           "Nord",
           "Riften",
-          "Stormcloak"
+          "Stormcloak",
+          "nobility",
+          "legacy"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1170,7 +1361,10 @@
           "Nura Snow-Shod",
           "Snow-Shod Manor",
           "Nord",
-          "Riften"
+          "Riften",
+          "nobility",
+          "family",
+          "management"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1188,7 +1382,10 @@
           "Snow-Shod Manor",
           "Nord",
           "Riften",
-          "Stormcloak"
+          "Stormcloak",
+          "nobility",
+          "patriarch",
+          "tradition"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1205,7 +1402,10 @@
           "Briehl",
           "Temple of Mara",
           "Riften",
-          "priest"
+          "priest",
+          "religion",
+          "worship",
+          "temple"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1223,7 +1423,10 @@
           "Temple of Mara",
           "Maramal",
           "Riften",
-          "priestess"
+          "priestess",
+          "religion",
+          "marriage",
+          "counseling"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1241,7 +1444,10 @@
           "Bee and Barb",
           "Nord",
           "Riften",
-          "Frost"
+          "Frost",
+          "horses",
+          "thievery",
+          "scheme"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1277,7 +1483,10 @@
           "Harrald",
           "Mistveil Keep",
           "Riften",
-          "Laila Law-Giver"
+          "Laila Law-Giver",
+          "nobility",
+          "youth",
+          "childhood"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1295,7 +1504,10 @@
           "Mistveil Keep",
           "Riften",
           "Laila Law-Giver",
-          "Imperial"
+          "Imperial",
+          "nobility",
+          "conflict",
+          "family"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1313,7 +1525,10 @@
           "Scorched Hammer",
           "Riften",
           "Balimund",
-          "apprentice"
+          "apprentice",
+          "smithing",
+          "crafting",
+          "apprenticeship"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1329,7 +1544,10 @@
         "tags": [
           "Valindor",
           "Altmer",
-          "Riften"
+          "Riften",
+          "magic",
+          "reclusive",
+          "wizard"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1346,7 +1564,9 @@
           "Drahff",
           "Ratway",
           "Riften",
-          "vagrant"
+          "vagrant",
+          "poverty",
+          "sewer"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1366,7 +1586,11 @@
           "Blades",
           "dragons",
           "Alduin",
-          "Thalmor"
+          "Thalmor",
+          "refugee",
+          "hidden",
+          "knowledge",
+          "survival"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1383,7 +1607,9 @@
           "Gian the Fist",
           "Ratway",
           "Riften",
-          "vagrant"
+          "vagrant",
+          "poverty",
+          "sewer"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1400,7 +1626,10 @@
           "Hefid the Deaf",
           "Ratway",
           "Riften",
-          "vagrant"
+          "vagrant",
+          "poverty",
+          "sewer",
+          "deafness"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1417,7 +1646,10 @@
           "Hewnon Black-Skeever",
           "Ratway",
           "Riften",
-          "skeever"
+          "skeever",
+          "vermin",
+          "sewer",
+          "creature"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1434,7 +1666,9 @@
           "Knjakr",
           "Ratway",
           "Riften",
-          "vagrant"
+          "vagrant",
+          "poverty",
+          "sewer"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1452,7 +1686,9 @@
           "Ratway",
           "Riften",
           "vagrant",
-          "Breton"
+          "Breton",
+          "poverty",
+          "sewer"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1470,7 +1706,10 @@
           "Ragged Flagon",
           "Thieves Guild",
           "blacksmith",
-          "Riften"
+          "Riften",
+          "smithing",
+          "crafting",
+          "thievery"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1489,7 +1728,10 @@
           "Thieves Guild",
           "bouncer",
           "Maul",
-          "Riften"
+          "Riften",
+          "thievery",
+          "security",
+          "enforcement"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1508,7 +1750,10 @@
           "Thieves Guild",
           "face sculptor",
           "Dunmer",
-          "Riften"
+          "Riften",
+          "cosmetics",
+          "transformation",
+          "thievery"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1526,7 +1771,10 @@
           "Ragged Flagon",
           "Thieves Guild",
           "Breton",
-          "Riften"
+          "Riften",
+          "patron",
+          "thievery",
+          "observer"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1544,7 +1792,10 @@
           "Ragged Flagon",
           "Thieves Guild",
           "Dunmer",
-          "Riften"
+          "Riften",
+          "thievery",
+          "odd jobs",
+          "crime"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1562,7 +1813,10 @@
           "Ragged Flagon",
           "Thieves Guild",
           "Dunmer",
-          "Riften"
+          "Riften",
+          "thievery",
+          "supply",
+          "logistics"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1580,7 +1834,10 @@
           "Cistern",
           "Thieves Guild",
           "Breton",
-          "Riften"
+          "Riften",
+          "thievery",
+          "crime",
+          "training"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1598,7 +1855,10 @@
           "Cistern",
           "Thieves Guild",
           "Breton",
-          "Riften"
+          "Riften",
+          "thievery",
+          "lockpicking",
+          "infiltration"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1616,7 +1876,10 @@
           "Cistern",
           "Thieves Guild",
           "Nord",
-          "Riften"
+          "Riften",
+          "thievery",
+          "crime",
+          "muscle"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1634,7 +1897,10 @@
           "Cistern",
           "Thieves Guild",
           "Bosmer",
-          "Riften"
+          "Riften",
+          "thievery",
+          "archery",
+          "scouting"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1652,7 +1918,10 @@
           "Cistern",
           "Thieves Guild",
           "Dunmer",
-          "Riften"
+          "Riften",
+          "thievery",
+          "night",
+          "stealth"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1670,7 +1939,10 @@
           "Cistern",
           "Thieves Guild",
           "Imperial",
-          "Riften"
+          "Riften",
+          "thievery",
+          "planning",
+          "heist"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1688,7 +1960,10 @@
           "Cistern",
           "Thieves Guild",
           "Nord",
-          "Riften"
+          "Riften",
+          "thievery",
+          "crime",
+          "heist"
         ],
         "type": "KNOWLEDGE"
       },
@@ -1706,7 +1981,10 @@
           "Cistern",
           "Thieves Guild",
           "Nord",
-          "Riften"
+          "Riften",
+          "thievery",
+          "crime",
+          "lockpicking"
         ],
         "type": "KNOWLEDGE"
       }
