@@ -1,6 +1,6 @@
 # Vanilla Knowledge Packs for SkyrimNet
 
-A bundle of 45 SkyrimNet knowledge packs covering vanilla Skyrim and DLCs. Notable people, buildings, quests, dungeons, mines, and Orc strongholds. Every entry is faction-scoped so it doesn't leak to NPCs who'd have no reason to know.
+A bundle of 45 SkyrimNet knowledge packs covering vanilla Skyrim and DLCs. ~840 entries: notable people, buildings, quests, dungeons, mines, and Orc strongholds. Every entry is faction-scoped so it doesn't leak to NPCs who'd have no reason to know.
 
 Ships with a one-click **Bulk Importer** so you don't have to click *Import Pack* 45 times.
 
@@ -22,7 +22,7 @@ Ships with a one-click **Bulk Importer** so you don't have to click *Import Pack
 
 ## What's in the bundle
 
-45 packs, 500 entries total. Every pack name is prefixed `_VKP - ` so they sort together in the SkyrimNet pack list.
+45 packs, ~840 entries total. Every pack name is prefixed `_VKP - ` so they sort together in the SkyrimNet pack list.
 
 | Category | Packs | Examples |
 |---|---|---|
@@ -195,6 +195,16 @@ If any specific entry's `condition_expr` doesn't fire on an NPC you expect, the 
 
 ## Changelog
 
+### Pack content updates (2026-05-18)
+
+Several rounds of edits to the pack data itself. None of these change the install process; just re-run the Bulk Importer in Replace mode after pulling the new files and your existing packs will be swapped out.
+
+- **Notable People rosters roughly tripled.** The Notable People packs originally had only the most prominent characters per city. Added the rest of each city's named residents: shopkeepers, smiths, mages, beggars, retired soldiers, mill workers, dockhands, minor court members, faction members, and so on. New counts: Dawnstar 28, Falkreath 31, Markarth 86, Morthal 18, Riften 96, Solitude 82, Whiterun 77, Windhelm 66, Winterhold 35. About 340 new people-entries across the bundle.
+- **Expanded tags on every Notable People entry.** Previously the tags were almost all proper nouns (the character's name, their family, their building). Added concept tags so the SkyrimNet tag search can surface a character by topic. Example: the court mage now has `magic` as a tag, so asking "does anyone here know magic?" can pull them up. Common new tags include `governance`, `military`, `mining`, `hospitality`, `music`, `faith`, `worship`, `redemption`, `feud`, `rivalry`, `domestic`, `veteran`.
+- **Expanded tags on every quest entry.** Quest entries used to be tagged only with the quest's own name plus a generic `quest` tag, which made tag search useless for quests. Replaced with topical tags: hold name, quest category (`assassination`, `delivery`, `investigation`, `fetch`, `maritime`, `ritual`, etc.), quest classification (`misc_quest`, `side_quest`, `dark_brotherhood`), and key NPCs involved. Now an NPC can be matched to a quest by what the quest is *about*, not just by its in-game title.
+- **Faction-name cleanup.** Several condition_expr strings had a stray `@` prefix on faction names (e.g. `is_in_faction(actorUUID, "@ThievesGuildFaction")`). The `@` was a leftover marker from the conversion pipeline that wasn't supposed to ship. Those conditions would never fire because no faction is literally named `@ThievesGuildFaction`. Affected several Notable People packs (Riften and Solitude were the largest); now stripped clean.
+- **Morthal mill tag scoping fix.** The Morthal Lumber Mill building entry had `Lami` and `Idgrod` listed as tags, which would cause it to inject any time those names came up even when the conversation had nothing to do with the mill. Removed; the mill entry now tags only on the mill itself and its actual owner Jorgen.
+
 ### Bulk Importer v1.2 (2026-05-18)
 
 Critical safety fix. v1.1 could delete unrelated packs in Replace mode.
@@ -221,7 +231,7 @@ Critical safety fix. v1.1 could delete unrelated packs in Replace mode.
 
 ### Vanilla Knowledge Packs (initial release, 2026-05-18)
 
-- 45 packs, 500 entries covering vanilla Skyrim + DLCs.
+- 45 packs covering vanilla Skyrim + DLCs (~840 entries after the 2026-05-18 Notable People expansion).
 - Categories: hold quest packs, city building layouts, Notable People, hold dungeons, hold mines, Orc Strongholds + Code of Malacath.
 - Faction scoping per quest archetype: personal favors keyed on `actorName`, hold-public events on `Town`/`Guard` factions, guilds on the guild faction, court intrigue on individual court rosters, Orc strongholds on `CrimeFactionOrcs`.
 - Stage-gated quest content via Inja templates against `get_quest_stage(...)` with `{{ playerName }}` interpolation.
@@ -250,13 +260,14 @@ This bundle was built as a collaboration between `_gaius` and Claude (Anthropic'
 - Set the structural patterns the bundle follows: naming conventions, knowledge-key shape, per-category scope rules, pack naming, the workflow for exporting and importing into the SkyrimNet web UI.
 - Identified the `.sknpack` format from existing SkyrimNet packs and defined what the conversion pipeline needed to produce.
 - Reviewed every AI-authored entry against [UESP](https://en.uesp.net/wiki/Main_Page) and corrected the prose and faction references where the AI drift produced wrong names, wrong roles, wrong relationships, or non-canon details.
+- Used Deepseek v4 Flash for targeted bulk edits across the pack files when sweeping changes were faster than per-entry hand-editing. Examples: normalizing faction-name strings across hundreds of entries, fixing prose patterns that repeated incorrectly, applying a consistent rewrite to a whole category at once. Anything Deepseek touched was then re-checked against UESP.
 - Tested every iteration, caught failures (malformed templates, schema mismatches, duplicate-on-reimport behavior), and pushed corrections back.
 - Made every editorial call. Drove every decision about what belongs in scope and what doesn't.
 
 ### Execution (Claude)
 
 - Queried the running Skyrim's plugin (FormIDs, editor IDs, quest stage indices) to ground every entry in actual game data rather than guesses.
-- Wrote the prose for all 500 entries: building layouts, NPC bios, dungeon descriptions, mine summaries, multi-stage quest narratives.
+- Wrote the prose for the bundle's entries: building layouts, NPC bios, dungeon descriptions, mine summaries, multi-stage quest narratives.
 - Applied the scoping rules to each entry: personal favors to `actorName` checks, hold-public events to `Town`/`Guard` factions, guild operations to guild faction, court intrigue to specific court rosters, Orc strongholds to `CrimeFactionOrcs`.
 - Cross-verified faction names against the SkyrimNet faction registry and live entry corpus; corrected several initial guesses before final export.
 - Wrote the conversion pipeline that wraps source data in the `.sknpack` schema.
