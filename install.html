@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><title>SkyrimNet Bulk Importer v1.1 — Install</title>
+<html lang="en"><head><meta charset="utf-8"><title>SkyrimNet Bulk Importer v1.2 — Install</title>
 <style>
   body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#0f172a;color:#e2e8f0;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.6}
   h1{color:#22c55e;margin-bottom:0}
@@ -7,90 +7,115 @@
   h3{color:#fbbf24;margin-top:24px}
   code,pre{background:#1e293b;border:1px solid #334155;border-radius:4px;padding:2px 6px;font-family:ui-monospace,monospace;font-size:13px}
   pre{padding:12px;overflow-x:auto;white-space:pre-wrap;word-break:break-all}
-  .bookmarklet{display:inline-block;background:#22c55e;color:#0f172a;font-weight:bold;padding:10px 20px;border-radius:8px;text-decoration:none;margin:10px 0}
+  .bookmarklet{display:inline-block;background:#22c55e;color:#0f172a;font-weight:bold;padding:10px 20px;border-radius:8px;text-decoration:none;margin:10px 0;border:none;cursor:pointer;font-size:14px}
   .bookmarklet:hover{background:#16a34a}
   .note{background:#1e293b;border-left:4px solid #67e8f9;padding:10px 16px;margin:16px 0;border-radius:4px}
   .warn{background:#1e293b;border-left:4px solid #fbbf24;padding:10px 16px;margin:16px 0;border-radius:4px}
+  .danger{background:#451a1a;border-left:4px solid #f87171;padding:10px 16px;margin:16px 0;border-radius:4px}
   ol li,ul li{margin:6px 0}
   .v{font-size:14px;color:#94a3b8;font-weight:normal}
   table{border-collapse:collapse;margin:12px 0;font-size:14px}
   table td,table th{border:1px solid #334155;padding:6px 12px;text-align:left}
   table th{background:#1e293b;color:#67e8f9}
   .ok{color:#22c55e}.warnc{color:#fbbf24}.fail{color:#f87171}
+  kbd{background:#334155;border:1px solid #475569;border-bottom-width:2px;border-radius:4px;padding:1px 7px;font-family:ui-monospace,monospace;font-size:12px;color:#e2e8f0;display:inline-block;line-height:1.2}
 </style></head><body>
-<h1>SkyrimNet Bulk Importer <span class="v">v1.1</span></h1>
-<p>Pick a folder full of <code>.sknpack</code> files. Imports them all in one go, with optional replacement of existing packs that share a name.</p>
+<h1>SkyrimNet Bulk Importer <span class="v">v1.2</span></h1>
+<p>Pick a folder full of <code>.sknpack</code> files. Imports them all in one go, with optional safe replacement of existing packs that share a name.</p>
 
 <h2>Why this exists</h2>
-<p>The SkyrimNet web UI's <strong>Import Pack</strong> button takes one file at a time. For a release like the Vanilla Knowledge Packs bundle (45 files), that&rsquo;s 45 clicks plus a separate confirmation each. This tool reduces it to one click, one folder pick.</p>
+<p>The SkyrimNet web UI&rsquo;s <strong>Import Pack</strong> button takes one file at a time. For a 45-file bundle, that&rsquo;s 45 clicks plus a separate confirmation each. This tool reduces it to one click, one folder pick.</p>
 
 <h2>Install</h2>
 
-<h3>Option 1 &mdash; Bookmarklet</h3>
-<p><strong>Drag this link to your bookmarks bar:</strong></p>
-<p><a class="bookmarklet" href="javascript:%28async%20function%28%29%7B%20function%20makeOverlay%28%29%7B%20const%20o%3Ddocument.createElement%28%27div%27%29%3B%20o.style.cssText%3D%27position%3Afixed%3Btop%3A20px%3Bright%3A20px%3Bbackground%3A%231e293b%3Bcolor%3A%23fff%3Bpadding%3A16px%2020px%3Bborder-radius%3A10px%3Bfont-family%3Aui-monospace%2Cmonospace%3Bz-index%3A99999%3Bbox-shadow%3A0%2012px%2032px%20rgba%280%2C0%2C0%2C0.6%29%3Bmin-width%3A340px%3Bborder%3A1px%20solid%20%23334155%3Bfont-size%3A13px%3Bline-height%3A1.5%27%3B%20o.innerHTML%3D%27%3Cdiv%20style%3D%22font-weight%3Abold%3Bmargin-bottom%3A8px%3Bcolor%3A%2322c55e%3Bfont-size%3A14px%22%3ESkyrimNet%20Bulk%20Import%3C%2Fdiv%3E%3Cdiv%20id%3D%22skn-bulk-status%22%3EChoose%20folder...%3C%2Fdiv%3E%3Cdiv%20style%3D%22margin-top%3A10px%3Btext-align%3Aright%22%3E%3Ca%20href%3D%22%23%22%20id%3D%22skn-bulk-close%22%20style%3D%22color%3A%2394a3b8%3Btext-decoration%3Anone%3Bfont-size%3A11px%22%3Eclose%3C%2Fa%3E%3C%2Fdiv%3E%27%3B%20document.body.appendChild%28o%29%3B%20o.querySelector%28%27%23skn-bulk-close%27%29.addEventListener%28%27click%27%2Ce%3D%3E%7Be.preventDefault%28%29%3Bo.remove%28%29%3B%7D%29%3B%20return%20o.querySelector%28%27%23skn-bulk-status%27%29%3B%20%7D%20function%20findDeleteBtn%28name%29%7B%20const%20w%3Dname.trim%28%29%3B%20for%28const%20el%20of%20document.querySelectorAll%28%27h1%2Ch2%2Ch3%2Ch4%2Ch5%2Ch6%2Cdiv%2Cspan%2Ca%2Cp%27%29%29%7B%20if%28el.children.length%3D%3D%3D0%26%26el.textContent.trim%28%29%3D%3D%3Dw%29%7B%20let%20c%3Del%3B%20for%28let%20i%3D0%3Bi%3C10%26%26c%3Bi%2B%2B%29%7B%20c%3Dc.parentElement%3Bif%28%21c%29break%3B%20const%20b%3D%5B...c.querySelectorAll%28%27button%27%29%5D.find%28b%3D%3E%2F%5E%5Cs%2Adelete%5Cs%2A%24%2Fi.test%28b.textContent%29%29%3B%20if%28b%29return%20b%3B%20%7D%20%7D%20%7D%20return%20null%3B%20%7D%20const%20status%3DmakeOverlay%28%29%3B%20try%7B%20if%28%21window.showDirectoryPicker%29%7Bstatus.innerHTML%3D%27%3Cspan%20style%3D%22color%3A%23f87171%22%3EUse%20Chrome%20or%20Edge.%3C%2Fspan%3E%27%3Breturn%3B%7D%20let%20dir%3Btry%7Bdir%3Dawait%20window.showDirectoryPicker%28%29%3B%7Dcatch%7Bstatus.textContent%3D%27Cancelled.%27%3Breturn%3B%7D%20status.textContent%3D%27Reading%20folder...%27%3B%20const%20files%3D%5B%5D%3B%20for%20await%28const%20%5Bn%2Ch%5D%20of%20dir.entries%28%29%29%7B%20if%28h.kind%3D%3D%3D%27file%27%26%26n.endsWith%28%27.sknpack%27%29%29%7B%20const%20f%3Dawait%20h.getFile%28%29%3B%20let%20pn%3Dn.replace%28%2F%5C.sknpack%24%2F%2C%27%27%29.replace%28%2F_%2Fg%2C%27%20%27%29%3B%20try%7Bconst%20p%3DJSON.parse%28await%20f.text%28%29%29%3Bpn%3Dp%3F.skyrimnet_knowledge_pack%3F.name%7C%7Cpn%3B%7Dcatch%7B%7D%20files.push%28%7Bfile%3Af%2CpackName%3Apn%7D%29%3B%20%7D%20%7D%20if%28%21files.length%29%7Bstatus.innerHTML%3D%27%3Cspan%20style%3D%22color%3A%23fbbf24%22%3ENo%20.sknpack%20files%20found.%3C%2Fspan%3E%27%3Breturn%3B%7D%20const%20overwrite%3Dconfirm%28%60Found%20%24%7Bfiles.length%7D%20.sknpack%20files.%5Cn%5CnOK%20%3D%20Replace%20existing%20packs%20with%20the%20same%20name%5CnCancel%20%3D%20Add%20as%20duplicates%20with%20%22%281%29%22%20suffix%60%29%3B%20let%20input%3Ddocument.querySelector%28%27input%5Btype%3D%22file%22%5D%27%29%3B%20if%28%21input%29%7B%20const%20btn%3D%5B...document.querySelectorAll%28%27button%27%29%5D.find%28b%3D%3E%2Fimport%5Cs%2Apack%2Fi.test%28b.textContent%29%29%3B%20if%28%21btn%29%7Bstatus.innerHTML%3D%27%3Cspan%20style%3D%22color%3A%23f87171%22%3EImport%20Pack%20button%20not%20found.%3C%2Fspan%3E%27%3Breturn%3B%7D%20const%20orig%3DHTMLInputElement.prototype.click%3B%20HTMLInputElement.prototype.click%3Dfunction%28%29%7Bif%28this.type%3D%3D%3D%27file%27%29%20input%3Dthis%3B%7D%3B%20btn.click%28%29%3B%20HTMLInputElement.prototype.click%3Dorig%3B%20%7D%20if%28%21input%29%7Bstatus.innerHTML%3D%27%3Cspan%20style%3D%22color%3A%23f87171%22%3ECould%20not%20capture%20file%20input.%3C%2Fspan%3E%27%3Breturn%3B%7D%20let%20ok%3D0%2Crep%3D0%2Cfail%3D0%3B%20for%28let%20i%3D0%3Bi%3Cfiles.length%3Bi%2B%2B%29%7B%20const%20%7Bfile%2CpackName%7D%3Dfiles%5Bi%5D%3B%20status.innerHTML%3D%60%3Cdiv%3E%5B%24%7Bi%2B1%7D%2F%24%7Bfiles.length%7D%5D%20%3Cspan%20style%3D%22color%3A%2367e8f9%22%3E%24%7BpackName%7D%3C%2Fspan%3E%3C%2Fdiv%3E%3Cdiv%20style%3D%22margin-top%3A6px%22%3E%3Cspan%20style%3D%22color%3A%2322c55e%22%3E%E2%9C%93%20%24%7Bok%7D%3C%2Fspan%3E%20%C2%B7%20%3Cspan%20style%3D%22color%3A%23fbbf24%22%3E%E2%86%BB%20%24%7Brep%7D%3C%2Fspan%3E%20%C2%B7%20%3Cspan%20style%3D%22color%3A%23f87171%22%3E%E2%9C%97%20%24%7Bfail%7D%3C%2Fspan%3E%3C%2Fdiv%3E%60%3B%20try%7B%20if%28overwrite%29%7B%20const%20db%3DfindDeleteBtn%28packName%29%3B%20if%28db%29%7Bconst%20oc%3Dwindow.confirm%3Bwindow.confirm%3D%28%29%3D%3Etrue%3Btry%7Bdb.click%28%29%3B%7Dfinally%7Bwindow.confirm%3Doc%3B%7Dawait%20new%20Promise%28r%3D%3EsetTimeout%28r%2C1500%29%29%3Brep%2B%2B%3B%7D%20%7D%20const%20dt%3Dnew%20DataTransfer%28%29%3B%20dt.items.add%28file%29%3B%20input.value%3D%27%27%3B%20input.files%3Ddt.files%3B%20input.dispatchEvent%28new%20Event%28%27change%27%2C%7Bbubbles%3Atrue%7D%29%29%3B%20await%20new%20Promise%28r%3D%3EsetTimeout%28r%2C2500%29%29%3B%20ok%2B%2B%3B%20%7Dcatch%28e%29%7Bconsole.error%28packName%2Ce%29%3Bfail%2B%2B%3B%7D%20%7D%20status.innerHTML%3D%60%3Cdiv%20style%3D%22color%3A%2322c55e%3Bfont-weight%3Abold%3Bfont-size%3A14px%22%3EDone%3C%2Fdiv%3E%3Cdiv%20style%3D%22margin-top%3A4px%22%3E%24%7Bok%7D%20imported%20%C2%B7%20%24%7Brep%7D%20replaced%20%C2%B7%20%24%7Bfail%7D%20failed%3C%2Fdiv%3E%60%3B%20%7Dcatch%28e%29%7Bconsole.error%28%27%5Bbulk-import%5D%27%2Ce%29%3Bstatus.innerHTML%3D%60%3Cspan%20style%3D%22color%3A%23f87171%22%3EError%3A%20%24%7Be.message%7D%3C%2Fspan%3E%60%3B%7D%20%7D%29%28%29%3B">Bulk Import .sknpack</a></p>
+<h3>Option 1 &mdash; Bookmarklet (no extension required)</h3>
+<p>Click the green button below. It opens <code>bookmarklet.txt</code> in a new tab. Copy that file&rsquo;s contents and paste them into a new bookmark, following the steps below.</p>
+
+<p><a class="bookmarklet" id="bm-link" href="bookmarklet.txt" target="_blank">Open Bookmarklet URL</a></p>
+<p id="bm-status" style="color:#94a3b8;font-size:12px;min-height:1.2em;margin-top:-6px"></p>
+
+<div class="note"><strong>Add the URL as a bookmark:</strong>
 <ol>
-  <li>Drag the green button above onto your browser&rsquo;s bookmarks bar.</li>
-  <li>Open the SkyrimNet web UI at <code>http://localhost:8080</code>, navigate to the Knowledge Packs page.</li>
-  <li>Click the bookmark.</li>
+  <li>Click the green button. A new tab opens with the bookmarklet URL inside.</li>
+  <li>In that new tab, click anywhere in the text. Press <kbd>Ctrl</kbd>+<kbd>A</kbd> to select all. Press <kbd>Ctrl</kbd>+<kbd>C</kbd> to copy.</li>
+  <li>Switch back to this tab. If your bookmarks bar isn&rsquo;t visible, press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> to show it (the strip just below the address bar).</li>
+  <li>Right-click an empty spot on the bookmarks bar.</li>
+  <li>Choose <strong>Add favorite</strong> (Edge) / <strong>Add page</strong> (Chrome) / <strong>New Bookmark</strong> (Firefox).</li>
+  <li>In the <strong>Name</strong> field, type something memorable &mdash; e.g. <code>Bulk Import</code>.</li>
+  <li>Click in the <strong>URL</strong> field. Delete anything already there. Press <kbd>Ctrl</kbd>+<kbd>V</kbd> to paste the bookmarklet URL.</li>
+  <li>Click <strong>Save</strong>. The bookmark now sits on your bookmarks bar.</li>
+</ol>
+</div>
+
+<p><strong>To use it:</strong></p>
+<ol>
+  <li>Open the SkyrimNet web UI at <code>http://localhost:8080</code> on the Knowledge Packs page.</li>
+  <li>Click your new <strong>Bulk Import</strong> bookmark.</li>
   <li>Pick the folder containing your <code>.sknpack</code> files.</li>
   <li>Answer the replace-existing prompt (see below).</li>
   <li>Wait. Progress overlay top-right shows each file as it imports.</li>
 </ol>
-<div class="note"><strong>Drag doesn&rsquo;t work?</strong> Right-click bookmarks bar &rarr; Add page&hellip; &rarr; paste the URL from <code>bookmarklet.txt</code> into the URL field. Name it whatever you like.</div>
 
 <h3>Option 2 &mdash; Tampermonkey userscript (recommended for repeat use)</h3>
 <p>Adds a permanent <strong>Bulk Import</strong> button next to the existing <strong>Import Pack</strong> button on every page load.</p>
+
+<div class="warn"><strong>Modern browsers block automatic userscript installs.</strong> If you try to open the <code>.user.js</code> file directly, you may see a popup that says <em>&ldquo;We can&rsquo;t add apps, extensions, or user scripts from this website.&rdquo;</em> That&rsquo;s normal. Tampermonkey can still install the script &mdash; you just have to paste it in manually.</div>
+
 <ol>
-  <li>Install <a href="https://www.tampermonkey.net/" style="color:#67e8f9">Tampermonkey</a> (Chrome / Edge / Firefox) or <a href="https://violentmonkey.github.io/" style="color:#67e8f9">Violentmonkey</a>.</li>
-  <li>Open <code>skyrimnet-bulk-importer.user.js</code> in your browser. Your userscript manager will offer to install.</li>
-  <li>Reload the SkyrimNet web UI. A green <strong>Bulk Import</strong> button now sits beside <strong>Import Pack</strong>.</li>
+  <li><strong>Install Tampermonkey first.</strong> Go to <a href="https://www.tampermonkey.net/" style="color:#67e8f9">tampermonkey.net</a> and click the install button for your browser. After it&rsquo;s installed, look at the top right of your browser window. You should see a small icon shaped like two black-and-red squares. If you don&rsquo;t see it, click the puzzle-piece icon (also top right) and pin Tampermonkey to your toolbar.</li>
+  <li><strong>Open the Tampermonkey Dashboard.</strong> Click the Tampermonkey icon. A small menu pops up. Click <strong>Dashboard</strong>. A new tab opens.</li>
+  <li><strong>Open the new-script editor.</strong> At the top of the Dashboard is a row of tabs. Find the <strong>+</strong> tab and click it. The page switches to a code editor with placeholder text. Ignore the placeholder.</li>
+  <li><strong>Clear the editor.</strong> Click anywhere in the code area. Press <kbd>Ctrl</kbd>+<kbd>A</kbd> to highlight everything. Press <kbd>Delete</kbd>. The editor is empty.</li>
+  <li><strong>Copy the script.</strong> Open <code>skyrimnet-bulk-importer.user.js</code>:
+    <ul>
+      <li><strong>On GitHub:</strong> click the file, then click the &ldquo;Copy raw file&rdquo; icon (two overlapping pages) in the top right of the file viewer.</li>
+      <li><strong>If you downloaded the ZIP:</strong> right-click the file, choose <strong>Open with</strong> &rarr; <strong>Notepad</strong> (Windows) or <strong>TextEdit</strong> (Mac). Click in the text, press <kbd>Ctrl</kbd>+<kbd>A</kbd> then <kbd>Ctrl</kbd>+<kbd>C</kbd>.</li>
+    </ul>
+  </li>
+  <li><strong>Paste into the editor.</strong> Switch to the Tampermonkey editor tab. Click inside the editor. Press <kbd>Ctrl</kbd>+<kbd>V</kbd>. The script appears &mdash; it starts with <code>// ==UserScript==</code>.</li>
+  <li><strong>Save.</strong> Press <kbd>Ctrl</kbd>+<kbd>S</kbd>, or click <strong>File</strong> &rarr; <strong>Save</strong>.</li>
+  <li><strong>Test.</strong> Reload the SkyrimNet web UI tab. A green <strong>Bulk Import</strong> button should appear next to <strong>Import Pack</strong>.</li>
 </ol>
+
+<div class="note"><strong>Button still not showing?</strong> Open the Tampermonkey Dashboard. &ldquo;SkyrimNet Bulk Pack Importer&rdquo; should appear in your installed-scripts list with a blue toggle switched on.</div>
 
 <h2>How it works</h2>
 
 <h3>The replace-existing prompt</h3>
-<p>Right after you pick the folder, a confirm dialog appears:</p>
+<p>After picking the folder, a confirm dialog appears:</p>
 <pre>Found N .sknpack files.
 
-OK     = Replace any existing pack with the same name (delete old, import new)
-Cancel = Add as new packs (duplicates get a "(1)" suffix)</pre>
+REPLACE MODE: click OK ONLY IF you want any existing pack with the
+same name DELETED before the new one is imported. This is destructive.
 
-<p><strong>OK</strong> &mdash; for every file, the importer:</p>
+Click CANCEL to import safely (duplicates get "(1)" suffix).
+Recommended for first install.</pre>
+
+<p><strong>Cancel (default, safe):</strong> all files import as new packs. If a name collides with an existing pack, the new one gets a <code>(1)</code> suffix &mdash; nothing is deleted.</p>
+
+<p><strong>OK (Replace mode):</strong> a dry-run dialog appears next, listing every pack that would be deleted and re-imported. You confirm again before anything is actually deleted. For each file in scope:</p>
 <ol>
-  <li>Reads the pack <code>name</code> field from inside the <code>.sknpack</code> JSON (matches what the web UI displays).</li>
-  <li>Scans the page for a pack card whose visible title matches that name.</li>
-  <li>If found, locates that card&rsquo;s <strong>Delete</strong> button.</li>
-  <li>Temporarily overrides <code>window.confirm</code> to auto-accept the deletion dialog, clicks Delete, then restores <code>window.confirm</code>.</li>
-  <li>Waits 1.5 seconds for the page to refresh, then imports the new <code>.sknpack</code>.</li>
+  <li>Read the pack <code>name</code> field from the <code>.sknpack</code> JSON.</li>
+  <li>Search the page for a heading element (<code>h1</code>–<code>h6</code>) whose text matches exactly.</li>
+  <li>Walk up the DOM looking for the smallest ancestor that contains exactly one Delete button. If no ancestor matches uniquely, abort the delete for this entry &mdash; the file imports as a duplicate.</li>
+  <li>Temporarily override <code>window.confirm</code> to auto-accept SkyrimNet&rsquo;s delete dialog, click Delete, then restore <code>window.confirm</code>.</li>
+  <li>Wait 1.5 s for the page to refresh, then import the new <code>.sknpack</code>.</li>
 </ol>
-<p><strong>Cancel</strong> &mdash; the importer skips the delete step entirely and just imports each file. Packs with names that already exist will be created as <code>Pack Name (1)</code>, <code>Pack Name (2)</code>, and so on. Original behavior of v1.0.</p>
 
-<div class="warn"><strong>OK mode is destructive.</strong> Any pack with a matching name is deleted, along with all of its entries, before the new version is imported. If you have hand-edited entries in an existing pack, export it first or use Cancel mode and merge manually.</div>
-
-<h3>What the progress overlay shows</h3>
+<h3>Progress counter</h3>
 <table>
   <tr><th>Counter</th><th>Meaning</th></tr>
-  <tr><td><span class="ok">✓ imported</span></td><td>Files that successfully made it to the server.</td></tr>
-  <tr><td><span class="warnc">↻ replaced</span></td><td>Files where an existing pack with the same name was deleted first. Counts the deletion step, not the import &mdash; a replaced file is also counted as imported.</td></tr>
+  <tr><td><span class="ok">✓ imported</span></td><td>Files successfully sent to the server.</td></tr>
+  <tr><td><span class="warnc">↻ replaced</span></td><td>Files where an existing same-named pack was deleted first (Replace mode only).</td></tr>
   <tr><td><span class="fail">✗ failed</span></td><td>Files that errored. Check DevTools console (<kbd>F12</kbd>) for the underlying message.</td></tr>
 </table>
 
-<h3>What happens if a file is malformed</h3>
-<p>The file is fed to the same input the manual <strong>Import Pack</strong> button uses. The SkyrimNet web UI&rsquo;s own validation runs &mdash; if the file is bad, the UI reports its usual error (toast notification or alert) and the importer moves on to the next file. Failed files are counted as <span class="fail">✗ failed</span>.</p>
-
 <h2>Troubleshooting</h2>
 <ul>
-  <li><strong>Firefox</strong>: not supported yet &mdash; needs <code>showDirectoryPicker</code>. Use Chrome or Edge.</li>
-  <li><strong>Bookmark doesn&rsquo;t do anything</strong>: confirm you opened the SkyrimNet web UI page <em>before</em> clicking the bookmark. The script needs the page&rsquo;s DOM.</li>
-  <li><strong>&ldquo;Could not capture file input&rdquo;</strong>: the SkyrimNet UI changed its DOM layout. Open an issue or paste the console log; the selectors will need a tweak.</li>
-  <li><strong>Replace mode skipped a pack that should have been deleted</strong>: the importer matches the pack <code>name</code> from the JSON exactly against text on the page. If the existing pack has a different name (e.g. capitalisation, prefix, trailing whitespace), it won&rsquo;t match. Fix the JSON&rsquo;s <code>name</code> field or rename the existing pack in the UI first.</li>
-  <li><strong>Imports are slow / timing out</strong>: open the userscript in your manager&rsquo;s editor and bump <code>DELAY_IMPORT</code> from <code>2500</code> ms to <code>4000</code> or <code>5000</code>.</li>
+  <li><strong>Firefox</strong> &mdash; not supported. <code>showDirectoryPicker</code> isn&rsquo;t there yet. Use Chrome or Edge.</li>
+  <li><strong>&ldquo;Import Pack button not found&rdquo;</strong> &mdash; the SkyrimNet UI changed its DOM layout. The bookmarklet/userscript selectors will need a tweak.</li>
+  <li><strong>Replace mode silently skipped a pack</strong> &mdash; the pack <code>name</code> in your <code>.sknpack</code> JSON doesn&rsquo;t match the existing pack name exactly. Capitalisation, prefix differences (<code>_VKP - </code>), or trailing whitespace will cause a name mismatch. Fix the JSON or rename the existing pack in the UI first.</li>
+  <li><strong>Imports are slow / timing out</strong> &mdash; edit the userscript and bump <code>DELAY_IMPORT</code> from <code>2500</code> ms to <code>4000</code> or <code>5000</code>.</li>
 </ul>
-
-<h2>Source</h2>
-<p>Userscript file is plain JavaScript &mdash; readable, ~140 lines. Bookmarklet is the same logic minified and URL-encoded. No external dependencies.</p>
-
-<details><summary>Show raw bookmarklet URL</summary><pre>javascript:%28async%20function%28%29%7B%20function%20makeOverlay%28%29%7B%20const%20o%3Ddocument.createElement%28%27div%27%29%3B%20o.style.cssText%3D%27position%3Afixed%3Btop%3A20px%3Bright%3A20px%3Bbackground%3A%231e293b%3Bcolor%3A%23fff%3Bpadding%3A16px%2020px%3Bborder-radius%3A10px%3Bfont-family%3Aui-monospace%2Cmonospace%3Bz-index%3A99999%3Bbox-shadow%3A0%2012px%2032px%20rgba%280%2C0%2C0%2C0.6%29%3Bmin-width%3A340px%3Bborder%3A1px%20solid%20%23334155%3Bfont-size%3A13px%3Bline-height%3A1.5%27%3B%20o.innerHTML%3D%27%3Cdiv%20style%3D%22font-weight%3Abold%3Bmargin-bottom%3A8px%3Bcolor%3A%2322c55e%3Bfont-size%3A14px%22%3ESkyrimNet%20Bulk%20Import%3C%2Fdiv%3E%3Cdiv%20id%3D%22skn-bulk-status%22%3EChoose%20folder...%3C%2Fdiv%3E%3Cdiv%20style%3D%22margin-top%3A10px%3Btext-align%3Aright%22%3E%3Ca%20href%3D%22%23%22%20id%3D%22skn-bulk-close%22%20style%3D%22color%3A%2394a3b8%3Btext-decoration%3Anone%3Bfont-size%3A11px%22%3Eclose%3C%2Fa%3E%3C%2Fdiv%3E%27%3B%20document.body.appendChild%28o%29%3B%20o.querySelector%28%27%23skn-bulk-close%27%29.addEventListener%28%27click%27%2Ce%3D%3E%7Be.preventDefault%28%29%3Bo.remove%28%29%3B%7D%29%3B%20return%20o.querySelector%28%27%23skn-bulk-status%27%29%3B%20%7D%20function%20findDeleteBtn%28name%29%7B%20const%20w%3Dname.trim%28%29%3B%20for%28const%20el%20of%20document.querySelectorAll%28%27h1%2Ch2%2Ch3%2Ch4%2Ch5%2Ch6%2Cdiv%2Cspan%2Ca%2Cp%27%29%29%7B%20if%28el.children.length%3D%3D%3D0%26%26el.textContent.trim%28%29%3D%3D%3Dw%29%7B%20let%20c%3Del%3B%20for%28let%20i%3D0%3Bi%3C10%26%26c%3Bi%2B%2B%29%7B%20c%3Dc.parentElement%3Bif%28%21c%29break%3B%20const%20b%3D%5B...c.querySelectorAll%28%27button%27%29%5D.find%28b%3D%3E%2F%5E%5Cs%2Adelete%5Cs%2A%24%2Fi.test%28b.textContent%29%29%3B%20if%28b%29return%20b%3B%20%7D%20%7D%20%7D%20return%20null%3B%20%7D%20const%20status%3DmakeOverlay%28%29%3B%20try%7B%20if%28%21window.showDirectoryPicker%29%7Bstatus.innerHTML%3D%27%3Cspan%20style%3D%22color%3A%23f87171%22%3EUse%20Chrome%20or%20Edge.%3C%2Fspan%3E%27%3Breturn%3B%7D%20let%20dir%3Btry%7Bdir%3Dawait%20window.showDirectoryPicker%28%29%3B%7Dcatch%7Bstatus.textContent%3D%27Cancelled.%27%3Breturn%3B%7D%20status.textContent%3D%27Reading%20folder...%27%3B%20const%20files%3D%5B%5D%3B%20for%20await%28const%20%5Bn%2Ch%5D%20of%20dir.entries%28%29%29%7B%20if%28h.kind%3D%3D%3D%27file%27%26%26n.endsWith%28%27.sknpack%27%29%29%7B%20const%20f%3Dawait%20h.getFile%28%29%3B%20let%20pn%3Dn.replace%28%2F%5C.sknpack%24%2F%2C%27%27%29.replace%28%2F_%2Fg%2C%27%20%27%29%3B%20try%7Bconst%20p%3DJSON.parse%28await%20f.text%28%29%29%3Bpn%3Dp%3F.skyrimnet_knowledge_pack%3F.name%7C%7Cpn%3B%7Dcatch%7B%7D%20files.push%28%7Bfile%3Af%2CpackName%3Apn%7D%29%3B%20%7D%20%7D%20if%28%21files.length%29%7Bstatus.innerHTML%3D%27%3Cspan%20style%3D%22color%3A%23fbbf24%22%3ENo%20.sknpack%20files%20found.%3C%2Fspan%3E%27%3Breturn%3B%7D%20const%20overwrite%3Dconfirm%28%60Found%20%24%7Bfiles.length%7D%20.sknpack%20files.%5Cn%5CnOK%20%3D%20Replace%20existing%20packs%20with%20the%20same%20name%5CnCancel%20%3D%20Add%20as%20duplicates%20with%20%22%281%29%22%20suffix%60%29%3B%20let%20input%3Ddocument.querySelector%28%27input%5Btype%3D%22file%22%5D%27%29%3B%20if%28%21input%29%7B%20const%20btn%3D%5B...document.querySelectorAll%28%27button%27%29%5D.find%28b%3D%3E%2Fimport%5Cs%2Apack%2Fi.test%28b.textContent%29%29%3B%20if%28%21btn%29%7Bstatus.innerHTML%3D%27%3Cspan%20style%3D%22color%3A%23f87171%22%3EImport%20Pack%20button%20not%20found.%3C%2Fspan%3E%27%3Breturn%3B%7D%20const%20orig%3DHTMLInputElement.prototype.click%3B%20HTMLInputElement.prototype.click%3Dfunction%28%29%7Bif%28this.type%3D%3D%3D%27file%27%29%20input%3Dthis%3B%7D%3B%20btn.click%28%29%3B%20HTMLInputElement.prototype.click%3Dorig%3B%20%7D%20if%28%21input%29%7Bstatus.innerHTML%3D%27%3Cspan%20style%3D%22color%3A%23f87171%22%3ECould%20not%20capture%20file%20input.%3C%2Fspan%3E%27%3Breturn%3B%7D%20let%20ok%3D0%2Crep%3D0%2Cfail%3D0%3B%20for%28let%20i%3D0%3Bi%3Cfiles.length%3Bi%2B%2B%29%7B%20const%20%7Bfile%2CpackName%7D%3Dfiles%5Bi%5D%3B%20status.innerHTML%3D%60%3Cdiv%3E%5B%24%7Bi%2B1%7D%2F%24%7Bfiles.length%7D%5D%20%3Cspan%20style%3D%22color%3A%2367e8f9%22%3E%24%7BpackName%7D%3C%2Fspan%3E%3C%2Fdiv%3E%3Cdiv%20style%3D%22margin-top%3A6px%22%3E%3Cspan%20style%3D%22color%3A%2322c55e%22%3E%E2%9C%93%20%24%7Bok%7D%3C%2Fspan%3E%20%C2%B7%20%3Cspan%20style%3D%22color%3A%23fbbf24%22%3E%E2%86%BB%20%24%7Brep%7D%3C%2Fspan%3E%20%C2%B7%20%3Cspan%20style%3D%22color%3A%23f87171%22%3E%E2%9C%97%20%24%7Bfail%7D%3C%2Fspan%3E%3C%2Fdiv%3E%60%3B%20try%7B%20if%28overwrite%29%7B%20const%20db%3DfindDeleteBtn%28packName%29%3B%20if%28db%29%7Bconst%20oc%3Dwindow.confirm%3Bwindow.confirm%3D%28%29%3D%3Etrue%3Btry%7Bdb.click%28%29%3B%7Dfinally%7Bwindow.confirm%3Doc%3B%7Dawait%20new%20Promise%28r%3D%3EsetTimeout%28r%2C1500%29%29%3Brep%2B%2B%3B%7D%20%7D%20const%20dt%3Dnew%20DataTransfer%28%29%3B%20dt.items.add%28file%29%3B%20input.value%3D%27%27%3B%20input.files%3Ddt.files%3B%20input.dispatchEvent%28new%20Event%28%27change%27%2C%7Bbubbles%3Atrue%7D%29%29%3B%20await%20new%20Promise%28r%3D%3EsetTimeout%28r%2C2500%29%29%3B%20ok%2B%2B%3B%20%7Dcatch%28e%29%7Bconsole.error%28packName%2Ce%29%3Bfail%2B%2B%3B%7D%20%7D%20status.innerHTML%3D%60%3Cdiv%20style%3D%22color%3A%2322c55e%3Bfont-weight%3Abold%3Bfont-size%3A14px%22%3EDone%3C%2Fdiv%3E%3Cdiv%20style%3D%22margin-top%3A4px%22%3E%24%7Bok%7D%20imported%20%C2%B7%20%24%7Brep%7D%20replaced%20%C2%B7%20%24%7Bfail%7D%20failed%3C%2Fdiv%3E%60%3B%20%7Dcatch%28e%29%7Bconsole.error%28%27%5Bbulk-import%5D%27%2Ce%29%3Bstatus.innerHTML%3D%60%3Cspan%20style%3D%22color%3A%23f87171%22%3EError%3A%20%24%7Be.message%7D%3C%2Fspan%3E%60%3B%7D%20%7D%29%28%29%3B</pre></details>
 
 </body></html>
