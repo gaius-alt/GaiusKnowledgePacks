@@ -1,0 +1,90 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Corundum, ebony, and iron — Eastmarch's mines feed the Stormcloak war effort, and one feeds Malacath's Orcs.",
+    "entry_count": 4,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Mines of Eastmarch",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Steamscorch Mine outside Kynesgrove is Eastmarch's main corundum mine — heated by the hot springs that give the village its steam. The ore feeds Stormcloak forges across the hold.",
+        "display_name": "Steamscorch Mine - Corundum",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "mine.eastmarch.steamscorch",
+        "location": "",
+        "tags": [
+          "Steamscorch Mine",
+          "corundum",
+          "Kynesgrove",
+          "Eastmarch",
+          "Stormcloak supply",
+          "hot springs"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Goldenrock Mine at Darkwater Crossing is a small but productive corundum mine in southern Eastmarch — Verner Rock-Chucker and Sondas Drenim keep the settlement going off these veins.",
+        "display_name": "Goldenrock Mine - Corundum",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "mine.eastmarch.goldenrock",
+        "location": "",
+        "tags": [
+          "Goldenrock Mine",
+          "corundum",
+          "Darkwater Crossing",
+          "Eastmarch",
+          "Verner",
+          "Sondas"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Gloombound Mine is the ebony mine of Narzulbur in eastern Eastmarch — among the richest ebony veins in Tamriel. Chief Mauhulakh's Orcs work the deep shaft, and outsiders mining there is taken poorly.",
+        "display_name": "Gloombound Mine - Ebony",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "mine.eastmarch.gloombound",
+        "location": "",
+        "tags": [
+          "Gloombound Mine",
+          "ebony",
+          "Narzulbur",
+          "Eastmarch",
+          "Orc stronghold",
+          "Mauhulakh"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Deep below Eastmarch, in the Dwemer ruins of Raldbthar, lies a passage to Blackreach's Deep Market — and with it, several corundum veins. Few miners have ever laid eyes on them.",
+        "display_name": "Raldbthar Deep Market - Corundum Veins",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "mine.eastmarch.blackreach_corundum",
+        "location": "",
+        "tags": [
+          "Raldbthar",
+          "Blackreach",
+          "corundum",
+          "Dwemer",
+          "Eastmarch",
+          "deep market"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

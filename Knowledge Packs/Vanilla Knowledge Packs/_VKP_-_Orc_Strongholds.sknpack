@@ -1,0 +1,118 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "The four Orsimer strongholds of Skyrim — Largashbur, Mor Khazgur, Narzulbur, and Dushnikh Yal. Each is known to its surrounding hold, and to every Orc of the Code of Malacath.",
+    "entry_count": 5,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Orc Strongholds",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\") or is_in_faction(actorUUID, \"CrimeFactionOrcs\")",
+        "content": "Largashbur is the Orc stronghold in the southeastern Rift — long besieged by giants and once cursed by Malacath because Chief Yamarz could not defend his clan. Atub the wise woman tended the rite. The Volendrung passed through this stronghold and Gularzob now leads if the Cursed Tribe lifted its curse.",
+        "display_name": "Largashbur - Stronghold (Rift)",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "orc.stronghold.largashbur",
+        "location": "",
+        "tags": [
+          "Largashbur",
+          "Orc stronghold",
+          "Rift",
+          "Yamarz",
+          "Gularzob",
+          "Atub",
+          "Malacath",
+          "Cursed Tribe",
+          "giants",
+          "Volendrung"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"CrimeFactionOrcs\")",
+        "content": "Mor Khazgur is the Orc stronghold in the far northwestern mountains of Haafingar — Chief Larak rules, his clan works the moonstone mine inside the stronghold's walls. Visitors are tolerated only when they prove themselves Code-worthy.",
+        "display_name": "Mor Khazgur - Stronghold (Haafingar)",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "orc.stronghold.mor_khazgur",
+        "location": "",
+        "tags": [
+          "Mor Khazgur",
+          "Orc stronghold",
+          "Haafingar",
+          "Chief Larak",
+          "moonstone mine",
+          "Orsimer",
+          "far northwest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\") or is_in_faction(actorUUID, \"CrimeFactionOrcs\")",
+        "content": "Narzulbur is the Orc stronghold in eastern Eastmarch — Chief Mauhulakh leads, and the clan's wealth comes from the Gloombound ebony mine inside the walls. The stronghold has been quiet since Bolar's death, and the chief has yet to produce an heir.",
+        "display_name": "Narzulbur - Stronghold (Eastmarch)",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "orc.stronghold.narzulbur",
+        "location": "",
+        "tags": [
+          "Narzulbur",
+          "Orc stronghold",
+          "Eastmarch",
+          "Chief Mauhulakh",
+          "Gloombound Mine",
+          "ebony",
+          "Bolar",
+          "children"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\") or is_in_faction(actorUUID, \"CrimeFactionOrcs\")",
+        "content": "Dushnikh Yal is the Orc stronghold east of Markarth — Chief Burguk rules a clan with three Forge-Wives and a steady ebony mine beneath the stronghold. The Reach's Forsworn give Dushnikh wide berth; the Silver-Bloods have learned to do the same.",
+        "display_name": "Dushnikh Yal - Stronghold (Reach)",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "orc.stronghold.dushnikh_yal",
+        "location": "",
+        "tags": [
+          "Dushnikh Yal",
+          "Orc stronghold",
+          "Reach",
+          "Chief Burguk",
+          "Dushnikh Mine",
+          "ebony",
+          "Forge-Wife"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionOrcs\")",
+        "content": "The Code of Malacath binds every stronghold — Chief rules until challenged in single combat, Forge-Wives carry the clan's lineage, blood-price settles every wrong. The four strongholds of Skyrim — Largashbur, Mor Khazgur, Narzulbur, Dushnikh Yal — recognize each other as kin under the Code, even when their chiefs would not raise a cup together.",
+        "display_name": "The Code of Malacath",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "orc.stronghold.code_of_malacath",
+        "location": "",
+        "tags": [
+          "Code of Malacath",
+          "Orsimer",
+          "strongholds",
+          "Chief",
+          "Forge-Wife",
+          "blood-price",
+          "tribal Orcs"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

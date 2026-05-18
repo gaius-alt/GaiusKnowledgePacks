@@ -1,0 +1,132 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Layouts of Winterhold's surviving buildings — the Jarl's Longhouse, the Frozen Hearth, and what the Great Collapse left standing.",
+    "entry_count": 6,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Buildings In Winterhold",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WinterholdJarlsLonghouseFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "Winterhold's Jarl's Longhouse — sometimes called the Chill — is a small timber hall at the south end of the dying town. Through the front door is a single main hall with a long fire pit down the center; the Jarl's chair sits at the far end. Korir holds court with his wife Thaena, their son Assur, and the steward Malur Seloth. The hall's smaller scale reflects what's left of Winterhold after the Great Collapse.",
+        "display_name": "Winterhold Jarl's Longhouse - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "winterhold.building.jarls_longhouse",
+        "location": "",
+        "tags": [
+          "Winterhold Jarl's Longhouse",
+          "Winterhold",
+          "Korir",
+          "Thaena",
+          "Assur",
+          "Malur Seloth",
+          "Great Collapse"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WinterholdFrozenHearthFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "The Frozen Hearth is Winterhold's only inn — a sturdy stone building bracing against the north wind. The common room has a long bar where Dagur and his wife Haran serve drinks, a fire pit in the center, and a handful of tables. Ranmir spends his days drinking against the wall. The mage Nelacar rents a back room and rarely emerges. Upstairs are the rented rooms.",
+        "display_name": "The Frozen Hearth - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "winterhold.building.frozen_hearth",
+        "location": "",
+        "tags": [
+          "Frozen Hearth",
+          "Winterhold",
+          "Dagur",
+          "Haran",
+          "Ranmir",
+          "Nelacar",
+          "inn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WinterholdBirnasOddmentsFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "Birna's Oddments is the small general store across from the Frozen Hearth. The single-room shop has a counter against the back wall where Birna stands, with shelves of mismatched goods — gear left behind by mages, broken trinkets, traveler's supplies — climbing every wall. She lives in a tiny bedroom off the shop, sharing the house with her brother-in-law Ranmir who is rarely sober.",
+        "display_name": "Birna's Oddments - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "winterhold.building.birnas_oddments",
+        "location": "",
+        "tags": [
+          "Birna's Oddments",
+          "Winterhold",
+          "Birna",
+          "Ranmir",
+          "general store",
+          "oddments"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WinterholdKraldarsHouseFaction\")",
+        "content": "Kraldar's house is one of the better-kept timber homes still standing in Winterhold. The front door opens onto a small entryway and a single living room with a hearth and table. Kraldar — Imperial sympathizer, and the man who would replace Korir if the Empire takes Winterhold — lives here with his housecarl Thonjolf.",
+        "display_name": "Kraldar's House - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "winterhold.building.kraldars_house",
+        "location": "",
+        "tags": [
+          "Kraldar's House",
+          "Winterhold",
+          "Kraldar",
+          "Thonjolf",
+          "Imperial sympathizer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WinterholdShrineOfAzuraFaction\")",
+        "content": "The Shrine of Azura stands on a mountain pass north of Winterhold — a towering statue of the Daedric Prince looking out over the sea. Aranea Ienith, the last devout priestess of Azura, tends the altar at the statue's feet, offering visions to those who reach her. The path is hard and few pilgrims still come — but Azura's hand is still here for those who climb to find it.",
+        "display_name": "Shrine of Azura - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "winterhold.building.shrine_of_azura",
+        "location": "",
+        "tags": [
+          "Shrine of Azura",
+          "Winterhold",
+          "Aranea Ienith",
+          "Azura",
+          "statue",
+          "Dunmer pilgrims",
+          "Black Star"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "The College of Winterhold rises on a great bridge of stone reaching out from the cliff above the dying town. Past Faralda at the bridge gate, the College yard opens to the Hall of the Elements, where instruction is given; the Hall of Attainment houses the apprentices in dorm rooms ringing a central staircase; the Hall of Countenance holds the senior mages. The Arch-Mage's Quarters sit at the top of the central tower.",
+        "display_name": "College of Winterhold - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "winterhold.building.college_hall_of_attainment",
+        "location": "",
+        "tags": [
+          "College of Winterhold",
+          "Winterhold",
+          "Hall of the Elements",
+          "Arch-Mage's Quarters",
+          "mages",
+          "Mirabelle Ervine",
+          "Tolfdir",
+          "Faralda"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

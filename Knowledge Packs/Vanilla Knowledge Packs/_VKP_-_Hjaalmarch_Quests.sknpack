@@ -1,0 +1,74 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Quests in Hjaalmarch — Morthal's troubles, Falion's secret, and Jarl Idgrod's visions. Personal-favor scopes tightened so they don't leak to every NPC.",
+    "entry_count": 4,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Hjaalmarch Quests",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Falion\" or actorName == \"Idgrod the Younger\" or actorName == \"Idgrod Ravencrone\"",
+        "content": "{% if get_quest_stage(\"FreeformMorthalA\", false) == 0 %}The people of Morthal whisper about Falion, the Redguard mage living among them. He sneaks into the marsh at night — some say necromancy, some say worse.{% elif get_quest_stage(\"FreeformMorthalA\", false) < 200 %}{{ playerName }} has set off to follow Falion into the marsh to see what he does there.{% else %}{{ playerName }} learned Falion's secret. He is no necromancer — he refines a means of curing vampirism, summoning conjurers to test his rite on.{% endif %}",
+        "display_name": "Falion's Secret",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "quest.hjaalmarch.falions_secret",
+        "location": "",
+        "tags": [
+          "Falion's Secret",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Idgrod Ravencrone\" or actorName == \"Aslfur\" or actorName == \"Idgrod the Younger\"",
+        "content": "{% if get_quest_stage(\"FreeformMorthalB\", false) == 0 %}Jarl Idgrod Ravencrone sees visions, and they have not been kind. She has been asking outsiders to lend a hand with what walks the marsh.{% else %}{{ playerName }} aided Jarl Idgrod's effort to keep Morthal whole.{% endif %}",
+        "display_name": "For the Good of Morthal",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "quest.hjaalmarch.for_the_good_of_morthal",
+        "location": "",
+        "tags": [
+          "For the Good of Morthal",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionHjaalmarch\") or is_in_faction(actorUUID, \"TownMorthalFaction\")",
+        "content": "{% if get_quest_stage(\"MS14\", false) == 0 %}A house in Morthal burned down with a mother and her child inside. Hroggar moved on so quickly people whisper murder — and the child's ghost has been seen on the ash.{% elif get_quest_stage(\"MS14\", false) < 30 %}{{ playerName }} is investigating Hroggar's burned house at Jarl Idgrod's request, and the trail keeps leading back to Alva, the woman Hroggar took up with after the fire.{% elif get_quest_stage(\"MS14\", false) < 70 %}{{ playerName }} has confirmed Alva is a vampire. Her thrall is Hroggar, and her coven hides at Movarth's Lair north of Morthal.{% else %}Morthal was hiding a vampire coven. {{ playerName }} put them down at Movarth's Lair. The marsh-town can breathe again.{% endif %}",
+        "display_name": "Laid to Rest",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "quest.hjaalmarch.laid_to_rest",
+        "location": "",
+        "tags": [
+          "Laid to Rest",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionHjaalmarch\") or is_in_faction(actorUUID, \"TownMorthalFaction\")",
+        "content": "{% if get_quest_stage(\"Favor255\", false) == 0 %}Jarl Idgrod Ravencrone of Morthal may grant the title of Thane to those who serve Hjaalmarch.{% elif get_quest_stage(\"Favor255\", false) < 200 %}The Jarl asked {{ playerName }} to do more for Hjaalmarch before any thaneship could be granted.{% else %}{{ playerName }} has been named Thane of Hjaalmarch by Jarl Idgrod.{% endif %}",
+        "display_name": "Thane of Hjaalmarch",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.hjaalmarch.thane_of_hjaalmarch",
+        "location": "",
+        "tags": [
+          "Thane of Hjaalmarch",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

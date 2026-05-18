@@ -1,0 +1,286 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Dawnstar's notable people — Jarl Skald and his court, the rival mine owners, and the priest of Mara who came to investigate the nightmares.",
+    "entry_count": 15,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Notable People In Dawnstar",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Skald the Elder is the Stormcloak Jarl of the Pale, ruling from Dawnstar's White Hall. Old, paranoid, obsessed with the nightmares plaguing his town and with the Empire's encroachment.",
+        "display_name": "Skald the Elder - Jarl of the Pale",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "pale.people.skald",
+        "location": "",
+        "tags": [
+          "Skald the Elder",
+          "Jarl",
+          "Dawnstar",
+          "Pale",
+          "Stormcloak",
+          "nightmares"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Bulfrek is the put-upon servant in Skald the Elder's White Hall — a Nord who complains constantly about his treatment to anyone who will listen.",
+        "display_name": "Bulfrek - Jarl's Servant",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "pale.people.bulfrek",
+        "location": "",
+        "tags": [
+          "Bulfrek",
+          "White Hall",
+          "Dawnstar",
+          "servant",
+          "Skald"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Jod is Skald the Elder's housecarl in Dawnstar — older Nord warrior, sword-sworn, runs the city guard for the Jarl.",
+        "display_name": "Jod - Housecarl",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "pale.people.jod",
+        "location": "",
+        "tags": [
+          "Jod",
+          "housecarl",
+          "Dawnstar",
+          "Skald",
+          "Pale"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Brina Merilis is the retired Imperial Legion commander living in Dawnstar with her lieutenant Horik Halfhand. The Empire's choice to replace Skald the Elder if they take the Pale.",
+        "display_name": "Brina Merilis - Imperial Alternative",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "pale.people.brina",
+        "location": "",
+        "tags": [
+          "Brina Merilis",
+          "Imperial Legion",
+          "retired",
+          "Dawnstar",
+          "Horik Halfhand",
+          "alternative Jarl"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Horik Halfhand is Brina Merilis's old lieutenant and longtime companion. Older Nord, retired Legion, lives quietly with Brina in their Dawnstar house.",
+        "display_name": "Horik Halfhand - Brina's Aide",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "pale.people.horik",
+        "location": "",
+        "tags": [
+          "Horik Halfhand",
+          "Brina Merilis",
+          "retired Legion",
+          "Dawnstar"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Thoring runs the Windpeak Inn in Dawnstar — the only warm spot in town. Older Nord, raising his daughter Karita to follow as the inn's bard.",
+        "display_name": "Thoring - Windpeak Inn",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "pale.people.thoring",
+        "location": "",
+        "tags": [
+          "Thoring",
+          "Windpeak Inn",
+          "Dawnstar",
+          "innkeeper",
+          "Karita"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Karita is Thoring's daughter — the bard at the Windpeak Inn. Young Nord, decent singer, gathers gossip while she works the floor.",
+        "display_name": "Karita - Bard",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "pale.people.karita",
+        "location": "",
+        "tags": [
+          "Karita",
+          "Windpeak Inn",
+          "Dawnstar",
+          "bard",
+          "Thoring"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Erandur is the priest of Mara who came to Dawnstar to investigate the nightmares. A former Vaermina cultist — he survived the betrayal at Nightcaller Temple and seeks now to destroy what's left.",
+        "display_name": "Erandur - Priest of Mara",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "pale.people.erandur",
+        "location": "",
+        "tags": [
+          "Erandur",
+          "Mara",
+          "priest",
+          "Dawnstar",
+          "Nightcaller Temple",
+          "Vaermina",
+          "former cultist"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Beitild owns the Iron-Breaker Mine on Dawnstar's west end. Ruthless with her miners, estranged from her husband Leigelf who runs the rival Quicksilver Mine on the other side of town.",
+        "display_name": "Beitild - Iron-Breaker Mine",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "pale.people.beitild",
+        "location": "",
+        "tags": [
+          "Beitild",
+          "Iron-Breaker Mine",
+          "Dawnstar",
+          "Leigelf",
+          "feud"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Leigelf owns the Quicksilver Mine on Dawnstar's east end. Estranged husband of Beitild — they keep competing mines, competing households, and an ongoing feud the whole town can hear.",
+        "display_name": "Leigelf - Quicksilver Mine",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "pale.people.leigelf",
+        "location": "",
+        "tags": [
+          "Leigelf",
+          "Quicksilver Mine",
+          "Dawnstar",
+          "Beitild",
+          "feud"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Silus Vesuius runs the small Mythic Dawn museum in Dawnstar — his ancestors were part of the cult that killed Emperor Uriel Septim. He's been gathering fragments of Mehrunes' Razor.",
+        "display_name": "Silus Vesuius - Museum-keeper",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "pale.people.silus",
+        "location": "",
+        "tags": [
+          "Silus Vesuius",
+          "Mythic Dawn",
+          "Dawnstar",
+          "museum",
+          "Razor",
+          "Mehrunes Dagon"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Captain Wayfinder works Dawnstar's docks, looking for someone to recover a shipment of Fine-Cut Void Salts his crew lost from the College of Winterhold. Tells anyone who'll listen it has sentimental value.",
+        "display_name": "Captain Wayfinder - Docks",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "pale.people.wayfinder",
+        "location": "",
+        "tags": [
+          "Captain Wayfinder",
+          "Dawnstar",
+          "docks",
+          "Night Falls on Sentinel",
+          "sea captain"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Rustleif works the forge in Dawnstar with his Redguard wife Seren. Quiet, steady, makes the town's iron.",
+        "display_name": "Rustleif - Blacksmith",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "pale.people.rustleif",
+        "location": "",
+        "tags": [
+          "Rustleif",
+          "blacksmith",
+          "Dawnstar",
+          "Seren"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Frida runs the Mortar and Pestle in Dawnstar — the town's only alchemist. Older Nord, sells tonics for the nightmares that don't quite work.",
+        "display_name": "Frida - Apothecary",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "pale.people.frida",
+        "location": "",
+        "tags": [
+          "Frida",
+          "Mortar and Pestle",
+          "Dawnstar",
+          "apothecary"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Madena is Skald the Elder's court wizard in Dawnstar — a Breton who has asked the Jarl to let her flee to High Rock entirely, wanting no part of the civil war.",
+        "display_name": "Madena - Court Wizard",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "pale.people.madena",
+        "location": "",
+        "tags": [
+          "Madena",
+          "court wizard",
+          "Dawnstar",
+          "Skald",
+          "Imperial sympathizer"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

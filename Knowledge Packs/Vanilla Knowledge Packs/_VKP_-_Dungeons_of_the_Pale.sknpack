@@ -1,0 +1,258 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Nordic ruins, Dwemer ruins, and ice caves of the Pale — including Nightcaller Temple, Frostmere Crypt, and Mzinchaleft.",
+    "entry_count": 13,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Dungeons of the Pale",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Nightcaller Temple lies beneath the Tower of Dawn in Dawnstar — once a Vaermina cult, now sealed by sleeping cultists. The Skull of Corruption inside is the source of the town's nightmares.",
+        "display_name": "Nightcaller Temple",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "dungeon.pale.nightcaller_temple",
+        "location": "",
+        "tags": [
+          "Nightcaller Temple",
+          "Pale",
+          "Vaermina",
+          "Skull of Corruption",
+          "Erandur",
+          "Tower of Dawn",
+          "nightmares"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Frostmere Crypt is the Nordic ruin north of Dawnstar haunted by the Pale Lady. Bandits broke in seeking her sword The Pale Blade, woke the spirit, and most of them never walked out.",
+        "display_name": "Frostmere Crypt",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "dungeon.pale.frostmere_crypt",
+        "location": "",
+        "tags": [
+          "Frostmere Crypt",
+          "Nordic ruin",
+          "Pale",
+          "Pale Lady",
+          "Eisa Blackthorn",
+          "The Pale Blade",
+          "Loki Giant-Bane",
+          "bandits"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Mzinchaleft is the Dwemer ruin west of Dawnstar where Mjoll the Lioness once lost her sword Grimsever — Falmer hold the upper halls, and worse waits in the deeper machine-floors.",
+        "display_name": "Mzinchaleft",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.pale.mzinchaleft",
+        "location": "",
+        "tags": [
+          "Mzinchaleft",
+          "Dwemer ruin",
+          "Pale",
+          "Grimsever",
+          "Mjoll",
+          "Falmer",
+          "Dwarven Centurion"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "The Dawnstar Sanctuary lies hidden beyond a Black Door in a cliffside south of Dawnstar — the old sanctuary of the Dark Brotherhood, abandoned for years and waiting for new tenants.",
+        "display_name": "Dawnstar Sanctuary",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.pale.dawnstar_sanctuary",
+        "location": "",
+        "tags": [
+          "Dawnstar Sanctuary",
+          "Pale",
+          "Dark Brotherhood",
+          "Black Door",
+          "Astrid"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Yngvild is the Nordic ruin on a peninsula north of Dawnstar — the necromancer Arondil has taken it over, raising ghosts of women he could not have in life.",
+        "display_name": "Yngvild",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "dungeon.pale.yngvild",
+        "location": "",
+        "tags": [
+          "Yngvild",
+          "Nordic ruin",
+          "Pale",
+          "Arondil",
+          "necromancer",
+          "ghosts",
+          "ice wraiths"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Forelhost is the Nordic mountain fortress on the Pale–Rift border — the dragon priest Rahgot still rules the deepest chamber, surrounded by his cult's drowned draugr.",
+        "display_name": "Forelhost",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.pale.forelhost",
+        "location": "",
+        "tags": [
+          "Forelhost",
+          "Nordic ruin",
+          "Pale",
+          "dragon cult",
+          "Rahgot",
+          "draugr",
+          "Dragon Priest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "High Gate Ruins is the Nordic citadel of the dragon priest Vokun, on the Pale's western mountains — his mask waits at the back of the keep, beyond his draugr legions.",
+        "display_name": "High Gate Ruins",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "dungeon.pale.high_gate_ruins",
+        "location": "",
+        "tags": [
+          "High Gate Ruins",
+          "Nordic ruin",
+          "Pale",
+          "Vokun",
+          "Dragon Priest",
+          "draugr"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Tumble Arch Pass is a stone-arch landmark on the road through central Pale — a navigation point for travelers braving the snow.",
+        "display_name": "Tumble Arch Pass",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "dungeon.pale.tumble_arch_pass",
+        "location": "",
+        "tags": [
+          "Tumble Arch Pass",
+          "Pale",
+          "road",
+          "stone arch"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Windward Ruins is a small set of broken Imperial stones north of Dawnstar — bandits use the place as a forward camp when the watch isn't looking.",
+        "display_name": "Windward Ruins",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.pale.windward_ruins",
+        "location": "",
+        "tags": [
+          "Windward Ruins",
+          "Pale",
+          "ruins",
+          "bandits"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Silverdrift Lair is the Nordic ruin in the Pale's southern mountains — draugr hold the chambers, and the dead bandits littering the floor suggest the treasure wasn't taken without cost.",
+        "display_name": "Silverdrift Lair",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.pale.silverdrift_lair",
+        "location": "",
+        "tags": [
+          "Silverdrift Lair",
+          "Nordic ruin",
+          "Pale",
+          "draugr",
+          "treasure chests"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Duskglow Crevice is a cave south of Dawnstar where Falmer have built a camp in the deep chambers — the few bandits still inside are losing their war with the blind cave-dwellers.",
+        "display_name": "Duskglow Crevice",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.pale.duskglow_crevice",
+        "location": "",
+        "tags": [
+          "Duskglow Crevice",
+          "Pale",
+          "Falmer",
+          "chaurus",
+          "bandits"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Weynon Stones is a small standing-stone circle in the Pale — older than the Empire, older than the holds. People still leave offerings out of habit.",
+        "display_name": "Weynon Stones",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "dungeon.pale.weynon_stones",
+        "location": "",
+        "tags": [
+          "Weynon Stones",
+          "Pale",
+          "standing stones",
+          "landmark"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Forsaken Cave is a Nordic ruin in the Pale west of Windhelm, where the legendary White Phial waits in a hidden alchemist's chamber beyond the draugr crypts.",
+        "display_name": "Forsaken Cave",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.pale.forsaken_cave",
+        "location": "",
+        "tags": [
+          "Forsaken Cave",
+          "Nordic ruin",
+          "Pale",
+          "draugr",
+          "White Phial",
+          "alchemist"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

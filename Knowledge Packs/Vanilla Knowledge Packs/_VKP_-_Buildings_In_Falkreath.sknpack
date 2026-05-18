@@ -1,0 +1,148 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Layouts of the major buildings of Falkreath — Siddgeir's longhouse, Dead Man's Drink, and the shops along the road.",
+    "entry_count": 7,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Buildings In Falkreath",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"FalkreathDengeirsHallFaction\") or is_in_faction(actorUUID, \"TownFalkreathFaction\")",
+        "content": "The Falkreath Jarl's Longhouse stands at the south end of town — a smaller, more modest hall than Whiterun or Solitude could boast. Through the front doors is the main hall: a long table, a fire pit, and the Jarl's chair raised on a low dais at the far end. The Jarl (Siddgeir for the Empire, Dengeir for the Stormcloaks) holds court here with steward Nenya. A back room serves as private quarters; the housecarl Helvard usually stands nearby.",
+        "display_name": "Falkreath Jarl's Longhouse - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "falkreath.building.jarls_longhouse",
+        "location": "",
+        "tags": [
+          "Jarl's Longhouse",
+          "Falkreath",
+          "Siddgeir",
+          "Dengeir",
+          "Helvard",
+          "Nenya",
+          "court",
+          "throne"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"FalkreathDeadMansDrinkFaction\") or is_in_faction(actorUUID, \"TownFalkreathFaction\")",
+        "content": "Dead Man's Drink sits in the heart of Falkreath. Step through the front door and you're in the common room — a long bar to the right where Valga Vinicia pours drinks, a fire pit in the center surrounded by tables, and stairs at the back leading up to the rented rooms. Narri waits tables for guests; the bard usually sets up near the fire.",
+        "display_name": "Dead Man's Drink - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "falkreath.building.dead_mans_drink",
+        "location": "",
+        "tags": [
+          "Dead Man's Drink",
+          "Falkreath",
+          "Valga Vinicia",
+          "inn",
+          "tavern",
+          "Narri"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"FalkreathGrayPineGoodsFaction\") or is_in_faction(actorUUID, \"TownFalkreathFaction\")",
+        "content": "Gray Pine Goods is the general store on Falkreath's main road. A single counter sits opposite the door, with shelves of food and supplies climbing both walls; a small workshop area is tucked at the back. Solaf — or his brother Bolund, depending on Civil War allegiances — minds the shop.",
+        "display_name": "Gray Pine Goods - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "falkreath.building.gray_pine_goods",
+        "location": "",
+        "tags": [
+          "Gray Pine Goods",
+          "Falkreath",
+          "Solaf",
+          "Bolund",
+          "general store"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"FalkreathLodsHouseFaction\") or is_in_faction(actorUUID, \"TownFalkreathFaction\")",
+        "content": "Lod the blacksmith works from a forge yard on the main road in Falkreath — anvil, grindstone, and tempering barrel set in the open near the gate. His small house adjoins the forge, with a single room serving as both workshop counter and living quarters.",
+        "display_name": "Lod's Smithy - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "falkreath.building.lods_smithy",
+        "location": "",
+        "tags": [
+          "Lod",
+          "Falkreath",
+          "blacksmith",
+          "forge",
+          "smithy"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"FalkreathHallOfTheDeadFaction\") or is_in_faction(actorUUID, \"TownFalkreathFaction\")",
+        "content": "Falkreath's Hall of the Dead overlooks the largest cemetery in Skyrim. The front room is a quiet shrine to Arkay where Kust the priest tends to mourners. A door at the back leads down to the catacombs — winding passages of stone vaults where the dead of Falkreath are interred. Old Dengeir's ancestor Vighar rests somewhere in these tunnels.",
+        "display_name": "Falkreath Hall of the Dead - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "falkreath.building.hall_of_the_dead",
+        "location": "",
+        "tags": [
+          "Falkreath Hall of the Dead",
+          "Falkreath",
+          "Kust",
+          "Arkay",
+          "cemetery",
+          "Vighar",
+          "catacombs"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\")",
+        "content": "Falkreath's cemetery is the largest in Skyrim — rows on rows of headstones spreading west from the road. Runil the Altmer priest walks among them most days, tending graves and reading rites. A new stone marks Lavinia of Corpselight Farm, killed by a werewolf. Mourners come from all the holds to bury their dead here.",
+        "display_name": "Falkreath Cemetery - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "falkreath.building.runils_cemetery",
+        "location": "",
+        "tags": [
+          "Falkreath Cemetery",
+          "Falkreath",
+          "Runil",
+          "graveyard",
+          "Arkay",
+          "Lavinia"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"FalkreathCorpselightFarmFaction\")",
+        "content": "Corpselight Farm sits on the east edge of Falkreath — a small Imperial homestead with a wheat field and a single timber farmhouse. Mathies and his wife Indara still work the field, though their grief is plain. Lavinia, their nine-year-old daughter, was killed by the werewolf Sinding here.",
+        "display_name": "Corpselight Farm - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "falkreath.building.corpselight_farm",
+        "location": "",
+        "tags": [
+          "Corpselight Farm",
+          "Falkreath",
+          "Mathies",
+          "Indara Caerellia",
+          "Lavinia",
+          "farm"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

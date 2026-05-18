@@ -1,0 +1,149 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Quests in Eastmarch — Windhelm, Ulfric's court, the Gray Quarter, and the daedric pulls of Boethiah and Malacath. Personal favors scoped to NPCs; secret cults scoped to cult NPCs.",
+    "entry_count": 9,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Eastmarch Quests",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Niranye\" or actorName == \"Aval Atheron\" or actorName == \"Revyn Sadri\"",
+        "content": "{% if get_quest_stage(\"FreeformWindhelmA\", false) == 0 %}A delivery is waiting in Windhelm and needs running across town.{% else %}{{ playerName }} ran the delivery in Windhelm.{% endif %}",
+        "display_name": "Delivery in Windhelm",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "quest.eastmarch.delivery",
+        "location": "",
+        "tags": [
+          "Delivery in Windhelm",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Stian Crescent-Moon\" or actorName == \"Adonato Leotelli\"",
+        "content": "{% if get_quest_stage(\"FreeformShipsWindhelm\", false) == 0 %}A dockworker at Windhelm's harbor needs help with a ledger before the captain notices it's missing.{% else %}{{ playerName }} brought the dockworker his ledger back.{% endif %}",
+        "display_name": "Harsh Master",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "quest.eastmarch.harsh_master",
+        "location": "",
+        "tags": [
+          "Harsh Master",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionEastmarch\") or is_in_faction(actorUUID, \"TownWindhelmFaction\")",
+        "content": "{% if get_quest_stage(\"MS11\", false) == 0 %}A girl named Susanna the Wicked was murdered in Windhelm's graveyard — and she is not the first. A killer the locals call the Butcher walks the streets at night.{% elif get_quest_stage(\"MS11\", false) < 40 %}{{ playerName }} is hunting the Butcher of Windhelm with Jorleif's blessing — and looking through Hjerim, the house once owned by the Shatter-Shields, for the truth.{% else %}The Butcher of Windhelm is dead. {{ playerName }} ended the killings — by killing Calixto Corrium, the museum-keeper hiding his sister's mummy in his house.{% endif %}",
+        "display_name": "Blood on the Ice",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "quest.eastmarch.blood_on_the_ice",
+        "location": "",
+        "tags": [
+          "Blood on the Ice",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Aventus Aretino\" or actorName == \"Grelod the Kind\" or actorName == \"Constance Michel\"",
+        "content": "{% if get_quest_stage(\"DB01\", false) == 0 %}A child named Aventus Aretino has run from Honorhall Orphanage in Riften to his family home in Windhelm. The boy is performing the Black Sacrament — calling the Dark Brotherhood to kill Grelod the Kind.{% else %}{{ playerName }} answered Aventus Aretino's Black Sacrament. Grelod the Kind is dead — and the Dark Brotherhood is watching.{% endif %}",
+        "display_name": "Innocence Lost",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.eastmarch.innocence_lost",
+        "location": "",
+        "tags": [
+          "Innocence Lost",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Atub\" or actorName == \"Yamarz\" or actorName == \"Gularzob\" or actorName == \"Borgakh the Steel Heart\" or actorName == \"Shuftharz\" or actorName == \"Malacath\"",
+        "content": "{% if get_quest_stage(\"DA06\", false) == 0 %}Largashbur, the Orc stronghold southwest of Riften, is besieged by giants. Atub the wise woman speaks of Malacath's curse upon the Chief — Yamarz cannot defend his clan.{% else %}{{ playerName }} carried Yamarz's burden — or refused it — and Malacath blessed them with the Volendrung as the Cursed Tribe was lifted.{% endif %}",
+        "display_name": "The Cursed Tribe",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "quest.eastmarch.cursed_tribe",
+        "location": "",
+        "tags": [
+          "The Cursed Tribe",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"DA02GuardFaction\") or actorName == \"Boethiah\" or actorName == \"Priestess of Boethiah\"",
+        "content": "{% if get_quest_stage(\"DA02\", false) == 0 %}A book — Boethiah's Proving — has surfaced in Skyrim. Whoever reads it hears the Prince's call: bring a follower to the Sacellum of Boethiah, kill them on the altar, and become her champion.{% else %}{{ playerName }} killed for Boethiah at her Sacellum and won her Ebony Mail. A follower lies dead at the altar.{% endif %}",
+        "display_name": "Boethiah's Calling",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "quest.eastmarch.boethiahs_calling",
+        "location": "",
+        "tags": [
+          "Boethiah's Calling",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Esbern\" or actorName == \"Delphine\" or is_in_faction(actorUUID, \"ThalmorFaction\")",
+        "content": "{% if get_quest_stage(\"MQ202\", false) == 0 %}Word travels that the Dragonborn seeks Esbern of the Blades — and Esbern hides in the Ratway beneath Riften. The Thalmor and the Dragonborn race for him.{% else %}{{ playerName }} found Esbern in the Ratway Warrens. The old Blade can finally read the prophecy he survived to keep.{% endif %}",
+        "display_name": "A Cornered Rat",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "quest.eastmarch.cornered_rat",
+        "location": "",
+        "tags": [
+          "A Cornered Rat",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Quintus Navale\" or actorName == \"Nurelion\"",
+        "content": "{% if get_quest_stage(\"MS12b\", false) == 0 %}Quintus Navale at the White Phial in Windhelm is trying to restore the legendary alchemical Phial. He needs rare reagents — mammoth tusk powder, briarheart, and a fragment of Unmelting Snow.{% else %}{{ playerName }} brought Quintus the components to repair the White Phial.{% endif %}",
+        "display_name": "Repairing the Phial",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "quest.eastmarch.repairing_the_phial",
+        "location": "",
+        "tags": [
+          "Repairing the Phial",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionEastmarch\") or is_in_faction(actorUUID, \"TownWindhelmFaction\")",
+        "content": "{% if get_quest_stage(\"Favor254\", false) == 0 %}Jarl Ulfric Stormcloak — or his replacement if the Empire takes Windhelm — may grant the title of Thane to those who serve Eastmarch.{% elif get_quest_stage(\"Favor254\", false) < 200 %}The Jarl asked {{ playerName }} to do more for Eastmarch before any thaneship could be granted.{% else %}{{ playerName }} has been named Thane of Eastmarch.{% endif %}",
+        "display_name": "Thane of Eastmarch",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.eastmarch.thane_of_eastmarch",
+        "location": "",
+        "tags": [
+          "Thane of Eastmarch",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

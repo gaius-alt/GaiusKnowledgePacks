@@ -1,0 +1,230 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Layouts of Markarth's stone halls — Understone Keep, the Treasury House, Cidhna Mine, and the Dwemer-built shops and temples of the city of stone.",
+    "entry_count": 11,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Buildings In Markarth",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MarkarthUnderstoneKeepFaction\") or is_in_faction(actorUUID, \"TownMarkarthFaction\")",
+        "content": "Understone Keep is built into the mountain at the back of Markarth — a Dwemer hall converted into the Jarl's palace. The main hall is a long stone chamber with the Jarl's throne raised at the far end. Igmund holds court with steward Raerek and housecarl Faleen. The Hall of Mourning serves as the kitchen and dining area. A side passage leads to Calcelmo's Dwemer Museum and dig; Nepos the Nose runs his own quiet errands from a back chamber.",
+        "display_name": "Understone Keep - Layout",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "reach.building.understone_keep",
+        "location": "",
+        "tags": [
+          "Understone Keep",
+          "Markarth",
+          "Igmund",
+          "Raerek",
+          "Faleen",
+          "Calcelmo",
+          "Nepos the Nose",
+          "court"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MarkarthSilverBloodInnFaction\") or is_in_faction(actorUUID, \"TownMarkarthFaction\")",
+        "content": "The Silver-Blood Inn is the only inn in Markarth — a stone building near the front gate, Silver-Blood-owned like everything else of value here. The common room has a counter where Kleppr serves; his wife Frabbi argues with him through most shifts. Their son Hreinn helps when he can. Rented rooms wait upstairs. Eltrys was found dead nearby.",
+        "display_name": "Silver-Blood Inn - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "reach.building.silver_blood_inn",
+        "location": "",
+        "tags": [
+          "Silver-Blood Inn",
+          "Markarth",
+          "Kleppr",
+          "Frabbi",
+          "Hreinn",
+          "inn",
+          "Eltrys",
+          "Reachwind Eyrie"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MarkarthTreasuryHouseFaction\")",
+        "content": "The Treasury House is the Silver-Blood family seat in Markarth — a fortified stone manor where Thonar Silver-Blood runs the family's mining and political holdings. The first floor serves as a counting house, with ledgers, strongboxes, and a Silver-Blood guard at the door. Thonar lives upstairs with his wife Betrid; his brother Thongvor lives separately when he isn't pressing his Stormcloak claim on the hold.",
+        "display_name": "Treasury House (Silver-Blood) - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "reach.building.treasury_house",
+        "location": "",
+        "tags": [
+          "Treasury House",
+          "Markarth",
+          "Thonar Silver-Blood",
+          "Betrid",
+          "Thongvor",
+          "Silver-Blood family",
+          "Cidhna Mine"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CidhnaMineFaction\")",
+        "content": "Cidhna Mine is the Silver-Blood-owned prison beneath Markarth — a working silver mine where inmates labor in chains. The entrance is a guarded gate at the back of the city; below it lie cramped tunnels lit by torches, with sleeping pallets crammed against the walls. Madanach the King in Rags holds court in the deepest cell. Borkul the Beast guards his door.",
+        "display_name": "Cidhna Mine - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "reach.building.cidhna_mine",
+        "location": "",
+        "tags": [
+          "Cidhna Mine",
+          "Markarth",
+          "Madanach",
+          "Borkul the Beast",
+          "Urzoga",
+          "Forsworn",
+          "prison",
+          "Silver-Blood"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MarkarthStablesFaction\") or is_in_faction(actorUUID, \"TownMarkarthFaction\")",
+        "content": "The Markarth Stables sit outside the front gate on the road through the canyon. Banning works the stable, raising and selling dogs as well as horses. Kibell drives the carriage to the other holds. The stable is a small wooden shed beside the corral, sheltered from the canyon winds by the city wall.",
+        "display_name": "Markarth Stables - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.building.markarth_stables",
+        "location": "",
+        "tags": [
+          "Markarth Stables",
+          "Markarth",
+          "Banning",
+          "carriage",
+          "horses",
+          "Kibell"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MarkarthSmelterFaction\") or is_in_faction(actorUUID, \"TownMarkarthFaction\")",
+        "content": "The Markarth Smelter sits inside the front gates — a busy stone forge yard where ore from the Silver-Blood mines is processed. Ghorza gra-Bagol runs the forge; her Imperial apprentice Tacitus Sallustius works alongside her. Bars of silver and iron are stacked in the workshop ready for shipping.",
+        "display_name": "Markarth Smelter - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.building.markarth_smelter",
+        "location": "",
+        "tags": [
+          "Markarth Smelter",
+          "Markarth",
+          "Ghorza gra-Bagol",
+          "Tacitus Sallustius",
+          "blacksmith",
+          "forge"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MarkarthArnleifAndSonsFaction\") or is_in_faction(actorUUID, \"TownMarkarthFaction\")",
+        "content": "Arnleif and Sons sits along Markarth's main road — a two-story stone building serving as the general goods store and trading company. The first floor has a counter at the back where Lisbet works, with crates and barrels of trade goods stacked along the walls. Lisbet lives upstairs in modest quarters. The Sons of Arnleif are long gone; only Lisbet remains.",
+        "display_name": "Arnleif and Sons Trading Company - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "reach.building.arnleif_and_sons",
+        "location": "",
+        "tags": [
+          "Arnleif and Sons",
+          "Markarth",
+          "Lisbet",
+          "trading company",
+          "general store"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MarkarthHagsCureFaction\") or is_in_faction(actorUUID, \"TownMarkarthFaction\")",
+        "content": "The Hag's Cure is the alchemy shop on Markarth's market street. A counter sits at the front of the small stone shop where Bothela the old Reachwoman works. Her apprentice Muiri assists. Shelves of dried herbs, mushrooms, and bottled tonics climb the walls. The Hag's Cure has served Markarth for generations.",
+        "display_name": "The Hag's Cure - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "reach.building.hags_cure",
+        "location": "",
+        "tags": [
+          "Hag's Cure",
+          "Markarth",
+          "Bothela",
+          "Muiri",
+          "apothecary",
+          "alchemy"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MarkarthTempleOfDibellaFaction\") or is_in_faction(actorUUID, \"TownMarkarthFaction\")",
+        "content": "The Temple of Dibella stands above Markarth's main square — a high stone hall holding the most sacred shrine to the Lady in Tamriel. The main worship hall has the great statue of Dibella at the far end, with benches arrayed before it. Hamal the Mother and her priestesses Senna, Orla, and Anwen tend the rites. The inner sanctum where the Sybille speaks is behind a barred door, accessible only to initiates.",
+        "display_name": "Temple of Dibella - Layout",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "reach.building.temple_of_dibella",
+        "location": "",
+        "tags": [
+          "Temple of Dibella",
+          "Markarth",
+          "Hamal",
+          "Senna",
+          "Orla",
+          "Anwen",
+          "Dibella",
+          "Sybille of Dibella"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"PlayerHouseVlindrelHallFaction\")",
+        "content": "Vlindrel Hall is the Dwemer-built home available for purchase in Markarth — stone-cut from the same architecture as the rest of the city. The entry hall has a hearth and dining table; a side door leads to the bedroom and another to the alchemy/enchanting study. The house is sold by Raerek for 8,000 septims.",
+        "display_name": "Vlindrel Hall - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.building.vlindrel_hall",
+        "location": "",
+        "tags": [
+          "Vlindrel Hall",
+          "Markarth",
+          "player home",
+          "Raerek"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MarkarthAbandonedHouseFaction\")",
+        "content": "The Abandoned House in Markarth's poor quarter looks unremarkable from the street — a stone door, dust on the threshold. Inside, the air is wrong. The house belongs to Molag Bal; a great altar to the Daedric Prince rises in the basement. A Vigilant of Stendarr named Tyranus has been asking questions outside — and those who follow him in have not returned.",
+        "display_name": "Abandoned House (Markarth) - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "reach.building.abandoned_house",
+        "location": "",
+        "tags": [
+          "Abandoned House",
+          "Markarth",
+          "Molag Bal",
+          "Logrolf",
+          "Tyranus",
+          "Vigil of Stendarr",
+          "House of Horrors"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

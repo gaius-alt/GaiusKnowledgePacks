@@ -1,0 +1,52 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Iron from Shor's Stone and a few outliers — the Rift's mines feed Riften's smiths.",
+    "entry_count": 2,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Mines of the Rift",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Redbelly Mine is the iron mine beneath Shor's Stone village. Filnjar oversees the work; his daughter Sylgja is one of the miners. Frostbite spiders sometimes invade the lower shaft and shut the operation down until someone clears them out.",
+        "display_name": "Redbelly Mine - Iron (Shor's Stone)",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "mine.rift.redbelly",
+        "location": "",
+        "tags": [
+          "Redbelly Mine",
+          "iron",
+          "Rift",
+          "Shor's Stone",
+          "Filnjar",
+          "Sylgja",
+          "frostbite spiders"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Northwind Mine is a small abandoned iron mine in the eastern Rift mountains — the veins thinned out, the miners left, and the place is now used as occasional bandit shelter.",
+        "display_name": "Northwind Mine - Iron",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "mine.rift.northwind",
+        "location": "",
+        "tags": [
+          "Northwind Mine",
+          "iron",
+          "Rift",
+          "abandoned",
+          "bandits"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

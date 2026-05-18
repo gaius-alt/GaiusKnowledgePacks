@@ -1,0 +1,149 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Quests in Whiterun Hold — Balgruuf's court, Jorrvaskr's neighbors, and the favors that bind the city. Per-quest scopes so personal favors don't reach every guard.",
+    "entry_count": 9,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Whiterun Quests",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Lars Battle-Born\" or actorName == \"Braith\" or actorName == \"Mila Valentia\" or actorName == \"Olfrid Battle-Born\" or actorName == \"Idolaf Battle-Born\" or actorName == \"Amren\"",
+        "content": "{% if get_quest_stage(\"FreeformWhiterunQuest01\", false) == 0 %}Braith bullies poor Lars Battle-Born in front of the Gildergreen most days. Anyone with a voice could probably talk her out of it.{% else %}{{ playerName }} got Braith to stop tormenting Lars Battle-Born.{% endif %}",
+        "display_name": "Braith Bullying Lars",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "quest.whiterun.braith_and_lars",
+        "location": "",
+        "tags": [
+          "Braith Bullying Lars",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Brenuin\"",
+        "content": "{% if get_quest_stage(\"FreeformWhiterunQuest02\", false) == 0 %}Brenuin, the drunk who haunts the gates of Whiterun, has been begging for a bottle of Argonian Bloodwine. The Bannered Mare keeps it locked up.{% else %}{{ playerName }} got the Bloodwine to Brenuin one way or another.{% endif %}",
+        "display_name": "Argonian Bloodwine for Brenuin",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "quest.whiterun.argonian_ale",
+        "location": "",
+        "tags": [
+          "Argonian Bloodwine for Brenuin",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Eorlund Gray-Mane\" or actorName == \"Proventus Avenicci\"",
+        "content": "{% if get_quest_stage(\"FreeformWhiterunQuest03\", false) == 0 %}Eorlund Gray-Mane has finished a sword for Jarl Balgruuf — it needs delivering to Proventus Avenicci in Dragonsreach.{% else %}{{ playerName }} delivered Eorlund's blade to Proventus Avenicci for the Jarl.{% endif %}",
+        "display_name": "Greatsword for Balgruuf",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "quest.whiterun.greatsword_for_balgruuf",
+        "location": "",
+        "tags": [
+          "Greatsword for Balgruuf",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Andurs\"",
+        "content": "{% if get_quest_stage(\"FreeformWhiterunQuest04\", false) == 0 %}Andurs, priest of Arkay in the Hall of the Dead, has lost his amulet to the skeevers in the catacombs. He won't go down to retrieve it himself.{% else %}{{ playerName }} recovered Andurs' Amulet of Arkay from the Hall of the Dead catacombs.{% endif %}",
+        "display_name": "Recover Andurs' Amulet",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "quest.whiterun.amulet_of_arkay",
+        "location": "",
+        "tags": [
+          "Recover Andurs' Amulet",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Arcadia\"",
+        "content": "{% if get_quest_stage(\"FreeformWhiterunQuest05\", false) == 0 %}Arcadia is out of frost salts at her cauldron and needs someone to fetch a fresh batch.{% else %}{{ playerName }} brought Arcadia her frost salts.{% endif %}",
+        "display_name": "Frost Salts for Arcadia",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "quest.whiterun.frost_salts_for_arcadia",
+        "location": "",
+        "tags": [
+          "Frost Salts for Arcadia",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Balgruuf the Greater\" or actorName == \"Proventus Avenicci\" or actorName == \"Farengar Secret-Fire\" or actorName == \"Irileth\" or actorName == \"Hrongar\" or actorName == \"Nelkir\"",
+        "content": "{% if get_quest_stage(\"DA08\", false) == 0 %}Jarl Balgruuf's youngest, Nelkir, has been seen lingering near a door in the Dragonsreach undercroft. The door whispers to him — and the Jarl wishes someone would find out what is on the other side.{% elif get_quest_stage(\"DA08\", false) < 50 %}{{ playerName }} is doing the door's bidding to earn its trust — or pretending to.{% else %}The whispering door is open. Mephala's Ebony Blade has been claimed. The Jarl's son will remember the voice that taught him.{% endif %}",
+        "display_name": "The Whispering Door",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.whiterun.whispering_door",
+        "location": "",
+        "tags": [
+          "The Whispering Door",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Saadia\" or actorName == \"Kematu\" or actorName == \"Hulda\" or actorName == \"Saadia\" or is_in_faction(actorUUID, \"CrimeFactionWhiterun\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "{% if get_quest_stage(\"MS08\", false) == 0 %}A Redguard woman calling herself Saadia hides at the Bannered Mare in Whiterun. A pair of mercenaries — Kematu and his Alik'r — have been turned away at the gate, claiming she is no merchant's wife but a fugitive noble.{% elif get_quest_stage(\"MS08\", false) < 50 %}{{ playerName }} is weighing both sides — Saadia's plea for protection and the Alik'r claim that she betrayed Hammerfell to the Aldmeri Dominion.{% else %}{{ playerName }} decided Saadia's fate — either turned her over to the Alik'r in Swindler's Den, or killed Kematu and bought her flight.{% endif %}",
+        "display_name": "In My Time of Need",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.whiterun.in_my_time_of_need",
+        "location": "",
+        "tags": [
+          "In My Time of Need",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"ThievesGuildFaction\") or actorName == \"Maven Black-Briar\"",
+        "content": "{% if get_quest_stage(\"TG03\", false) == 0 %}Maven Black-Briar wants the Honningbrew Meadery — the upstart competitor to Black-Briar — quietly ruined.{% else %}{{ playerName }} sabotaged the Honningbrew Meadery for Maven Black-Briar. Sabjorn is finished as a brewer.{% endif %}",
+        "display_name": "Dampened Spirits",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "quest.whiterun.dampened_spirits",
+        "location": "",
+        "tags": [
+          "Dampened Spirits",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionWhiterun\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "{% if get_quest_stage(\"Favor253\", false) == 0 %}Jarl Balgruuf the Greater may grant the title of Thane to those who serve Whiterun and prove themselves to its people.{% elif get_quest_stage(\"Favor253\", false) < 200 %}The Jarl asked {{ playerName }} to do more for Whiterun's people before any thaneship could be granted.{% else %}{{ playerName }} has been named Thane of Whiterun by Jarl Balgruuf — or whoever holds Dragonsreach after the war.{% endif %}",
+        "display_name": "Thane of Whiterun",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.whiterun.thane_of_whiterun",
+        "location": "",
+        "tags": [
+          "Thane of Whiterun",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

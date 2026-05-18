@@ -1,0 +1,369 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Windhelm's notable people — Ulfric Stormcloak's court, the Gray Quarter Dunmer, the Shatter-Shield clan in their grief, and the boy performing the Black Sacrament in his abandoned house.",
+    "entry_count": 19,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Notable People In Windhelm",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Ulfric Stormcloak is the Jarl of Windhelm and leader of the Stormcloak rebellion against the Empire. Voice-trained at High Hrothgar, killed High King Torygg in single combat, and now wages war for an independent Skyrim.",
+        "display_name": "Ulfric Stormcloak - Jarl of Windhelm",
+        "emotion": "",
+        "importance": 0.95,
+        "knowledge_key": "eastmarch.people.ulfric",
+        "location": "",
+        "tags": [
+          "Ulfric Stormcloak",
+          "Jarl",
+          "Windhelm",
+          "Stormcloak",
+          "High King",
+          "Markarth",
+          "Thalmor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\") or is_in_faction(actorUUID, \"@CWSonsFaction\")",
+        "content": "Galmar Stone-Fist commands the Stormcloak military under Ulfric. Hard old Nord, scarred, the kind of war-chief who runs his sons through their drills before dawn.",
+        "display_name": "Galmar Stone-Fist - Ulfric's Second",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "eastmarch.people.galmar",
+        "location": "",
+        "tags": [
+          "Galmar Stone-Fist",
+          "Stormcloak",
+          "Windhelm",
+          "Palace of the Kings",
+          "Ulfric"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Jorleif is Ulfric's steward at the Palace of the Kings. Older Nord, practical, handles the city's daily business while Ulfric handles the rebellion.",
+        "display_name": "Jorleif - Steward",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "eastmarch.people.jorleif",
+        "location": "",
+        "tags": [
+          "Jorleif",
+          "steward",
+          "Windhelm",
+          "Ulfric",
+          "Palace of the Kings"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Wuunferth the Unliving is Ulfric's court mage — old, reclusive, suspected of necromancy by half of Windhelm including the Stormcloak guards he answers to. He has been investigating the Butcher killings privately.",
+        "display_name": "Wuunferth the Unliving - Court Mage",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "eastmarch.people.wuunferth",
+        "location": "",
+        "tags": [
+          "Wuunferth the Unliving",
+          "court mage",
+          "Windhelm",
+          "Ulfric",
+          "Necromancer's Amulet"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\") or is_in_faction(actorUUID, \"@CWSonsFaction\")",
+        "content": "Yrsarald Thrice-Pierced is one of Ulfric's senior Stormcloak officers — the man named for the three arrows he survived at the Battle of Markarth. Drinks at the Palace tables when he isn't in the field.",
+        "display_name": "Yrsarald Thrice-Pierced - Stormcloak Officer",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "eastmarch.people.yrsarald",
+        "location": "",
+        "tags": [
+          "Yrsarald Thrice-Pierced",
+          "Stormcloak",
+          "Windhelm",
+          "officer",
+          "Palace of the Kings"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Brunwulf Free-Winter is the Imperial-aligned Nord who would replace Ulfric as Jarl of Eastmarch. Unusually for a Nord of Windhelm, he openly defends the Dunmer of the Gray Quarter against their tormentors.",
+        "display_name": "Brunwulf Free-Winter - Imperial Alternative",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "eastmarch.people.brunwulf",
+        "location": "",
+        "tags": [
+          "Brunwulf Free-Winter",
+          "Windhelm",
+          "Imperial",
+          "alternative Jarl",
+          "Dunmer ally"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Rolff Stone-Fist is Galmar's drunk younger brother. Picks fights with the Dunmer of the Gray Quarter most nights — Galmar covers for him because they share blood, but barely.",
+        "display_name": "Rolff Stone-Fist - Drunken Brother",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.people.rolff",
+        "location": "",
+        "tags": [
+          "Rolff Stone-Fist",
+          "Windhelm",
+          "Galmar",
+          "drunk",
+          "racist",
+          "Gray Quarter"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Elda Early-Dawn runs Candlehearth Hall in Windhelm's Stone Quarter. The death of her server Susanna the Wicked has shaken her — she's been short-handed since.",
+        "display_name": "Elda Early-Dawn - Candlehearth Hall",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "eastmarch.people.elda",
+        "location": "",
+        "tags": [
+          "Elda Early-Dawn",
+          "Candlehearth Hall",
+          "Windhelm",
+          "innkeeper",
+          "Susanna"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Tova Shatter-Shield grieves for her daughter Friga, killed by the Butcher of Windhelm. Her surviving daughter Nilsine bears the weight of her mother's grief in silence.",
+        "display_name": "Tova Shatter-Shield - Grieving Mother",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "eastmarch.people.tova",
+        "location": "",
+        "tags": [
+          "Tova Shatter-Shield",
+          "Windhelm",
+          "Friga",
+          "Nilsine",
+          "grief",
+          "clan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Torbjorn Shatter-Shield runs the family shipping out of Windhelm's docks. Stoic Nord patriarch, mourning his daughter Friga and watching his wife crumble.",
+        "display_name": "Torbjorn Shatter-Shield - Grieving Father",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "eastmarch.people.torbjorn",
+        "location": "",
+        "tags": [
+          "Torbjorn Shatter-Shield",
+          "Windhelm",
+          "Tova",
+          "Friga",
+          "grief",
+          "docks"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Nilsine Shatter-Shield is the surviving daughter of Tova and Torbjorn. Quiet, withdrawn, mourning her twin Friga in a house where everyone else is also mourning her.",
+        "display_name": "Nilsine Shatter-Shield - Surviving Daughter",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "eastmarch.people.nilsine",
+        "location": "",
+        "tags": [
+          "Nilsine Shatter-Shield",
+          "Windhelm",
+          "Friga",
+          "grief",
+          "surviving twin"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Aventus Aretino is the child who fled Honorhall Orphanage in Riften and barricaded himself in his family's Windhelm house. He performs the Black Sacrament in the upstairs bedroom — calling for the Dark Brotherhood to kill Grelod the Kind.",
+        "display_name": "Aventus Aretino - Black Sacrament",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "eastmarch.people.aventus",
+        "location": "",
+        "tags": [
+          "Aventus Aretino",
+          "Aretino Residence",
+          "Black Sacrament",
+          "Dark Brotherhood",
+          "Grelod",
+          "orphan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Calixto Corrium runs the Museum of the Strange in Windhelm — Imperial, polite, eccentric. He is also the Butcher: a man who keeps his mummified sister Lucilla in his house and harvests parts from young women to bring her back.",
+        "display_name": "Calixto Corrium - Museum-Keeper",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "eastmarch.people.calixto",
+        "location": "",
+        "tags": [
+          "Calixto Corrium",
+          "Windhelm",
+          "Museum of the Strange",
+          "collector",
+          "Butcher",
+          "murder"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Helgird tends the Hall of the Dead in Windhelm — priestess of Arkay, overworked since the Butcher's killings began. The bodies of Susanna and Friga lie in her catacombs below.",
+        "display_name": "Helgird - Hall of the Dead",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.people.helgird",
+        "location": "",
+        "tags": [
+          "Helgird",
+          "Hall of the Dead",
+          "Windhelm",
+          "Arkay",
+          "Butcher",
+          "Susanna",
+          "Friga"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Ambarys Rendar runs the New Gnisis Cornerclub in Windhelm's Gray Quarter. Older Dunmer, bitter about Nord treatment of his people, openly hopes the Stormcloaks lose.",
+        "display_name": "Ambarys Rendar - New Gnisis Cornerclub",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "eastmarch.people.ambarys",
+        "location": "",
+        "tags": [
+          "Ambarys Rendar",
+          "New Gnisis Cornerclub",
+          "Windhelm",
+          "Gray Quarter",
+          "Dunmer",
+          "cornerclub"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Suvaris Atheron manages the Clan Cruel-Sea caravans for the East Empire Company. Dunmer, lives in the Gray Quarter with her brothers Faryl and Aval. Quietly endures the Stormcloak treatment.",
+        "display_name": "Suvaris Atheron - Caravan Manager",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "eastmarch.people.suvaris",
+        "location": "",
+        "tags": [
+          "Suvaris Atheron",
+          "Windhelm",
+          "Gray Quarter",
+          "Dunmer",
+          "East Empire Company",
+          "Cruel-Sea"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Revyn Sadri runs Sadri's Used Wares in the Gray Quarter. Dunmer, sells secondhand goods openly and stolen goods quietly. The Stormcloak guards mostly leave him alone.",
+        "display_name": "Revyn Sadri - Used Wares",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.people.revyn",
+        "location": "",
+        "tags": [
+          "Revyn Sadri",
+          "Sadri's Used Wares",
+          "Windhelm",
+          "Gray Quarter",
+          "Dunmer",
+          "fence"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Niranye runs a market stall at the gates of Windhelm. Altmer, claims to be the only one selling honest goods — and is one of the Thieves Guild's two fences in the city.",
+        "display_name": "Niranye - Market Vendor",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "eastmarch.people.niranye",
+        "location": "",
+        "tags": [
+          "Niranye",
+          "Windhelm",
+          "market",
+          "Altmer",
+          "fence",
+          "Thieves Guild"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Oengul One-Eye forges weapons for the Stormcloaks at the Windhelm smithy. Hard old Nord with the eye and patience to forge for an army. His apprentice Hermir Strong-Heart works beside him.",
+        "display_name": "Oengul One-Eye - Stormcloak Smith",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "eastmarch.people.oengul",
+        "location": "",
+        "tags": [
+          "Oengul One-Eye",
+          "Windhelm",
+          "smithy",
+          "Stormcloak",
+          "Hermir"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

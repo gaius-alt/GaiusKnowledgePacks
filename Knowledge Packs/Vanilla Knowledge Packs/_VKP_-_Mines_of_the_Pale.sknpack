@@ -1,0 +1,71 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Iron, quicksilver, and silver — the rival mines of Dawnstar and the lonely workings out in the snow.",
+    "entry_count": 3,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Mines of the Pale",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Iron-Breaker Mine sits at the west end of Dawnstar — Beitild owns it and works her miners hard. The iron veins have run steady for years despite her temper.",
+        "display_name": "Iron-Breaker Mine - Iron (Beitild)",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "mine.pale.ironbreaker",
+        "location": "",
+        "tags": [
+          "Iron-Breaker Mine",
+          "iron",
+          "Pale",
+          "Dawnstar",
+          "Beitild",
+          "west end"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Quicksilver Mine sits at the east end of Dawnstar opposite Iron-Breaker. Leigelf runs it — Beitild's estranged husband — and the two mines compete on opposite ends of the same town.",
+        "display_name": "Quicksilver Mine - Quicksilver (Leigelf)",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "mine.pale.quicksilver",
+        "location": "",
+        "tags": [
+          "Quicksilver Mine",
+          "quicksilver",
+          "Pale",
+          "Dawnstar",
+          "Leigelf",
+          "east end",
+          "feud"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Whistling Mine is a small iron mine south of Dawnstar — the veins have grown thin lately, but the few miners still here have nowhere else to go.",
+        "display_name": "Whistling Mine - Iron",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "mine.pale.whistling_mine",
+        "location": "",
+        "tags": [
+          "Whistling Mine",
+          "iron",
+          "Pale",
+          "Anga's Mill area",
+          "barren veins"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

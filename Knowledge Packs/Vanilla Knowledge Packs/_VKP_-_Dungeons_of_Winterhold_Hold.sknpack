@@ -1,0 +1,219 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Nordic ruins, Dwemer cities, and ice caves of Winterhold Hold — Saarthal, Alftand, and the snow-buried tombs of the north.",
+    "entry_count": 11,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Dungeons of Winterhold Hold",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Saarthal is the ancient Atmoran city buried near Winterhold — the site of the Night of Tears, and where the College of Winterhold's apprentices recently uncovered something they were not ready for.",
+        "display_name": "Saarthal",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.winterhold.saarthal",
+        "location": "",
+        "tags": [
+          "Saarthal",
+          "Nordic ruin",
+          "Winterhold",
+          "Tolfdir",
+          "Eye of Magnus",
+          "Jyrik Gauldurson"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Alftand is the Dwemer ruin in northern Winterhold. The upper levels hold the corpses of a skooma-addled expedition; deeper, the Falmer rule, and below them lies the descent to Blackreach itself.",
+        "display_name": "Alftand",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "dungeon.winterhold.alftand",
+        "location": "",
+        "tags": [
+          "Alftand",
+          "Dwemer ruin",
+          "Winterhold",
+          "Septimus Signus",
+          "Elder Scroll",
+          "Falmer",
+          "skooma"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Yngol Barrow is the Nordic tomb on Winterhold's coast — burial place of one of Ysgramor's sons. Draugr keep the central chamber; his helm rests on the stone bier inside.",
+        "display_name": "Yngol Barrow",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.winterhold.yngol_barrow",
+        "location": "",
+        "tags": [
+          "Yngol Barrow",
+          "Nordic ruin",
+          "Winterhold",
+          "draugr",
+          "helm",
+          "Ysgramor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Hob's Fall Cave is a sea-cliff cave on Winterhold's coast — necromancers have made the place their workshop, raising skeletons from the bones of fishermen.",
+        "display_name": "Hob's Fall Cave",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.winterhold.hobs_fall_cave",
+        "location": "",
+        "tags": [
+          "Hob's Fall Cave",
+          "Winterhold",
+          "necromancers",
+          "skeletons",
+          "ice"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Sightless Pit is a deep cave in the Winterhold mountains held by Falmer — accessible from a hole in the snow, with a steep descent and chaurus brood at the bottom.",
+        "display_name": "Sightless Pit",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.winterhold.sightless_pit",
+        "location": "",
+        "tags": [
+          "Sightless Pit",
+          "Falmer",
+          "Winterhold",
+          "ice",
+          "chaurus",
+          "cave"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Septimus Signus's Outpost is a tiny ice cave on Winterhold's north coast — the mad mage Septimus Signus lives here alone with a great sealed Dwemer lockbox he believes holds the secrets of the Heart of Lorkhan.",
+        "display_name": "Septimus Signus's Outpost",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.winterhold.septimus_outpost",
+        "location": "",
+        "tags": [
+          "Septimus Signus's Outpost",
+          "Winterhold",
+          "Dwemer lockbox",
+          "Elder Scroll",
+          "mad scholar"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Driftshade Refuge is a Silver Hand stronghold in southern Winterhold — werewolf hunters camp here in the snow, gathering silver-armed enemies of the Companions.",
+        "display_name": "Driftshade Refuge",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "dungeon.winterhold.driftshade_refuge",
+        "location": "",
+        "tags": [
+          "Driftshade Refuge",
+          "Silver Hand",
+          "Winterhold",
+          "werewolf hunters",
+          "Companions"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Snow Veil Sanctum is a Nordic tomb on the Winterhold–Eastmarch border. Mercer Frey of the Thieves Guild walked into it once with Gallus Desidenius — only one of them came back.",
+        "display_name": "Snow Veil Sanctum",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.winterhold.snow_veil_sanctum",
+        "location": "",
+        "tags": [
+          "Snow Veil Sanctum",
+          "Nordic ruin",
+          "Winterhold",
+          "Mercer Frey",
+          "Karliah",
+          "Thieves Guild",
+          "Nightingale"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Ironbind Barrow is the Nordic tomb of Gathrik the Wraith, in the southern Winterhold mountains. A small adventurer party has been camped at its entrance for weeks, trying to clear it.",
+        "display_name": "Ironbind Barrow",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.winterhold.ironbind_barrow",
+        "location": "",
+        "tags": [
+          "Ironbind Barrow",
+          "Nordic ruin",
+          "Winterhold",
+          "draugr",
+          "Gathrik",
+          "adventurers"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Frostflow Lighthouse stands on the Winterhold coast — its keepers' bodies lie in the keeper's house and in the cellar workings beneath. A chaurus reaper hunts in the tunnels they dug.",
+        "display_name": "Frostflow Lighthouse",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.winterhold.frostflow_lighthouse",
+        "location": "",
+        "tags": [
+          "Frostflow Lighthouse",
+          "Winterhold",
+          "Habd",
+          "chaurus reaper",
+          "family tragedy"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Journeyman's Nook is a tiny one-room shelter on Winterhold's western mountain road — used by travelers caught in storms when the road is impassable.",
+        "display_name": "Journeyman's Nook",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "dungeon.winterhold.journeymans_nook",
+        "location": "",
+        "tags": [
+          "Journeyman's Nook",
+          "Winterhold",
+          "shelter",
+          "fishing"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Layouts of Dawnstar's buildings — the White Hall, Windpeak Inn, the two competing mines, and Silus Vesuius's strange little museum.",
+    "entry_count": 7,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Buildings In Dawnstar",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"DawnstarWhiteHallFaction\") or is_in_faction(actorUUID, \"TownDawnstarFaction\")",
+        "content": "The White Hall is Skald the Elder's Jarl-seat in Dawnstar — a sturdy stone hall facing the harbor. Through the front doors is the main hall: a long fire pit running down the center, the Jarl's chair raised at the back, and a smaller side room serving as the steward's office. Bulfrek serves the Jarl; the housecarl Jod stands ready. Skald spends most days obsessing over nightmares and the Civil War.",
+        "display_name": "Dawnstar White Hall - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "pale.building.white_hall",
+        "location": "",
+        "tags": [
+          "White Hall",
+          "Dawnstar",
+          "Skald the Elder",
+          "Bulfrek",
+          "Jod",
+          "court",
+          "Pale"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"DawnstarWindpeakInnFaction\") or is_in_faction(actorUUID, \"TownDawnstarFaction\")",
+        "content": "Windpeak Inn is Dawnstar's only tavern — a wooden building near the harbor where everyone in town comes to escape the nightmares. The common room has a bar to the right where Thoring serves, a central fire pit, and a few tables. His daughter Karita sings most nights. Erandur the priest of Mara has been seen here since the nightmares began, asking questions.",
+        "display_name": "Windpeak Inn - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "pale.building.windpeak_inn",
+        "location": "",
+        "tags": [
+          "Windpeak Inn",
+          "Dawnstar",
+          "Thoring",
+          "Karita",
+          "Erandur",
+          "inn",
+          "nightmares"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"DawnstarIronBreakerMineFaction\") or is_in_faction(actorUUID, \"TownDawnstarFaction\")",
+        "content": "Iron-Breaker Mine sits at the west end of Dawnstar — a wooden shed at the entrance to an iron tunnel cut into the hillside. Beitild owns the mine, and works her miners hard. Inside, the tunnels branch into ore veins; the mine has been steady for years despite Beitild's brutal management.",
+        "display_name": "Iron-Breaker Mine - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "pale.building.iron_breaker_mine",
+        "location": "",
+        "tags": [
+          "Iron-Breaker Mine",
+          "Dawnstar",
+          "Beitild",
+          "iron",
+          "mine"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"DawnstarQuicksilverMineFaction\") or is_in_faction(actorUUID, \"TownDawnstarFaction\")",
+        "content": "Quicksilver Mine sits at the east end of Dawnstar across from Iron-Breaker — a smaller shed and tunnel cut for quicksilver ore. Leigelf owns it and runs the operation. He and his estranged wife Beitild own competing mines on opposite ends of town, and the rivalry has poisoned the air between them for years.",
+        "display_name": "Quicksilver Mine - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "pale.building.quicksilver_mine",
+        "location": "",
+        "tags": [
+          "Quicksilver Mine",
+          "Dawnstar",
+          "Leigelf",
+          "quicksilver",
+          "mine"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"DawnstarSilusHouseFaction\")",
+        "content": "Silus Vesuius's house in Dawnstar doubles as a museum to the Mythic Dawn — his Imperial ancestors were part of the cult that killed Emperor Uriel Septim. The front room displays glass cases of Mythic Dawn robes, Dagon idols, fragments of Mehrunes' Razor, and other reliquary. Silus lives in the back room and gives tours to anyone willing to listen.",
+        "display_name": "Mythic Dawn Museum (Silus's House) - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "pale.building.silus_museum",
+        "location": "",
+        "tags": [
+          "Silus Vesuius",
+          "Dawnstar",
+          "Mythic Dawn",
+          "museum",
+          "Mehrunes Dagon",
+          "Razor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"DawnstarBeitildsHouseFaction\")",
+        "content": "Beitild's house is a small Nord home on the west side of Dawnstar near her mine. The front door opens onto a single room with a hearth, table, and bed. She lives alone — she and her husband Leigelf separated long ago and have houses on opposite ends of town.",
+        "display_name": "Beitild's House - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "pale.building.beitilds_house",
+        "location": "",
+        "tags": [
+          "Beitild",
+          "Dawnstar",
+          "Iron-Breaker",
+          "house"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"DawnstarBrinaMerilisHouseFaction\")",
+        "content": "Brina Merilis lives in a small stone house in Dawnstar with her former lieutenant Horik Halfhand. The retired Imperial Legion commander would be Skald the Elder's replacement if the Empire takes the Pale. Her house is simply appointed — a single living room with a hearth, two beds, and Legion banners on the walls.",
+        "display_name": "Brina Merilis's House - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "pale.building.brina_merilis_house",
+        "location": "",
+        "tags": [
+          "Brina Merilis",
+          "Dawnstar",
+          "Imperial Legion",
+          "retired commander",
+          "Horik Halfhand"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Layouts of Solitude's major buildings — the Blue Palace, Castle Dour, the Bards College, the trade and temple districts, and the East Empire Company offices.",
+    "entry_count": 12,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Buildings In Solitude",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"SolitudeBluePalaceFaction\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "The Blue Palace stands at the top of Solitude, the seat of the High Queen-presumptive. Through the front doors is a grand circular hall with a sweeping staircase climbing each side to the upper gallery. Elisif's throne sits raised on the far side, with her court arrayed around it — Falk Firebeard the steward, Bryling and Erikur the thanes, and Sybille Stentor the court mage. The royal quarters and the Pelagius Wing lie up the stairs.",
+        "display_name": "Blue Palace - Layout",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "haafingar.building.blue_palace",
+        "location": "",
+        "tags": [
+          "Blue Palace",
+          "Solitude",
+          "Elisif the Fair",
+          "Falk Firebeard",
+          "Bryling",
+          "Erikur",
+          "Sybille Stentor",
+          "court",
+          "throne"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"SolitudeCastleDourFaction\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "Castle Dour is the Imperial military seat in Solitude — a fortress of grey stone overlooking the city. The main hall serves as Tullius's war room, with maps of Skyrim spread across a great table. Legate Rikke and the Legion officers gather here. The adjacent Hall of Talos (now disused per the White-Gold Concordat) connects through a side passage. The Solitude Hall of the Dead occupies the lower levels.",
+        "display_name": "Castle Dour - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "haafingar.building.castle_dour",
+        "location": "",
+        "tags": [
+          "Castle Dour",
+          "Solitude",
+          "Tullius",
+          "Rikke",
+          "Imperial Legion",
+          "Hall of Talos",
+          "Hall of the Dead"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"SolitudeWinkingSkeeverFaction\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "The Winking Skeever is Solitude's main inn, just inside the gates. The common room has a long bar against the back where Corpulus Vinius works, with his son Sorex serving tables. Vivienne Onis manages the wine cellar. Lisette plays as the resident bard. Stairs against the side wall lead up to the rented rooms.",
+        "display_name": "The Winking Skeever - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "haafingar.building.winking_skeever",
+        "location": "",
+        "tags": [
+          "Winking Skeever",
+          "Solitude",
+          "Corpulus Vinius",
+          "Sorex Vinius",
+          "Vivienne Onis",
+          "Lisette",
+          "inn",
+          "tavern"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"SolitudeBardsCollegeFaction\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "The Bards College is a tall stone building near the Blue Palace, the only college of its kind left in Tamriel. The main hall is a grand stage and audience chamber where lectures and performances are held. Viarmo the headmaster has his office to the side; Inge teaches the lute, Pantea the voice, and Giraud history. Students Jorn and Aia Arria study among others in the dormitories upstairs.",
+        "display_name": "Bards College - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "haafingar.building.bards_college",
+        "location": "",
+        "tags": [
+          "Bards College",
+          "Solitude",
+          "Viarmo",
+          "Inge Six-Fingers",
+          "Pantea Ateia",
+          "Giraud Gemane",
+          "Jorn",
+          "Aia Arria",
+          "bards"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"SolitudeRadiantRaimentsFaction\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "Radiant Raiment is the upscale clothier on Solitude's main avenue. Through the front door is a high-ceilinged showroom with mannequins displaying finery, racks of robes and dresses, and a counter at the back where the Altmer sisters Taarie and Endarie work. They live in modest quarters upstairs.",
+        "display_name": "Radiant Raiment - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.building.radiant_raiment",
+        "location": "",
+        "tags": [
+          "Radiant Raiment",
+          "Solitude",
+          "Taarie",
+          "Endarie",
+          "clothier",
+          "Altmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"SolitudeAngelinesAromaticsFaction\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "Angeline's Aromatics is the small apothecary shop on Solitude's main road. A counter sits opposite the door where Angeline Morrard tends customers; shelves of dried reagents and bottled potions climb every wall. The shop smells of lavender and dried mountain flowers. Angeline lives upstairs above the shop.",
+        "display_name": "Angeline's Aromatics - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.building.angelines_aromatics",
+        "location": "",
+        "tags": [
+          "Angeline's Aromatics",
+          "Solitude",
+          "Angeline Morrard",
+          "apothecary",
+          "alchemy"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"EastEmpireCompanyFaction\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "The East Empire Company's Solitude offices sit at the docks just outside the city. The main warehouse is a vast wooden hall stacked with crates and barrels of goods; Orthus Endario manages operations from a small office to the side. Vittoria Vici handles trade negotiations for the Emperor's cousin from a small counter. The pier outside is where ships moor for unloading.",
+        "display_name": "East Empire Company - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "haafingar.building.east_empire_company",
+        "location": "",
+        "tags": [
+          "East Empire Company",
+          "Solitude",
+          "Vittoria Vici",
+          "Orthus Endario",
+          "Erikur",
+          "docks",
+          "trade"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"PlayerHouseProudspireFaction\")",
+        "content": "Proudspire Manor is the most expensive purchasable house in Skyrim — three stories of stone and timber at the heart of Solitude. Through the front door is a wide entrance hall with a kitchen and dining table. A staircase climbs to the upper bedrooms and a third-floor library. Falk Firebeard handles the sale for 25,000 septims.",
+        "display_name": "Proudspire Manor - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "haafingar.building.proudspire_manor",
+        "location": "",
+        "tags": [
+          "Proudspire Manor",
+          "Solitude",
+          "player home",
+          "Falk Firebeard",
+          "high-end"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"SolitudeTempleOfTheDivinesFaction\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "The Temple of the Divines in Solitude is a long stone hall ringing the inner city. Eight shrines line the walls — one for each Divine, with the Talos alcove conspicuously empty per the White-Gold Concordat. Rorlund the priest tends the altar at the far end; his wife Freir helps. The grounds connect through a back door to the Hall of the Dead, where Styrr keeps watch.",
+        "display_name": "Temple of the Divines - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "haafingar.building.temple_of_the_divines",
+        "location": "",
+        "tags": [
+          "Temple of the Divines",
+          "Solitude",
+          "Rorlund",
+          "Freir",
+          "Styrr",
+          "shrines",
+          "Talos alcove"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"SolitudeSawmillFaction\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "Solitude's sawmill sits at the bottom of the cliff just past the city's docks — a small mill with a water-wheel turning beside the river. Hjorunn runs the operation; his daughter Aeri lives nearby. The mill cuts the timber that supplies most of Haafingar.",
+        "display_name": "Solitude Sawmill - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "haafingar.building.solitude_sawmill",
+        "location": "",
+        "tags": [
+          "Solitude Sawmill",
+          "Solitude",
+          "Hjorunn",
+          "Aeri",
+          "sawmill",
+          "lumber"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"SolitudeStablesFaction\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "The Solitude Stables sit on the long winding road below the cliff city. A small wooden barn and corral house the horses; Geimund the stablemaster works the place with his hand Jala. The carriage waits at the gate for travelers heading to Whiterun and the other holds.",
+        "display_name": "Solitude Stables - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "haafingar.building.solitude_stables",
+        "location": "",
+        "tags": [
+          "Solitude Stables",
+          "Solitude",
+          "Geimund",
+          "Jala",
+          "carriage",
+          "horses"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"SolitudeBitsAndPiecesFaction\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "Bits and Pieces is the small general store on Solitude's market square. The single room has a counter against the back wall where Sayma stands, with shelves of household goods, food, and miscellaneous wares climbing the walls. She lives in a tiny room behind the shop.",
+        "display_name": "Bits and Pieces - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "haafingar.building.bits_and_pieces",
+        "location": "",
+        "tags": [
+          "Bits and Pieces",
+          "Solitude",
+          "Sayma",
+          "general store"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

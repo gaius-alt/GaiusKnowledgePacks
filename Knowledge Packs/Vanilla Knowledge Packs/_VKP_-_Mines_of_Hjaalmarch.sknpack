@@ -1,0 +1,33 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Iron mining in Hjaalmarch — modest output, but steady through the war.",
+    "entry_count": 1,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Mines of Hjaalmarch",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Stonehills is a small iron-mining settlement east of Morthal — Sorli the Builder runs the operation. Modest output, but every bar feeds Stormcloak forges through the war.",
+        "display_name": "Stonehills - Iron",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "mine.hjaalmarch.stonehills",
+        "location": "",
+        "tags": [
+          "Stonehills",
+          "iron",
+          "Hjaalmarch",
+          "Sorli the Builder",
+          "settlement",
+          "Stormcloak supply"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

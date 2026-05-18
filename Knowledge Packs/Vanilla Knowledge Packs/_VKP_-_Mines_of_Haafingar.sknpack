@@ -1,0 +1,33 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Orichalcum from the Orc stronghold of Mor Khazgur — Haafingar's only major mine.",
+    "entry_count": 1,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Mines of Haafingar",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Mor Khazgur Mine lies inside the Orc stronghold of Mor Khazgur in the far northwestern mountains — orichalcum veins, worked by Chief Larak's Orsimer. Visitors are tolerated only when they prove themselves Code-worthy.",
+        "display_name": "Mor Khazgur Mine - Orichalcum",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "mine.haafingar.mor_khazgur",
+        "location": "",
+        "tags": [
+          "Mor Khazgur Mine",
+          "orichalcum",
+          "Haafingar",
+          "Orc stronghold",
+          "Chief Larak",
+          "Orsimer"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Falkreath's notable people — the Jarl's small court, the innkeeper, the priests of Arkay, and the families who tend the largest cemetery in Skyrim.",
+    "entry_count": 13,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Notable People In Falkreath",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Siddgeir is the young Imperial-aligned Jarl of Falkreath, ruling from the longhouse. He took the seat from his uncle Dengeir at Solitude's insistence and spends most of his time relaxing rather than ruling.",
+        "display_name": "Siddgeir - Jarl of Falkreath (Imperial)",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "falkreath.people.siddgeir",
+        "location": "",
+        "tags": [
+          "Siddgeir",
+          "Jarl",
+          "Falkreath",
+          "Imperial",
+          "nephew of Dengeir"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Dengeir of Stuhn was once Jarl of Falkreath, pushed aside by the Empire in favor of his nephew Siddgeir. Paranoid and Stormcloak-aligned, he sees Imperial spies everywhere — and believes his vampire ancestor Vighar still walks the family crypt.",
+        "display_name": "Dengeir of Stuhn - Former Jarl",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "falkreath.people.dengeir",
+        "location": "",
+        "tags": [
+          "Dengeir of Stuhn",
+          "former Jarl",
+          "Falkreath",
+          "Stormcloak",
+          "Vighar",
+          "conspiracy"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Helvard is the housecarl of Falkreath — Siddgeir's sword-sworn protector. Older Nord warrior, married to the maid Tekla.",
+        "display_name": "Helvard - Housecarl",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "falkreath.people.helvard",
+        "location": "",
+        "tags": [
+          "Helvard",
+          "housecarl",
+          "Falkreath",
+          "Siddgeir",
+          "Tekla"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Nenya is the Altmer steward in Siddgeir's longhouse, the one who actually keeps Falkreath running while the young Jarl lounges.",
+        "display_name": "Nenya - Steward",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "falkreath.people.nenya",
+        "location": "",
+        "tags": [
+          "Nenya",
+          "steward",
+          "Falkreath",
+          "Altmer",
+          "Siddgeir"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Valga Vinicia runs the Dead Man's Drink — Falkreath's only inn. An Imperial widow from Cyrodiil, sharp with the coin and quick to bar the door at curfew.",
+        "display_name": "Valga Vinicia - Dead Man's Drink",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "falkreath.people.valga",
+        "location": "",
+        "tags": [
+          "Valga Vinicia",
+          "innkeeper",
+          "Dead Man's Drink",
+          "Falkreath",
+          "Imperial",
+          "Narri"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Lod the blacksmith works the forge on Falkreath's main road — a loyal Nord who served as Dengeir's personal guard. Imperial-aligned but places his oath to the former Jarl above politics. He's been asking the gate guards to look for a stray hound on the road outside town.",
+        "display_name": "Lod - Blacksmith",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "falkreath.people.lod",
+        "location": "",
+        "tags": [
+          "Lod",
+          "blacksmith",
+          "Falkreath",
+          "Barbas",
+          "Clavicus Vile",
+          "stolen book"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Runil is the Altmer priest of Arkay, tending Falkreath's Hall of the Dead. Before he found Arkay, he was a Thalmor battlemage during the Great War — and that past still weighs on him. His assistant Kust helps him keep the largest cemetery in Skyrim.",
+        "display_name": "Runil - Priest of Arkay",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "falkreath.people.runil",
+        "location": "",
+        "tags": [
+          "Runil",
+          "Arkay",
+          "priest",
+          "Falkreath",
+          "Altmer",
+          "Thalmor Justiciar",
+          "past"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Kust is Runil's assistant at the Hall of the Dead — a quieter keeper of the dead beneath Falkreath, spending his days tending the cemetery's endless headstones.",
+        "display_name": "Kust - Hall of the Dead",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "falkreath.people.kust",
+        "location": "",
+        "tags": [
+          "Kust",
+          "Hall of the Dead",
+          "Arkay",
+          "Falkreath",
+          "Thaddeus"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Mathies works Corpselight Farm with his wife Indara Caerellia. His nine-year-old daughter Lavinia was killed by the werewolf Sinding, and grief has hollowed him.",
+        "display_name": "Mathies - Corpselight Farm",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "falkreath.people.mathies",
+        "location": "",
+        "tags": [
+          "Mathies",
+          "Corpselight Farm",
+          "Falkreath",
+          "Lavinia",
+          "Indara Caerellia",
+          "Sinding",
+          "grief"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Solaf runs Gray Pine Goods in Falkreath alongside his brother Bolund. He sides with the Empire; Bolund sides with the Stormcloaks. The shop survives only because they refuse to talk to each other.",
+        "display_name": "Solaf - Gray Pine Goods (Imperial)",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "falkreath.people.solaf",
+        "location": "",
+        "tags": [
+          "Solaf",
+          "Gray Pine Goods",
+          "Falkreath",
+          "Imperial",
+          "Bolund"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Bolund runs Gray Pine Goods alongside his brother Solaf. He's a hard Stormcloak; Solaf is just as hard for the Empire. They refuse to speak to each other while running the same shop.",
+        "display_name": "Bolund - Gray Pine Goods (Stormcloak)",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "falkreath.people.bolund",
+        "location": "",
+        "tags": [
+          "Bolund",
+          "Gray Pine Goods",
+          "Falkreath",
+          "Stormcloak",
+          "Solaf"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Zaria runs Grave Concoctions alongside Nenya — Falkreath's apothecary, keeping the town supplied with remedies while the politics play out around her.",
+        "display_name": "Zaria - Steward's Helper",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "falkreath.people.zaria",
+        "location": "",
+        "tags": [
+          "Zaria",
+          "Falkreath",
+          "longhouse",
+          "steward's helper"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Thadgeir is Dengeir's brother — a quiet old Nord veteran mourning a long-lost war companion, whose ashes he asks to have delivered for proper rites.",
+        "display_name": "Thadgeir - Former Soldier",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "falkreath.people.thadgeir",
+        "location": "",
+        "tags": [
+          "Thadgeir",
+          "Falkreath",
+          "veteran",
+          "stolen book",
+          "grief"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

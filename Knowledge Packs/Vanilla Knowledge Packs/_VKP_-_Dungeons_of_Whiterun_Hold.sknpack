@@ -1,0 +1,325 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Nordic ruins, bandit forts, mines, dragon lairs, and caves across Whiterun Hold.",
+    "entry_count": 17,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Dungeons of Whiterun Hold",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") and get_quest_stage(\"MQ102\", false) < 90",
+        "content": "Bleak Falls Barrow is the Nordic ruin above Riverwood — a tomb crawling with bandits in the upper chambers and draugr below. The Dragonstone is rumored to lie at its deepest level.",
+        "display_name": "Bleak Falls Barrow - Uncleared",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.whiterun.bleakfallsbarrow_uncleared",
+        "location": "",
+        "tags": [
+          "Bleak Falls Barrow",
+          "Nordic ruin",
+          "Whiterun Hold",
+          "Riverwood",
+          "draugr",
+          "bandits",
+          "Dragonstone"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") and get_quest_stage(\"MQ102\", false) >= 90",
+        "content": "Bleak Falls Barrow stands silent above Riverwood now — the bandits and draugr cleared, the Dragonstone taken from the deep chamber where it slept.",
+        "display_name": "Bleak Falls Barrow - Cleared",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.whiterun.bleakfallsbarrow_cleared",
+        "location": "",
+        "tags": [
+          "Bleak Falls Barrow",
+          "Nordic ruin",
+          "Whiterun Hold",
+          "Riverwood",
+          "cleared"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") and get_quest_stage(\"C00\", false) < 200",
+        "content": "Dustman's Cairn is the Nordic crypt where the Companions' trial-of-blood is run — and where a fragment of Wuuthrad is said to wait beneath draugr and silver-armed hunters.",
+        "display_name": "Dustman's Cairn - Companions Trial",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.whiterun.dustmans_cairn_pre",
+        "location": "",
+        "tags": [
+          "Dustman's Cairn",
+          "Nordic ruin",
+          "Whiterun Hold",
+          "Companions",
+          "Silver Hand",
+          "fragment of Wuuthrad"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Embershard Mine is a bandit-held iron mine near Riverwood — collapsed scaffolds, narrow shafts, and good ore for whoever clears it.",
+        "display_name": "Embershard Mine",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.whiterun.embershard_mine",
+        "location": "",
+        "tags": [
+          "Embershard Mine",
+          "iron mine",
+          "Whiterun Hold",
+          "Riverwood",
+          "bandits",
+          "collapsed supports"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Halted Stream Camp is a fortified bandit trench north of Whiterun — mammoth poachers running a small iron mine off a subterranean shaft.",
+        "display_name": "Halted Stream Camp",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.whiterun.halted_stream_camp",
+        "location": "",
+        "tags": [
+          "Halted Stream Camp",
+          "bandit camp",
+          "Whiterun Hold",
+          "mammoth poachers",
+          "iron mine"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Silent Moons Camp is a half-ruined Nordic site north of Whiterun — bandits squat among the broken stones, and an old altar still forges Lunar weapons under moonlight.",
+        "display_name": "Silent Moons Camp",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.whiterun.silent_moons_camp",
+        "location": "",
+        "tags": [
+          "Silent Moons Camp",
+          "Nordic ruin",
+          "Whiterun Hold",
+          "bandits",
+          "Lunar weapons",
+          "altar"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Hillgrund's Tomb is the Nordic burial chamber of the Hillgrund line — necromancers have raised the family draugr, and a descendant of that bloodline wants them put down.",
+        "display_name": "Hillgrund's Tomb",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.whiterun.hillgrunds_tomb",
+        "location": "",
+        "tags": [
+          "Hillgrund's Tomb",
+          "Nordic ruin",
+          "Whiterun Hold",
+          "Golldir",
+          "ancestor",
+          "draugr"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Shimmermist Cave is a Falmer den built into a half-collapsed Dwemer outpost — a sloping cave full of luminous fungus and silent ambushers.",
+        "display_name": "Shimmermist Cave",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.whiterun.shimmermist_cave",
+        "location": "",
+        "tags": [
+          "Shimmermist Cave",
+          "Falmer",
+          "Whiterun Hold",
+          "Dwemer ruin",
+          "chaurus"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Redoran's Retreat is a small bandit cave east of Whiterun — a forward-camp of road raiders, easily cleared by a determined adventurer.",
+        "display_name": "Redoran's Retreat",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.whiterun.redorans_retreat",
+        "location": "",
+        "tags": [
+          "Redoran's Retreat",
+          "cave",
+          "Whiterun Hold",
+          "bandits"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Valtheim Towers is a pair of stone towers spanning the White River east of Whiterun. Bandits hold the bridge and collect 'tolls' from anyone who tries to cross.",
+        "display_name": "Valtheim Towers",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.whiterun.valtheim_towers",
+        "location": "",
+        "tags": [
+          "Valtheim Towers",
+          "bandit fort",
+          "Whiterun Hold",
+          "bridge",
+          "toll"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "The Western Watchtower west of Whiterun is the Imperial-built outpost where the dragon Mirmulnir attacked — Irileth and the guard fought the first dragon of the new age there.",
+        "display_name": "Western Watchtower",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.whiterun.western_watchtower",
+        "location": "",
+        "tags": [
+          "Western Watchtower",
+          "Imperial outpost",
+          "Whiterun Hold",
+          "dragon attack",
+          "Mirmulnir"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Whitewatch Tower is a small Imperial-aligned stone tower on the road north out of Whiterun. A few legionnaires stand watch here, keeping the road clear.",
+        "display_name": "Whitewatch Tower",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.whiterun.whitewatch_tower",
+        "location": "",
+        "tags": [
+          "Whitewatch Tower",
+          "Imperial outpost",
+          "Whiterun Hold",
+          "guards"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Sleeping Tree Camp is a giant settlement in central Whiterun Hold built around the enormous, ever-weeping Sleeping Tree — its sap fetches good coin for those bold enough to harvest.",
+        "display_name": "Sleeping Tree Camp",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.whiterun.sleeping_tree_camp",
+        "location": "",
+        "tags": [
+          "Sleeping Tree Camp",
+          "giant camp",
+          "Whiterun Hold",
+          "Sleeping Tree Sap"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "The Throat of the World is the great mountain at the heart of Skyrim. High Hrothgar perches midway up where the Greybeards dwell; the summit is the lair of the dragon Paarthurnax himself.",
+        "display_name": "Throat of the World",
+        "emotion": "",
+        "importance": 0.95,
+        "knowledge_key": "dungeon.whiterun.throat_of_world",
+        "location": "",
+        "tags": [
+          "Throat of the World",
+          "mountain",
+          "Whiterun Hold",
+          "High Hrothgar",
+          "Greybeards",
+          "Paarthurnax"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "High Hrothgar is the monastery of the Greybeards, partway up the Throat of the World. Master Arngeir teaches the Way of the Voice to those who climb the Seven Thousand Steps.",
+        "display_name": "High Hrothgar",
+        "emotion": "",
+        "importance": 0.95,
+        "knowledge_key": "dungeon.whiterun.high_hrothgar",
+        "location": "",
+        "tags": [
+          "High Hrothgar",
+          "Throat of the World",
+          "Greybeards",
+          "Arngeir",
+          "monastery",
+          "Voice"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Honningbrew Meadery sits east of Whiterun — Sabjorn's small mead operation, the only real competition to Black-Briar. Maven would prefer it ruined.",
+        "display_name": "Honningbrew Meadery",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.whiterun.honningbrew_meadery",
+        "location": "",
+        "tags": [
+          "Honningbrew Meadery",
+          "Whiterun Hold",
+          "Sabjorn",
+          "mead",
+          "Maven Black-Briar",
+          "Thieves Guild"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Lost Knife Hideout is a bandit-held cave south of Whiterun — a roomy underground complex used as a raiding base.",
+        "display_name": "Lost Knife Hideout",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.whiterun.lost_knife_hideout",
+        "location": "",
+        "tags": [
+          "Lost Knife Hideout",
+          "cave",
+          "Whiterun Hold",
+          "bandits"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

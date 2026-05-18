@@ -1,0 +1,201 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Marshland tombs, ruins, and bandit hideouts across Hjaalmarch — including Ustengrav and Movarth's Lair.",
+    "entry_count": 10,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Dungeons of Hjaalmarch",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Ustengrav is the great Nordic ruin north of Morthal, sealed for centuries with the Horn of Jurgen Windcaller at its heart — until thieves and a different hand reached for it.",
+        "display_name": "Ustengrav",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.hjaalmarch.ustengrav",
+        "location": "",
+        "tags": [
+          "Ustengrav",
+          "Nordic ruin",
+          "Hjaalmarch",
+          "Horn of Jurgen Windcaller",
+          "Greybeards",
+          "draugr"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Folgunthur is the Nordic crypt of Mikrul Gauldurson — first of three tombs holding the murderous sons of Gauldur. His amulet fragment lies among the draugr beyond his coffin.",
+        "display_name": "Folgunthur",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "dungeon.hjaalmarch.folgunthur",
+        "location": "",
+        "tags": [
+          "Folgunthur",
+          "Nordic ruin",
+          "Hjaalmarch",
+          "Mikrul Gauldurson",
+          "Gauldur",
+          "Forbidden Legend",
+          "draugr"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Movarth's Lair is a cave system north of Morthal where the master vampire Movarth Piquine holds court. Alva of Morthal serves him — and the town's recent fire was his doing.",
+        "display_name": "Movarth's Lair",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "dungeon.hjaalmarch.movarths_lair",
+        "location": "",
+        "tags": [
+          "Movarth's Lair",
+          "vampires",
+          "Hjaalmarch",
+          "Morthal",
+          "Alva",
+          "Master Vampire"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Labyrinthian is the great fallen city of Bromjunaar in Hjaalmarch — a Nordic mausoleum holding the dragon priest Morokei. The College of Winterhold has lost more than one apprentice to its halls.",
+        "display_name": "Labyrinthian",
+        "emotion": "",
+        "importance": 0.95,
+        "knowledge_key": "dungeon.hjaalmarch.labyrinthian",
+        "location": "",
+        "tags": [
+          "Labyrinthian",
+          "Nordic ruin",
+          "Hjaalmarch",
+          "Morokei",
+          "dragon priest",
+          "Savos Aren",
+          "Staff of Magnus"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Robber's Gorge is a fortified bandit toll-point on the road between Morthal and Solitude. The raiders demand coin from anyone trying to cross.",
+        "display_name": "Robber's Gorge",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.hjaalmarch.robbers_gorge",
+        "location": "",
+        "tags": [
+          "Robber's Gorge",
+          "bandit camp",
+          "Hjaalmarch",
+          "toll",
+          "road raid"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Stonehills is a small iron-mining settlement in Hjaalmarch run by Sorli the Builder — workers and a small mine, supplying ore to the Stormcloak war effort.",
+        "display_name": "Stonehills",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.hjaalmarch.stonehills",
+        "location": "",
+        "tags": [
+          "Stonehills",
+          "mine",
+          "iron",
+          "Hjaalmarch",
+          "Sorli"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Morvunskar is a half-ruined Nordic fort in Hjaalmarch held by necromancers. A portal in its deep hall has been known to open to Sanguine's Misty Grove.",
+        "display_name": "Morvunskar",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.hjaalmarch.morvunskar",
+        "location": "",
+        "tags": [
+          "Morvunskar",
+          "Nordic ruin",
+          "Hjaalmarch",
+          "necromancers",
+          "Sanguine",
+          "portal"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Kjenstag Ruins are the burnt-out remains of a Nord family homestead in central Hjaalmarch. The ghost of a child still wanders the rubble, and the curse hasn't lifted.",
+        "display_name": "Kjenstag Ruins",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.hjaalmarch.kjenstag_ruins",
+        "location": "",
+        "tags": [
+          "Kjenstag Ruins",
+          "Nordic",
+          "Hjaalmarch",
+          "ghosts",
+          "family curse"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Bonechill Passage is a small ice-cave shortcut through the mountains east of Morthal — frozen, unstable, and home to the occasional bandit or wild beast.",
+        "display_name": "Bonechill Passage",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "dungeon.hjaalmarch.bonechill_passage",
+        "location": "",
+        "tags": [
+          "Bonechill Passage",
+          "cave",
+          "Hjaalmarch",
+          "ice",
+          "bandits"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "The Apprentice Stone stands on a small island in a marsh-pool in southern Hjaalmarch. Whoever touches it gains greater Magicka regeneration — and weaker resistance to magic in turn.",
+        "display_name": "Apprentice Stone",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.hjaalmarch.apprentice_stone",
+        "location": "",
+        "tags": [
+          "Apprentice Stone",
+          "Standing Stone",
+          "Hjaalmarch",
+          "Magicka",
+          "blessing"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

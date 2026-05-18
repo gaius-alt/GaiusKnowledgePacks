@@ -1,0 +1,370 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Winterhold's notable people — Jarl Korir's small court, the few citizens left after the Great Collapse, and the mages of the College that the town distrusts.",
+    "entry_count": 20,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Notable People In Winterhold",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Korir is the Stormcloak-aligned Jarl of Winterhold. He blames the College of Winterhold for the Great Collapse that destroyed most of his city, and refuses to set foot on its bridge.",
+        "display_name": "Korir - Jarl of Winterhold",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "winterhold.people.korir",
+        "location": "",
+        "tags": [
+          "Korir",
+          "Jarl",
+          "Winterhold",
+          "Stormcloak",
+          "Great Collapse",
+          "College"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Thaena is Korir's wife. Hard-eyed Nord, raising their son Assur in the dying town and as bitter toward the College as her husband.",
+        "display_name": "Thaena - Korir's Wife",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "winterhold.people.thaena",
+        "location": "",
+        "tags": [
+          "Thaena",
+          "Korir",
+          "Winterhold",
+          "Assur"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Assur is the young son of Jarl Korir and Thaena. He plays alone in Winterhold — there are no other children left here.",
+        "display_name": "Assur - Korir's Son",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "winterhost.people.assur",
+        "location": "",
+        "tags": [
+          "Assur",
+          "Korir",
+          "Winterhold",
+          "child"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Malur Seloth is Korir's Dunmer steward — about the only Dark Elf in Winterhold who is not at the College. Pragmatic and cynical about his Jarl's chances.",
+        "display_name": "Malur Seloth - Steward",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "winterhold.people.malur",
+        "location": "",
+        "tags": [
+          "Malur Seloth",
+          "steward",
+          "Winterhold",
+          "Dunmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Kraldar Swift-Sage is the wealthy Imperial-aligned Nord who would replace Korir as Jarl if the Empire takes Winterhold. He lives quietly with his housecarl Thonjolf.",
+        "display_name": "Kraldar - Imperial Alternative",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "winterhold.people.kraldar",
+        "location": "",
+        "tags": [
+          "Kraldar",
+          "Winterhold",
+          "Imperial",
+          "Thonjolf"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Dagur runs the Frozen Hearth inn with his wife Haran — about the only warm place left in Winterhold. He tolerates the College's mages because they pay.",
+        "display_name": "Dagur - Frozen Hearth Innkeeper",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "winterhold.people.dagur",
+        "location": "",
+        "tags": [
+          "Dagur",
+          "Frozen Hearth",
+          "innkeeper",
+          "Winterhold",
+          "Haran"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Ranmir drinks himself blind at the Frozen Hearth most days. His lover Isabelle Rolaine vanished — and the few who know the truth haven't broken it to him.",
+        "display_name": "Ranmir - Drunk",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "winterhold.people.ranmir",
+        "location": "",
+        "tags": [
+          "Ranmir",
+          "Frozen Hearth",
+          "drunk",
+          "Isabelle",
+          "Winterhold",
+          "Birna"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Birna runs Birna's Oddments in Winterhold. Younger sister-in-law to Ranmir, stuck cleaning up after his drinking and trying to keep her shop alive.",
+        "display_name": "Birna - Shopkeeper",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "winterhold.people.birna",
+        "location": "",
+        "tags": [
+          "Birna",
+          "Birna's Oddments",
+          "Winterhold",
+          "Ranmir",
+          "shopkeeper"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\") or is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\")",
+        "content": "Nelacar is the Altmer mage renting a back room at the Frozen Hearth. He left the College of Winterhold over the Black Star affair — he was a colleague of Malyn Varen, and knows what really happened to Azura's Star.",
+        "display_name": "Nelacar - Mage at the Inn",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "winterhold.people.nelacar",
+        "location": "",
+        "tags": [
+          "Nelacar",
+          "Frozen Hearth",
+          "Altmer",
+          "mage",
+          "Black Star",
+          "Malyn Varen",
+          "Winterhold"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\") or is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\")",
+        "content": "Aranea Ienith tends the Shrine of Azura above Winterhold — the last priestess of the Dawn and Dusk Mother in Skyrim. She offers visions to any who reach the statue.",
+        "display_name": "Aranea Ienith - Priestess of Azura",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "winterhold.people.aranea",
+        "location": "",
+        "tags": [
+          "Aranea Ienith",
+          "Azura",
+          "Dunmer",
+          "Shrine of Azura",
+          "Winterhold",
+          "visions"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "Savos Aren is the Arch-Mage of the College of Winterhold — a Dunmer who carries old guilt over what happened at Labyrinthian. Cautious, measured, watching the College for signs of trouble.",
+        "display_name": "Savos Aren - Arch-Mage",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "winterhold.people.savos",
+        "location": "",
+        "tags": [
+          "Savos Aren",
+          "Arch-Mage",
+          "College of Winterhold",
+          "Dunmer",
+          "Labyrinthian"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "Mirabelle Ervine is the Master Wizard at the College — second to the Arch-Mage and the one who actually runs things. Sharp-tongued, brisk Breton with little patience for fools.",
+        "display_name": "Mirabelle Ervine - Master Wizard",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "winterhold.people.mirabelle",
+        "location": "",
+        "tags": [
+          "Mirabelle Ervine",
+          "Master Wizard",
+          "College of Winterhold",
+          "Breton"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "Tolfdir is the master of Alteration at the College and mentor to most apprentices. Old, kind, more interested in teaching safety than the deeper arts — until Saarthal.",
+        "display_name": "Tolfdir - Alteration Master",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "winterhold.people.tolfdir",
+        "location": "",
+        "tags": [
+          "Tolfdir",
+          "Alteration",
+          "College of Winterhold",
+          "Saarthal",
+          "mentor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\") or is_in_faction(actorUUID, \"GuardFactionWinterhold\")",
+        "content": "Faralda stands at the bridge to the College and decides who may cross. Altmer, master of Destruction, has no time for those who cannot prove a basic spell.",
+        "display_name": "Faralda - Gatekeeper",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "winterhold.people.faralda",
+        "location": "",
+        "tags": [
+          "Faralda",
+          "College of Winterhold",
+          "Destruction",
+          "gatekeeper",
+          "Altmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "Ancano is the Thalmor 'advisor' assigned to the College of Winterhold. None of the mages want him there. He watches everything, and most expect he's not just watching.",
+        "display_name": "Ancano - Thalmor Advisor",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "winterhold.people.ancano",
+        "location": "",
+        "tags": [
+          "Ancano",
+          "Thalmor",
+          "Altmer",
+          "College of Winterhold",
+          "advisor",
+          "Eye of Magnus"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "Urag gro-Shub runs the Arcanaeum — the College's library. Orc, ferocious about his books, friendly enough to mages who treat them with respect.",
+        "display_name": "Urag gro-Shub - Librarian",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "winterhold.people.urag",
+        "location": "",
+        "tags": [
+          "Urag gro-Shub",
+          "Arcanaeum",
+          "Orc",
+          "librarian",
+          "College of Winterhold"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "Enthir is the Bosmer who deals contraband out of his Hall of Attainment room — anything from a rare ingredient to an outright forbidden tome. Quiet about his customers.",
+        "display_name": "Enthir - College Fence",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "winterhold.people.enthir",
+        "location": "",
+        "tags": [
+          "Enthir",
+          "Bosmer",
+          "College of Winterhold",
+          "fence",
+          "contraband"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "Colette Marence teaches Restoration at the College. Constantly defends the school from her colleagues' dismissal of it as 'not a real magical art.'",
+        "display_name": "Colette Marence - Restoration",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "winterhold.people.colette",
+        "location": "",
+        "tags": [
+          "Colette Marence",
+          "Restoration",
+          "College of Winterhold"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "Drevis Neloren teaches Illusion at the College. Dunmer, prone to invisibility pranks, brilliant if you can pin him down for an actual lesson.",
+        "display_name": "Drevis Neloren - Illusion",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "winterhold.people.drevis",
+        "location": "",
+        "tags": [
+          "Drevis Neloren",
+          "Illusion",
+          "Dunmer",
+          "College of Winterhold"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@CollegeofWinterholdFaction\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "Phinis Gestor teaches Conjuration at the College — atronachs, daedra, and the binding rites. Methodical and unconcerned with mortals' opinions.",
+        "display_name": "Phinis Gestor - Conjuration",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "winterhold.people.phinis",
+        "location": "",
+        "tags": [
+          "Phinis Gestor",
+          "Conjuration",
+          "College of Winterhold"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

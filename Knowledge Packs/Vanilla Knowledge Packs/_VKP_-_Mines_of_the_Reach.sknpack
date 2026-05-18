@@ -1,0 +1,114 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Gold, silver, moonstone — the Reach's mines are why the Silver-Bloods rule it and why the Forsworn fight for it.",
+    "entry_count": 5,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Mines of the Reach",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Cidhna Mine beneath Markarth is the Silver-Blood-owned silver mine that doubles as a prison. The Forsworn King Madanach holds court in the deepest cell. Inmates work the veins until they die or break out.",
+        "display_name": "Cidhna Mine - Silver (Prison)",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "mine.reach.cidhna",
+        "location": "",
+        "tags": [
+          "Cidhna Mine",
+          "silver",
+          "Reach",
+          "Markarth",
+          "Silver-Blood",
+          "prison",
+          "Madanach",
+          "Forsworn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Kolskeggr Mine is the largest gold mine in Skyrim — east of Markarth, now overrun by Forsworn who slaughtered the miners. Pavo Attius escaped and wants someone to take it back.",
+        "display_name": "Kolskeggr Mine - Gold",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "mine.reach.kolskeggr",
+        "location": "",
+        "tags": [
+          "Kolskeggr Mine",
+          "gold",
+          "Reach",
+          "Pavo Attius",
+          "Gat gro-Shargakh",
+          "Forsworn",
+          "richest mine"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Sanuarach Mine in Karthwasten is a small silver mine — owned by Ainethach the Breton, who has been pressured by Silver-Blood mercenaries to sell. Karthwasten's mining future depends on whether he gives in.",
+        "display_name": "Sanuarach Mine - Silver (Karthwasten)",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "mine.reach.sanuarach",
+        "location": "",
+        "tags": [
+          "Sanuarach Mine",
+          "silver",
+          "Karthwasten",
+          "Reach",
+          "Silver-Blood",
+          "Ainethach",
+          "mercenaries"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Soljund's Sinkhole is the moonstone mine northwest of Markarth — the miners broke into an old Nordic crypt and woke the draugr inside. Perth wants the place cleared so the moonstone can be pulled again.",
+        "display_name": "Soljund's Sinkhole - Moonstone",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "mine.reach.soljunds_sinkhole",
+        "location": "",
+        "tags": [
+          "Soljund's Sinkhole",
+          "moonstone",
+          "Reach",
+          "Perth",
+          "sinkhole",
+          "draugr",
+          "Nordic crypt"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Left Hand Mine is a small Silver-Blood-owned silver mine just outside Markarth — Lash gra-Dushnikh runs the miners. Steady output, but the workers have little choice in the matter.",
+        "display_name": "Left Hand Mine - Silver",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "mine.reach.left_hand",
+        "location": "",
+        "tags": [
+          "Left Hand Mine",
+          "silver",
+          "Reach",
+          "Markarth",
+          "Silver-Blood",
+          "Lash gra-Dushnikh"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

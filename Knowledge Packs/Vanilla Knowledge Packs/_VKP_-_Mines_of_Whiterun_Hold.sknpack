@@ -1,0 +1,52 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Iron mines of Whiterun Hold — what they pull from the ground and who controls the veins.",
+    "entry_count": 2,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Mines of Whiterun Hold",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Embershard Mine pulls iron from the hills above Riverwood — a tunnel system with collapsed supports, wooden scaffolds, and several iron veins running through narrow passages. Bandits hold it; the local jarl would rather they did not.",
+        "display_name": "Embershard Mine - Iron",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "mine.whiterun.embershard",
+        "location": "",
+        "tags": [
+          "Embershard Mine",
+          "iron",
+          "Whiterun Hold",
+          "Riverwood",
+          "bandits",
+          "veins"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Halted Stream Camp is a fortified bandit trench north of Whiterun with a long subterranean iron shaft — the same outfit poaches mammoths from the plains, so the mine is only a side trade.",
+        "display_name": "Halted Stream Camp - Iron",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "mine.whiterun.halted_stream",
+        "location": "",
+        "tags": [
+          "Halted Stream Camp",
+          "iron",
+          "Whiterun Hold",
+          "bandit trench",
+          "mammoth poaching",
+          "subterranean shaft"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

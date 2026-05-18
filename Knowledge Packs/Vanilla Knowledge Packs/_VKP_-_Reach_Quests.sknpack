@@ -1,0 +1,194 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Quests in the Reach — Markarth, the Silver-Blood family, the Forsworn, and Molag Bal's house. Personal favors scoped to involved NPCs; Forsworn arc stays hold-wide.",
+    "entry_count": 12,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Reach Quests",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Calcelmo\" or actorName == \"Aicantar\"",
+        "content": "{% if get_quest_stage(\"FreeformMarkarthO\", false) == 0 %}Calcelmo at the Understone Keep has a problem in his Dwemer Museum — a giant frostbite spider named Nimhe has built a nest in the dig.{% else %}{{ playerName }} killed Nimhe and freed Calcelmo's dig.{% endif %}",
+        "display_name": "Nimhe, the Poisoned One",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "quest.reach.nimhe",
+        "location": "",
+        "tags": [
+          "Nimhe, the Poisoned One",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Ogmund\"",
+        "content": "{% if get_quest_stage(\"FreeformMarkarthN\", false) == 0 %}Ogmund the skald in Markarth has been targeted by Forsworn — they left him a warning. He's asking for someone to deliver a message back, on his behalf.{% else %}{{ playerName }} dealt with the Forsworn message-leavers for Ogmund.{% endif %}",
+        "display_name": "Coated in Blood",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "quest.reach.coated_in_blood",
+        "location": "",
+        "tags": [
+          "Coated in Blood",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Hogni Red-Arm\"",
+        "content": "{% if get_quest_stage(\"FreeformMarkarthM\", false) == 0 %}Hogni Red-Arm in Markarth lost his coinpurse to a passing thief and is asking for someone with a sharper eye to retrieve it.{% else %}{{ playerName }} recovered Hogni's stolen coinpurse.{% endif %}",
+        "display_name": "Search and Seizure",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "quest.reach.search_and_seizure",
+        "location": "",
+        "tags": [
+          "Search and Seizure",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Ghorza gra-Bagol\" or actorName == \"Tacitus Sallustius\"",
+        "content": "{% if get_quest_stage(\"FreeformMarkarthL\", false) == 0 %}Ghorza gra-Bagol, the smith at the Smelter in Markarth, wants a teaching book for her Imperial apprentice Tacitus.{% else %}{{ playerName }} brought Ghorza the book her apprentice needed.{% endif %}",
+        "display_name": "Skilled Apprenticeship",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "quest.reach.skilled_apprenticeship",
+        "location": "",
+        "tags": [
+          "Skilled Apprenticeship",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Bothela\" or actorName == \"Muiri\"",
+        "content": "{% if get_quest_stage(\"FreeformMarkarthJ\", false) == 0 %}Bothela at the Hag's Cure in Markarth has a discreet delivery she'd rather not handle in person.{% else %}{{ playerName }} handled Bothela's discreet delivery in Markarth.{% endif %}",
+        "display_name": "Bothela's Discreet Delivery",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "quest.reach.bothelas_delivery",
+        "location": "",
+        "tags": [
+          "Bothela's Discreet Delivery",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Lisbet\"",
+        "content": "{% if get_quest_stage(\"FreeformMarkarthE\", false) == 0 %}Lisbet at Arnleif and Sons in Markarth is missing a shipment of Dibella statues. She'd appreciate someone tracking it down.{% else %}{{ playerName }} recovered Lisbet's missing shipment of Dibella statues.{% endif %}",
+        "display_name": "Lisbet's Missing Shipment",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "quest.reach.lisbets_shipment",
+        "location": "",
+        "tags": [
+          "Lisbet's Missing Shipment",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Lisbet\" or actorName == \"Calcelmo\"",
+        "content": "{% if get_quest_stage(\"FreeformMarkarthD\", false) == 0 %}Lisbet at Arnleif and Sons has an artifact to deliver to Calcelmo at the Understone Keep — Calcelmo is the kind of customer who pays well for the right thing.{% else %}{{ playerName }} delivered the artifact to Calcelmo for Lisbet.{% endif %}",
+        "display_name": "Delivery to Calcelmo",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "quest.reach.calcelmo_delivery",
+        "location": "",
+        "tags": [
+          "Delivery to Calcelmo",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionReach\") or is_in_faction(actorUUID, \"TownMarkarthFaction\")",
+        "content": "{% if get_quest_stage(\"MS01\", false) == 0 %}A man named Eltrys is asking questions in the Shrine of Talos in Markarth about a string of murders by a man with a strange knife. The Silver-Bloods would prefer no one notice.{% elif get_quest_stage(\"MS01\", false) < 60 %}{{ playerName }} is tracing the Forsworn conspiracy through Margret, Weylin, and the Silver-Bloods who run Markarth from the shadows.{% else %}Eltrys is dead. {{ playerName }} was framed for his murder and dragged to Cidhna Mine — exactly as the Silver-Bloods wanted. The Forsworn Conspiracy has closed.{% endif %}",
+        "display_name": "The Forsworn Conspiracy",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "quest.reach.forsworn_conspiracy",
+        "location": "",
+        "tags": [
+          "The Forsworn Conspiracy",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionReach\") or is_in_faction(actorUUID, \"TownMarkarthFaction\")",
+        "content": "{% if get_quest_stage(\"MS02\", false) == 0 %}{{ playerName }} has been thrown into Cidhna Mine — the Silver-Bloods' private prison beneath Markarth. The other inmates whisper that Madanach, the King in Rags, still lives down there.{% elif get_quest_stage(\"MS02\", false) < 50 %}{{ playerName }} has earned an audience with Madanach. The Forsworn King is planning a breakout that no jailer has prepared for.{% else %}Cidhna Mine has burned. {{ playerName }} broke out with Madanach's Forsworn — slaughtering the Silver-Bloods — or turned on them and killed Madanach in his cell. The Reach won't forget either choice.{% endif %}",
+        "display_name": "No One Escapes Cidhna Mine",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "quest.reach.no_one_escapes_cidhna_mine",
+        "location": "",
+        "tags": [
+          "No One Escapes Cidhna Mine",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Logrolf\" or actorName == \"Tyranus\" or actorName == \"Molag Bal\"",
+        "content": "{% if get_quest_stage(\"DA10\", false) == 0 %}A Vigilant of Stendarr named Tyranus is asking around Markarth about an abandoned house. Something inside it has the priests of the Vigil worried.{% elif get_quest_stage(\"DA10\", false) < 30 %}Tyranus is dead — Molag Bal trapped {{ playerName }} in the abandoned house and demands the priest of Boethiah, Logrolf, be brought back to receive a beating.{% else %}{{ playerName }} chose Molag Bal's offer or turned on him. The Mace of Molag Bal is loose in Skyrim either way.{% endif %}",
+        "display_name": "The House of Horrors",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.reach.house_of_horrors",
+        "location": "",
+        "tags": [
+          "The House of Horrors",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Verulus\" or actorName == \"Eola\"",
+        "content": "{% if get_quest_stage(\"DA11\", false) == 0 %}Brother Verulus, priest of Arkay in Markarth's Hall of the Dead, has barred the doors. Bodies have been disappearing — and something in the catacombs has a taste for them.{% else %}{{ playerName }} dealt with the Namira cultists in Markarth's Hall of the Dead — by joining the Feast and taking the Ring of Namira, or by slaying them.{% endif %}",
+        "display_name": "The Taste of Death",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "quest.reach.taste_of_death",
+        "location": "",
+        "tags": [
+          "The Taste of Death",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionReach\") or is_in_faction(actorUUID, \"TownMarkarthFaction\")",
+        "content": "{% if get_quest_stage(\"Favor250\", false) == 0 %}Jarl Igmund — or Thongvor Silver-Blood after the Civil War — may grant the title of Thane to those who serve the Reach. The bar is high in a hold this fractious.{% elif get_quest_stage(\"Favor250\", false) < 200 %}The Jarl asked {{ playerName }} to do more for the Reach before any thaneship could be granted.{% else %}{{ playerName }} has been named Thane of the Reach. The Forsworn and the Silver-Bloods will both have opinions about it.{% endif %}",
+        "display_name": "Thane of the Reach",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.reach.thane_of_the_reach",
+        "location": "",
+        "tags": [
+          "Thane of the Reach",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

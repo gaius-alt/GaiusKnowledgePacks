@@ -1,0 +1,89 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Quests in the Pale — Dawnstar's nightmares, the Pale Lady, Mehrunes' Razor, and Skald's thaneship. Replaces the older Dawnstar Quests pack. Public events stay hold-wide; private contracts are tightened.",
+    "entry_count": 5,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Pale Quests",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionPale\") or is_in_faction(actorUUID, \"TownDawnstarFaction\")",
+        "content": "{% if get_quest_stage(\"DA16\", false) == 0 %}The people of Dawnstar can't sleep. A waking nightmare grips the town — Erandur, a priest of Mara, has come to investigate Nightcaller Temple beneath the Tower of Dawn.{% elif get_quest_stage(\"DA16\", false) < 30 %}{{ playerName }} is helping Erandur reach Nightcaller Temple, the source of Dawnstar's nightmares.{% elif get_quest_stage(\"DA16\", false) < 60 %}{{ playerName }} stands before the Skull of Corruption inside Nightcaller Temple. Erandur — once a Vaermina cultist — wants it destroyed. Vaermina herself disagrees.{% else %}Dawnstar can sleep again. {{ playerName }} let Erandur destroy the Skull of Corruption, or killed him for it and took the Skull. Either way the nightmares are done.{% endif %}",
+        "display_name": "Waking Nightmare",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "quest.pale.waking_nightmare",
+        "location": "",
+        "tags": [
+          "Waking Nightmare",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionPale\") or is_in_faction(actorUUID, \"TownDawnstarFaction\")",
+        "content": "{% if get_quest_stage(\"dunFrostmereCryptQST\", false) == 0 %}Frostmere Crypt north of Dawnstar is haunted by the Pale Lady — a vengeful spirit guarding a sword that doesn't want to be found.{% elif get_quest_stage(\"dunFrostmereCryptQST\", false) < 100 %}{{ playerName }} is investigating the haunting at Frostmere Crypt and the cursed sword The Pale Blade.{% else %}{{ playerName }} banished the Pale Lady from Frostmere Crypt and recovered the cursed blade.{% endif %}",
+        "display_name": "The Pale Lady",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "quest.pale.pale_lady",
+        "location": "",
+        "tags": [
+          "The Pale Lady",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Captain Wayfinder\"",
+        "content": "{% if get_quest_stage(\"FreeformShipsDawnstar\", false) == 0 %}Captain Wayfinder at the Dawnstar docks is looking for someone to recover his lost book — 'Night Falls on Sentinel' — that he claims has sentimental value.{% else %}{{ playerName }} brought Captain Wayfinder his book back. The docks are quieter for it.{% endif %}",
+        "display_name": "Salty Sea-Dogs",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "quest.pale.salty_sea_dogs",
+        "location": "",
+        "tags": [
+          "Salty Sea-Dogs",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Silus Vesuius\" or is_in_faction(actorUUID, \"CrimeFactionPale\") or is_in_faction(actorUUID, \"TownDawnstarFaction\")",
+        "content": "{% if get_quest_stage(\"DA07\", false) == 0 %}Silus Vesuius runs a museum in Dawnstar honoring the Mythic Dawn. He's collected fragments of Mehrunes' Razor and wants the missing pieces recovered.{% elif get_quest_stage(\"DA07\", false) < 50 %}{{ playerName }} is gathering the scattered pieces of Mehrunes' Razor from across Skyrim for Silus Vesuius.{% elif get_quest_stage(\"DA07\", false) < 100 %}{{ playerName }} brought the pieces to Silus, and the two are heading for Mehrunes Dagon's shrine to reforge the dagger.{% else %}Mehrunes' Razor is reforged. The Daedric Prince left it with {{ playerName }} after demanding the life of Silus — paid or refused.{% endif %}",
+        "display_name": "Pieces of the Past",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.pale.pieces_of_the_past",
+        "location": "",
+        "tags": [
+          "Pieces of the Past",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionPale\") or is_in_faction(actorUUID, \"TownDawnstarFaction\")",
+        "content": "{% if get_quest_stage(\"Favor256\", false) == 0 %}Jarl Skald the Elder of Dawnstar may grant the title of Thane to those who serve the people of the Pale.{% elif get_quest_stage(\"Favor256\", false) < 200 %}The Jarl asked {{ playerName }} to do more for the Pale before any thaneship could be granted.{% else %}{{ playerName }} has been named Thane of the Pale by Jarl Skald the Elder.{% endif %}",
+        "display_name": "Thane of the Pale",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.pale.thane_of_the_pale",
+        "location": "",
+        "tags": [
+          "Thane of the Pale",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

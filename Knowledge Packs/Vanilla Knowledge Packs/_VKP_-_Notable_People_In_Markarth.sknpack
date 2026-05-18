@@ -1,0 +1,369 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Markarth's notable people — Jarl Igmund's court, the Silver-Blood family who really run the city, the priests of Dibella, and Madanach's Forsworn beneath Cidhna Mine.",
+    "entry_count": 19,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Notable People In Markarth",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Igmund is the Imperial-aligned Jarl of Markarth — son of the old Hrolfdir who reclaimed the city from the Forsworn. He owes everything to the Silver-Bloods, and they do not let him forget it.",
+        "display_name": "Igmund - Jarl of Markarth (Imperial)",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "reach.people.igmund",
+        "location": "",
+        "tags": [
+          "Igmund",
+          "Jarl",
+          "Markarth",
+          "Reach",
+          "Imperial",
+          "Forsworn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Thongvor Silver-Blood is the Stormcloak-aligned head of the Silver-Blood clan — Ulfric's candidate to replace Igmund as Jarl of the Reach.",
+        "display_name": "Thongvor Silver-Blood - Stormcloak Alternative",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "reach.people.thongvor",
+        "location": "",
+        "tags": [
+          "Thongvor Silver-Blood",
+          "Stormcloak",
+          "Markarth",
+          "Silver-Blood",
+          "alternative Jarl"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Raerek is Igmund's uncle and steward at Understone Keep. Older Nord, quietly worships Talos, and quietly runs the city's day-to-day business.",
+        "display_name": "Raerek - Steward",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "reach.people.raerek",
+        "location": "",
+        "tags": [
+          "Raerek",
+          "steward",
+          "Markarth",
+          "Igmund",
+          "uncle"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Faleen is Igmund's Redguard housecarl. Sword-sworn to the Jarl, leads the Markarth Guard.",
+        "display_name": "Faleen - Housecarl",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "reach.people.faleen",
+        "location": "",
+        "tags": [
+          "Faleen",
+          "housecarl",
+          "Markarth",
+          "Igmund",
+          "Redguard"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Calcelmo is the Altmer court wizard of Markarth — the foremost Dwemer scholar in Tamriel. He has spent decades digging the Nchuand-Zel ruin beneath the city. His nephew Aicantar assists him.",
+        "display_name": "Calcelmo - Court Wizard and Scholar",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "reach.people.calcelmo",
+        "location": "",
+        "tags": [
+          "Calcelmo",
+          "Altmer",
+          "court wizard",
+          "Dwemer",
+          "Aicantar",
+          "Understone Keep",
+          "Nchuand-Zel"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Aicantar is Calcelmo's Altmer nephew — young, scholarly, helping his uncle with the Dwemer dig. Less prickly than the old man.",
+        "display_name": "Aicantar - Calcelmo's Nephew",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.aicantar",
+        "location": "",
+        "tags": [
+          "Aicantar",
+          "Altmer",
+          "Calcelmo",
+          "Markarth",
+          "Dwemer",
+          "apprentice"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Nepos the Nose lives quietly at Understone Keep — the old Breton everyone assumes is harmless. He is, in fact, the man who carries Madanach's orders from Cidhna Mine out into the Reach.",
+        "display_name": "Nepos the Nose - Hidden Forsworn",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "reach.people.nepos",
+        "location": "",
+        "tags": [
+          "Nepos the Nose",
+          "Markarth",
+          "Understone Keep",
+          "Forsworn",
+          "Madanach",
+          "secret"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Thonar Silver-Blood is the head of the Silver-Blood family in Markarth — owns Cidhna Mine, the Treasury House, and most of the rest of the city. He keeps Madanach alive in the prison as leverage.",
+        "display_name": "Thonar Silver-Blood - Patriarch",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "reach.people.thonar",
+        "location": "",
+        "tags": [
+          "Thonar Silver-Blood",
+          "Markarth",
+          "Silver-Blood",
+          "Treasury House",
+          "Madanach",
+          "Betrid",
+          "crime"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Betrid is Thonar Silver-Blood's wife — Imperial, runs the Treasury House while Thonar handles the family's darker dealings. She has never had a peaceful breakfast in this house.",
+        "display_name": "Betrid Silver-Blood - Thonar's Wife",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.betrid",
+        "location": "",
+        "tags": [
+          "Betrid Silver-Blood",
+          "Markarth",
+          "Thonar",
+          "Treasury House"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Kleppr runs the Silver-Blood Inn — the only place to sleep in Markarth. Older Nord, in a marriage with Frabbi that is the inn's loudest entertainment.",
+        "display_name": "Kleppr - Silver-Blood Inn",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "reach.people.kleppr",
+        "location": "",
+        "tags": [
+          "Kleppr",
+          "Silver-Blood Inn",
+          "Markarth",
+          "innkeeper",
+          "Frabbi",
+          "Hreinn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Frabbi is Kleppr's wife at the Silver-Blood Inn — and his loudest critic. Their son Hreinn does what he can to keep them from killing each other.",
+        "display_name": "Frabbi - Innkeeper's Wife",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.frabbi",
+        "location": "",
+        "tags": [
+          "Frabbi",
+          "Silver-Blood Inn",
+          "Markarth",
+          "Kleppr",
+          "Hreinn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Lisbet runs the Arnleif and Sons trading company in Markarth alone — her husband and sons are long dead. Keeps the shop alive on her own determination.",
+        "display_name": "Lisbet - Arnleif and Sons",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "reach.people.lisbet",
+        "location": "",
+        "tags": [
+          "Lisbet",
+          "Arnleif and Sons",
+          "Markarth",
+          "trader",
+          "Calcelmo",
+          "Dibella"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Bothela is the old Reachwoman who runs the Hag's Cure in Markarth — alchemist, with knowledge of the older ways that the Silver-Bloods would prefer forgotten. Her apprentice Muiri assists.",
+        "display_name": "Bothela - The Hag's Cure",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "reach.people.bothela",
+        "location": "",
+        "tags": [
+          "Bothela",
+          "Hag's Cure",
+          "Markarth",
+          "apothecary",
+          "Reachwoman",
+          "Muiri",
+          "Hroki"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Muiri is Bothela's young Breton apprentice at the Hag's Cure. Sweet, sharp, and still nursing a grudge against Alain Dufont who used her and abandoned her.",
+        "display_name": "Muiri - Apprentice Alchemist",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "reach.people.muiri",
+        "location": "",
+        "tags": [
+          "Muiri",
+          "Hag's Cure",
+          "Markarth",
+          "apprentice",
+          "Alain Dufont",
+          "betrayal"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Ghorza gra-Bagol runs the Markarth Smelter — Orc smith, hard on her Imperial apprentice Tacitus Sallustius but not unkindly.",
+        "display_name": "Ghorza gra-Bagol - Smelter Overseer",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "reach.people.ghorza",
+        "location": "",
+        "tags": [
+          "Ghorza gra-Bagol",
+          "Markarth Smelter",
+          "Orc",
+          "smith",
+          "Tacitus"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Hamal is the Mother of the Temple of Dibella in Markarth — head priestess, charged with finding the next Sybille of Dibella. Stern, devoted, watchful.",
+        "display_name": "Hamal - Mother of Dibella",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "reach.people.hamal",
+        "location": "",
+        "tags": [
+          "Hamal",
+          "Mother",
+          "Temple of Dibella",
+          "Markarth",
+          "Senna",
+          "Sybille of Dibella"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Madanach is the King in Rags — the Forsworn leader the Empire imprisoned in Cidhna Mine after his uprising. The Silver-Bloods keep him alive in his cell, using his agents in the city to do their dirty work.",
+        "display_name": "Madanach - King in Rags",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "reach.people.madanach",
+        "location": "",
+        "tags": [
+          "Madanach",
+          "Forsworn",
+          "Cidhna Mine",
+          "Markarth",
+          "King in Rags",
+          "Forsworn King"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Borkul the Beast guards Madanach's cell in Cidhna Mine — Orc, massive, sees no one without paying or proving themselves. Knows everyone the Silver-Bloods have ever buried down here.",
+        "display_name": "Borkul the Beast - Madanach's Door",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "reach.people.borkul",
+        "location": "",
+        "tags": [
+          "Borkul the Beast",
+          "Cidhna Mine",
+          "Markarth",
+          "Forsworn",
+          "Orc"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Ogmund is Markarth's skald — old Nord, still worships Talos quietly, and the Forsworn have been leaving him warnings.",
+        "display_name": "Ogmund - Skald",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "reach.people.ogmund",
+        "location": "",
+        "tags": [
+          "Ogmund",
+          "Markarth",
+          "skald",
+          "Talos",
+          "Forsworn"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

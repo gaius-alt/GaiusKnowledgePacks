@@ -1,0 +1,427 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Whiterun's notable people — the Jarl's court, the Companions, the great clans of Battle-Born and Gray-Mane, and the shopkeepers everyone in the city knows.",
+    "entry_count": 22,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Notable People In Whiterun",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Balgruuf the Greater is the Jarl of Whiterun, ruling from Dragonsreach. A measured man who has tried to stay neutral in the Civil War, though his sympathies lean Imperial. He has three children — Frothar, Dagny, and the troubled Nelkir.",
+        "display_name": "Balgruuf the Greater - Jarl of Whiterun",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "whiterun.people.balgruuf",
+        "location": "",
+        "tags": [
+          "Balgruuf",
+          "Jarl",
+          "Whiterun",
+          "Dragonsreach",
+          "Imperial",
+          "Cloud District",
+          "Dragonborn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Irileth is Balgruuf's Dunmer housecarl, sword-sworn to the Jarl. Sharp-tempered and loyal, she runs the keep's guards and rarely leaves Balgruuf's side.",
+        "display_name": "Irileth - Balgruuf's Housecarl",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "whiterun.people.irileth",
+        "location": "",
+        "tags": [
+          "Irileth",
+          "Dunmer",
+          "housecarl",
+          "Balgruuf",
+          "Whiterun",
+          "Dragonsreach"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Proventus Avenicci is the Jarl's steward in Dragonsreach — an Imperial who manages the city's ledgers and property sales. His daughter Adrianne runs Warmaiden's smithy at the city gates.",
+        "display_name": "Proventus Avenicci - Steward",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "whiterun.people.proventus",
+        "location": "",
+        "tags": [
+          "Proventus Avenicci",
+          "steward",
+          "Whiterun",
+          "Imperial",
+          "Adrianne Avenicci"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Farengar Secret-Fire is Balgruuf's court mage in Dragonsreach. A scholar obsessed with dragons — he has been hoarding rumors of their return since long before Helgen burned.",
+        "display_name": "Farengar Secret-Fire - Court Mage",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "whiterun.people.farengar",
+        "location": "",
+        "tags": [
+          "Farengar Secret-Fire",
+          "court mage",
+          "Whiterun",
+          "dragons",
+          "Dragonstone",
+          "Dragonborn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Hrongar is Balgruuf's hot-tempered brother. He stands near the throne in Dragonsreach and pushes for action against the Stormcloaks — and quietly admires their cause.",
+        "display_name": "Hrongar - Balgruuf's Brother",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "whiterun.people.hrongar",
+        "location": "",
+        "tags": [
+          "Hrongar",
+          "Whiterun",
+          "Balgruuf",
+          "brother",
+          "Stormcloak sympathies"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "content": "Kodlak Whitemane is the Harbinger of the Companions — first among equals at Jorrvaskr. Old, scarred, and respected. He carries the beast blood and would see his soul saved before his death.",
+        "display_name": "Kodlak Whitemane - Harbinger of the Companions",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "whiterun.people.kodlak",
+        "location": "",
+        "tags": [
+          "Kodlak Whitemane",
+          "Harbinger",
+          "Companions",
+          "Jorrvaskr",
+          "Whiterun",
+          "werewolf"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "content": "Aela the Huntress is a member of the Companions' inner Circle — a red-haired Nord huntress who tracks the Silver Hand with the patience of a wolf.",
+        "display_name": "Aela the Huntress - Companions Circle",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "whiterun.people.aela",
+        "location": "",
+        "tags": [
+          "Aela the Huntress",
+          "Companions",
+          "Circle",
+          "Whiterun",
+          "huntress",
+          "werewolf"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "content": "Vilkas and Farkas are twin warriors of the Companions' Circle. Vilkas is sharp and bookish for a Nord; Farkas is the quieter of the two, with a slower wit but unmatched strength.",
+        "display_name": "Vilkas and Farkas - Companions Twins",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "whiterun.people.vilkas_farkas",
+        "location": "",
+        "tags": [
+          "Vilkas",
+          "Farkas",
+          "Companions",
+          "Circle",
+          "Whiterun",
+          "twins",
+          "werewolf"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "content": "Skjor is an old veteran of the Companions' Circle — one eye, a long temper, and a longstanding grudge against the Silver Hand.",
+        "display_name": "Skjor - Companions Circle",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "whiterun.people.skjor",
+        "location": "",
+        "tags": [
+          "Skjor",
+          "Companions",
+          "Circle",
+          "Whiterun",
+          "veteran",
+          "werewolf"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Eorlund Gray-Mane works the Skyforge above Jorrvaskr — the finest blacksmith in Skyrim by most reckonings. Head of the Gray-Mane clan, with Stormcloak sympathies despite Whiterun's Imperial neutrality.",
+        "display_name": "Eorlund Gray-Mane - Skyforge Smith",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "whiterun.people.eorlund",
+        "location": "",
+        "tags": [
+          "Eorlund Gray-Mane",
+          "Skyforge",
+          "blacksmith",
+          "Whiterun",
+          "Gray-Mane",
+          "Stormcloak"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Vignar Gray-Mane is Eorlund's elder cousin — a hard old Nord who openly supports Ulfric Stormcloak. He'd be Jarl of Whiterun if the Stormcloaks took the city.",
+        "display_name": "Vignar Gray-Mane - Stormcloak Elder",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "whiterun.people.vignar",
+        "location": "",
+        "tags": [
+          "Vignar Gray-Mane",
+          "Gray-Mane",
+          "Stormcloak",
+          "Whiterun",
+          "elder"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Olfrid Battle-Born heads the Battle-Born clan from his manor in the Plains District — an Imperial sympathizer and Balgruuf's strongest ally. His son Idolaf has joined the Legion.",
+        "display_name": "Olfrid Battle-Born - Imperial Patriarch",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "whiterun.people.olfrid",
+        "location": "",
+        "tags": [
+          "Olfrid Battle-Born",
+          "Battle-Born",
+          "Imperial",
+          "Whiterun",
+          "Idolaf"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Hulda runs the Bannered Mare in the Plains District. Older Nord woman, sharp eye for trouble, knows everyone's business and trades none of it without good reason.",
+        "display_name": "Hulda - Bannered Mare Innkeeper",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.people.hulda",
+        "location": "",
+        "tags": [
+          "Hulda",
+          "Bannered Mare",
+          "innkeeper",
+          "Whiterun",
+          "market"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Saadia is a Redguard woman hiding upstairs at the Bannered Mare in Whiterun. She claims to be a merchant's wife fleeing the Aldmeri Dominion. The Alik'r warriors at the city gates say otherwise.",
+        "display_name": "Saadia - Refugee at the Bannered Mare",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "whiterun.people.saadia",
+        "location": "",
+        "tags": [
+          "Saadia",
+          "Bannered Mare",
+          "Redguard",
+          "refugee",
+          "Alik'r",
+          "Hammerfell",
+          "Iman"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Brenuin sleeps near Whiterun's main gate, begging for coin and asking after Argonian Bloodwine that he can never afford.",
+        "display_name": "Brenuin - Drunk at the Gates",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.brenuin",
+        "location": "",
+        "tags": [
+          "Brenuin",
+          "drunk",
+          "Whiterun",
+          "beggar",
+          "Argonian Bloodwine"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Belethor runs the general store in Whiterun's Plains District — a smarmy Breton who claims he'd sell his sister if you brought him the right price. Most assume he isn't joking.",
+        "display_name": "Belethor - General Goods Shopkeeper",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.belethor",
+        "location": "",
+        "tags": [
+          "Belethor",
+          "general store",
+          "Whiterun",
+          "Breton",
+          "Plains District"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Arcadia runs Arcadia's Cauldron — the alchemy shop near Whiterun's gates. Imperial woman from Cyrodiil, willing to buy ingredients and sell potions to anyone passing through the city.",
+        "display_name": "Arcadia - Alchemist",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.people.arcadia",
+        "location": "",
+        "tags": [
+          "Arcadia",
+          "alchemist",
+          "Whiterun",
+          "Plains District",
+          "Nurelion",
+          "Cyrodiil"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Adrianne Avenicci works the open-air forge at Warmaiden's just inside Whiterun's gates. Imperial, daughter of the Jarl's steward Proventus, married to Ulfberth War-Bear who handles the shop.",
+        "display_name": "Adrianne Avenicci - Warmaiden's Smith",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.people.adrianne",
+        "location": "",
+        "tags": [
+          "Adrianne Avenicci",
+          "Warmaiden's",
+          "smith",
+          "Whiterun",
+          "Proventus Avenicci",
+          "Ulfberth War-Bear"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Carlotta Valentia runs a produce stall in Whiterun's market — Imperial widow raising her daughter Mila. Half the unmarried men in Whiterun have tried to court her, none successfully.",
+        "display_name": "Carlotta Valentia - Market Vendor",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.carlotta",
+        "location": "",
+        "tags": [
+          "Carlotta Valentia",
+          "Whiterun",
+          "market",
+          "produce",
+          "Mila"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Danica Pure-Spring is the priestess of Kynareth in Whiterun's Wind District. She heals the sick at the temple and worries over the dying Gildergreen tree outside.",
+        "display_name": "Danica Pure-Spring - Priestess of Kynareth",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "whiterun.people.danica",
+        "location": "",
+        "tags": [
+          "Danica Pure-Spring",
+          "Kynareth",
+          "Temple of Kynareth",
+          "Whiterun",
+          "Gildergreen",
+          "healer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Heimskr preaches the worship of Talos at his shrine in Whiterun's Wind District at all hours — defying the White-Gold Concordat openly. The Thalmor have noticed; Balgruuf protects him for now.",
+        "display_name": "Heimskr - Talos Preacher",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.people.heimskr",
+        "location": "",
+        "tags": [
+          "Heimskr",
+          "Talos",
+          "preacher",
+          "Whiterun",
+          "Wind District",
+          "Concordat"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Amren lives in the Plains District with his wife Saffir and his bullying daughter Braith. He's looking for his stolen family sword — and his daughter's behavior is the talk of the neighborhood.",
+        "display_name": "Amren - Family Sword",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.amren",
+        "location": "",
+        "tags": [
+          "Amren",
+          "Whiterun",
+          "sword",
+          "family heirloom",
+          "Saffir",
+          "Braith"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

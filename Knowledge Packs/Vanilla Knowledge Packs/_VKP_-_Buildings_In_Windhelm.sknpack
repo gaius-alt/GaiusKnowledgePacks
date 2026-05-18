@@ -1,0 +1,231 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Layouts of Windhelm's major buildings — the Palace of the Kings, Candlehearth Hall, the Gray Quarter clubs, the great clan houses, and Hjerim.",
+    "entry_count": 11,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Buildings In Windhelm",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WindhelmPalace\") or is_in_faction(actorUUID, \"TownWindhelmFaction\")",
+        "content": "The Palace of the Kings looms at the back of Windhelm — the seat of the High Kings of old, now Ulfric Stormcloak's hall. Through the heavy doors is the great hall: long tables down both sides for feasting, an enormous fire pit running the center, and Ulfric's throne raised on a dais at the far end. Galmar Stone-Fist stands at his right. Jorleif handles court business. Wuunferth the Unliving keeps a tower above for his work.",
+        "display_name": "Palace of the Kings - Layout",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "eastmarch.building.palace_of_the_kings",
+        "location": "",
+        "tags": [
+          "Palace of the Kings",
+          "Windhelm",
+          "Ulfric Stormcloak",
+          "Jorleif",
+          "Galmar Stone-Fist",
+          "Wuunferth the Unliving",
+          "court",
+          "Stormcloak"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WindhelmCandlehearthHallFaction\") or is_in_faction(actorUUID, \"TownWindhelmFaction\")",
+        "content": "Candlehearth Hall is Windhelm's main inn — a tall stone building in the Stone Quarter. The first floor has the bar and tables; Elda Early-Dawn keeps the place running. The second floor opens into a wider seating area around a huge central hearth, with the rented rooms ringing the outside. Susanna the Wicked worked tables here before her death.",
+        "display_name": "Candlehearth Hall - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "eastmarch.building.candlehearth_hall",
+        "location": "",
+        "tags": [
+          "Candlehearth Hall",
+          "Windhelm",
+          "Elda Early-Dawn",
+          "Susanna",
+          "Jonna",
+          "inn",
+          "tavern",
+          "Stone Quarter"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WindhelmPawnshopOwnerFaction\") or is_in_faction(actorUUID, \"TownWindhelmFaction\")",
+        "content": "Sadri's Used Wares is the Dunmer-run general store in Windhelm's Gray Quarter. The single-room shop has a counter at the back where Revyn Sadri works, with shelves of secondhand goods, miscellaneous oddments, and trade items. Revyn lives in a small bedroom behind the shop.",
+        "display_name": "Sadri's Used Wares - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "eastmarch.building.sadris_used_wares",
+        "location": "",
+        "tags": [
+          "Sadri's Used Wares",
+          "Windhelm",
+          "Revyn Sadri",
+          "Gray Quarter",
+          "Dunmer",
+          "general store"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WindhelmCornerclubInnkeeperFaction\") or is_in_faction(actorUUID, \"TownWindhelmFaction\")",
+        "content": "The New Gnisis Cornerclub is the Dunmer cornerclub in Windhelm's Gray Quarter — Ambarys Rendar's defiant little piece of Morrowind in this Nord city. The main room has the bar, a few tables, and the smell of sujamma and shein. The mood is tense with grievance against the Stormcloaks who tax the Dunmer hard. Sulla Trebatius the Imperial scholar is one of the few non-Dunmer regulars.",
+        "display_name": "New Gnisis Cornerclub - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "eastmarch.building.new_gnisis_cornerclub",
+        "location": "",
+        "tags": [
+          "New Gnisis Cornerclub",
+          "Windhelm",
+          "Ambarys Rendar",
+          "Gray Quarter",
+          "Dunmer",
+          "Sulla Trebatius",
+          "cornerclub"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WindhelmBlacksmithFaction\") or is_in_faction(actorUUID, \"TownWindhelmFaction\")",
+        "content": "Oengul One-Eye works the forge in Windhelm's open-air smithy near the gates. The yard has anvil, grindstone, and tempering trough; his apprentice Hermir Strong-Heart hammers away in the background. Oengul forges much of the Stormcloak army's gear from this spot. The smithy adjoins the small wooden Blacksmith Quarters house behind.",
+        "display_name": "Oengul's Smithy / Blacksmith Quarters - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "eastmarch.building.oengul_smithy",
+        "location": "",
+        "tags": [
+          "Oengul One-Eye",
+          "Windhelm",
+          "Hermir Strong-Heart",
+          "blacksmith",
+          "forge",
+          "Stormcloak"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WindhelmAretinoResidenceFaction\")",
+        "content": "The Aretino Residence is a small two-story timber house in Windhelm's Stone Quarter, the home of the late Aretino family. The boy Aventus Aretino — recently escaped from Honorhall Orphanage in Riften — has barricaded himself inside. He performs the Black Sacrament in the upstairs bedroom, calling for the Dark Brotherhood to kill Grelod the Kind.",
+        "display_name": "Aretino Residence - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "eastmarch.building.aretino_residence",
+        "location": "",
+        "tags": [
+          "Aretino Residence",
+          "Windhelm",
+          "Aventus Aretino",
+          "Black Sacrament",
+          "orphan",
+          "Dark Brotherhood"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"PlayerHouseHjerimFaction\")",
+        "content": "Hjerim is a large two-story stone house in Windhelm — formerly the home of the Shatter-Shield family. The front door opens onto a wide entrance hall; the main floor has a kitchen, hearth, and dining room. Stairs climb to bedrooms on the upper floor. A hidden chamber behind a secret panel holds disturbing evidence — the Butcher of Windhelm used Hjerim for his crimes.",
+        "display_name": "Hjerim - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "eastmarch.building.hjerim",
+        "location": "",
+        "tags": [
+          "Hjerim",
+          "Windhelm",
+          "Shatter-Shield",
+          "Calixto Corrium",
+          "Butcher",
+          "player home"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WindhelmShatterShieldFaction\")",
+        "content": "The House of Clan Shatter-Shield is a wealthy clan manor in Windhelm's Valunstrad. The main hall has a long dining table and a hearth; the family takes meals in mourning since Friga's death. Torbjorn and Tova grieve their daughter; Nilsine carries on her parents' grief. The household has a deep grievance against the Dark Elves they blame for the Butcher's killings.",
+        "display_name": "House of Clan Shatter-Shield - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "eastmarch.building.house_of_clan_shatter_shield",
+        "location": "",
+        "tags": [
+          "House of Clan Shatter-Shield",
+          "Windhelm",
+          "Torbjorn",
+          "Tova",
+          "Nilsine",
+          "Friga",
+          "Stormcloak clan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WindhelmCruelSeaFaction\")",
+        "content": "The House of Clan Cruel-Sea in Windhelm has, in practice, been turned over to the Dunmer Atheron family — Suvaris, Faryl, and Aval — who manage Clan Cruel-Sea's caravans through the East Empire Company. The manor is a smaller stone affair on the city's east side, with a counting room on the first floor and bedrooms above.",
+        "display_name": "House of Clan Cruel-Sea - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "eastmarch.building.house_of_clan_cruel_sea",
+        "location": "",
+        "tags": [
+          "House of Clan Cruel-Sea",
+          "Windhelm",
+          "Suvaris Atheron",
+          "Faryl Atheron",
+          "Aval Atheron",
+          "Cruel-Sea",
+          "caravan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WindhelmStablesFaction\") or is_in_faction(actorUUID, \"TownWindhelmFaction\")",
+        "content": "Windhelm's stables sit on the road approaching the city's massive stone bridge. Ulundil the Bosmer works the stable with his wife Hofgrir. The carriage waits at the gate for travelers. The stables are weather-beaten timber, never much warm even in summer.",
+        "display_name": "Windhelm Stables - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.building.windhelm_stables",
+        "location": "",
+        "tags": [
+          "Windhelm Stables",
+          "Windhelm",
+          "Ulundil",
+          "Brunwulf Free-Winter",
+          "carriage",
+          "horses"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WindhelmHallOfTheDeadFaction\") or is_in_faction(actorUUID, \"TownWindhelmFaction\")",
+        "content": "Windhelm's Hall of the Dead is a stone building near the cemetery where the recent murders have stirred the city. Helgird the priestess of Arkay tends the dead — Susanna the Wicked, Friga Shatter-Shield, and others lie in the catacombs below. The Butcher's victims have made Helgird busy enough that she sleeps in the back room some nights.",
+        "display_name": "Windhelm Hall of the Dead - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "eastmarch.building.hall_of_the_dead",
+        "location": "",
+        "tags": [
+          "Windhelm Hall of the Dead",
+          "Windhelm",
+          "Helgird",
+          "Arkay",
+          "Susanna",
+          "Friga",
+          "catacombs"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

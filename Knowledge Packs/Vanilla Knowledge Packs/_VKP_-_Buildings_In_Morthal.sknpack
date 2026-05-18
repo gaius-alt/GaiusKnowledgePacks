@@ -1,0 +1,131 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Layouts of Morthal's major buildings — Highmoon Hall, Moorside Inn, Falion's house, and the marsh-town's few merchants.",
+    "entry_count": 6,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Buildings In Morthal",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MorthalHighmoonHallFaction\") or is_in_faction(actorUUID, \"TownMorthalFaction\")",
+        "content": "Highmoon Hall is Morthal's Jarl-seat — a modest two-story timber hall raised on stilts above the marsh. The front door opens onto the main hall with a long fire pit down the middle and the Jarl's chair set at the far end. Idgrod Ravencrone holds court with her husband Aslfur as steward; their children Joric and Idgrod the Younger keep to the upper floor.",
+        "display_name": "Highmoon Hall - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "morthal.building.highmoon_hall",
+        "location": "",
+        "tags": [
+          "Highmoon Hall",
+          "Morthal",
+          "Idgrod Ravencrone",
+          "Aslfur",
+          "Joric",
+          "Idgrod the Younger",
+          "court",
+          "Jarl"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MorthalMoorsideInnFaction\") or is_in_faction(actorUUID, \"TownMorthalFaction\")",
+        "content": "The Moorside Inn is Morthal's only tavern — a small wooden building on the main road through town. Through the front door is a single common room: bar against the back wall where Jonna serves, a fire pit in the center, and a handful of tables. A rented room or two open off the side. The orc bard Lurbuk plays the same dirges every night.",
+        "display_name": "Moorside Inn - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "morthal.building.moorside_inn",
+        "location": "",
+        "tags": [
+          "Moorside Inn",
+          "Morthal",
+          "Jonna",
+          "inn",
+          "tavern",
+          "Lurbuk"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MorthalFalionsHouseFaction\")",
+        "content": "Falion's house in Morthal is a small two-room timber building set apart from the others. The front room serves as workshop and dining room — alchemy table to the side, books stacked on every flat surface. The bedroom in the back is shared with the orphan girl Agni, whom Falion has taken in. He keeps a summoning circle drawn on the floor of the marsh nearby for his nightly work.",
+        "display_name": "Falion's House - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "morthal.building.falions_house",
+        "location": "",
+        "tags": [
+          "Falion",
+          "Morthal",
+          "Agni",
+          "Redguard",
+          "mage",
+          "necromancy"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MorthalThaumaturgistsHutFaction\") or is_in_faction(actorUUID, \"TownMorthalFaction\")",
+        "content": "The Thaumaturgist's Hut is the small apothecary on Morthal's main path. A counter sits opposite the door where Lami the alchemist mixes potions and sells reagents. Shelves of bottled potions and ingredients fill the back wall. Lami sleeps in a small bedroom off the shop.",
+        "display_name": "Thaumaturgist's Hut - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "morthal.building.thaumaturgists_hut",
+        "location": "",
+        "tags": [
+          "Thaumaturgist's Hut",
+          "Morthal",
+          "Lami",
+          "alchemy",
+          "apothecary"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\")",
+        "content": "Hroggar's house — or what's left of it — sits as a blackened ruin at the south end of Morthal. The fire consumed the roof and most of the upper story, leaving charred timbers and ash. Hroggar still walks the ruin some nights; his daughter Helgi's ghost has been seen in the ash. The townsfolk whisper about who Hroggar took up with the day after the fire.",
+        "display_name": "Hroggar's House - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "morthal.building.hroggars_house",
+        "location": "",
+        "tags": [
+          "Hroggar's House",
+          "Morthal",
+          "Hroggar",
+          "Alva",
+          "Helgi",
+          "burned house",
+          "fire"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"MorthalLumberMillFaction\") or is_in_faction(actorUUID, \"TownMorthalFaction\")",
+        "content": "The lumber mill sits on the marsh's edge just outside Morthal — a wooden saw-shed with the water-wheel turning behind it. Jorgen runs the mill, cutting logs floated down from the surrounding bogs. The mill produces most of the timber that keeps Morthal's stilted buildings from sinking into the marsh.",
+        "display_name": "Morthal Lumber Mill - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "morthal.building.lumber_mill",
+        "location": "",
+        "tags": [
+          "Morthal Lumber Mill",
+          "Morthal",
+          "Jorgen",
+          "Lami",
+          "Idgrod",
+          "mill",
+          "sawmill"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

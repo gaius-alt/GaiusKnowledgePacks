@@ -1,0 +1,269 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Morthal's notable people — Jarl Idgrod and her family, Falion the mage, and the handful of folk who scrape a living out of the marsh.",
+    "entry_count": 14,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Notable People In Morthal",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Idgrod Ravencrone is the Jarl of Hjaalmarch, ruling from Highmoon Hall in Morthal. She sees true visions and rules with quiet certainty — Imperial-aligned but pragmatic.",
+        "display_name": "Idgrod Ravencrone - Jarl of Hjaalmarch",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "hjaalmarch.people.idgrod",
+        "location": "",
+        "tags": [
+          "Idgrod Ravencrone",
+          "Jarl",
+          "Morthal",
+          "Hjaalmarch",
+          "Imperial",
+          "visions"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Aslfur is Idgrod Ravencrone's husband and steward — the practical hand running Morthal day to day while the Jarl reads omens.",
+        "display_name": "Aslfur - Steward and Husband",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "hjaalmarch.people.aslfur",
+        "location": "",
+        "tags": [
+          "Aslfur",
+          "steward",
+          "Morthal",
+          "Idgrod",
+          "Hjaalmarch"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Idgrod the Younger has inherited her mother's sight. Quieter, gentler — though the Jarl plans to send her to Solitude to keep her safe from what's coming.",
+        "display_name": "Idgrod the Younger - Heir",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "hjaalmarch.people.idgrod_younger",
+        "location": "",
+        "tags": [
+          "Idgrod the Younger",
+          "Morthal",
+          "heir",
+          "visions",
+          "Idgrod"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Joric is Idgrod and Aslfur's youngest. Sickly and prone to nightmares — the family hopes he, too, has the gift, but right now he just suffers.",
+        "display_name": "Joric - Sickly Boy",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "hjaalmarch.people.joric",
+        "location": "",
+        "tags": [
+          "Joric",
+          "Morthal",
+          "sickly",
+          "Idgrod's son",
+          "seer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Gorm is Idgrod's housecarl in Morthal — older Nord warrior, sword-sworn, takes the marsh patrols himself when the guards are short.",
+        "display_name": "Gorm - Housecarl",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "hjaalmarch.people.gorm",
+        "location": "",
+        "tags": [
+          "Gorm",
+          "housecarl",
+          "Morthal",
+          "Idgrod",
+          "Hjaalmarch"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Falion is the Redguard mage living in Morthal. Quiet, scholarly, and quietly disturbing — the townsfolk whisper about his nightly trips into the marsh. He has refined a rite to cure vampirism and taken in a vampire-orphaned girl named Agni.",
+        "display_name": "Falion - Mage of Morthal",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "hjaalmarch.people.falion",
+        "location": "",
+        "tags": [
+          "Falion",
+          "Morthal",
+          "Redguard",
+          "mage",
+          "vampirism",
+          "cure",
+          "Agni"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Jonna runs the Moorside Inn in Morthal — Redguard, no-nonsense, and the source of most of the town's gossip whether she wants to be or not.",
+        "display_name": "Jonna - Moorside Inn",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "hjaalmarch.people.jonna",
+        "location": "",
+        "tags": [
+          "Jonna",
+          "innkeeper",
+          "Moorside Inn",
+          "Morthal",
+          "Redguard"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Lurbuk is the Orc bard at the Moorside Inn — by most accounts the worst bard in Skyrim, and well aware of it. Jonna keeps him because no one else will come.",
+        "display_name": "Lurbuk - The Orc Bard",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "hjaalmarch.people.lurbuk",
+        "location": "",
+        "tags": [
+          "Lurbuk",
+          "Moorside Inn",
+          "Orc",
+          "bard",
+          "Morthal"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Lami runs the Thaumaturgist's Hut in Morthal — quiet Nord alchemist who's quietly trying to figure out how to kill Lurbuk and steal his fame.",
+        "display_name": "Lami - Thaumaturgist",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "hjaalmarch.people.lami",
+        "location": "",
+        "tags": [
+          "Lami",
+          "Thaumaturgist's Hut",
+          "alchemist",
+          "Morthal",
+          "Lurbuk"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Hroggar's wife and daughter Helgi died in a fire that consumed their house. He took up with Alva the next day. The town whispers about murder — quietly, but plainly.",
+        "display_name": "Hroggar - Burned Husband",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "hjaalmarch.people.hroggar",
+        "location": "",
+        "tags": [
+          "Hroggar",
+          "Morthal",
+          "burned house",
+          "Alva",
+          "Helgi",
+          "grief"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Alva is the woman Hroggar took up with the day his wife and daughter died in their burning house. The townsfolk find her unnaturally pretty, and they aren't wrong — she's a vampire.",
+        "display_name": "Alva - The Other Woman",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "hjaalmarch.people.alva",
+        "location": "",
+        "tags": [
+          "Alva",
+          "Morthal",
+          "Hroggar",
+          "vampire",
+          "Movarth",
+          "seductress"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Thonnir hunts in the marsh outside Morthal. His wife Laelette went off to join the Stormcloaks and never came home — and Thonnir suspects more is wrong than just desertion.",
+        "display_name": "Thonnir - Marsh Hunter",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "hjaalmarch.people.thonnir",
+        "location": "",
+        "tags": [
+          "Thonnir",
+          "Morthal",
+          "hunter",
+          "Laelette",
+          "missing wife"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Benor is a Nord brawler who hangs around the Moorside Inn looking for a fight. He'll travel with anyone who can knock him down honestly.",
+        "display_name": "Benor - Wandering Brawler",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "hjaalmarch.people.benor",
+        "location": "",
+        "tags": [
+          "Benor",
+          "Morthal",
+          "brawler",
+          "mercenary"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Jorgen runs the Morthal lumber mill at the edge of the marsh with his wife Lami. The mill keeps the town in cut timber.",
+        "display_name": "Jorgen - Lumber Mill",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "hjaalmarch.people.jorgen",
+        "location": "",
+        "tags": [
+          "Jorgen",
+          "sawmill",
+          "Morthal",
+          "Lami"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

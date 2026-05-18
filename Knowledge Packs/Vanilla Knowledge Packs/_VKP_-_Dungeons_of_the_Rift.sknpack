@@ -1,0 +1,328 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Nordic tombs, Dwemer ruins, Orc strongholds, dragon lairs, and bandit forts of the Rift — Avanchnzel, Forelhost, Goldenglow, and the foothills of the mountains south of Riften.",
+    "entry_count": 17,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Dungeons of the Rift",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Ivarstead is the small settlement at the foot of the Seven Thousand Steps. Klimmek climbs the path to deliver supplies to the Greybeards once a month; most other pilgrims need their own legs.",
+        "display_name": "Ivarstead",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.rift.ivarstead",
+        "location": "",
+        "tags": [
+          "Ivarstead",
+          "Rift",
+          "settlement",
+          "Klimmek",
+          "pilgrims",
+          "Seven Thousand Steps",
+          "mill"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Shor's Stone is a tiny mining settlement east of Riften — Filnjar runs the forge, and Redbelly Mine below the village pulls iron from a vein the spiders are trying to reclaim.",
+        "display_name": "Shor's Stone",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.rift.shors_stone",
+        "location": "",
+        "tags": [
+          "Shor's Stone",
+          "Rift",
+          "settlement",
+          "Redbelly Mine",
+          "iron",
+          "Filnjar",
+          "Sylgja"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Largashbur is the Orc stronghold in the southeastern Rift, besieged by giants and cursed by Malacath until their Chief redeems them. Atub the wise woman tends the rite.",
+        "display_name": "Largashbur",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "dungeon.rift.largashbur",
+        "location": "",
+        "tags": [
+          "Largashbur",
+          "Orc stronghold",
+          "Rift",
+          "Yamarz",
+          "Atub",
+          "Malacath",
+          "Cursed Tribe",
+          "giant"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Avanchnzel is the Dwemer ruin in the eastern Rift — the ghost of the scholar Katria haunts it, retracing the expedition that ended in her death.",
+        "display_name": "Avanchnzel",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.rift.avanchnzel",
+        "location": "",
+        "tags": [
+          "Avanchnzel",
+          "Dwemer ruin",
+          "Rift",
+          "Lost to the Ages",
+          "Aetherium",
+          "Katria",
+          "ghost"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Faldar's Tooth is an old keep north of Riften, held by bandits with a kennel of trained dogs. Travelers on the road have learned to circle wide.",
+        "display_name": "Faldar's Tooth",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.rift.faldars_tooth",
+        "location": "",
+        "tags": [
+          "Faldar's Tooth",
+          "bandit fort",
+          "Rift",
+          "old keep",
+          "watchdogs"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Boulderfall Cave is a small necromancer-held cave on the Rift–Eastmarch border. They've been raising skeletons from old graves in the hills above.",
+        "display_name": "Boulderfall Cave",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.rift.boulderfall_cave",
+        "location": "",
+        "tags": [
+          "Boulderfall Cave",
+          "Rift",
+          "necromancers",
+          "skeletons",
+          "Stony Creek border"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Treva's Watch is an old Imperial border keep in the eastern Rift, now bandit-held. Stalleo, the keep's rightful owner, camps outside hoping to reclaim it.",
+        "display_name": "Treva's Watch",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.rift.treva_watch",
+        "location": "",
+        "tags": [
+          "Treva's Watch",
+          "bandit fort",
+          "Rift",
+          "Stalleo",
+          "old border keep"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Goldenglow Estate sits on an island just outside Riften — Aringoth runs the apiaries that supply Black-Briar Meadery. The new mercenary force he's hired has Maven Black-Briar furious.",
+        "display_name": "Goldenglow Estate",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.rift.goldenglow_estate",
+        "location": "",
+        "tags": [
+          "Goldenglow Estate",
+          "Rift",
+          "Aringoth",
+          "mead",
+          "Maven Black-Briar",
+          "Thieves Guild",
+          "bees"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Honeystrand Cave is a quiet cave in the central Rift where spriggans tend their bees and the bears that wander in for the honey.",
+        "display_name": "Honeystrand Cave",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.rift.honeystrand_cave",
+        "location": "",
+        "tags": [
+          "Honeystrand Cave",
+          "Rift",
+          "spriggans",
+          "bears",
+          "honey"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Autumnshade Clearing is a small wooded hollow in the Rift — a single spriggan guards a ring of stones where the leaves never fall.",
+        "display_name": "Autumnshade Clearing",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "dungeon.rift.autumnshade_clearing",
+        "location": "",
+        "tags": [
+          "Autumnshade Clearing",
+          "Rift",
+          "spriggans",
+          "sacred grove"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Autumnwatch Tower is a ruined keep in the southern Rift mountains — a dragon roosts at the top, and a Word Wall waits at the foot of its tower.",
+        "display_name": "Autumnwatch Tower - Dragon Lair",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "dungeon.rift.autumnwatch_tower",
+        "location": "",
+        "tags": [
+          "Autumnwatch Tower",
+          "dragon lair",
+          "Rift",
+          "Word of Power"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Northwind Summit is a high mountain shrine in the Rift's eastern peaks — a dragon holds the summit and the Word Wall it surrounds. Before the dragons returned, the wall was guarded only by skeletons.",
+        "display_name": "Northwind Summit - Dragon Lair",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "dungeon.rift.northwind_summit",
+        "location": "",
+        "tags": [
+          "Northwind Summit",
+          "dragon lair",
+          "Rift",
+          "Word of Power",
+          "skeletons"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Snow-Shod Farm is the Snow-Shod family's farm outside Riften — run by Vulwulf and his wife Boti. Stormcloak in sympathy, like the rest of their clan.",
+        "display_name": "Snow-Shod Farm",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.rift.snow_shod_farm",
+        "location": "",
+        "tags": [
+          "Snow-Shod Farm",
+          "Rift",
+          "Vulwulf",
+          "Boti",
+          "farm"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Broken Helm Hollow is a small bandit cave south of Riften — a few raiders prey on travelers along the road south.",
+        "display_name": "Broken Helm Hollow",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.rift.broken_helm_hollow",
+        "location": "",
+        "tags": [
+          "Broken Helm Hollow",
+          "bandit cave",
+          "Rift",
+          "Wujeeta gold"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Greenwall Cave is the cavern beneath Fort Greenwall in the Rift — bandits use it as a hideout, and soldiers garrison it when the fort is taken.",
+        "display_name": "Greenwall Cave",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "dungeon.rift.greenwall_cave",
+        "location": "",
+        "tags": [
+          "Greenwall Cave",
+          "Rift",
+          "Fort Greenwall",
+          "bandits"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Lost Tongue Overlook is a dragon perch in the mountains south of Riften — a high stone outcrop with a Word Wall, and a dragon that returns to it.",
+        "display_name": "Lost Tongue Overlook - Dragon Lair",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.rift.lost_tongue_overlook",
+        "location": "",
+        "tags": [
+          "Lost Tongue Overlook",
+          "dragon lair",
+          "Rift",
+          "Word of Power"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Black-Briar Lodge is the Black-Briar family's hunting estate north of Riften — Sibbi kept his horse Frost here before he was jailed. Maven still uses it for quiet meetings.",
+        "display_name": "Black-Briar Lodge",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.rift.black_briar_lodge",
+        "location": "",
+        "tags": [
+          "Black-Briar Lodge",
+          "Rift",
+          "Maven Black-Briar",
+          "Sibbi",
+          "hunting lodge",
+          "Frost",
+          "horse"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

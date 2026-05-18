@@ -1,0 +1,393 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Layouts of Riften's major buildings — Mistveil Keep, the Black-Briar holdings, the Thieves Guild's home beneath the city, and the canal-side shops and homes of the Rift's capital.",
+    "entry_count": 19,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Buildings In Riften",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenMistveilKeepFaction\") or is_in_faction(actorUUID, \"TownRiftenFaction\")",
+        "content": "Mistveil Keep is the seat of the Rift, a sturdy stone fortress at the south end of Riften. The main doors open into a high-ceilinged entry hall with a long feasting table running down its center. The Jarl's throne room lies beyond through a short passage — Laila Law-Giver sits there, with her steward Hemming Black-Briar at her side and her housecarl Unmid Snow-Shod standing guard. Anuriel handles correspondence; Wylandriah the court mage works from a side chamber. A dungeon and barracks lie below.",
+        "display_name": "Mistveil Keep - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "riften.building.mistveil_keep",
+        "location": "",
+        "tags": [
+          "Mistveil Keep",
+          "Riften",
+          "Laila Law-Giver",
+          "Hemming Black-Briar",
+          "Anuriel",
+          "Wylandriah",
+          "Unmid Snow-Shod",
+          "court",
+          "throne"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenBeeandBarbFaction\") or is_in_faction(actorUUID, \"TownRiftenFaction\")",
+        "content": "The Bee and Barb is built around a grand two-story tavern hall on Riften's canal. Enter through the front door and you're in the main room — tables scattered left and right, a long bar straight ahead against the back wall, and a massive stone hearth dominating the center. Keerava the Argonian works the bar while her partner Talen-Jei waits tables. Stairs to the left climb to the rented guest rooms on the second floor.",
+        "display_name": "Bee and Barb - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "riften.building.bee_and_barb",
+        "location": "",
+        "tags": [
+          "Bee and Barb",
+          "Riften",
+          "Keerava",
+          "Talen-Jei",
+          "Mjoll",
+          "tavern",
+          "inn",
+          "canal"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenTempleofMaraFaction\") or is_in_faction(actorUUID, \"TownRiftenFaction\")",
+        "content": "The Temple of Mara sits near the western edge of Riften — a modest stone sanctuary dedicated to the goddess of love. The heavy wooden doors open onto the main worship hall: rows of wooden benches facing a raised altar crowned by Mara's symbol. Maramal officiates weddings here, while his wife Dinya Balu handles Amulets of Mara and pilgrim work. The priests' quarters are tucked behind the altar.",
+        "display_name": "Temple of Mara - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "riften.building.temple_of_mara",
+        "location": "",
+        "tags": [
+          "Temple of Mara",
+          "Riften",
+          "Maramal",
+          "Dinya Balu",
+          "Mara",
+          "sanctuary",
+          "weddings",
+          "Amulets of Mara"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenBlackBriarHouseFaction\")",
+        "content": "Black-Briar Manor stands as the wealthiest private residence in Riften, looming near the city's eastern wall. The front doors open onto a richly appointed foyer with dark wood paneling — old money on display. The dining hall has a long polished table and the family's coat of arms over the hearth. Ingun keeps an alchemy lab upstairs near the bedrooms. Maven's private study has a secret cellar door that very few people know about.",
+        "display_name": "Black-Briar Manor - Layout",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "riften.building.black_briar_manor",
+        "location": "",
+        "tags": [
+          "Black-Briar Manor",
+          "Riften",
+          "Maven Black-Briar",
+          "Hemming",
+          "Ingun",
+          "Sibbi",
+          "Black-Briar",
+          "nobility"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenBlackBriarMeaderyFaction\") or is_in_faction(actorUUID, \"TownRiftenFaction\")",
+        "content": "The Black-Briar Meadery is a working brewery built into the eastern side of Riften. The front door opens onto the shop floor — a counter to the left where Indaryn tends the till, with shelves of bottled mead lining the walls. Behind a side door, the brewing floor has great copper vats, fermentation barrels, and the smell of honey. Romlyn Dreth oversees production. A locked cellar holds the family's more discreet operations.",
+        "display_name": "Black-Briar Meadery - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "riften.building.black_briar_meadery",
+        "location": "",
+        "tags": [
+          "Black-Briar Meadery",
+          "Riften",
+          "Indaryn",
+          "Romlyn Dreth",
+          "mead",
+          "brewery",
+          "Maven Black-Briar"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenHonorhallOrphanageFaction\") or is_in_faction(actorUUID, \"TownRiftenFaction\")",
+        "content": "Honorhall Orphanage is a grim two-story building tucked into Riften's poorer canal-side end. The front door opens directly into the children's common room — a single large space with a low ceiling, straw pallets serving as beds, and a worn dining table at the center. Grelod the Kind runs the place with cruelty barely papered over; Constance Michel does what she can for the children when Grelod isn't watching.",
+        "display_name": "Honorhall Orphanage - Layout",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "riften.building.honorhall_orphanage",
+        "location": "",
+        "tags": [
+          "Honorhall Orphanage",
+          "Riften",
+          "Grelod the Kind",
+          "Constance Michel",
+          "Aventus Aretino",
+          "orphans",
+          "children"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenPawnedPrawnFaction\") or is_in_faction(actorUUID, \"TownRiftenFaction\")",
+        "content": "The Pawned Prawn is the pawnshop on Riften's plaza. The single-room shop has a counter against the back wall where Bersi Honey-Hand stands, with shelves of pawned goods — jewelry, weapons, books, miscellaneous gear — climbing every wall. His wife Drifa helps with customers. The couple lives in a small bedroom behind the shop, and pays the Thieves Guild for protection — when they're forced to.",
+        "display_name": "Pawned Prawn - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.building.pawned_prawn",
+        "location": "",
+        "tags": [
+          "Pawned Prawn",
+          "Riften",
+          "Bersi Honey-Hand",
+          "Drifa",
+          "pawnshop",
+          "general store"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenTheScorchedHammerFaction\") or is_in_faction(actorUUID, \"TownRiftenFaction\")",
+        "content": "The Scorched Hammer is Riften's smithy — a small two-story timber building on the canal-side. Balimund works the forge yard out front, hammering steel beside the eternal flame that supposedly heats his fire. His apprentice Asbjorn Fire-Tamer helps. The interior shop has a counter for selling finished weapons and armor; Balimund and Asbjorn share the living quarters upstairs.",
+        "display_name": "The Scorched Hammer - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.building.scorched_hammer",
+        "location": "",
+        "tags": [
+          "The Scorched Hammer",
+          "Riften",
+          "Balimund",
+          "Asbjorn Fire-Tamer",
+          "blacksmith",
+          "forge"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenHaelgasBunkhouseFaction\") or is_in_faction(actorUUID, \"TownRiftenFaction\")",
+        "content": "Haelga's Bunkhouse is the cheap rented-bed lodging on Riften's lower canal — meant for laborers and travelers who can't afford the Bee and Barb. The main room is lined with simple wooden cots. Haelga herself runs it and lives in a small private room off the bunkhouse. Her niece Svana Far-Shield works the floor and resents her aunt's loose attachments to Dibella.",
+        "display_name": "Haelga's Bunkhouse - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.building.haelgas_bunkhouse",
+        "location": "",
+        "tags": [
+          "Haelga's Bunkhouse",
+          "Riften",
+          "Haelga",
+          "Svana Far-Shield",
+          "Mark of Dibella",
+          "bunkhouse"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenElgrimsElixirsFaction\") or is_in_faction(actorUUID, \"TownRiftenFaction\")",
+        "content": "Elgrim's Elixirs is the alchemy shop tucked into Riften's lower canal. A short stair down from the street puts you in the small shop — counter at the back, shelves of bottles and reagents along the walls, and an alchemy table in constant use. Elgrim works the lab; his wife Hafjorg handles customers. Ingun Black-Briar studies under Elgrim and is often hunched over the lab table.",
+        "display_name": "Elgrim's Elixirs - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.building.elgrims_elixirs",
+        "location": "",
+        "tags": [
+          "Elgrim's Elixirs",
+          "Riften",
+          "Elgrim",
+          "Hafjorg",
+          "Ingun Black-Briar",
+          "alchemy",
+          "apothecary"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenFisheryFaction\") or is_in_faction(actorUUID, \"TownRiftenFaction\")",
+        "content": "Riften's Fishery sits on the lower-canal docks — a wide wooden warehouse where the day's catch comes in. The interior is a single open floor where Bolli oversees the catch processing; Wujeeta, the Argonian addict, works under his eye. Crates of dried fish and slaughterfish line the walls. The warehouse connects directly to the docks where boats moor.",
+        "display_name": "Riften Fishery - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.building.fishery",
+        "location": "",
+        "tags": [
+          "Riften Fishery",
+          "Riften",
+          "Bolli",
+          "Wujeeta",
+          "fishery",
+          "docks",
+          "skooma"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenBolliHouseFaction\")",
+        "content": "Bolli's house in Riften's upper district is a comfortable two-story stone home. The first floor is given over to a dining hall and small parlor; the kitchen is tucked at the back. Bolli — the wealthy owner of Riften's fishery — and his much younger wife Nivenor live here. The bedrooms upstairs reflect a marriage that has soured.",
+        "display_name": "Bolli's House - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.building.bolli_house",
+        "location": "",
+        "tags": [
+          "Bolli's House",
+          "Riften",
+          "Bolli",
+          "Nivenor",
+          "fishery owner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenMjollHouseFaction\")",
+        "content": "Aerin's house in Riften is a small stone home in the upper canal — given over to Mjoll the Lioness after Aerin rescued her from the ruin of Mzinchaleft. The first floor has a hearth, dining table, and Mjoll's old sword Grimsever mounted on the wall if recovered. Aerin lives modestly here, devoted to the woman he saved.",
+        "display_name": "Mjoll and Aerin's House - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.building.mjoll_house",
+        "location": "",
+        "tags": [
+          "Mjoll the Lioness",
+          "Aerin",
+          "Riften",
+          "Grimsever",
+          "Aerin's House",
+          "sword"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenRomlynFaction\")",
+        "content": "Romlyn Dreth's house in Riften is a small stone home that doubles as a side warehouse for the Black-Briar Meadery's less legitimate trade. The first floor has a kitchen and a few crates of mead bottles that probably should have been on the official ledger. Romlyn lives here alone — quietly, and as much under the Black-Briars' eye as their pay.",
+        "display_name": "Romlyn Dreth's House - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.building.romlyn_dreth_house",
+        "location": "",
+        "tags": [
+          "Romlyn Dreth",
+          "Riften",
+          "Dunmer",
+          "Black-Briar Meadery",
+          "mead",
+          "smuggling"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenSnowShodHouseFaction\")",
+        "content": "Snow-Shod House is the seat of the Snow-Shod clan in Riften — a wealthy stone manor near Mistveil Keep. The first floor has a fine dining hall and parlor. Asgeir Snow-Shod and his wife Sigrid live here; his father Unmid is the Jarl's housecarl and has rooms upstairs. The family's Stormcloak sympathies sit awkwardly with Hemming Black-Briar's Imperial leanings — both families live within shouting distance.",
+        "display_name": "Snow-Shod House - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.building.snow_shod_house",
+        "location": "",
+        "tags": [
+          "Snow-Shod House",
+          "Riften",
+          "Asgeir Snow-Shod",
+          "Sigrid",
+          "Unmid Snow-Shod",
+          "Stormcloak"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenBeggarsRowFaction\") or is_in_faction(actorUUID, \"TownRiftenFaction\")",
+        "content": "Beggar's Row is the long warren of cellars under Riften's lower canal where the city's homeless shelter from the weather. Stone pillars and dripping water mark the place. Edda, Snilf, and the other beggars sleep on pallets along the walls. The Thieves Guild knows the place well — beggars make useful eyes and ears in exchange for coin.",
+        "display_name": "Beggar's Row - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.building.beggars_row",
+        "location": "",
+        "tags": [
+          "Beggar's Row",
+          "Riften",
+          "Edda",
+          "Snilf",
+          "beggars",
+          "poor quarter"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenRaggedFlagonFaction\")",
+        "content": "The Ragged Flagon is the Thieves Guild's tavern, hidden in the Cistern beneath the Ratway. The stone-walled room sits on the edge of a still pool of water. Vekel the Man runs the bar; Tonilia fences stolen goods to anyone the Guild trusts. Members of the Guild — Brynjolf, Mercer Frey, Delvin, Vex — pass through constantly. The Flagon's heavy wooden door leads back to the Cistern proper.",
+        "display_name": "Ragged Flagon - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "riften.building.ragged_flagon",
+        "location": "",
+        "tags": [
+          "Ragged Flagon",
+          "Riften",
+          "Thieves Guild",
+          "Brynjolf",
+          "Mercer Frey",
+          "Vekel the Man",
+          "Tonilia",
+          "Cistern"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenTGHeadquartersFaction\")",
+        "content": "The Cistern is the Thieves Guild's headquarters — a massive vaulted stone chamber beneath Riften, once an old waterworks. The central pool is ringed with raised stone platforms where the Guild members keep their beds, training dummies, and gear. Mercer Frey works at a great desk by the back; Brynjolf and Delvin Mallory plan jobs at the central table. A side door leads up into Riften's cemetery; another to the Ragged Flagon.",
+        "display_name": "Thieves Guild Cistern - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "riften.building.cistern",
+        "location": "",
+        "tags": [
+          "Thieves Guild Cistern",
+          "Riften",
+          "Mercer Frey",
+          "Brynjolf",
+          "Delvin Mallory",
+          "Vex",
+          "Karliah",
+          "headquarters"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"RiftenRatwayFactionNeutral\")",
+        "content": "The Ratway is the labyrinth of disused sewers beneath Riften — a warren of stone tunnels, broken sluice gates, and forgotten waterways. The upper level houses thugs, addicts, and the Vaermina-touched. Deeper sections are claimed by the Thieves Guild as their approach to the Cistern. Esbern hides somewhere in the deepest part — the Ratway Warrens — behind a barred door he doesn't open for strangers.",
+        "display_name": "The Ratway Tunnels - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.building.ratway_tunnels",
+        "location": "",
+        "tags": [
+          "Ratway",
+          "Riften",
+          "Esbern",
+          "Gian the Fist",
+          "Drahff",
+          "Hewnon Black-Skeever",
+          "sewers",
+          "Vaermina"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

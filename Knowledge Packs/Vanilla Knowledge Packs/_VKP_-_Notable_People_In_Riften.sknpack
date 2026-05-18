@@ -1,0 +1,634 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Riften's notable people — Jarl Laila's court, the Black-Briar family who really run the city, the Thieves Guild operating beneath it, Mjoll the Lioness who would dismantle them, and the canal-side merchants caught between.",
+    "entry_count": 34,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Notable People In Riften",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Laila Law-Giver is the Stormcloak Jarl of the Rift. She means well by her people, but most of Riften knows that Maven Black-Briar holds the real power in the city.",
+        "display_name": "Laila Law-Giver - Jarl of Riften",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "riften.people.laila",
+        "location": "",
+        "tags": [
+          "Laila Law-Giver",
+          "Jarl",
+          "Riften",
+          "Stormcloak",
+          "Maven Black-Briar"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Maven Black-Briar is the matriarch of the Black-Briar family and the true power in Riften. She owns the meadery, the Jarl's ear, and quiet connections to both the Thieves Guild and the Dark Brotherhood.",
+        "display_name": "Maven Black-Briar - True Power of Riften",
+        "emotion": "",
+        "importance": 0.95,
+        "knowledge_key": "riften.people.maven",
+        "location": "",
+        "tags": [
+          "Maven Black-Briar",
+          "Black-Briar",
+          "Riften",
+          "Thieves Guild",
+          "Dark Brotherhood",
+          "matriarch",
+          "mead"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Hemming Black-Briar is Maven's eldest son and serves as steward to Jarl Laila at Mistveil Keep. Imperial-aligned despite his mother's pragmatic neutrality.",
+        "display_name": "Hemming Black-Briar - Steward",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "riften.people.hemming",
+        "location": "",
+        "tags": [
+          "Hemming Black-Briar",
+          "steward",
+          "Mistveil Keep",
+          "Maven",
+          "Imperial"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Sibbi Black-Briar is Maven's youngest son, serving time in the Riften jail for murdering his former lover's brother. He has a private cell, a comfortable bed, and a grudge for the missing Svidi.",
+        "display_name": "Sibbi Black-Briar - Imprisoned Son",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.sibbi",
+        "location": "",
+        "tags": [
+          "Sibbi Black-Briar",
+          "Black-Briar",
+          "Riften jail",
+          "murder",
+          "Svidi"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Ingun Black-Briar is Maven's youngest — and the only Black-Briar who seems disinterested in the family business. She studies alchemy under Elgrim and is no one's idea of a politician.",
+        "display_name": "Ingun Black-Briar - Alchemist",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.ingun",
+        "location": "",
+        "tags": [
+          "Ingun Black-Briar",
+          "Black-Briar",
+          "Maven",
+          "alchemist",
+          "Elgrim"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Anuriel is Jarl Laila's Bosmer steward at Mistveil Keep. She has been on Maven's payroll for years — though if the Empire takes the Rift, Hemming Black-Briar replaces her.",
+        "display_name": "Anuriel - Steward",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.anuriel",
+        "location": "",
+        "tags": [
+          "Anuriel",
+          "steward",
+          "Mistveil Keep",
+          "Bosmer",
+          "Laila",
+          "corrupt"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Wylandriah is the court mage of Riften — absent-minded enough that she keeps losing her ingredients scattered across the Rift.",
+        "display_name": "Wylandriah - Court Mage",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.wylandriah",
+        "location": "",
+        "tags": [
+          "Wylandriah",
+          "court mage",
+          "Mistveil Keep",
+          "absent-minded",
+          "alchemy"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Unmid Snow-Shod is Laila's housecarl — older Nord warrior, sword-sworn, head of the Snow-Shod clan whose Stormcloak loyalties sit uneasy with the Black-Briars' Imperial leanings.",
+        "display_name": "Unmid Snow-Shod - Housecarl",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.unmid",
+        "location": "",
+        "tags": [
+          "Unmid Snow-Shod",
+          "housecarl",
+          "Mistveil Keep",
+          "Laila",
+          "Snow-Shod",
+          "Stormcloak"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Mjoll the Lioness is a Nord warrior who would dismantle the Thieves Guild and the Black-Briars if she could. She lives with Aerin, who rescued her from the ruin of Mzinchaleft and saved her life.",
+        "display_name": "Mjoll the Lioness - Champion of Riften",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "riften.people.mjoll",
+        "location": "",
+        "tags": [
+          "Mjoll the Lioness",
+          "Riften",
+          "Grimsever",
+          "Thieves Guild",
+          "Aerin",
+          "champion"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Aerin is the man who rescued Mjoll the Lioness from Mzinchaleft and brought her home to Riften. Quiet, devoted, lives with her in the upper canal.",
+        "display_name": "Aerin - Mjoll's Companion",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.aerin",
+        "location": "",
+        "tags": [
+          "Aerin",
+          "Mjoll",
+          "Riften",
+          "Aerin's House"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\") or is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Brynjolf is the red-haired Nord working the Riften marketplace as a vendor of fake potions — and as the Thieves Guild's recruiter. Second to Mercer Frey beneath the city.",
+        "display_name": "Brynjolf - Thieves Guild Recruiter",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "riften.people.brynjolf",
+        "location": "",
+        "tags": [
+          "Brynjolf",
+          "Thieves Guild",
+          "Riften",
+          "Ratway",
+          "Cistern",
+          "Mercer Frey"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\") or is_in_faction(actorUUID, \"@ThievesGuildFaction\")",
+        "content": "Mercer Frey is the Guildmaster of the Thieves Guild — a Breton who has been quietly steering the Guild into ruin. Only his inner circle knows him at all.",
+        "display_name": "Mercer Frey - Guildmaster",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "riften.people.mercer",
+        "location": "",
+        "tags": [
+          "Mercer Frey",
+          "Guildmaster",
+          "Thieves Guild",
+          "Cistern",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Delvin Mallory hands out jobs at the Ragged Flagon for the Thieves Guild. Older Breton, knows everyone in the trade, half-in-love with Vex.",
+        "display_name": "Delvin Mallory - Job Coordinator",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.delvin",
+        "location": "",
+        "tags": [
+          "Delvin Mallory",
+          "Thieves Guild",
+          "jobs",
+          "Ragged Flagon",
+          "Vex"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Vex is the Thieves Guild's most dangerous specialist — Imperial woman, sharp-tongued, will tell you exactly what's wrong with your last heist.",
+        "display_name": "Vex - Specialist",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.vex",
+        "location": "",
+        "tags": [
+          "Vex",
+          "Thieves Guild",
+          "specialist",
+          "Imperial",
+          "Goldenglow",
+          "Ragged Flagon"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Tonilia is the Thieves Guild's main fence — Redguard, runs the Guild's stolen goods through the Ragged Flagon.",
+        "display_name": "Tonilia - Guild Fence",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.tonilia",
+        "location": "",
+        "tags": [
+          "Tonilia",
+          "Thieves Guild",
+          "fence",
+          "Redguard",
+          "Ragged Flagon"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Vekel the Man runs the bar at the Ragged Flagon. Loyal to the Guild — keeps the drinks flowing and the gossip moving.",
+        "display_name": "Vekel the Man - Ragged Flagon",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.vekel",
+        "location": "",
+        "tags": [
+          "Vekel the Man",
+          "Ragged Flagon",
+          "innkeeper",
+          "Thieves Guild",
+          "Cistern"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Sapphire is one of the Thieves Guild's rougher members. Young Imperial, terrifying when she wants to be, and currently squeezing Shadr at the stables for a debt.",
+        "display_name": "Sapphire - Thief",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.sapphire",
+        "location": "",
+        "tags": [
+          "Sapphire",
+          "Thieves Guild",
+          "Ragged Flagon",
+          "Shadr"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Keerava runs the Bee and Barb in Riften with her partner Talen-Jei. Argonian innkeeper, sharp eye for trouble, doesn't allow Thieves Guild business under her roof.",
+        "display_name": "Keerava - Bee and Barb",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.keerava",
+        "location": "",
+        "tags": [
+          "Keerava",
+          "Bee and Barb",
+          "Argonian",
+          "Riften",
+          "Talen-Jei",
+          "innkeeper"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Talen-Jei works the floor at the Bee and Barb alongside Keerava. He wants to marry her — once he can save enough for three flawless amethysts to set in a Riften wedding ring.",
+        "display_name": "Talen-Jei - Bee and Barb",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.talenjei",
+        "location": "",
+        "tags": [
+          "Talen-Jei",
+          "Bee and Barb",
+          "Argonian",
+          "Riften",
+          "Keerava",
+          "amethysts"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Balimund runs the Scorched Hammer in Riften — the city's blacksmith, with a personal forge fire that's been burning steadily for years. His apprentice Asbjorn Fire-Tamer helps.",
+        "display_name": "Balimund - Blacksmith",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.balimund",
+        "location": "",
+        "tags": [
+          "Balimund",
+          "Scorched Hammer",
+          "blacksmith",
+          "Riften",
+          "Asbjorn",
+          "Jarl"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Haelga runs the cheap bunkhouse in Riften's lower canal. Dibellan devout, in her own particular way — sleeps with three different men at last count, much to her niece Svana's disgust.",
+        "display_name": "Haelga - Bunkhouse Owner",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.haelga",
+        "location": "",
+        "tags": [
+          "Haelga",
+          "Bunkhouse",
+          "Riften",
+          "Dibella",
+          "Svana"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Maramal is the head priest at the Temple of Mara in Riften — Redguard, performs weddings for any who wear an Amulet of Mara. His wife Dinya Balu handles pilgrim work.",
+        "display_name": "Maramal - Priest of Mara",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "riften.people.maramal",
+        "location": "",
+        "tags": [
+          "Maramal",
+          "Temple of Mara",
+          "Riften",
+          "priest",
+          "weddings",
+          "Dinya"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Bolli runs the Riften Fishery — wealthy Nord, married to the much younger Nivenor who'd rather be anywhere else. Half the town knows he's been visiting Haelga's bunkhouse.",
+        "display_name": "Bolli Trout-Purse - Fishery Owner",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.bolli",
+        "location": "",
+        "tags": [
+          "Bolli",
+          "Riften Fishery",
+          "Nivenor",
+          "fishery",
+          "Haelga"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Bersi Honey-Hand runs the Pawned Prawn with his wife Drifa. The Thieves Guild has been pressuring him for protection money — and breaking his prize urn whenever he refuses.",
+        "display_name": "Bersi Honey-Hand - Pawned Prawn",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.bersi",
+        "location": "",
+        "tags": [
+          "Bersi Honey-Hand",
+          "Pawned Prawn",
+          "Riften",
+          "Drifa",
+          "Thieves Guild"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Indaryn runs the floor at Black-Briar Meadery — Dunmer, Maven's loyal manager, tolerates no slack from Romlyn Dreth.",
+        "display_name": "Indaryn - Meadery Manager",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.indaryn",
+        "location": "",
+        "tags": [
+          "Indaryn",
+          "Black-Briar Meadery",
+          "Dunmer",
+          "Riften",
+          "Romlyn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Romlyn Dreth works at Black-Briar Meadery and smuggles mead out the side door on his own account. Indaryn watches him closely — and not closely enough.",
+        "display_name": "Romlyn Dreth - Mead Worker",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "riften.people.romlyn",
+        "location": "",
+        "tags": [
+          "Romlyn Dreth",
+          "Black-Briar Meadery",
+          "Dunmer",
+          "Riften",
+          "Indaryn",
+          "smuggling"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Elgrim and Hafjorg run Elgrim's Elixirs in Riften's lower canal — older couple, master alchemists. They've taken on Ingun Black-Briar as a serious apprentice.",
+        "display_name": "Elgrim and Hafjorg - Alchemists",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.elgrim_hafjorg",
+        "location": "",
+        "tags": [
+          "Elgrim",
+          "Hafjorg",
+          "Elgrim's Elixirs",
+          "alchemy",
+          "Ingun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Brand-Shei runs a market stall in Riften and lives over the Pawned Prawn. Dunmer, raised by Argonians after his family was killed — though he's beginning to discover his true name is Brandyl Tenvanni of House Telvanni.",
+        "display_name": "Brand-Shei - Marketplace Stall",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.brandshei",
+        "location": "",
+        "tags": [
+          "Brand-Shei",
+          "Riften market",
+          "Dunmer",
+          "Pawned Prawn",
+          "Saerlund"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Madesi runs a jewelry stall in Riften's marketplace — Argonian, honest, watched by the Thieves Guild who occasionally use his stall in their schemes.",
+        "display_name": "Madesi - Jeweler",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "riften.people.madesi",
+        "location": "",
+        "tags": [
+          "Madesi",
+          "jeweler",
+          "Argonian",
+          "Riften market"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Marise Aravel sells food in Riften's market — Dunmer, complains about the Argonian competition daily, but is mostly harmless.",
+        "display_name": "Marise Aravel - Food Vendor",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.marise",
+        "location": "",
+        "tags": [
+          "Marise Aravel",
+          "Riften market",
+          "Dunmer",
+          "food vendor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Grelka sells leather armor in Riften's marketplace — Nord, sharp-tongued, and offers expert Light Armor training. She's just a merchant; the Guild doesn't own her.",
+        "display_name": "Grelka - Armor Vendor",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "riften.people.grelka",
+        "location": "",
+        "tags": [
+          "Grelka",
+          "Riften market",
+          "armor",
+          "Thieves Guild fence",
+          "Imperial"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Maul accosts newcomers on Riften's streets to warn them off the Black-Briar family's business. He's Maven Black-Briar's enforcer — and his brother Dirge guards the Ragged Flagon.",
+        "display_name": "Maul - Maven's Enforcer",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.maul",
+        "location": "",
+        "tags": [
+          "Maul",
+          "Maven Black-Briar",
+          "enforcer",
+          "Riften gate"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Grelod the Kind runs Honorhall Orphanage in Riften — and no one in the city believes she earned that surname. The children she beats and starves don't either, and at least one of them has called the Dark Brotherhood down on her.",
+        "display_name": "Grelod the Kind - Orphanage Matron",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "riften.people.grelod",
+        "location": "",
+        "tags": [
+          "Grelod the Kind",
+          "Honorhall Orphanage",
+          "Riften",
+          "cruel",
+          "Aventus",
+          "Dark Brotherhood"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Constance Michel works at Honorhall Orphanage alongside Grelod — Imperial, soft-hearted, does what she can for the children when Grelod isn't looking. Would run the place better if she could.",
+        "display_name": "Constance Michel - Orphanage Helper",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.constance",
+        "location": "",
+        "tags": [
+          "Constance Michel",
+          "Honorhall Orphanage",
+          "Riften",
+          "Imperial",
+          "kindly"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

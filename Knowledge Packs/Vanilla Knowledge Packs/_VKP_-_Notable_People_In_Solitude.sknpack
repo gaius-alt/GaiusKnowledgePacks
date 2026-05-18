@@ -1,0 +1,498 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Solitude's notable people — Jarl Elisif and the Blue Palace court, General Tullius's Legion command, the Bards College, and the merchants of the cliff city.",
+    "entry_count": 26,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Notable People In Solitude",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Elisif the Fair is the young Jarl of Solitude — widow of High King Torygg, Imperial loyalist, and the Empire's candidate for High Queen of Skyrim. Still finding her footing as a ruler.",
+        "display_name": "Elisif the Fair - Jarl of Solitude",
+        "emotion": "",
+        "importance": 0.95,
+        "knowledge_key": "haafingar.people.elisif",
+        "location": "",
+        "tags": [
+          "Elisif the Fair",
+          "Jarl",
+          "Solitude",
+          "High Queen",
+          "Torygg",
+          "widow",
+          "Imperial"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Falk Firebeard is Elisif's steward at the Blue Palace — the practical hand running Solitude while the young Jarl grieves. Imperial-aligned, sharp-eyed.",
+        "display_name": "Falk Firebeard - Steward",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "haafingar.people.falk",
+        "location": "",
+        "tags": [
+          "Falk Firebeard",
+          "steward",
+          "Solitude",
+          "Elisif",
+          "Blue Palace"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Bryling is a thane of Solitude and one of Elisif's closest advisors. Practical, war-experienced, often opposing the merchant-thane Erikur on the court.",
+        "display_name": "Bryling - Thane",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "haafingar.people.bryling",
+        "location": "",
+        "tags": [
+          "Bryling",
+          "thane",
+          "Solitude",
+          "Erikur",
+          "Blue Palace"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Erikur is the wealthy merchant-thane of Solitude — runs trade through Gulum-Ei at the East Empire Company, and is suspected of darker dealings besides.",
+        "display_name": "Erikur - Merchant Thane",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "haafingar.people.erikur",
+        "location": "",
+        "tags": [
+          "Erikur",
+          "thane",
+          "Solitude",
+          "merchant",
+          "Gulum-Ei",
+          "Blue Palace"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Sybille Stentor is the court mage at the Blue Palace. Cold, capable, advises Elisif on magical matters — and is a vampire who feeds on prisoners from the dungeon rather than beggars on the street.",
+        "display_name": "Sybille Stentor - Court Mage",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "haafingar.people.sybille",
+        "location": "",
+        "tags": [
+          "Sybille Stentor",
+          "court mage",
+          "Solitude",
+          "vampire",
+          "Blue Palace",
+          "Elisif"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Bolgeir Bearclaw is Elisif's housecarl — older Nord warrior, stands at the foot of the throne, sword-sworn to die for her.",
+        "display_name": "Bolgeir Bearclaw - Elisif's Housecarl",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "haafingar.people.bolgeir",
+        "location": "",
+        "tags": [
+          "Bolgeir Bearclaw",
+          "housecarl",
+          "Elisif",
+          "Solitude",
+          "Blue Palace"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "content": "General Tullius commands the Imperial Legion in Skyrim from Castle Dour in Solitude. Cyrodiilic, hard-line, has no patience for what he sees as Nord superstition.",
+        "display_name": "General Tullius - Imperial Commander",
+        "emotion": "",
+        "importance": 0.95,
+        "knowledge_key": "haafingar.people.tullius",
+        "location": "",
+        "tags": [
+          "Tullius",
+          "General",
+          "Imperial Legion",
+          "Solitude",
+          "Castle Dour",
+          "Civil War"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "content": "Legate Rikke is Tullius's second-in-command. Nord, Imperial-sworn, an old comrade of Ulfric Stormcloak from before the war — a fact that haunts both of them.",
+        "display_name": "Legate Rikke - Tullius's Second",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "haafingar.people.rikke",
+        "location": "",
+        "tags": [
+          "Rikke",
+          "Legate",
+          "Imperial Legion",
+          "Solitude",
+          "Castle Dour",
+          "Nord",
+          "Ulfric"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Corpulus Vinius runs the Winking Skeever in Solitude with his son Sorex and his daughter Minette. Imperial family, the inn busy at all hours.",
+        "display_name": "Corpulus Vinius - Winking Skeever",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.corpulus",
+        "location": "",
+        "tags": [
+          "Corpulus Vinius",
+          "Winking Skeever",
+          "Solitude",
+          "innkeeper",
+          "Sorex",
+          "Vivienne"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Sorex Vinius works the floor at the Winking Skeever, his father Corpulus's inn. Loud, friendly Imperial, sweet on Vivienne Onis from the wine cellar.",
+        "display_name": "Sorex Vinius - Skeever Server",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.sorex",
+        "location": "",
+        "tags": [
+          "Sorex Vinius",
+          "Winking Skeever",
+          "Solitude",
+          "Corpulus",
+          "Vivienne"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Vivienne Onis manages the wine at the Winking Skeever. Imperial, has trouble keeping a steady spiced wine supply and would pay someone to retrieve a missing shipment.",
+        "display_name": "Vivienne Onis - Wine Vendor",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "haafingar.people.vivienne",
+        "location": "",
+        "tags": [
+          "Vivienne Onis",
+          "Winking Skeever",
+          "Solitude",
+          "wine",
+          "spiced wine"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Lisette plays the resident bard at the Winking Skeever — a recent Bards College graduate working her way up. Sings well; sweet on Sorex Vinius.",
+        "display_name": "Lisette - Resident Bard",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.lisette",
+        "location": "",
+        "tags": [
+          "Lisette",
+          "Winking Skeever",
+          "Bards College",
+          "bard",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "content": "Viarmo is the headmaster of the Bards College in Solitude — Altmer, scholar of poetry and politics. He has been searching for the lost Verse of Olaf for the annual festival.",
+        "display_name": "Viarmo - Bards College Headmaster",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "haafingar.people.viarmo",
+        "location": "",
+        "tags": [
+          "Viarmo",
+          "Bards College",
+          "Solitude",
+          "Altmer",
+          "headmaster",
+          "King Olaf"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "content": "Inge Six-Fingers teaches the lute at the Bards College and is famously feuding with Pantea Ateia who teaches voice.",
+        "display_name": "Inge Six-Fingers - Lute Master",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "haafingar.people.inge",
+        "location": "",
+        "tags": [
+          "Inge Six-Fingers",
+          "Bards College",
+          "Solitude",
+          "lute",
+          "Pantea Ateia"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "content": "Pantea Ateia teaches voice at the Bards College and treats every other instructor as a hack — especially Inge Six-Fingers.",
+        "display_name": "Pantea Ateia - Voice Master",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "haafingar.people.pantea",
+        "location": "",
+        "tags": [
+          "Pantea Ateia",
+          "Bards College",
+          "Solitude",
+          "voice",
+          "Inge"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "content": "Giraud Gemane teaches history at the Bards College. Breton, slightly disorganized, willing to send students chasing relics for the College's collection.",
+        "display_name": "Giraud Gemane - History Master",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "haafingar.people.giraud",
+        "location": "",
+        "tags": [
+          "Giraud Gemane",
+          "Bards College",
+          "Solitude",
+          "history",
+          "Breton"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Taarie runs Radiant Raiment with her sister Endarie. Altmer clothier, polite to customers, ruthless about the bottom line.",
+        "display_name": "Taarie - Radiant Raiment",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "haafingar.people.taarie",
+        "location": "",
+        "tags": [
+          "Taarie",
+          "Radiant Raiment",
+          "Solitude",
+          "Altmer",
+          "Endarie",
+          "clothier"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Endarie is the sharper-tongued of the Radiant Raiment sisters — argues with anyone who can't afford her fashions, and most who can.",
+        "display_name": "Endarie - Radiant Raiment (Co-Owner)",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.endarie",
+        "location": "",
+        "tags": [
+          "Endarie",
+          "Radiant Raiment",
+          "Solitude",
+          "Altmer",
+          "Taarie"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Angeline Morrard runs Angeline's Aromatics on Solitude's main street. Older Breton, hasn't heard from her daughter Fura since she joined the Imperial Army and was stationed in Whiterun.",
+        "display_name": "Angeline Morrard - Apothecary",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "haafingar.people.angeline",
+        "location": "",
+        "tags": [
+          "Angeline Morrard",
+          "Angeline's Aromatics",
+          "Solitude",
+          "apothecary",
+          "Falion",
+          "missing daughter"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Vittoria Vici represents the East Empire Company in Solitude and is the Emperor's cousin. She's planning her wedding to Asgeir Snow-Shod — an unusual union of Imperial and Stormcloak families.",
+        "display_name": "Vittoria Vici - East Empire Agent",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "haafingar.people.vittoria",
+        "location": "",
+        "tags": [
+          "Vittoria Vici",
+          "East Empire Company",
+          "Solitude",
+          "Imperial",
+          "cousin of Titus Mede",
+          "wedding"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Orthus Endario manages the East Empire Company's Solitude offices. Imperial, frazzled, fighting against Argonian and Khajiit pirate incursions on his shipping.",
+        "display_name": "Orthus Endario - East Empire Manager",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "haafingar.people.orthus",
+        "location": "",
+        "tags": [
+          "Orthus Endario",
+          "East Empire Company",
+          "Solitude",
+          "Imperial",
+          "docks"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Styrr tends the Hall of the Dead in Solitude — old Nord priest of Arkay, the one who finally worried that Potema's spirit might walk again.",
+        "display_name": "Styrr - Hall of the Dead",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.styrr",
+        "location": "",
+        "tags": [
+          "Styrr",
+          "Hall of the Dead",
+          "Solitude",
+          "Arkay",
+          "Potema"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Rorlund is the head priest of the Temple of the Divines in Solitude. He keeps the eight altars — and looks the other way at the empty Talos alcove.",
+        "display_name": "Rorlund - Temple of the Divines",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "haafingar.people.rorlund",
+        "location": "",
+        "tags": [
+          "Rorlund",
+          "Temple of the Divines",
+          "Solitude",
+          "priest",
+          "Freir"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Greta in Solitude mourns publicly for her brother Roggvir, who was executed for letting Ulfric escape after killing Torygg. She wants his Amulet of Talos returned — discreetly, since the Thalmor are watching.",
+        "display_name": "Greta - Grieving Mother",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "haafingar.people.greta",
+        "location": "",
+        "tags": [
+          "Greta",
+          "Solitude",
+          "Friga",
+          "Shatter-Shield",
+          "grief",
+          "Windhelm"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Jaree-Ra hangs around outside Solitude offering coin to anyone willing to put out the lighthouse. Argonian wrecker, leader of the Blackblood Marauders alongside his sister Deeja — the job is to beach a ship on the rocks.",
+        "display_name": "Jaree-Ra - Wrecker",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.jaree_ra",
+        "location": "",
+        "tags": [
+          "Jaree-Ra",
+          "Solitude",
+          "Alik'r",
+          "wrecker",
+          "Lights Out",
+          "Deeja",
+          "lighthouse"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Dervenin wanders Solitude's courtyard claiming his master has abandoned him — off visiting a friend in the forbidden wing of the Blue Palace. The townsfolk humor him; he is, in fact, telling the truth about Sheogorath.",
+        "display_name": "Dervenin - Mad Priest",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "haafingar.people.dervenin",
+        "location": "",
+        "tags": [
+          "Dervenin",
+          "Solitude",
+          "Sheogorath",
+          "madman",
+          "Pelagius",
+          "statue"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

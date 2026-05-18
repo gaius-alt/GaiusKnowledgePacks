@@ -1,0 +1,231 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Caves, Nordic ruins, Orc strongholds, and dragon lairs of Falkreath Hold — including the ruin of Helgen.",
+    "entry_count": 12,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Dungeons of Falkreath Hold",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Helgen is the ruined Imperial border town where Alduin first revealed himself — burned to the foundations during what was supposed to be General Tullius's executions. Bandits squat in the rubble now.",
+        "display_name": "Helgen - Ruins",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.falkreath.helgen",
+        "location": "",
+        "tags": [
+          "Helgen",
+          "ruins",
+          "Falkreath Hold",
+          "dragon attack",
+          "Alduin",
+          "Imperial",
+          "border"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Bilegulch Mine is an iron mine in the western mountains of Falkreath taken over by Orc bandits — they work the veins hard, and don't welcome unannounced visitors.",
+        "display_name": "Bilegulch Mine",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.falkreath.bilegulch_mine",
+        "location": "",
+        "tags": [
+          "Bilegulch Mine",
+          "Orc",
+          "iron mine",
+          "Falkreath Hold",
+          "Orsimer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Cracked Tusk Keep is a small Orc bandit stronghold in southern Falkreath. Ghunzul leads the raiders here — they're more cutthroats than Orsimer, and have been raiding the road from Helgen.",
+        "display_name": "Cracked Tusk Keep",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.falkreath.cracked_tusk_keep",
+        "location": "",
+        "tags": [
+          "Cracked Tusk Keep",
+          "Orc bandits",
+          "Falkreath Hold",
+          "fortress",
+          "Ghunzul"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Halldir's Cairn is the Nordic ruin sealing the wizard-king Halldir — three mages and his draugr retinue keep the deep chamber. His staff lies beside his coffin.",
+        "display_name": "Halldir's Cairn",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.falkreath.halldirs_cairn",
+        "location": "",
+        "tags": [
+          "Halldir's Cairn",
+          "Nordic ruin",
+          "Falkreath Hold",
+          "draugr",
+          "Halldir",
+          "mages"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Sunderstone Gorge is the Nordic ruin held by necromancers in central Falkreath — a Word Wall of Fire Breath waits in its deepest chamber, beyond their summoned dead.",
+        "display_name": "Sunderstone Gorge",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.falkreath.sunderstone_gorge",
+        "location": "",
+        "tags": [
+          "Sunderstone Gorge",
+          "Nordic ruin",
+          "Falkreath Hold",
+          "necromancers",
+          "Word of Power",
+          "Fire Breath"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Pinewatch looks like an ordinary roadside cottage in eastern Falkreath — its cellar conceals a full bandit hideout run by Rigel Strong-Arm and her crew.",
+        "display_name": "Pinewatch",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.falkreath.pinewatch",
+        "location": "",
+        "tags": [
+          "Pinewatch",
+          "bandit hideout",
+          "Falkreath Hold",
+          "Rigel Strong-Arm",
+          "secret entrance"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Knifepoint Ridge is a small iron mine in eastern Falkreath now held by bandits — and during Boethiah's Calling, it hides the former Champion of Boethiah in its deepest shaft.",
+        "display_name": "Knifepoint Ridge",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.falkreath.knifepoint_ridge",
+        "location": "",
+        "tags": [
+          "Knifepoint Ridge",
+          "mine",
+          "Falkreath Hold",
+          "Boethiah",
+          "Ebony Mail"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Ancient's Ascent is a high mountain shrine in Falkreath where a dragon roosts above a Word Wall. The climb is hard; the descent is harder if the dragon catches you.",
+        "display_name": "Ancient's Ascent - Dragon Lair",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "dungeon.falkreath.ancients_ascent",
+        "location": "",
+        "tags": [
+          "Ancient's Ascent",
+          "dragon lair",
+          "Falkreath Hold",
+          "Word of Power",
+          "mountain"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Brittleshin Pass is a small cave on the Falkreath–Whiterun border — necromancers sometimes use it as a forward camp, raising skeletons from the bones inside.",
+        "display_name": "Brittleshin Pass",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "dungeon.falkreath.brittleshin_pass",
+        "location": "",
+        "tags": [
+          "Brittleshin Pass",
+          "cave",
+          "Falkreath Hold",
+          "necromancers",
+          "Whiterun border"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Bloodlet Throne is a stone fortress in southern Falkreath Hold held by a clan of vampires. Their lord rules from a throne of bone and bone-pale stone.",
+        "display_name": "Bloodlet Throne",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.falkreath.bloodlet_throne",
+        "location": "",
+        "tags": [
+          "Bloodlet Throne",
+          "vampires",
+          "Falkreath Hold",
+          "fortress",
+          "blood potion"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Shrouded Grove is a small wooded hollow in central Falkreath Hold — spriggans tend the place, and trespassers rarely walk out.",
+        "display_name": "Shrouded Grove",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.falkreath.shrouded_grove",
+        "location": "",
+        "tags": [
+          "Shrouded Grove",
+          "spriggans",
+          "Falkreath Hold",
+          "sacred grove"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Evergreen Grove is a quiet woodland clearing in Falkreath Hold guarded by spriggans — beautiful in spring, deadly to those who do not respect the trees.",
+        "display_name": "Evergreen Grove",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.falkreath.evergreen_grove",
+        "location": "",
+        "tags": [
+          "Evergreen Grove",
+          "spriggans",
+          "Falkreath Hold"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

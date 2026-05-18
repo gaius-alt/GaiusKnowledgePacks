@@ -1,0 +1,209 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Quests in Haafingar — Solitude's court, the Bards College, and the Daedric attentions of Pelagius and Meridia. Personal favors scoped to NPCs; court intrigue scoped to court members.",
+    "entry_count": 13,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Haafingar Quests",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Vittoria Vici\"",
+        "content": "{% if get_quest_stage(\"SolitudeFreeform01\", false) == 0 %}Vittoria Vici at the East Empire Company in Solitude has an envelope that needs delivering.{% else %}{{ playerName }} delivered the envelope for Vittoria Vici.{% endif %}",
+        "display_name": "No News is Good News",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "quest.haafingar.no_news_is_good_news",
+        "location": "",
+        "tags": [
+          "No News is Good News",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Taarie\" or actorName == \"Endarie\" or actorName == \"Elisif the Fair\"",
+        "content": "{% if get_quest_stage(\"SolitudeFreeform02\", false) == 0 %}Taarie at Radiant Raiment in Solitude wants Jarl Elisif's opinion on the shop's wares — for the right kind of attention.{% else %}{{ playerName }} brought Taarie's clothes to Elisif's attention.{% endif %}",
+        "display_name": "Fit for a Jarl",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "quest.haafingar.fit_for_a_jarl",
+        "location": "",
+        "tags": [
+          "Fit for a Jarl",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Greta\"",
+        "content": "{% if get_quest_stage(\"SolitudeFreeform03\", false) == 0 %}Greta in Solitude is mourning her brother Roggvir, executed at the city gate for letting Ulfric Stormcloak escape after killing High King Torygg. She wants his Amulet of Talos returned — discreetly, with the Thalmor watching.{% else %}{{ playerName }} returned Roggvir's amulet to Greta in Solitude.{% endif %}",
+        "display_name": "Return to Grace",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "quest.haafingar.return_to_grace",
+        "location": "",
+        "tags": [
+          "Return to Grace",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Angeline Morrard\" or actorName == \"Falion\"",
+        "content": "{% if get_quest_stage(\"SolitudeFreeform04\", false) == 0 %}Angeline Morrard at Angeline's Aromatics in Solitude has a delivery for a friend — Falion in Morthal.{% else %}{{ playerName }} delivered Angeline's package to Falion in Morthal.{% endif %}",
+        "display_name": "Delivery to Falion",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "quest.haafingar.delivery",
+        "location": "",
+        "tags": [
+          "Delivery to Falion",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Vivienne Onis\" or actorName == \"Corpulus Vinius\" or actorName == \"Sorex Vinius\"",
+        "content": "{% if get_quest_stage(\"SolitudeFreeform06\", false) == 0 %}A shipment of spiced wine has been delayed bound for Solitude — someone needs to find out where it went.{% else %}{{ playerName }} retrieved the missing spiced wine shipment for Solitude.{% endif %}",
+        "display_name": "The Spiced Wine",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "quest.haafingar.spiced_wine",
+        "location": "",
+        "tags": [
+          "The Spiced Wine",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Elisif the Fair\" or actorName == \"Bolgeir Bearclaw\"",
+        "content": "{% if get_quest_stage(\"SolitudeFreeform07\", false) == 0 %}Jarl Elisif the Fair wants a tribute placed at the Shrine of Talos for her late husband Torygg — discreetly, since Talos worship is banned by the Empire.{% else %}{{ playerName }} placed Elisif's tribute at the Shrine of Talos. The Thalmor must not learn of it.{% endif %}",
+        "display_name": "Elisif's Tribute",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "quest.haafingar.elisifs_tribute",
+        "location": "",
+        "tags": [
+          "Elisif's Tribute",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Elisif the Fair\" or actorName == \"Falk Firebeard\" or actorName == \"Bryling\" or actorName == \"Erikur\" or actorName == \"Sybille Stentor\" or actorName == \"Bolgeir Bearclaw\"",
+        "content": "{% if get_quest_stage(\"MS06Start\", false) == 0 %}Falk Firebeard in Solitude wants Wolfskull Cave investigated — necromancers have been seen near it, and an old ritual stirs.{% else %}{{ playerName }} interrupted the ritual at Wolfskull Cave. The Wolf Queen's followers were trying to call her back from Sovngarde.{% endif %}",
+        "display_name": "The Man Who Cried Wolf",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.haafingar.man_who_cried_wolf",
+        "location": "",
+        "tags": [
+          "The Man Who Cried Wolf",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Elisif the Fair\" or actorName == \"Falk Firebeard\" or actorName == \"Bryling\" or actorName == \"Erikur\" or actorName == \"Sybille Stentor\" or actorName == \"Bolgeir Bearclaw\" or actorName == \"Styrr\"",
+        "content": "{% if get_quest_stage(\"MS06\", false) == 0 %}Styrr at the Hall of the Dead in Solitude believes the Wolf Queen Potema is reaching back from death. He wants her cleansed before she walks again.{% elif get_quest_stage(\"MS06\", false) < 50 %}{{ playerName }} is searching the catacombs beneath Solitude for Potema's remains.{% else %}Potema, the Wolf Queen of Solitude, is gone for good. {{ playerName }} put her ashes to rest beneath the Temple of the Divines.{% endif %}",
+        "display_name": "The Wolf Queen Awakened",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.haafingar.wolf_queen_awakened",
+        "location": "",
+        "tags": [
+          "The Wolf Queen Awakened",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Dervenin\" or actorName == \"Sheogorath\" or actorName == \"Pelagius III\" or actorName == \"Elisif the Fair\" or actorName == \"Falk Firebeard\" or actorName == \"Bryling\" or actorName == \"Erikur\" or actorName == \"Sybille Stentor\" or actorName == \"Bolgeir Bearclaw\"",
+        "content": "{% if get_quest_stage(\"DA15\", false) == 0 %}A madman named Dervenin wanders Solitude looking for his master. He gestures at the statue of Pelagius the Mad in the Blue Palace courtyard and claims Sheogorath himself lives inside it.{% else %}{{ playerName }} walked the mind of Pelagius the Mad with Sheogorath, won the Wabbajack, and came out — different. Solitude has its statue back, and its madman gone.{% endif %}",
+        "display_name": "The Mind of Madness",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.haafingar.mind_of_madness",
+        "location": "",
+        "tags": [
+          "The Mind of Madness",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Meridia\" or is_in_faction(actorUUID, \"CrimeFactionHaafingar\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "{% if get_quest_stage(\"DA09\", false) == 0 %}A voice calls from the statue of Meridia on the cliff west of Solitude. She wants her temple cleansed of necromancers — Malkoran chief among them.{% else %}{{ playerName }} cleared Kilkreath Ruins for Meridia and was rewarded with Dawnbreaker. The undead in the area should sleep more soundly.{% endif %}",
+        "display_name": "The Break of Dawn",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "quest.haafingar.break_of_dawn",
+        "location": "",
+        "tags": [
+          "The Break of Dawn",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Jaree-Ra\" or actorName == \"Deeja\" or actorName == \"Ma'jhad\" or actorName == \"Sabine Nytte\"",
+        "content": "{% if get_quest_stage(\"MS07\", false) == 0 %}Jaree-Ra in Solitude is offering coin to anyone willing to put out the Solitude Lighthouse — for reasons he won't explain. Wreckers, probably.{% else %}{{ playerName }} chose between Jaree-Ra's wreckers and the lighthouse keeper. Either coin or a clean conscience.{% endif %}",
+        "display_name": "Lights Out!",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "quest.haafingar.lights_out",
+        "location": "",
+        "tags": [
+          "Lights Out!",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Viarmo\" or actorName == \"Inge Six-Fingers\" or actorName == \"Pantea Ateia\" or actorName == \"Giraud Gemane\" or actorName == \"Jorn\" or actorName == \"Aia Arria\"",
+        "content": "{% if get_quest_stage(\"MS05\", false) == 0 %}The Bards College in Solitude prepares for the Burning of King Olaf, but the Verse of Olaf is missing. Viarmo wants it found before the festival can take place.{% else %}{{ playerName }} recovered King Olaf's Verse from Dead Men's Respite. The Burning of King Olaf can go on, with the Jarl's blessing or fight.{% endif %}",
+        "display_name": "Tending the Flames",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "quest.haafingar.tending_the_flames",
+        "location": "",
+        "tags": [
+          "Tending the Flames",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionHaafingar\") or is_in_faction(actorUUID, \"TownSolitudeFaction\")",
+        "content": "{% if get_quest_stage(\"Favor252\", false) == 0 %}Jarl Elisif the Fair — or General Tullius's chosen if the Empire keeps Solitude — may grant the title of Thane to those who serve Haafingar.{% elif get_quest_stage(\"Favor252\", false) < 200 %}The Jarl asked {{ playerName }} to do more for Haafingar before any thaneship could be granted.{% else %}{{ playerName }} has been named Thane of Haafingar.{% endif %}",
+        "display_name": "Thane of Haafingar",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.haafingar.thane_of_haafingar",
+        "location": "",
+        "tags": [
+          "Thane of Haafingar",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

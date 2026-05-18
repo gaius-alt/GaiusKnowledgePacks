@@ -1,0 +1,275 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Layouts of the major buildings of Whiterun — Dragonsreach, Jorrvaskr, the Bannered Mare, the shops of the market and gates districts, and the private clan houses.",
+    "entry_count": 13,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Buildings In Whiterun",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunJarlOwnershipFaction\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "Dragonsreach is the great hall of Whiterun, perched atop the Cloud District above the city. The heavy double doors at the top of the long stone stair open into a high-vaulted feasting hall — a long table runs down the center, banners line the walls, and the Jarl's stone throne sits raised at the far end. To the right lies Farengar Secret-Fire's arcane study; behind the throne, a stair climbs to the porch and the dragon-trap overlooking the plains. The Jarl's family quarters are on the upper levels, and the dungeon lies below.",
+        "display_name": "Dragonsreach - Layout",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "whiterun.building.dragonsreach",
+        "location": "",
+        "tags": [
+          "Dragonsreach",
+          "Whiterun",
+          "Balgruuf",
+          "throne room",
+          "court",
+          "Farengar Secret-Fire",
+          "dragon trap",
+          "Cloud District"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CompanionsFaction\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "Jorrvaskr is the mead hall of the Companions in Whiterun's Wind District — a long building shaped like the overturned hull of a ship, all dark timber and weather-blackened beams. The front doors open onto the great hall, with a fire pit at the center and long tables ringed around the walls. The Companions train in the yard out back. A stairway at the rear descends to the Living Quarters and Underforge below. The Skyforge — where Eorlund Gray-Mane works — sits on the rock face above.",
+        "display_name": "Jorrvaskr - Layout",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "whiterun.building.jorrvaskr",
+        "location": "",
+        "tags": [
+          "Jorrvaskr",
+          "Whiterun",
+          "Companions",
+          "mead hall",
+          "Kodlak Whitemane",
+          "Skyforge",
+          "Wind District",
+          "Eorlund Gray-Mane"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunBanneredMareFaction\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "The Bannered Mare opens directly onto Whiterun's market square. Step through the front door and you're in the common room — a fire pit in the center, a long bar to your right where Hulda tends to patrons, and tables circled around. A bard usually stands near the hearth. Stairs to the left lead up to the rented rooms on the second floor; Saadia spends most of her days at the back tables before climbing up to bed.",
+        "display_name": "The Bannered Mare - Layout",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "whiterun.building.bannered_mare",
+        "location": "",
+        "tags": [
+          "Bannered Mare",
+          "Whiterun",
+          "inn",
+          "Hulda",
+          "Saadia",
+          "market",
+          "tavern"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunBelethorsGoodsFaction\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "Belethor's General Goods sits on the main street of Whiterun's Plains District, just past the market. The single-room shop has a long wooden counter running across the back where Belethor stands all day; shelves of pots, food, and miscellaneous goods line the walls, and a few crates and barrels clutter the floor. The little Nord girl Sissel often lingers by the door.",
+        "display_name": "Belethor's General Goods - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.building.belethors_goods",
+        "location": "",
+        "tags": [
+          "Belethor's General Goods",
+          "Whiterun",
+          "Belethor",
+          "general store",
+          "Plains District",
+          "Sissel"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunArcadiasCauldronFaction\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "Arcadia's Cauldron is a narrow alchemy shop just inside Whiterun's gates. The front room has a counter to the left where Arcadia mixes potions, shelves of bottles and reagents climbing both walls, and the alchemy table set against the back. A small set of stairs leads to the upper living quarters where Arcadia and the old man Nurelion sleep.",
+        "display_name": "Arcadia's Cauldron - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.building.arcadias_cauldron",
+        "location": "",
+        "tags": [
+          "Arcadia's Cauldron",
+          "Whiterun",
+          "Arcadia",
+          "alchemy",
+          "apothecary",
+          "Nurelion",
+          "Plains District"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunWarmaidensFaction\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "Warmaiden's is the smithy just inside Whiterun's main gates. Adrianne Avenicci works the forge in the front yard — anvil, grindstone, and tempering barrel all set under the open sky. The shop itself is a small interior off the forge, where her husband Ulfberth War-Bear sells weapons and armor from behind a counter. Their living quarters are tucked upstairs.",
+        "display_name": "Warmaiden's - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.building.warmaidens",
+        "location": "",
+        "tags": [
+          "Warmaiden's",
+          "Whiterun",
+          "Adrianne Avenicci",
+          "Ulfberth War-Bear",
+          "blacksmith",
+          "forge",
+          "gates"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunHallofTheDeadFaction\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "The Hall of the Dead sits in the Wind District near the temple of Kynareth. The front door opens into a simple stone chamber dominated by a central shrine to Arkay; benches line the walls for mourners. A side door leads down to the catacombs beneath — winding stone corridors lined with sarcophagi where the dead of Whiterun rest. Andurs the priest tends both the shrine and the catacombs below.",
+        "display_name": "Whiterun Hall of the Dead - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.building.hall_of_the_dead",
+        "location": "",
+        "tags": [
+          "Hall of the Dead",
+          "Whiterun",
+          "Andurs",
+          "Arkay",
+          "catacombs",
+          "Wind District",
+          "skeevers"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunTempleofKynarethFaction\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "The Temple of Kynareth sits at the top of Whiterun beside the Gildergreen tree. Step inside and you're in a small open sanctuary with the goddess's altar at the back, healing pools to either side, and rows of beds along the walls where the priestess Danica Pure-Spring tends to the sick. Acolyte Jenssen assists with the healing.",
+        "display_name": "Temple of Kynareth - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.building.temple_of_kynareth",
+        "location": "",
+        "tags": [
+          "Temple of Kynareth",
+          "Whiterun",
+          "Danica Pure-Spring",
+          "Gildergreen",
+          "Acolyte Jenssen",
+          "Wind District",
+          "healing"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunDrunkenHuntsmanFaction\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "The Drunken Huntsman is the small tavern just inside Whiterun's gates that serves as both alehouse and hunters' supply. Through the front door is the common room — a wooden counter to the right where the Bosmer brothers Anoriath and Elrindir work, with bows, arrows, and weapons hung on the walls. Tables and a small fire fill the rest of the room. Rented rooms wait upstairs.",
+        "display_name": "The Drunken Huntsman - Layout",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.building.drunken_huntsman",
+        "location": "",
+        "tags": [
+          "Drunken Huntsman",
+          "Whiterun",
+          "Anoriath",
+          "Elrindir",
+          "tavern",
+          "hunters",
+          "Plains District",
+          "bow"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunHouseBattleBornFaction\")",
+        "content": "The House of Clan Battle-Born is a wealthy stone-and-timber manor in Whiterun's Plains District. The front door opens onto a fine entrance hall with rugs and wall hangings; the family takes meals at a long table near a roaring hearth. Olfrid Battle-Born and his son Idolaf hold court here — and their Imperial sympathies are no secret. Bedrooms occupy the upper floor.",
+        "display_name": "House of Clan Battle-Born - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.building.house_of_clan_battleborn",
+        "location": "",
+        "tags": [
+          "House of Clan Battle-Born",
+          "Whiterun",
+          "Battle-Born",
+          "Olfrid",
+          "Idolaf",
+          "Imperial",
+          "Plains District"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunHouseGrayManeFaction\")",
+        "content": "The House of Clan Gray-Mane is the smaller, plainer manor across from the Battle-Borns in Whiterun's Plains District. The front door opens onto a modest hall with a kitchen, a hearth, and the simple table around which Eorlund and Vignar Gray-Mane take meals. Their Stormcloak sympathies hang in the air alongside the family's stubborn refusal to leave Whiterun for Windhelm.",
+        "display_name": "House of Clan Gray-Mane - Layout",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.building.house_of_clan_graymane",
+        "location": "",
+        "tags": [
+          "House of Clan Gray-Mane",
+          "Whiterun",
+          "Gray-Mane",
+          "Eorlund",
+          "Vignar",
+          "Stormcloak",
+          "Plains District"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunBreezhomeFaction\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "Breezehome is the small two-story house near Whiterun's gates available to be purchased from Proventus Avenicci for 5,000 septims. The front door opens into the kitchen and hearth area, with a table set for dining; a small alchemy lab corner is to the right, an enchanting nook to the back. Stairs against the back wall lead up to two bedrooms and a storage chest.",
+        "display_name": "Breezehome - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "whiterun.building.breezehome",
+        "location": "",
+        "tags": [
+          "Breezehome",
+          "Whiterun",
+          "player home",
+          "Lydia",
+          "Plains District",
+          "starter home"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"WhiterunStablesFaction\") or is_in_faction(actorUUID, \"TownWhiterunFaction\")",
+        "content": "The Whiterun Stables sit just outside the city's main gate on the road down to the plains. Skulvar Sable-Hilt runs the stable from a small wooden building beside the corrals — beds for himself and his hand inside, hay and tack along the walls. Bjorlam waits with the carriage at the road's edge for those traveling to other holds.",
+        "display_name": "Whiterun Stables - Layout",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "whiterun.building.whiterun_stables",
+        "location": "",
+        "tags": [
+          "Whiterun Stables",
+          "Whiterun",
+          "Skulvar Sable-Hilt",
+          "horses",
+          "Bjorlam",
+          "carriage",
+          "gates"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Nordic tombs, Thalmor strongholds, sea caves, and bandit forts of Haafingar — including Volskygge, Northwatch Keep, and the Statue of Meridia at Kilkreath.",
+    "entry_count": 12,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Dungeons of Haafingar",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Volskygge is the great Nordic ruin in the western Haafingar mountains. The dragon priest Volsung waits behind the deep chamber's door — his mask resting on the bier behind him.",
+        "display_name": "Volskygge",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.haafingar.volskygge",
+        "location": "",
+        "tags": [
+          "Volskygge",
+          "Nordic ruin",
+          "Haafingar",
+          "Dragon Priest",
+          "mask",
+          "Whirlwind Sprint"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Kilkreath Ruins lies beneath the great Statue of Meridia west of Solitude — Malkoran the necromancer holds the temple, and Meridia herself calls for him to be ended and Dawnbreaker taken from her altar.",
+        "display_name": "Kilkreath Ruins (Meridia's Temple)",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.haafingar.kilkreath_ruins",
+        "location": "",
+        "tags": [
+          "Kilkreath Ruins",
+          "Meridia",
+          "Statue of Meridia",
+          "Haafingar",
+          "Malkoran",
+          "Dawnbreaker",
+          "necromancers"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Wolfskull Cave overlooks the sea west of Solitude — necromancers have made it the focus of a ritual to call Potema, the Wolf Queen, back from Sovngarde.",
+        "display_name": "Wolfskull Cave",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "dungeon.haafingar.wolfskull_cave",
+        "location": "",
+        "tags": [
+          "Wolfskull Cave",
+          "Haafingar",
+          "Potema",
+          "necromancers",
+          "Wolf Queen",
+          "ritual",
+          "Falk Firebeard"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Northwatch Keep is the Thalmor fortress on the northern coast of Haafingar — Justiciars run interrogations here, and prisoners like Thorald Gray-Mane vanish behind its walls.",
+        "display_name": "Northwatch Keep",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.haafingar.northwatch_keep",
+        "location": "",
+        "tags": [
+          "Northwatch Keep",
+          "Thalmor",
+          "Haafingar",
+          "Justiciar",
+          "Thorald Gray-Mane",
+          "prisoners",
+          "fortress"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Brinewater Grotto is a sea cave under the cliffs of Solitude — Jaree-Ra's Blackblood Marauders use it as their base, stockpiling cargo plundered from ships they lured onto the rocks.",
+        "display_name": "Brinewater Grotto",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.haafingar.brinewater_grotto",
+        "location": "",
+        "tags": [
+          "Brinewater Grotto",
+          "Haafingar",
+          "Blackblood Marauders",
+          "wreckers",
+          "Jaree-Ra",
+          "Lights Out"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Lost Echo Cave is a Falmer-held warren in the western Haafingar mountains — built into a half-buried Dwemer outpost. Falmer patrol the tunnels and nests of chaurus skitter through the dark.",
+        "display_name": "Lost Echo Cave",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.haafingar.lost_echo_cave",
+        "location": "",
+        "tags": [
+          "Lost Echo Cave",
+          "Haafingar",
+          "Falmer",
+          "Dwemer",
+          "chaurus"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "The Solitude Lighthouse guides ships through the rocks below the cliff city. Its keeper Ma'jhad has been targeted by Alik'r wreckers who want the light snuffed.",
+        "display_name": "Solitude Lighthouse",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.haafingar.solitude_lighthouse",
+        "location": "",
+        "tags": [
+          "Solitude Lighthouse",
+          "Haafingar",
+          "Jaree-Ra",
+          "Ma'jhad",
+          "keeper",
+          "Lights Out"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Broken Oar Grotto is a pirate-held sea cave on the western coast of Haafingar — the Blood Horkers, led by Stig Salt-Plank, make port here when the East Empire ships are running rich.",
+        "display_name": "Broken Oar Grotto",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.haafingar.broken_oar_grotto",
+        "location": "",
+        "tags": [
+          "Broken Oar Grotto",
+          "Haafingar",
+          "Blood Horkers",
+          "pirates",
+          "Stig Salt-Plank",
+          "sea cave"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Shadowgreen Cavern is a hidden cave on Haafingar's northern coast — sun filters through a hole in the roof onto a small grove of trees, tended by spriggans and prowled by sabre cats.",
+        "display_name": "Shadowgreen Cavern",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.haafingar.shadowgreen_cavern",
+        "location": "",
+        "tags": [
+          "Shadowgreen Cavern",
+          "Haafingar",
+          "spriggans",
+          "sabre cats",
+          "hidden grotto"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Pinemoon Cave is a vampire lair in the Haafingar mountains northwest of Dragon Bridge — a small cave where a coven of vampires feeds far from the city's notice.",
+        "display_name": "Pinemoon Cave",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.haafingar.pinemoon_cave",
+        "location": "",
+        "tags": [
+          "Pinemoon Cave",
+          "vampires",
+          "Haafingar"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Dragon Bridge is the small settlement south of Solitude built around the great stone bridge carved with a dragon's head — the Penitus Oculatus has its outpost here under Commander Maro.",
+        "display_name": "Dragon Bridge",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.haafingar.dragon_bridge",
+        "location": "",
+        "tags": [
+          "Dragon Bridge",
+          "Haafingar",
+          "Penitus Oculatus",
+          "settlement",
+          "carved bridge",
+          "Commander Maro"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Dead Men's Respite is the Nordic tomb of King Olaf One-Eye east of Dragon Bridge — the ghost of his rival Svaknir wanders inside, and the Verse of Olaf still rests where it was hidden.",
+        "display_name": "Dead Men's Respite",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.haafingar.dead_mens_respite",
+        "location": "",
+        "tags": [
+          "Dead Men's Respite",
+          "Nordic ruin",
+          "Haafingar",
+          "King Olaf",
+          "Svaknir",
+          "Verse of Olaf",
+          "Bards"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

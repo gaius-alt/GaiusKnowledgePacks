@@ -1,0 +1,94 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Quests in Falkreath Hold — personal favors scoped to their NPCs, public events scoped to the hold.",
+    "entry_count": 5,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Falkreath Quests",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Dengeir of Stuhn\" or actorName == \"Helvard\"",
+        "content": "{% if get_quest_stage(\"FreeformFalkreathQuest03\", false) == 0 %}Old Dengeir of Stuhn in Falkreath is plagued by visions of his ancestor Vighar — he insists the old vampire still walks the family crypt, though most write it off as the ramblings of a deposed Jarl.{% elif get_quest_stage(\"FreeformFalkreathQuest03\", false) < 200 %}{{ playerName }} agreed to investigate Vighar's crypt for Dengeir. The old man waits to hear what comes back.{% else %}{{ playerName }} put Dengeir's vampire ancestor Vighar to rest. The old Jarl can sleep easier — though some still doubt Vighar was ever more than a paranoid old man's nightmare.{% endif %}",
+        "display_name": "Dark Ancestor",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "quest.falkreath.dark_ancestor",
+        "location": "",
+        "tags": [
+          "Dark Ancestor",
+          "quest",
+          "Falkreath"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Runil\"",
+        "content": "{% if get_quest_stage(\"FreeformFalkreathQuest02\", false) == 0 %}Runil, Falkreath's priest of Arkay, has misplaced an old journal in a cave. It holds a past as a Thalmor battlemage that he would rather keep buried — but cannot let go of.{% elif get_quest_stage(\"FreeformFalkreathQuest02\", false) < 20 %}{{ playerName }} agreed to retrieve Runil's journal from the cave where he lost it.{% else %}{{ playerName }} brought Runil his old journal back. He can finally lay his Thalmor past to rest, though the memories will never fully fade.{% endif %}",
+        "display_name": "Runil's Dark Past",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "quest.falkreath.runils_dark_past",
+        "location": "",
+        "tags": [
+          "Runil's Dark Past",
+          "quest",
+          "Falkreath"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionFalkreath\") or is_in_faction(actorUUID, \"TownFalkreathFaction\")",
+        "content": "{% if get_quest_stage(\"Favor258\", false) == 0 %}The Jarl of Falkreath may grant the title of Thane to those who prove themselves to the hold. It takes more than swinging a sword — the people of Falkreath have to know your name first.{% elif get_quest_stage(\"Favor258\", false) < 200 %}The Jarl asked {{ playerName }} to do more for the hold before any thaneship could be granted.{% else %}{{ playerName }} has been named Thane of Falkreath by the Jarl. Falkreath's people answer to them now, within reason.{% endif %}",
+        "display_name": "Thane of Falkreath",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.falkreath.thane_of_falkreath",
+        "location": "",
+        "tags": [
+          "Thane of Falkreath",
+          "quest",
+          "Falkreath"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Lod\" or actorName == \"Barbas\" or actorName == \"Clavicus Vile\"",
+        "content": "{% if get_quest_stage(\"DA03\", false) == 0 %}A talking dog called Barbas has been seen near Falkreath. He claims to be the servant of Clavicus Vile, the Daedric Prince of Wishes — and he wants to be reunited with his master.{% elif get_quest_stage(\"DA03\", false) < 50 %}{{ playerName }} is traveling with Barbas the talking dog toward the shrine of Clavicus Vile.{% elif get_quest_stage(\"DA03\", false) < 100 %}{{ playerName }} is hunting the Rueful Axe with Barbas at Rimerock Burrow — Clavicus Vile's price for taking the dog back.{% elif get_quest_stage(\"DA03\", false) < 150 %}{{ playerName }} brought the Rueful Axe back to Clavicus Vile's shrine. The Prince is deciding whether to forgive Barbas — or whether the axe finds a different target.{% else %}{{ playerName }} settled Barbas's quarrel with Clavicus Vile — by returning Barbas with the Rueful Axe, or by killing him with it.{% endif %}",
+        "display_name": "A Daedra's Best Friend",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "quest.falkreath.daedras_best_friend",
+        "location": "",
+        "tags": [
+          "A Daedra's Best Friend",
+          "quest",
+          "Falkreath"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionFalkreath\") or is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"DA05HuntersOfHircineFaction\")",
+        "content": "{% if get_quest_stage(\"DA05\", false) == 0 %}A man named Sinding sits in Falkreath's jail for killing little Lavinia of Corpselight Farm — but the truth is darker. Sinding is a werewolf who stole the Ring of Hircine, and Hircine is not finished with him.{% elif get_quest_stage(\"DA05\", false) < 20 %}{{ playerName }} spoke with Sinding in his cell. The Hunt has begun — Hircine wants a great beast slain in his name.{% elif get_quest_stage(\"DA05\", false) < 60 %}{{ playerName }} faces the choice at the heart of Sinding's hunt: kill the cursed werewolf for Hircine's favor, or aid him against the hunters sent to take him.{% else %}The Hunt is over. {{ playerName }} earned Hircine's reward — the Ring of Hircine or the Savior's Hide — and the matter of Sinding is closed.{% endif %}",
+        "display_name": "Ill Met By Moonlight",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.falkreath.ill_met_by_moonlight",
+        "location": "",
+        "tags": [
+          "Ill Met By Moonlight",
+          "quest",
+          "Falkreath"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

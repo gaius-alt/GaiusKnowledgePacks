@@ -1,0 +1,316 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Forsworn redoubts, Dwemer ruins, Nordic tombs, and mines of the Reach — Karthspire, Nchuand-Zel, Bthardamz, and the gold mines of Kolskeggr.",
+    "entry_count": 16,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Dungeons of the Reach",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Karthspire is the Forsworn redoubt south of Markarth that conceals Sky Haven Temple beneath it. The Blades' refuge and Alduin's Wall lie behind a Dragonblood-keyed door.",
+        "display_name": "Karthspire",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.reach.karthspire",
+        "location": "",
+        "tags": [
+          "Karthspire",
+          "Forsworn",
+          "Reach",
+          "Sky Haven Temple",
+          "Blades",
+          "Alduin's Wall",
+          "Esbern"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Bthardamz is the great Dwemer ruin west of Markarth, now inhabited by the Afflicted — Peryite's plague-touched followers — led by the Daedric priest Orchendor.",
+        "display_name": "Bthardamz",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.reach.bthardamz",
+        "location": "",
+        "tags": [
+          "Bthardamz",
+          "Dwemer ruin",
+          "Reach",
+          "Orchendor",
+          "Peryite",
+          "Afflicted",
+          "plague"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Nchuand-Zel is the vast Dwemer ruin beneath Markarth itself — Calcelmo has been excavating the upper levels for decades. The Falmer hold what he hasn't reached yet.",
+        "display_name": "Nchuand-Zel",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "dungeon.reach.nchuand_zel",
+        "location": "",
+        "tags": [
+          "Nchuand-Zel",
+          "Dwemer ruin",
+          "Reach",
+          "Markarth",
+          "Calcelmo",
+          "Falmer",
+          "dig"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Kolskeggr Mine is the largest gold mine in Skyrim — Forsworn killed most of the miners and now hold the works. Pavo Attius escaped and is asking for someone to take it back.",
+        "display_name": "Kolskeggr Mine",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.reach.kolskeggr_mine",
+        "location": "",
+        "tags": [
+          "Kolskeggr Mine",
+          "gold mine",
+          "Reach",
+          "Pavo Attius",
+          "Forsworn",
+          "richest mine"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Soljund's Sinkhole is a moonstone mine in the western Reach. The miners broke through into an old Nordic crypt and woke the draugr inside — Perth wants it cleared so his men can return.",
+        "display_name": "Soljund's Sinkhole",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.reach.soljunds_sinkhole",
+        "location": "",
+        "tags": [
+          "Soljund's Sinkhole",
+          "moonstone mine",
+          "Reach",
+          "Perth",
+          "draugr",
+          "sinkhole"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Left Hand Mine is a Silver-Blood-owned silver mine outside Markarth — a small but steady operation, manned by miners with little choice in the matter.",
+        "display_name": "Left Hand Mine",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.reach.left_hand_mine",
+        "location": "",
+        "tags": [
+          "Left Hand Mine",
+          "silver",
+          "Reach",
+          "Silver-Blood",
+          "Lash gra-Dushnikh"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Druadach Redoubt is a major Forsworn stronghold in the western Reach — a Hagraven leads the camp, and Briarheart warriors guard her ritual.",
+        "display_name": "Druadach Redoubt",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "dungeon.reach.druadach_redoubt",
+        "location": "",
+        "tags": [
+          "Druadach Redoubt",
+          "Forsworn",
+          "Reach",
+          "Briarheart",
+          "Madanach",
+          "Hagraven"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Hag Rock Redoubt is the Forsworn camp built into the ruins on a high cliff — another Hagraven holds court here, and the path up is well-defended.",
+        "display_name": "Hag Rock Redoubt",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.reach.hag_rock_redoubt",
+        "location": "",
+        "tags": [
+          "Hag Rock Redoubt",
+          "Forsworn",
+          "Reach",
+          "Hagraven",
+          "Briarheart"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Lost Valley Redoubt is a Forsworn-held canyon in the eastern Reach — a Word Wall waits at the top of the falls, and a ghostly Nord guides the wise to it.",
+        "display_name": "Lost Valley Redoubt",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.reach.lost_valley_redoubt",
+        "location": "",
+        "tags": [
+          "Lost Valley Redoubt",
+          "Forsworn",
+          "Reach",
+          "Word of Power",
+          "waterfall",
+          "ghost",
+          "Slow Time"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Hag's End is the Hagraven-held ruin at the top of a mountain in the Reach. Their queen rules from the deep chamber at the peak — few who climb to it return.",
+        "display_name": "Hag's End",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "dungeon.reach.hags_end",
+        "location": "",
+        "tags": [
+          "Hag's End",
+          "Forsworn",
+          "Reach",
+          "Hagraven",
+          "mountaintop"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Liar's Retreat is a bandit-held cave in the eastern Reach — a fortified network ruled by Rahd. Local merchants pay tribute or stop running their routes.",
+        "display_name": "Liar's Retreat",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.reach.liars_retreat",
+        "location": "",
+        "tags": [
+          "Liar's Retreat",
+          "bandits",
+          "Reach",
+          "Rahd",
+          "fortified cave"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Reachwater Rock is the Nordic tomb where the three Gauldur brothers' amulet fragments are reunited at last — Jyrik Gauldurson and his brothers rise here when the seal breaks.",
+        "display_name": "Reachwater Rock",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.reach.reachwater_rock",
+        "location": "",
+        "tags": [
+          "Reachwater Rock",
+          "Nordic ruin",
+          "Reach",
+          "Forbidden Legend",
+          "Gauldur Amulet",
+          "Jyrik Gauldurson"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "The outer mining shafts in Markarth's lower city feed Cidhna's deeper veins — Silver-Blood foremen manage the work, and the miners rarely leave until they're carried out.",
+        "display_name": "Markarth Outer Mine",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.reach.markarth_smelter_yard",
+        "location": "",
+        "tags": [
+          "Markarth Outer Mine",
+          "Reach",
+          "Silver-Blood",
+          "Cidhna",
+          "outer mining"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Old Hroldan Inn stands on the road east of Markarth — Tiber Septim slept here as Hjalti Early-Beard, and the ghost of a man he killed in a duel still walks the upper rooms.",
+        "display_name": "Old Hroldan Inn",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.reach.old_hroldan",
+        "location": "",
+        "tags": [
+          "Old Hroldan Inn",
+          "Reach",
+          "Eydis",
+          "Tiber Septim",
+          "ghost",
+          "Hjalti"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Bards Leap Summit is a high cliff in the Reach — bards claim a long-dead colleague jumped from it and survived. Most who try since have not.",
+        "display_name": "Bards Leap Summit",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.reach.bards_leap_summit",
+        "location": "",
+        "tags": [
+          "Bards Leap Summit",
+          "Reach",
+          "mountain",
+          "bards",
+          "ghost",
+          "leap"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Mor Khazgur is an Orc stronghold in the far western Reach. Chief Larak leads the clan — visitors are tolerated only if they prove themselves Code-worthy.",
+        "display_name": "Mor Khazgur",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.reach.mor_khazgur",
+        "location": "",
+        "tags": [
+          "Mor Khazgur",
+          "Orc stronghold",
+          "Reach",
+          "Chief Larak",
+          "orichalcum"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

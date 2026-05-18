@@ -1,0 +1,52 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Iron mines of Falkreath Hold — what they yield and who works them.",
+    "entry_count": 2,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Mines of Falkreath Hold",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Bilegulch Mine in the western mountains of Falkreath is an iron mine taken over by Orc bandits — they work the veins hard, and unannounced visitors are not welcomed.",
+        "display_name": "Bilegulch Mine - Iron (Orc)",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "mine.falkreath.bilegulch",
+        "location": "",
+        "tags": [
+          "Bilegulch Mine",
+          "iron",
+          "Falkreath Hold",
+          "Orsimer",
+          "Orc",
+          "bandits",
+          "western mountains"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Knifepoint Ridge is a small iron mine in eastern Falkreath now held by bandits — and during Boethiah's Calling, the former Champion of Boethiah hides in its deepest shaft.",
+        "display_name": "Knifepoint Ridge - Iron",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "mine.falkreath.knifepoint_ridge",
+        "location": "",
+        "tags": [
+          "Knifepoint Ridge",
+          "iron",
+          "Falkreath Hold",
+          "bandits",
+          "Boethiah"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

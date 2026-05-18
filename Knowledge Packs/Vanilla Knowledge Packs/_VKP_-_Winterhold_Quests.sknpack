@@ -1,0 +1,104 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Quests in Winterhold Hold — Azura's Star, the dying town's daily troubles, and College favors. Personal-favor scopes tightened; College quests scoped to the College faction.",
+    "entry_count": 6,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Winterhold Quests",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Birna\" or actorName == \"Ranmir\"",
+        "content": "{% if get_quest_stage(\"FreeformWinterholdA\", false) == 0 %}Birna in Winterhold thinks her brother-in-law Ranmir is being swindled — and she's the one stuck cleaning up after his drinking either way.{% else %}{{ playerName }} sorted out the trade dispute for Birna in Winterhold.{% endif %}",
+        "display_name": "A Bad Trade",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "quest.winterhold.a_bad_trade",
+        "location": "",
+        "tags": [
+          "A Bad Trade",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Ranmir\" or actorName == \"Birna\" or actorName == \"Dagur\" or actorName == \"Haran\" or actorName == \"Isabelle Rolaine\"",
+        "content": "{% if get_quest_stage(\"FreeformWinterholdC\", false) == 0 %}Ranmir drinks himself blind at the Frozen Hearth in Winterhold — his lover Isabelle Rolaine vanished without a trace, and no one has the heart to tell him she ran off with thieves.{% else %}{{ playerName }} brought Ranmir the truth about Isabelle Rolaine, for better or worse.{% endif %}",
+        "display_name": "Drowned Sorrows",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "quest.winterhold.drowned_sorrows",
+        "location": "",
+        "tags": [
+          "Drowned Sorrows",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or actorName == \"Faralda\"",
+        "content": "{% if get_quest_stage(\"FreeformWinterholdCollegeA\", false) == 0 %}A thief has been picking through research at the College of Winterhold. The mages would prefer it handled quietly.{% else %}{{ playerName }} caught the research thief at the College of Winterhold.{% endif %}",
+        "display_name": "Research Thief",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "quest.winterhold.research_thief",
+        "location": "",
+        "tags": [
+          "Research Thief",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or actorName == \"Faralda\"",
+        "content": "{% if get_quest_stage(\"FreeformWinterholdCollegeB\", false) == 0 %}Several apprentices at the College of Winterhold have disappeared. Faralda is asking for someone with a steady hand to track them down.{% else %}{{ playerName }} found out what happened to the missing apprentices of the College.{% endif %}",
+        "display_name": "The Missing Apprentices",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "quest.winterhold.missing_apprentices",
+        "location": "",
+        "tags": [
+          "The Missing Apprentices",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "actorName == \"Aranea Ienith\" or actorName == \"Nelacar\" or is_in_faction(actorUUID, \"CollegeofWinterholdFaction\")",
+        "content": "{% if get_quest_stage(\"DA01\", false) == 0 %}A shrine to Azura stands above Winterhold. The priestess Aranea Ienith offers visions to any who climb to it. Azura herself has need of a mortal — to deal with Malyn Varen, the necromancer who corrupted her Star.{% elif get_quest_stage(\"DA01\", false) < 30 %}{{ playerName }} is hunting Azura's Star at Ilinalta's Deep, where Malyn Varen withdrew with what he stole.{% elif get_quest_stage(\"DA01\", false) < 60 %}{{ playerName }} entered the Star itself to face Malyn Varen — and chose whose hand it would be reforged in.{% else %}The Star is reforged. {{ playerName }} dedicated it to Azura — restoring its purity — or to Nelacar, leaving it the Black Star and able to hold black souls. Either way, Malyn Varen is done.{% endif %}",
+        "display_name": "The Black Star",
+        "emotion": "",
+        "importance": 0.9,
+        "knowledge_key": "quest.winterhold.the_black_star",
+        "location": "",
+        "tags": [
+          "The Black Star",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionWinterhold\") or is_in_faction(actorUUID, \"TownWinterholdFaction\")",
+        "content": "{% if get_quest_stage(\"Favor257\", false) == 0 %}Jarl Korir of Winterhold may grant the title of Thane to those who help his struggling hold. The Great Collapse left him little, but he keeps the title's weight.{% elif get_quest_stage(\"Favor257\", false) < 200 %}The Jarl asked {{ playerName }} to do more for Winterhold before any thaneship could be granted.{% else %}{{ playerName }} has been named Thane of Winterhold by Jarl Korir.{% endif %}",
+        "display_name": "Thane of Winterhold",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "quest.winterhold.thane_of_winterhold",
+        "location": "",
+        "tags": [
+          "Thane of Winterhold",
+          "quest"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}

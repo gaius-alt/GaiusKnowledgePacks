@@ -1,0 +1,277 @@
+{
+  "skyrimnet_knowledge_pack": {
+    "author": "_gaius",
+    "description": "Nordic tombs, Dwemer ruins, hot springs, and Falmer warrens of Eastmarch — including Mzulft, Ansilvund, and the giant's camp at Kynesgrove.",
+    "entry_count": 14,
+    "exported_at": "2026-05-18T04:54:36Z",
+    "format_version": 2,
+    "name": "_VKP - Dungeons of Eastmarch",
+    "npc_groups": [],
+    "version": "1.0.0",
+    "entries": [
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Mzulft is the great Dwemer ruin in southern Eastmarch — the Synod has been trying to operate its Oculory and failing. Falmer hold most of the lower works.",
+        "display_name": "Mzulft",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.eastmarch.mzulft",
+        "location": "",
+        "tags": [
+          "Mzulft",
+          "Dwemer ruin",
+          "Eastmarch",
+          "Synod",
+          "Oculory",
+          "Crystal",
+          "Paratus"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Ansilvund is the Nordic tomb of the lovers Fjori and Holgeir — the necromancer Lu'ah Al-Skaven has overrun it, raising the dead to break Fjori's grave-curse on her husband-killer.",
+        "display_name": "Ansilvund",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "dungeon.eastmarch.ansilvund",
+        "location": "",
+        "tags": [
+          "Ansilvund",
+          "Nordic ruin",
+          "Eastmarch",
+          "Lu'ah Al-Skaven",
+          "Fjori",
+          "Holgeir",
+          "necromancy",
+          "ghost"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Cragwallow Slope is a cave in the eastern Windhelm mountains — necromancers have taken it over, practicing their art far from the city's watch.",
+        "display_name": "Cragwallow Slope",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.eastmarch.cragwallow_slope",
+        "location": "",
+        "tags": [
+          "Cragwallow Slope",
+          "Eastmarch",
+          "necromancers",
+          "cave"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Mistwatch is a bandit-held watchtower in central Eastmarch — the leader Fjola runs a kidnapping racket out of it, demanding ransom from desperate husbands.",
+        "display_name": "Mistwatch",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "dungeon.eastmarch.mistwatch",
+        "location": "",
+        "tags": [
+          "Mistwatch",
+          "bandit fort",
+          "Eastmarch",
+          "Christer",
+          "Fjola",
+          "road raiders",
+          "kidnappers"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Steamscorch Mine outside Kynesgrove is Eastmarch's main corundum mine — heated by the hot springs that give the village its steam, feeding the Stormcloak forges.",
+        "display_name": "Steamscorch Mine",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.eastmarch.steamscorch_mine",
+        "location": "",
+        "tags": [
+          "Steamscorch Mine",
+          "corundum mine",
+          "Kynesgrove",
+          "Eastmarch",
+          "Stormcloak"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Goldenrock Mine at Darkwater Crossing is a small corundum operation in southern Eastmarch — Verner Rock-Chucker and Sondas Drenim keep the small settlement going off this single vein.",
+        "display_name": "Goldenrock Mine",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "dungeon.eastmarch.goldenrock_mine",
+        "location": "",
+        "tags": [
+          "Goldenrock Mine",
+          "corundum mine",
+          "Darkwater Crossing",
+          "Eastmarch",
+          "Verner",
+          "Sondas"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Stony Creek Cave is a small bandit den south of Windhelm — a few raiders preying on the road between Eastmarch and the Rift.",
+        "display_name": "Stony Creek Cave",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.eastmarch.stony_creek_cave",
+        "location": "",
+        "tags": [
+          "Stony Creek Cave",
+          "cave",
+          "Eastmarch",
+          "bandits",
+          "Boulderfall border"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Steamcrag Camp is a giant encampment south of Windhelm in Eastmarch, with mammoths grazing on the slopes around the hot springs. The giants don't trouble travelers who don't trouble them.",
+        "display_name": "Steamcrag Camp",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.eastmarch.steamcrag_camp",
+        "location": "",
+        "tags": [
+          "Steamcrag Camp",
+          "giant camp",
+          "Eastmarch",
+          "hot springs",
+          "mammoths"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Refugees' Rest is a memorial stone on the eastern road — marks where Dunmer refugees from the Red Year gathered after fleeing Morrowind, and where many of them died before reaching Windhelm.",
+        "display_name": "Refugees' Rest",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.eastmarch.refugees_rest",
+        "location": "",
+        "tags": [
+          "Refugees' Rest",
+          "Eastmarch",
+          "Dunmer",
+          "memorial",
+          "Red Year"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Kynesgrove is the small settlement south of Windhelm built around the inn and the steam vents. The dragon mound above it is where Alduin first resurrected Sahloknir.",
+        "display_name": "Kynesgrove - Sahloknir's Mound",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "dungeon.eastmarch.kynesgrove",
+        "location": "",
+        "tags": [
+          "Kynesgrove",
+          "dragon mound",
+          "Sahloknir",
+          "Alduin",
+          "Iddra",
+          "Roggi"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Witchmist Grove is a small wooded hollow east of Windhelm — a single hagraven called Moira lives in the cottage at its center, and few of the local children believe she's safe.",
+        "display_name": "Witchmist Grove",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "dungeon.eastmarch.witchmist_grove",
+        "location": "",
+        "tags": [
+          "Witchmist Grove",
+          "Eastmarch",
+          "hagraven",
+          "Moira",
+          "cave"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Eldergleam Sanctuary lies in eastern Eastmarch — a small valley around the Eldergleam tree itself, sacred to Kynareth. The priestess Danica of Whiterun seeks a sapling from it to revive the Gildergreen.",
+        "display_name": "Eldergleam Sanctuary",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "dungeon.eastmarch.eldergleam_sanctuary",
+        "location": "",
+        "tags": [
+          "Eldergleam Sanctuary",
+          "sacred grove",
+          "Eldergleam",
+          "Maurice Jondrelle",
+          "Gildergreen",
+          "Nettlebane"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Gallows Rock is a stone fortress in eastern Eastmarch — Silver Hand stronghold led by Krev the Skinner, where they bring captured werewolves to torture and kill.",
+        "display_name": "Gallows Rock",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "dungeon.eastmarch.gallows_rock",
+        "location": "",
+        "tags": [
+          "Gallows Rock",
+          "Silver Hand",
+          "Eastmarch",
+          "fort",
+          "werewolf hunters",
+          "Krev the Skinner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Darkwater Crossing is the small Stormcloak-aligned mining settlement in southern Eastmarch — also the place Ulfric and his soldiers were once captured by the Imperials before Helgen.",
+        "display_name": "Darkwater Crossing",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "dungeon.eastmarch.darkwater_crossing",
+        "location": "",
+        "tags": [
+          "Darkwater Crossing",
+          "settlement",
+          "Eastmarch",
+          "Stormcloak",
+          "Sondas",
+          "Annekke"
+        ],
+        "type": "KNOWLEDGE"
+      }
+    ]
+  }
+}
