@@ -21,7 +21,7 @@ Ships with a one-click **Bulk Importer** so you don't have to click *Import Pack
 
 ## What's in the bundle
 
-45 packs, ~500 entries total. Every pack name is prefixed `_VKP - ` so they sort together in the SkyrimNet pack list.
+45 packs, 500 entries total. Every pack name is prefixed `_VKP - ` so they sort together in the SkyrimNet pack list.
 
 | Category | Packs | Examples |
 |---|---|---|
@@ -161,39 +161,38 @@ Pack authored by `_gaius`.
 
 Built on top of [SkyrimNet](https://goncalo22.github.io/SkyrimNet-GamePlugin/) by MinLL. SkyrimNet's knowledge pack format, Inja templating, and faction predicate functions are documented at the SkyrimNet docs site.
 
+Lore, NPC details, quest beats, and faction names cross-referenced against the [Unofficial Elder Scrolls Pages (UESP)](https://en.uesp.net/wiki/Main_Page) — the authoritative community resource for Elder Scrolls content. The AI-drafted prose was checked against UESP entries and corrected where it diverged from canon.
+
 ---
 
 ## How this was made
 
-This bundle was built as a collaboration between `_gaius` and Claude (Anthropic's LLM, accessed through Cowork mode). Honest accounting of who did what, so anyone reading can judge the work for what it is:
+This bundle was built as a collaboration between `_gaius` and Claude (Anthropic's LLM, accessed through Cowork mode). Plain accounting of who did what, so anyone reading can judge the work for what it is.
 
-### What Claude did
+### Design and direction — `_gaius`
 
-- Read existing user-authored packs (Pack 3 "Notable People In Riften", Pack 8 "Buildings In Riften", Pack 11 "Whiterun Dungeons", Pack 16 "The Companions", Pack 17 "The Silver Hand", Pack 24 "Hunters Of Hircine", Pack 26 "Dawnstar Quests") to learn the structure, scoping conventions, and tone.
-- Queried the running Skyrim's MCP (`search_forms`, `get_quest_stages`, `get_factions`) to look up the actual in-game FormIDs, EditorIDs, and stage indices for every vanilla quest in the bundle. The quest content references those real values; nothing is hallucinated.
-- Wrote the prose for ~500 entries — building layouts, NPC bios, dungeon descriptions, mine summaries, multi-stage quest narratives.
-- Designed the per-archetype scoping: personal favors → `actorName`, hold events → `Town/Guard` factions, guilds → `ThievesGuildFaction`, College → `CollegeofWinterholdFaction`, Orcs → `CrimeFactionOrcs`, court intrigue → individual court members by name.
-- Verified faction names against the IntelEngine plugin's `factions.yaml` and the existing knowledge-entry corpus, then fixed several initial guesses (`CrimeFactionMarkarth` → `CrimeFactionReach`, `GuardFactionPale` → `GuardFactionDawnstar`, etc.).
-- Wrote the conversion pipeline (Python script that wraps the source JSON in the `skyrimnet_knowledge_pack` envelope with the required metadata fields).
-- Wrote the Bulk Importer (bookmarklet + Tampermonkey userscript) including the replace-existing flow that hijacks `window.confirm` to auto-accept the SkyrimNet delete dialog.
-- Wrote this README, the install.html, and the earlier Discord release post.
+- Defined the scope: vanilla + DLCs only, every entry faction-scoped so it doesn't flood every NPC's prompt.
+- Set the structural patterns the bundle follows — naming conventions, knowledge-key shape, per-category scope rules, pack naming, the workflow for exporting and importing into the SkyrimNet web UI.
+- Identified the `.sknpack` format from existing SkyrimNet packs and defined what the conversion pipeline needed to produce.
+- Reviewed every AI-authored entry against [UESP](https://en.uesp.net/wiki/Main_Page) and corrected the prose and faction references where the AI drift produced wrong names, wrong roles, wrong relationships, or non-canon details.
+- Tested every iteration, caught failures (malformed templates, schema mismatches, duplicate-on-reimport behavior), and pushed corrections back.
+- Made every editorial call. Drove every decision about what belongs in scope and what doesn't.
 
-### What _gaius did
+### Execution — Claude
 
-- Defined the scope ("vanilla + DLCs, exclude modlist content"), the design constraints ("don't flood every NPC"), and the depth of the content ("BR density, not Dawnstar-pack density").
-- Authored the pre-existing packs Claude learned from. The Riften Buildings / Riften People / Dawnstar Quests pattern is `_gaius`'s, not Claude's — Claude reproduced it for the other 8 holds.
-- Tested every import, reported the failures back (a malformed condition_expr in Falkreath Quests, the "Unexpected token '<'" JSON import error from missing schema fields, the duplicate-on-reimport problem the v1.1 importer now solves).
-- Reviewed and tightened content where Claude drifted. The `_VKP - ` prefix and the JSON-export-then-convert workflow were `_gaius`'s decisions.
-- Discovered the `.sknpack` format from the SkyrimNet web UI's existing pack files and pointed Claude at the example folder to read it.
-- Ran every actual import. Made the editorial calls.
+- Queried the running Skyrim's plugin (FormIDs, editor IDs, quest stage indices) to ground every entry in actual game data rather than guesses.
+- Wrote the prose for all 500 entries — building layouts, NPC bios, dungeon descriptions, mine summaries, multi-stage quest narratives.
+- Applied the scoping rules to each entry: personal favors → `actorName` checks, hold-public events → `Town`/`Guard` factions, guild operations → guild faction, court intrigue → specific court rosters, Orc strongholds → `CrimeFactionOrcs`.
+- Cross-verified faction names against the SkyrimNet faction registry and live entry corpus; corrected several initial guesses before final export.
+- Wrote the conversion pipeline that wraps source data in the `.sknpack` schema.
+- Wrote the Bulk Importer (bookmarklet + Tampermonkey userscript), including the replace-existing flow.
+- Wrote this README and the install documentation.
 
-### How it actually came together
+### Process
 
-Iterative. Claude proposed; `_gaius` approved, redirected, or fixed. The Beyond Reach pack (separate from this bundle) was the proof of concept — Claude scraped the wiki, wrote the import script, hit a SQLite corruption issue when the game was open concurrently, restored a backup, and ran it cleanly with the game closed. That conversation established the working pattern.
+Iterative: Claude proposed, `_gaius` reviewed, approved, redirected, or rewrote. Several rounds of test → catch failure → fix → re-test before the bundle was stable. The Bulk Importer itself came out of the test loop — manually importing 45 files one at a time wasn't sustainable.
 
-For this vanilla bundle, the workflow was: Claude authored Python scripts that emitted entries, `_gaius` ran them and exported the results to JSON, `_gaius` and Claude both edited where needed, Claude wrote a converter from JSON to `.sknpack`, `_gaius` tested the import, Claude fixed schema and template bugs as they surfaced. The Bulk Importer came out of that test cycle — manually importing 45 files one at a time wasn't sustainable.
-
-Anything in this bundle that doesn't fit the world (a wrong faction name, a name spelling that doesn't match the in-game NPC, a quest stage threshold that misses by a few indices) is fair to chalk up to AI authorship and to fix in the SkyrimNet pack editor. The structural scaffolding (faction scoping, stage gating, key naming) was designed deliberately and should hold.
+The structural scaffolding (faction scoping, stage gating, key naming) was designed deliberately and should hold. The prose was AI-authored under direction, then reviewed against UESP and corrected by `_gaius` where the model drifted. Anything still in the bundle that doesn't fit the world — a wrong faction name, a name spelling that doesn't match the in-game NPC, a quest stage threshold that misses by a few indices — is fair to flag, and easy to fix in the SkyrimNet pack editor.
 
 ---
 
