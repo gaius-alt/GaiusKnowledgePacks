@@ -19,8 +19,11 @@
         "knowledge_key": "quest.reach.nimhe",
         "location": "",
         "tags": [
-          "Nimhe, the Poisoned One",
-          "quest"
+          "reach",
+          "assassination",
+          "collecting",
+          "dwemer",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -34,8 +37,11 @@
         "knowledge_key": "quest.reach.coated_in_blood",
         "location": "",
         "tags": [
-          "Coated in Blood",
-          "quest"
+          "reach",
+          "delivery",
+          "forsworn",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -49,8 +55,11 @@
         "knowledge_key": "quest.reach.search_and_seizure",
         "location": "",
         "tags": [
-          "Search and Seizure",
-          "quest"
+          "reach",
+          "fetch",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -64,8 +73,11 @@
         "knowledge_key": "quest.reach.skilled_apprenticeship",
         "location": "",
         "tags": [
-          "Skilled Apprenticeship",
-          "quest"
+          "reach",
+          "fetch",
+          "smithing",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -79,8 +91,11 @@
         "knowledge_key": "quest.reach.bothelas_delivery",
         "location": "",
         "tags": [
-          "Bothela's Discreet Delivery",
-          "quest"
+          "reach",
+          "delivery",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -94,8 +109,11 @@
         "knowledge_key": "quest.reach.lisbets_shipment",
         "location": "",
         "tags": [
-          "Lisbet's Missing Shipment",
-          "quest"
+          "reach",
+          "fetch",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -109,8 +127,11 @@
         "knowledge_key": "quest.reach.calcelmo_delivery",
         "location": "",
         "tags": [
-          "Delivery to Calcelmo",
-          "quest"
+          "reach",
+          "delivery",
+          "artifact",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -124,8 +145,11 @@
         "knowledge_key": "quest.reach.forsworn_conspiracy",
         "location": "",
         "tags": [
-          "The Forsworn Conspiracy",
-          "quest"
+          "reach",
+          "prison",
+          "forsworn",
+          "silver_blood",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -139,8 +163,12 @@
         "knowledge_key": "quest.reach.no_one_escapes_cidhna_mine",
         "location": "",
         "tags": [
-          "No One Escapes Cidhna Mine",
-          "quest"
+          "reach",
+          "assassination",
+          "prison",
+          "forsworn",
+          "silver_blood",
+          "Madanach"
         ],
         "type": "KNOWLEDGE"
       },
@@ -154,8 +182,11 @@
         "knowledge_key": "quest.reach.house_of_horrors",
         "location": "",
         "tags": [
-          "The House of Horrors",
-          "quest"
+          "reach",
+          "fetch",
+          "daedric",
+          "Boethiah",
+          "Molag Bal"
         ],
         "type": "KNOWLEDGE"
       },
@@ -169,8 +200,11 @@
         "knowledge_key": "quest.reach.taste_of_death",
         "location": "",
         "tags": [
-          "The Taste of Death",
-          "quest"
+          "reach",
+          "assassination",
+          "daedric",
+          "Namira",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -184,8 +218,11 @@
         "knowledge_key": "quest.reach.thane_of_the_reach",
         "location": "",
         "tags": [
-          "Thane of the Reach",
-          "quest"
+          "reach",
+          "thane",
+          "jarl_court",
+          "forsworn",
+          "silver_blood"
         ],
         "type": "KNOWLEDGE"
       }

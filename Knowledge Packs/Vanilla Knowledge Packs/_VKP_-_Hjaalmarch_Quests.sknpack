@@ -19,8 +19,11 @@
         "knowledge_key": "quest.hjaalmarch.falions_secret",
         "location": "",
         "tags": [
-          "Falion's Secret",
-          "quest"
+          "hjaalmarch",
+          "necromancy",
+          "vampire",
+          "Falion",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -34,8 +37,11 @@
         "knowledge_key": "quest.hjaalmarch.for_the_good_of_morthal",
         "location": "",
         "tags": [
-          "For the Good of Morthal",
-          "quest"
+          "hjaalmarch",
+          "jarl_court",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -49,8 +55,12 @@
         "knowledge_key": "quest.hjaalmarch.laid_to_rest",
         "location": "",
         "tags": [
-          "Laid to Rest",
-          "quest"
+          "hjaalmarch",
+          "investigation",
+          "jarl_court",
+          "vampire",
+          "undead",
+          "Alva"
         ],
         "type": "KNOWLEDGE"
       },
@@ -64,8 +74,11 @@
         "knowledge_key": "quest.hjaalmarch.thane_of_hjaalmarch",
         "location": "",
         "tags": [
-          "Thane of Hjaalmarch",
-          "quest"
+          "hjaalmarch",
+          "thane",
+          "jarl_court",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       }

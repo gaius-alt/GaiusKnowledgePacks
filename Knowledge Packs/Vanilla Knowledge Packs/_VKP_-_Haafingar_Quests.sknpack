@@ -19,8 +19,11 @@
         "knowledge_key": "quest.haafingar.no_news_is_good_news",
         "location": "",
         "tags": [
-          "No News is Good News",
-          "quest"
+          "haafingar",
+          "delivery",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -34,8 +37,11 @@
         "knowledge_key": "quest.haafingar.fit_for_a_jarl",
         "location": "",
         "tags": [
-          "Fit for a Jarl",
-          "quest"
+          "haafingar",
+          "fetch",
+          "jarl_court",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -49,8 +55,11 @@
         "knowledge_key": "quest.haafingar.return_to_grace",
         "location": "",
         "tags": [
-          "Return to Grace",
-          "quest"
+          "haafingar",
+          "fetch",
+          "thalmor",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -64,8 +73,11 @@
         "knowledge_key": "quest.haafingar.delivery",
         "location": "",
         "tags": [
-          "Delivery to Falion",
-          "quest"
+          "haafingar",
+          "delivery",
+          "Falion",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -79,8 +91,11 @@
         "knowledge_key": "quest.haafingar.spiced_wine",
         "location": "",
         "tags": [
-          "The Spiced Wine",
-          "quest"
+          "haafingar",
+          "investigation",
+          "drink",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -94,8 +109,11 @@
         "knowledge_key": "quest.haafingar.elisifs_tribute",
         "location": "",
         "tags": [
-          "Elisif's Tribute",
-          "quest"
+          "haafingar",
+          "jarl_court",
+          "thalmor",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -109,8 +127,11 @@
         "knowledge_key": "quest.haafingar.man_who_cried_wolf",
         "location": "",
         "tags": [
-          "The Man Who Cried Wolf",
-          "quest"
+          "haafingar",
+          "investigation",
+          "necromancy",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -124,8 +145,11 @@
         "knowledge_key": "quest.haafingar.wolf_queen_awakened",
         "location": "",
         "tags": [
-          "The Wolf Queen Awakened",
-          "quest"
+          "haafingar",
+          "investigation",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -139,8 +163,11 @@
         "knowledge_key": "quest.haafingar.mind_of_madness",
         "location": "",
         "tags": [
-          "The Mind of Madness",
-          "quest"
+          "haafingar",
+          "daedric",
+          "Pelagius",
+          "Sheogorath",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -154,8 +181,12 @@
         "knowledge_key": "quest.haafingar.break_of_dawn",
         "location": "",
         "tags": [
-          "The Break of Dawn",
-          "quest"
+          "haafingar",
+          "infiltration",
+          "daedric",
+          "necromancy",
+          "undead",
+          "Meridia"
         ],
         "type": "KNOWLEDGE"
       },
@@ -169,8 +200,11 @@
         "knowledge_key": "quest.haafingar.lights_out",
         "location": "",
         "tags": [
-          "Lights Out!",
-          "quest"
+          "haafingar",
+          "maritime",
+          "Jaree-Ra",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -184,8 +218,11 @@
         "knowledge_key": "quest.haafingar.tending_the_flames",
         "location": "",
         "tags": [
-          "Tending the Flames",
-          "quest"
+          "haafingar",
+          "fetch",
+          "jarl_court",
+          "bards_college",
+          "Viarmo"
         ],
         "type": "KNOWLEDGE"
       },
@@ -199,8 +236,11 @@
         "knowledge_key": "quest.haafingar.thane_of_haafingar",
         "location": "",
         "tags": [
-          "Thane of Haafingar",
-          "quest"
+          "haafingar",
+          "thane",
+          "jarl_court",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       }

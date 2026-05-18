@@ -19,8 +19,11 @@
         "knowledge_key": "quest.rift.supply_and_demand",
         "location": "",
         "tags": [
-          "Supply and Demand",
-          "quest"
+          "rift",
+          "investigation",
+          "jarl_court",
+          "skooma",
+          "Jarl Laila Law-Giver"
         ],
         "type": "KNOWLEDGE"
       },
@@ -34,8 +37,11 @@
         "knowledge_key": "quest.rift.lovers_requital",
         "location": "",
         "tags": [
-          "The Lover's Requital",
-          "quest"
+          "rift",
+          "prison",
+          "black_briar",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -49,8 +55,11 @@
         "knowledge_key": "quest.rift.under_the_table",
         "location": "",
         "tags": [
-          "Under the Table",
-          "quest"
+          "rift",
+          "smuggling",
+          "black_briar",
+          "Maven Black-Briar",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -64,8 +73,11 @@
         "knowledge_key": "quest.rift.few_and_far_between",
         "location": "",
         "tags": [
-          "Few and Far Between",
-          "quest"
+          "rift",
+          "fetch",
+          "black_briar",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -79,8 +91,11 @@
         "knowledge_key": "quest.rift.spread_the_love",
         "location": "",
         "tags": [
-          "Spread the Love",
-          "quest"
+          "rift",
+          "romance",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -94,8 +109,11 @@
         "knowledge_key": "quest.rift.sealing_the_deal",
         "location": "",
         "tags": [
-          "Sealing the Deal",
-          "quest"
+          "rift",
+          "persuasion",
+          "thieves_guild",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -109,8 +127,11 @@
         "knowledge_key": "quest.rift.ice_cold",
         "location": "",
         "tags": [
-          "Ice Cold",
-          "quest"
+          "rift",
+          "fetch",
+          "romance",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -124,8 +145,11 @@
         "knowledge_key": "quest.rift.distant_memories",
         "location": "",
         "tags": [
-          "Distant Memories",
-          "quest"
+          "rift",
+          "smuggling",
+          "drink",
+          "black_briar",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -139,8 +163,11 @@
         "knowledge_key": "quest.rift.grimsevers_return",
         "location": "",
         "tags": [
-          "Grimsever's Return",
-          "quest"
+          "rift",
+          "fetch",
+          "dwemer",
+          "Mjoll the Lioness",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -154,8 +181,11 @@
         "knowledge_key": "quest.rift.stoking_the_flames",
         "location": "",
         "tags": [
-          "Stoking the Flames",
-          "quest"
+          "rift",
+          "fetch",
+          "smithing",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -169,8 +199,11 @@
         "knowledge_key": "quest.rift.caught_red_handed",
         "location": "",
         "tags": [
-          "Caught Red Handed",
-          "quest"
+          "rift",
+          "fetch",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -184,8 +217,11 @@
         "knowledge_key": "quest.rift.helping_hand",
         "location": "",
         "tags": [
-          "Helping Hand",
-          "quest"
+          "rift",
+          "persuasion",
+          "thieves_guild",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -199,8 +235,11 @@
         "knowledge_key": "quest.rift.pilgrimage",
         "location": "",
         "tags": [
-          "Pilgrimage",
-          "quest"
+          "rift",
+          "pilgrimage",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -214,8 +253,11 @@
         "knowledge_key": "quest.rift.hunt_and_gather",
         "location": "",
         "tags": [
-          "Hunt and Gather",
-          "quest"
+          "rift",
+          "fetch",
+          "jarl_court",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -229,8 +271,11 @@
         "knowledge_key": "quest.rift.thieves_guild_recruit",
         "location": "",
         "tags": [
-          "A Chance Arrangement / Brynjolf's Test",
-          "quest"
+          "rift",
+          "infiltration",
+          "thieves_guild",
+          "Brynjolf",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -244,8 +289,11 @@
         "knowledge_key": "quest.rift.thane_of_riften",
         "location": "",
         "tags": [
-          "I Done Got Thaned!",
-          "quest"
+          "rift",
+          "thane",
+          "jarl_court",
+          "Jarl Laila Law-Giver",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       }

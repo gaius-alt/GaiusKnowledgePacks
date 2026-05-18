@@ -19,8 +19,12 @@
         "knowledge_key": "quest.pale.waking_nightmare",
         "location": "",
         "tags": [
-          "Waking Nightmare",
-          "quest"
+          "pale",
+          "investigation",
+          "daedric",
+          "dreams",
+          "Erandur",
+          "Vaermina"
         ],
         "type": "KNOWLEDGE"
       },
@@ -34,8 +38,11 @@
         "knowledge_key": "quest.pale.pale_lady",
         "location": "",
         "tags": [
-          "The Pale Lady",
-          "quest"
+          "pale",
+          "fetch",
+          "undead",
+          "cursed",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -49,8 +56,11 @@
         "knowledge_key": "quest.pale.salty_sea_dogs",
         "location": "",
         "tags": [
-          "Salty Sea-Dogs",
-          "quest"
+          "pale",
+          "fetch",
+          "maritime",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -64,8 +74,12 @@
         "knowledge_key": "quest.pale.pieces_of_the_past",
         "location": "",
         "tags": [
-          "Pieces of the Past",
-          "quest"
+          "pale",
+          "fetch",
+          "daedric",
+          "collecting",
+          "mythic_dawn",
+          "Mehrunes Dagon"
         ],
         "type": "KNOWLEDGE"
       },
@@ -79,8 +93,11 @@
         "knowledge_key": "quest.pale.thane_of_the_pale",
         "location": "",
         "tags": [
-          "Thane of the Pale",
-          "quest"
+          "pale",
+          "thane",
+          "jarl_court",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       }

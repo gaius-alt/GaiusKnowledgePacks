@@ -19,9 +19,11 @@
         "knowledge_key": "quest.falkreath.dark_ancestor",
         "location": "",
         "tags": [
-          "Dark Ancestor",
-          "quest",
-          "Falkreath"
+          "falkreath",
+          "investigation",
+          "jarl_court",
+          "vampire",
+          "dreams"
         ],
         "type": "KNOWLEDGE"
       },
@@ -35,9 +37,11 @@
         "knowledge_key": "quest.falkreath.runils_dark_past",
         "location": "",
         "tags": [
-          "Runil's Dark Past",
-          "quest",
-          "Falkreath"
+          "falkreath",
+          "fetch",
+          "thalmor",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -51,9 +55,11 @@
         "knowledge_key": "quest.falkreath.thane_of_falkreath",
         "location": "",
         "tags": [
-          "Thane of Falkreath",
-          "quest",
-          "Falkreath"
+          "falkreath",
+          "thane",
+          "jarl_court",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -67,9 +73,11 @@
         "knowledge_key": "quest.falkreath.daedras_best_friend",
         "location": "",
         "tags": [
-          "A Daedra's Best Friend",
-          "quest",
-          "Falkreath"
+          "falkreath",
+          "fetch",
+          "daedric",
+          "Barbas",
+          "Clavicus Vile"
         ],
         "type": "KNOWLEDGE"
       },
@@ -83,9 +91,12 @@
         "knowledge_key": "quest.falkreath.ill_met_by_moonlight",
         "location": "",
         "tags": [
-          "Ill Met By Moonlight",
-          "quest",
-          "Falkreath"
+          "falkreath",
+          "investigation",
+          "daedric",
+          "werewolf",
+          "cursed",
+          "prison"
         ],
         "type": "KNOWLEDGE"
       }

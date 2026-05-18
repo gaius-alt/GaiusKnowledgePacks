@@ -19,8 +19,11 @@
         "knowledge_key": "quest.winterhold.a_bad_trade",
         "location": "",
         "tags": [
-          "A Bad Trade",
-          "quest"
+          "winterhold",
+          "persuasion",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -34,8 +37,11 @@
         "knowledge_key": "quest.winterhold.drowned_sorrows",
         "location": "",
         "tags": [
-          "Drowned Sorrows",
-          "quest"
+          "winterhold",
+          "fetch",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -49,8 +55,11 @@
         "knowledge_key": "quest.winterhold.research_thief",
         "location": "",
         "tags": [
-          "Research Thief",
-          "quest"
+          "winterhold",
+          "investigation",
+          "college_of_winterhold",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -64,8 +73,11 @@
         "knowledge_key": "quest.winterhold.missing_apprentices",
         "location": "",
         "tags": [
-          "The Missing Apprentices",
-          "quest"
+          "winterhold",
+          "investigation",
+          "college_of_winterhold",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -79,8 +91,12 @@
         "knowledge_key": "quest.winterhold.the_black_star",
         "location": "",
         "tags": [
-          "The Black Star",
-          "quest"
+          "winterhold",
+          "investigation",
+          "daedric",
+          "necromancy",
+          "Aranea Ienith",
+          "Azura"
         ],
         "type": "KNOWLEDGE"
       },
@@ -94,8 +110,11 @@
         "knowledge_key": "quest.winterhold.thane_of_winterhold",
         "location": "",
         "tags": [
-          "Thane of Winterhold",
-          "quest"
+          "winterhold",
+          "thane",
+          "jarl_court",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       }

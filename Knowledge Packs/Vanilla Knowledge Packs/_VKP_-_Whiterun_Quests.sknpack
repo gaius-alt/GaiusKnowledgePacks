@@ -19,8 +19,11 @@
         "knowledge_key": "quest.whiterun.braith_and_lars",
         "location": "",
         "tags": [
-          "Braith Bullying Lars",
-          "quest"
+          "whiterun",
+          "persuasion",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -34,8 +37,11 @@
         "knowledge_key": "quest.whiterun.argonian_ale",
         "location": "",
         "tags": [
-          "Argonian Bloodwine for Brenuin",
-          "quest"
+          "whiterun",
+          "drink",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -49,8 +55,11 @@
         "knowledge_key": "quest.whiterun.greatsword_for_balgruuf",
         "location": "",
         "tags": [
-          "Greatsword for Balgruuf",
-          "quest"
+          "whiterun",
+          "delivery",
+          "jarl_court",
+          "Eorlund Gray-Mane",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -64,8 +73,11 @@
         "knowledge_key": "quest.whiterun.amulet_of_arkay",
         "location": "",
         "tags": [
-          "Recover Andurs' Amulet",
-          "quest"
+          "whiterun",
+          "fetch",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -79,8 +91,11 @@
         "knowledge_key": "quest.whiterun.frost_salts_for_arcadia",
         "location": "",
         "tags": [
-          "Frost Salts for Arcadia",
-          "quest"
+          "whiterun",
+          "fetch",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -94,8 +109,11 @@
         "knowledge_key": "quest.whiterun.whispering_door",
         "location": "",
         "tags": [
-          "The Whispering Door",
-          "quest"
+          "whiterun",
+          "investigation",
+          "daedric",
+          "jarl_court",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -109,8 +127,11 @@
         "knowledge_key": "quest.whiterun.in_my_time_of_need",
         "location": "",
         "tags": [
-          "In My Time of Need",
-          "quest"
+          "whiterun",
+          "assassination",
+          "alikr",
+          "Kematu",
+          "Saadia"
         ],
         "type": "KNOWLEDGE"
       },
@@ -124,8 +145,11 @@
         "knowledge_key": "quest.whiterun.dampened_spirits",
         "location": "",
         "tags": [
-          "Dampened Spirits",
-          "quest"
+          "whiterun",
+          "infiltration",
+          "black_briar",
+          "Maven Black-Briar",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -139,8 +163,11 @@
         "knowledge_key": "quest.whiterun.thane_of_whiterun",
         "location": "",
         "tags": [
-          "Thane of Whiterun",
-          "quest"
+          "whiterun",
+          "thane",
+          "jarl_court",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       }

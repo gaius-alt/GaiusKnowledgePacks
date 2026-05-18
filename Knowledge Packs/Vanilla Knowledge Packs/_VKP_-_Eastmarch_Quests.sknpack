@@ -19,8 +19,11 @@
         "knowledge_key": "quest.eastmarch.delivery",
         "location": "",
         "tags": [
-          "Delivery in Windhelm",
-          "quest"
+          "eastmarch",
+          "delivery",
+          "favor",
+          "misc_quest",
+          "side_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -34,8 +37,11 @@
         "knowledge_key": "quest.eastmarch.harsh_master",
         "location": "",
         "tags": [
-          "Harsh Master",
-          "quest"
+          "eastmarch",
+          "fetch",
+          "maritime",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -49,8 +55,11 @@
         "knowledge_key": "quest.eastmarch.blood_on_the_ice",
         "location": "",
         "tags": [
-          "Blood on the Ice",
-          "quest"
+          "eastmarch",
+          "investigation",
+          "collecting",
+          "Calixto Corrium",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -64,8 +73,12 @@
         "knowledge_key": "quest.eastmarch.innocence_lost",
         "location": "",
         "tags": [
-          "Innocence Lost",
-          "quest"
+          "eastmarch",
+          "assassination",
+          "ritual",
+          "dark_brotherhood",
+          "Aventus Aretino",
+          "Grelod the Kind"
         ],
         "type": "KNOWLEDGE"
       },
@@ -79,8 +92,11 @@
         "knowledge_key": "quest.eastmarch.cursed_tribe",
         "location": "",
         "tags": [
-          "The Cursed Tribe",
-          "quest"
+          "eastmarch",
+          "daedric",
+          "cursed",
+          "Malacath",
+          "Yamarz"
         ],
         "type": "KNOWLEDGE"
       },
@@ -94,8 +110,11 @@
         "knowledge_key": "quest.eastmarch.boethiahs_calling",
         "location": "",
         "tags": [
-          "Boethiah's Calling",
-          "quest"
+          "eastmarch",
+          "assassination",
+          "daedric",
+          "ritual",
+          "Boethiah"
         ],
         "type": "KNOWLEDGE"
       },
@@ -109,8 +128,11 @@
         "knowledge_key": "quest.eastmarch.cornered_rat",
         "location": "",
         "tags": [
-          "A Cornered Rat",
-          "quest"
+          "eastmarch",
+          "blades",
+          "thalmor",
+          "Esbern",
+          "favor"
         ],
         "type": "KNOWLEDGE"
       },
@@ -124,8 +146,11 @@
         "knowledge_key": "quest.eastmarch.repairing_the_phial",
         "location": "",
         "tags": [
-          "Repairing the Phial",
-          "quest"
+          "eastmarch",
+          "fetch",
+          "artifact",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       },
@@ -139,8 +164,11 @@
         "knowledge_key": "quest.eastmarch.thane_of_eastmarch",
         "location": "",
         "tags": [
-          "Thane of Eastmarch",
-          "quest"
+          "eastmarch",
+          "thane",
+          "jarl_court",
+          "favor",
+          "misc_quest"
         ],
         "type": "KNOWLEDGE"
       }
