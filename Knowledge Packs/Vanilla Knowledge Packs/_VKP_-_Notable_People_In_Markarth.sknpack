@@ -2,8 +2,8 @@
   "skyrimnet_knowledge_pack": {
     "author": "_gaius",
     "description": "Markarth's notable people — Jarl Igmund's court, the Silver-Blood family who really run the city, the priests of Dibella, and Madanach's Forsworn beneath Cidhna Mine.",
-    "entry_count": 19,
-    "exported_at": "2026-05-18T04:54:36Z",
+    "entry_count": 86,
+    "exported_at": "2026-05-18T05:00:00Z",
     "format_version": 2,
     "name": "_VKP - Notable People In Markarth",
     "npc_groups": [],
@@ -361,6 +361,1200 @@
           "skald",
           "Talos",
           "Forsworn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Ondolemar is the Thalmor Justiciar stationed in Markarth — arrogant, patient, and watching everyone for Talos worship. He knows Ogmund breaks the law, and the old skald knows he knows.",
+        "display_name": "Ondolemar - Thalmor Justiciar",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "reach.people.ondolemar",
+        "location": "",
+        "tags": [
+          "Ondolemar",
+          "Thalmor",
+          "Markarth",
+          "Understone Keep",
+          "Justiciar",
+          "Talos"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Moth gro-Bagol is the Orc blacksmith at Understone Keep, father of Ghorza gra-Bagol. One of the finest smiths in the Reach and fiercely proud of his craft.",
+        "display_name": "Moth gro-Bagol - Understone Smith",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "reach.people.moth",
+        "location": "",
+        "tags": [
+          "Moth gro-Bagol",
+          "Understone Keep",
+          "Markarth",
+          "Orc",
+          "blacksmith",
+          "Ghorza"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Argis the Bulwark is the player's housecarl if they become Thane of the Reach — Nord warrior, unshakably loyal, stationed at Vlindrel Hall.",
+        "display_name": "Argis the Bulwark - Housecarl",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "reach.people.argis",
+        "location": "",
+        "tags": [
+          "Argis the Bulwark",
+          "housecarl",
+          "Markarth",
+          "Vlindrel Hall",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Captain Aquilius is the Imperial commander of the Markarth Guard stationed at Calcelmo's excavation — disciplined, competent, answers to Faleen.",
+        "display_name": "Captain Aquilius - Guard Captain",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "reach.people.aquilius",
+        "location": "",
+        "tags": [
+          "Captain Aquilius",
+          "Markarth Guard",
+          "Imperial",
+          "Calcelmo",
+          "Markarth"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Legate Emmanuel Admand is an Imperial Legion officer stationed at Understone Keep — formal, well-spoken, representing Imperial authority in the Reach.",
+        "display_name": "Legate Emmanuel Admand - Imperial Legion",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "reach.people.emand",
+        "location": "",
+        "tags": [
+          "Legate Emmanuel Admand",
+          "Imperial Legion",
+          "Understone Keep",
+          "Markarth"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Eltrys is a young Breton who lives in the Warrens — he found documents implicating the Silver-Bloods in a conspiracy and started asking too many questions. His investigation is the thread that unravels Markarth's secrets.",
+        "display_name": "Eltrys - Warrens Investigator",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.eltrys",
+        "location": "",
+        "tags": [
+          "Eltrys",
+          "Warrens",
+          "Markarth",
+          "Forsworn Conspiracy",
+          "investigator"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Weylin is a Forsworn agent hiding in the Warrens of Markarth — posing as a down-on-his-luck laborer, waiting for Madanach's signal.",
+        "display_name": "Weylin - Warrens Forsworn",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.weylin",
+        "location": "",
+        "tags": [
+          "Weylin",
+          "Warrens",
+          "Markarth",
+          "Forsworn",
+          "Madanach"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Eola is a worshipper of Namira who lurks around the Hall of the Dead — charming in a hollow way, always watching, always hungry. She recruits the Dragonborn for the Taste of Death.",
+        "display_name": "Eola - Namira Worshipper",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.eola",
+        "location": "",
+        "tags": [
+          "Eola",
+          "Namira",
+          "Markarth",
+          "Hall of the Dead",
+          "Taste of Death"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Brother Verulus is the priest of Arkay at the Hall of the Dead in Markarth — kind, trusting, and completely unaware that his new follower Eola is leading him to a grisly end.",
+        "display_name": "Brother Verulus - Priest of Arkay",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "reach.people.verulus",
+        "location": "",
+        "tags": [
+          "Brother Verulus",
+          "Arkay",
+          "Hall of the Dead",
+          "Markarth",
+          "Eola"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Vorstag is a sellsword drinking at the Silver-Blood Inn — Redguard mercenary looking for work, willing to follow anyone who pays.",
+        "display_name": "Vorstag - Mercenary",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.vorstag",
+        "location": "",
+        "tags": [
+          "Vorstag",
+          "Silver-Blood Inn",
+          "Markarth",
+          "mercenary",
+          "Redguard"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Vigilant Tyranus is a Vigilant of Stendarr staying at the Silver-Blood Inn — zealous, suspicious, and on the trail of daedra worshippers.",
+        "display_name": "Vigilant Tyranus - Stendarr's Vigilant",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.tyranus",
+        "location": "",
+        "tags": [
+          "Vigilant Tyranus",
+          "Silver-Blood Inn",
+          "Markarth",
+          "Vigilant of Stendarr",
+          "daedra"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Hogni Red-Arm is a Nord regular at the Silver-Blood Inn — loud, quick to anger, always ready for a fight or a drink.",
+        "display_name": "Hogni Red-Arm - Brawler",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.hogni",
+        "location": "",
+        "tags": [
+          "Hogni Red-Arm",
+          "Silver-Blood Inn",
+          "Markarth",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Yngvar the Singer is a Nord bard who performs at the Silver-Blood Inn and the Treasury House — his songs are the only beautiful thing in Markarth.",
+        "display_name": "Yngvar the Singer - Bard",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.yngvar",
+        "location": "",
+        "tags": [
+          "Yngvar the Singer",
+          "Markarth",
+          "bard",
+          "Silver-Blood Inn",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Endon is a wealthy Breton noble living in Markarth's fashionable district — more money than sense, constantly worried about his household.",
+        "display_name": "Endon - Noble",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.endon",
+        "location": "",
+        "tags": [
+          "Endon",
+          "Markarth",
+          "Breton",
+          "noble"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Anwen is a priestess of Dibella at the Temple of Dibella — serene, devoted to the Dibellan arts of beauty and love.",
+        "display_name": "Anwen - Dibella Priestess",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.anwen",
+        "location": "",
+        "tags": [
+          "Anwen",
+          "Temple of Dibella",
+          "Markarth",
+          "priestess"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Senna is a priestess of Dibella — practical, warm, and the one who actually runs the day-to-day at the temple while Mother Hamal handles the grand design.",
+        "display_name": "Senna - Dibella Priestess",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.senna",
+        "location": "",
+        "tags": [
+          "Senna",
+          "Temple of Dibella",
+          "Markarth",
+          "priestess",
+          "Hamal"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Fjotra is the young Nord girl chosen by the Temple of Dibella as a candidate for Sybille — innocent, frightened, watched by enemies of the temple.",
+        "display_name": "Fjotra - Sybille Candidate",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "reach.people.fjotra",
+        "location": "",
+        "tags": [
+          "Fjotra",
+          "Temple of Dibella",
+          "Markarth",
+          "Sybille of Dibella",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Orla is a priestess of Dibella — devoted but struggling with her vows of pacifism in a city that rewards cruelty.",
+        "display_name": "Orla - Dibella Priestess",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.orla",
+        "location": "",
+        "tags": [
+          "Orla",
+          "Temple of Dibella",
+          "Markarth",
+          "priestess"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Rogatus Salvius is an Imperial farmer working Salvius Farm outside the Markarth gates — weathered, worried, just trying to survive the Reach.",
+        "display_name": "Rogatus Salvius - Farmer",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.rogatus",
+        "location": "",
+        "tags": [
+          "Rogatus Salvius",
+          "Salvius Farm",
+          "Markarth",
+          "Imperial",
+          "farmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Daighre is a Nord miner working the Left Hand Mine — scarred, silent, and the unofficial leader of the camp.",
+        "display_name": "Daighre - Miner",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.daighre",
+        "location": "",
+        "tags": [
+          "Daighre",
+          "Left Hand Mine",
+          "Markarth",
+          "Nord",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Torom is a Nord miner at the Left Hand Mine — young, eager, works harder than anyone else in the camp.",
+        "display_name": "Torom - Miner",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.torom",
+        "location": "",
+        "tags": [
+          "Torom",
+          "Left Hand Mine",
+          "Markarth",
+          "Nord",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Skaggi Scar-Face is a Nord miner at Left Hand Mine — hard-bitten, does not trust outsiders, and the scars tell stories he does not share.",
+        "display_name": "Skaggi Scar-Face - Miner",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.skaggi",
+        "location": "",
+        "tags": [
+          "Skaggi Scar-Face",
+          "Left Hand Mine",
+          "Markarth",
+          "Nord",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Gat gro-Shargakh is an Orc miner at Kolskeggr Mine — strong, quiet, keeps his head down and his pick sharp.",
+        "display_name": "Gat gro-Shargakh - Miner",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.gat",
+        "location": "",
+        "tags": [
+          "Gat gro-Shargakh",
+          "Kolskeggr Mine",
+          "Markarth",
+          "Orc",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Pavo Attius is an Imperial miner at Kolskeggr Mine — veteran of the Imperial Legion, turned to mining for a quieter life.",
+        "display_name": "Pavo Attius - Miner",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.pavo",
+        "location": "",
+        "tags": [
+          "Pavo Attius",
+          "Kolskeggr Mine",
+          "Markarth",
+          "Imperial",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Morven is a Forsworn agent living at Nepos the Nose's house — posing as a servant, waiting for orders from the King in Rags.",
+        "display_name": "Morven - Forsworn Agent",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.morven",
+        "location": "",
+        "tags": [
+          "Morven",
+          "Nepos the Nose",
+          "Markarth",
+          "Forsworn",
+          "agent"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Tynan is a Forsworn agent at Nepos the Nose's house — young, jumpy, fears discovery more than the Silver-Bloods.",
+        "display_name": "Tynan - Forsworn Agent",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.tynan",
+        "location": "",
+        "tags": [
+          "Tynan",
+          "Nepos the Nose",
+          "Markarth",
+          "Forsworn",
+          "agent"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Uaile is a Forsworn agent at Nepos the Nose's house — a Breton woman who lost her family in the Reach uprising, now Madanach's loyal blade.",
+        "display_name": "Uaile - Forsworn Agent",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.uaile",
+        "location": "",
+        "tags": [
+          "Uaile",
+          "Nepos the Nose",
+          "Markarth",
+          "Forsworn",
+          "agent"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Banning is a Nord who runs the Markarth Stables — gruff, reliable, the only source of horseflesh in the city.",
+        "display_name": "Banning - Stablemaster",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.banning",
+        "location": "",
+        "tags": [
+          "Banning",
+          "Markarth Stables",
+          "Markarth",
+          "Nord",
+          "stablemaster"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Urzoga gra-Shugurz is an Orc woman who works the Markarth Smelter alongside Mulush — tough, no-nonsense, can outwork any two Nords.",
+        "display_name": "Urzoga gra-Shugurz - Smelter Worker",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "reach.people.urzoga",
+        "location": "",
+        "tags": [
+          "Urzoga gra-Shugurz",
+          "Markarth Smelter",
+          "Markarth",
+          "Orc"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Cosnach is a Breton drunkard living in the Warrens — washed-up, bitter, but knows more about what goes on in the sewers than anyone.",
+        "display_name": "Cosnach - Warrens Drunkard",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.cosnach",
+        "location": "",
+        "tags": [
+          "Cosnach",
+          "Warrens",
+          "Markarth",
+          "Breton"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Degaine is a Breton beggar in the Warrens — blind in one eye, sharp in the other, survives on charity and what he finds in the dark.",
+        "display_name": "Degaine - Warrens Beggar",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.degaine",
+        "location": "",
+        "tags": [
+          "Degaine",
+          "Warrens",
+          "Markarth",
+          "Breton",
+          "beggar"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Cairine is a Breton beggar in the Warrens — young, desperate, sells flowers and information for enough coin to eat.",
+        "display_name": "Cairine - Warrens Beggar",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.cairine",
+        "location": "",
+        "tags": [
+          "Cairine",
+          "Warrens",
+          "Markarth",
+          "Breton",
+          "beggar"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Garvey is a Breton leper living in the Warrens — shunned by everyone above ground, knows the tunnels better than the rats.",
+        "display_name": "Garvey - Warrens Leper",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.garvey",
+        "location": "",
+        "tags": [
+          "Garvey",
+          "Warrens",
+          "Markarth",
+          "Breton"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Dryston is an Imperial living in the Warrens — former Legion scout, now too old and too tired to climb back up.",
+        "display_name": "Dryston - Warrens Resident",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.dryston",
+        "location": "",
+        "tags": [
+          "Dryston",
+          "Warrens",
+          "Markarth",
+          "Imperial"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Hathrasil is an old Redguard living in the Warrens — moved to Markarth seeking work, found only the shadows below.",
+        "display_name": "Hathrasil - Warrens Resident",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.hathrasil",
+        "location": "",
+        "tags": [
+          "Hathrasil",
+          "Warrens",
+          "Markarth",
+          "Redguard"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Omluag is a Nord living in the Warrens — failed miner, failed merchant, failed at everything except surviving.",
+        "display_name": "Omluag - Warrens Resident",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.omluag",
+        "location": "",
+        "tags": [
+          "Omluag",
+          "Warrens",
+          "Markarth",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Hreinn is the young son of Kleppr and Frabbi at the Silver-Blood Inn — caught between his parents' endless arguments, doing his best to keep the peace.",
+        "display_name": "Hreinn - Innkeeper's Son",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.hreinn",
+        "location": "",
+        "tags": [
+          "Hreinn",
+          "Silver-Blood Inn",
+          "Markarth",
+          "Kleppr",
+          "Frabbi"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Hroki is a Nord woman at the Silver-Blood Inn — quiet, keeps to herself, but hears everything that passes through the common room.",
+        "display_name": "Hroki - Silver-Blood Inn Regular",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.hroki",
+        "location": "",
+        "tags": [
+          "Hroki",
+          "Silver-Blood Inn",
+          "Markarth",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Margret is a Nord woman at the Silver-Blood Inn — old enough to remember the Reach before the Empire, and not shy about saying things were better then.",
+        "display_name": "Margret - Silver-Blood Inn Regular",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.margret",
+        "location": "",
+        "tags": [
+          "Margret",
+          "Silver-Blood Inn",
+          "Markarth",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Lynea is a Nord in the Silver-Blood Inn — a miner who comes up from the diggings to drink away her pay.",
+        "display_name": "Lynea - Silver-Blood Inn Regular",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.lynea",
+        "location": "",
+        "tags": [
+          "Lynea",
+          "Silver-Blood Inn",
+          "Markarth",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Imedhnain is a Dunmer shop assistant at Arnleif and Sons — works for Lisbet, efficient and unsociable.",
+        "display_name": "Imedhnain - Shop Assistant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.imedhnain",
+        "location": "",
+        "tags": [
+          "Imedhnain",
+          "Arnleif and Sons",
+          "Markarth",
+          "Dunmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Adara is Endon's wife — a Breton woman who married into money and now lives watching her husband worry himself grey.",
+        "display_name": "Adara - Endon's Wife",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.adara",
+        "location": "",
+        "tags": [
+          "Adara",
+          "Markarth",
+          "Endon",
+          "Breton"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Kerah is a Breton servant in Endon's household — loyal, nervous, tries to stay invisible when the master is in a mood.",
+        "display_name": "Kerah - Household Servant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.kerah",
+        "location": "",
+        "tags": [
+          "Kerah",
+          "Markarth",
+          "Endon",
+          "Breton",
+          "servant"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Vigdis Salvius is Rogatus Salvius' wife — an Imperial woman working the farm alongside her husband, tougher than she looks.",
+        "display_name": "Vigdis Salvius - Farmwife",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.vigdis",
+        "location": "",
+        "tags": [
+          "Vigdis Salvius",
+          "Salvius Farm",
+          "Markarth",
+          "Imperial"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Erith is Daighre's daughter — a young Nord girl growing up in the Left Hand Mine camp, learning the trade before she can properly hold a pick.",
+        "display_name": "Erith - Miner's Daughter",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.erith",
+        "location": "",
+        "tags": [
+          "Erith",
+          "Left Hand Mine",
+          "Markarth",
+          "Nord",
+          "Daighre"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Sosia Tremellia is Skaggi Scar-Face's wife at the Left Hand Mine camp — Imperial woman who followed her husband to the Reach and regrets it every day.",
+        "display_name": "Sosia Tremellia - Miner's Wife",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.sosia",
+        "location": "",
+        "tags": [
+          "Sosia Tremellia",
+          "Left Hand Mine",
+          "Markarth",
+          "Imperial",
+          "Skaggi"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Adeber is a Redguard miner at the Left Hand Mine barracks — keeps to himself, works the night shift.",
+        "display_name": "Adeber - Miner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.adeber",
+        "location": "",
+        "tags": [
+          "Adeber",
+          "Left Hand Mine",
+          "Markarth",
+          "Redguard",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Ennoc is a Nord miner at the Left Hand Mine barracks — young, strong, believes the Silver-Bloods will pay him what he is owed someday.",
+        "display_name": "Ennoc - Miner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.ennoc",
+        "location": "",
+        "tags": [
+          "Ennoc",
+          "Left Hand Mine",
+          "Markarth",
+          "Nord",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Willem is an Imperial miner at the Left Hand Mine barracks — old, missing two fingers, has been digging in the Reach since before the Forsworn uprising.",
+        "display_name": "Willem - Miner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.willem",
+        "location": "",
+        "tags": [
+          "Willem",
+          "Left Hand Mine",
+          "Markarth",
+          "Imperial",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Braig is a Nord prisoner in Cidhna Mine — guilty of murder, guilty of worse, and thoroughly broken by the darkness.",
+        "display_name": "Braig - Cidhna Prisoner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.braig",
+        "location": "",
+        "tags": [
+          "Braig",
+          "Cidhna Mine",
+          "Markarth",
+          "Nord",
+          "prisoner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Duach is a Reachman prisoner in Cidhna Mine — Forsworn, proud, and still spitting defiance at the Silver-Bloods from behind his cell door.",
+        "display_name": "Duach - Cidhna Prisoner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.duach",
+        "location": "",
+        "tags": [
+          "Duach",
+          "Cidhna Mine",
+          "Markarth",
+          "Reachman",
+          "prisoner",
+          "Forsworn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Grisvar the Unlucky is a Nord prisoner in Cidhna Mine — got on the wrong side of the Silver-Bloods, which is to say he tried to cheat them and lost.",
+        "display_name": "Grisvar the Unlucky - Cidhna Prisoner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.grisvar",
+        "location": "",
+        "tags": [
+          "Grisvar the Unlucky",
+          "Cidhna Mine",
+          "Markarth",
+          "Nord",
+          "prisoner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Odvan is a Reachman prisoner in Cidhna Mine — Forsworn, quiet, watches the door and waits.",
+        "display_name": "Odvan - Cidhna Prisoner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.odvan",
+        "location": "",
+        "tags": [
+          "Odvan",
+          "Cidhna Mine",
+          "Markarth",
+          "Reachman",
+          "prisoner",
+          "Forsworn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Uraccen is a Reachman prisoner in Cidhna Mine — Forsworn, young, terrified of the dark, pretending he is not.",
+        "display_name": "Uraccen - Cidhna Prisoner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.uraccen",
+        "location": "",
+        "tags": [
+          "Uraccen",
+          "Cidhna Mine",
+          "Markarth",
+          "Reachman",
+          "prisoner",
+          "Forsworn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Mulush gro-Shugurz works at the Markarth Smelter — an Orc who keeps the forge fires burning through the night.",
+        "display_name": "Mulush gro-Shugurz - Smelter Worker",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.mulush",
+        "location": "",
+        "tags": [
+          "Mulush gro-Shugurz",
+          "Markarth Smelter",
+          "Markarth",
+          "Orc"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Tacitus Sallustius is Ghorza's Imperial apprentice at the Markarth Smelter — young, eager to learn the smith's craft, and the target of his master's sharp tongue.",
+        "display_name": "Tacitus Sallustius - Apprentice Smith",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.tacitus",
+        "location": "",
+        "tags": [
+          "Tacitus Sallustius",
+          "Markarth Smelter",
+          "Markarth",
+          "Imperial",
+          "apprentice",
+          "Ghorza"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Anton Virane is an Imperial noble visiting Understone Keep — well-dressed, well-connected, and always angling for something.",
+        "display_name": "Anton Virane - Court Visitor",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.anton",
+        "location": "",
+        "tags": [
+          "Anton Virane",
+          "Understone Keep",
+          "Markarth",
+          "Imperial",
+          "noble"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Rondach is a Nord guard at Understone Keep — veteran of the Reach wars, now keeping the peace inside the Jarl's halls.",
+        "display_name": "Rondach - Understone Guard",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.rondach",
+        "location": "",
+        "tags": [
+          "Rondach",
+          "Understone Keep",
+          "Markarth",
+          "Nord",
+          "guard"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Voada is a Nord maid at Understone Keep — silent, efficient, and very good at not seeing what she is not supposed to see.",
+        "display_name": "Voada - Castle Maid",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.voada",
+        "location": "",
+        "tags": [
+          "Voada",
+          "Understone Keep",
+          "Markarth",
+          "Nord",
+          "servant"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Donnel is a Nord servant at the Treasury House — runs errands for the Silver-Bloods, knows better than to talk about what he carries.",
+        "display_name": "Donnel - Treasury House Servant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.donnel",
+        "location": "",
+        "tags": [
+          "Donnel",
+          "Treasury House",
+          "Markarth",
+          "Nord",
+          "servant",
+          "Silver-Blood"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Nana Ildene is an old Imperial woman living at the Treasury House — Betrid's companion, full of gossip and sharp observations.",
+        "display_name": "Nana Ildene - Treasury House Companion",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.nana",
+        "location": "",
+        "tags": [
+          "Nana Ildene",
+          "Treasury House",
+          "Markarth",
+          "Imperial",
+          "Betrid"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Reburrus Quintilius is an Imperial living at the Treasury House — a cousin of the Silver-Bloods, always trying to get into the family business.",
+        "display_name": "Reburrus Quintilius - Silver-Blood Kinsman",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.reburrus",
+        "location": "",
+        "tags": [
+          "Reburrus Quintilius",
+          "Treasury House",
+          "Markarth",
+          "Imperial",
+          "Silver-Blood"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Rhiada is a Redguard servant at the Treasury House — young, quick, and too smart to let the Silver-Bloods catch her listening at doors.",
+        "display_name": "Rhiada - Treasury House Servant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.rhiada",
+        "location": "",
+        "tags": [
+          "Rhiada",
+          "Treasury House",
+          "Markarth",
+          "Redguard",
+          "servant"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Cedran is a Redguard stablehand at the Markarth Stables — works for Banning, good with horses, bad with people.",
+        "display_name": "Cedran - Stablehand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.cedran",
+        "location": "",
+        "tags": [
+          "Cedran",
+          "Markarth Stables",
+          "Markarth",
+          "Redguard",
+          "stablehand"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Kibell is an Imperial stablehand at the Markarth Stables — young, works hard, dreams of leaving the Reach someday.",
+        "display_name": "Kibell - Stablehand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.kibell",
+        "location": "",
+        "tags": [
+          "Kibell",
+          "Markarth Stables",
+          "Markarth",
+          "Imperial",
+          "stablehand"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Vigilance is a loyal warhound at the Markarth Stables — a dog who has been with Banning since the Forsworn uprising.",
+        "display_name": "Vigilance - Stables Dog",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.vigilance",
+        "location": "",
+        "tags": [
+          "Vigilance",
+          "Markarth Stables",
+          "Markarth",
+          "dog"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMarkarthFaction\") or is_in_faction(actorUUID, \"GuardFactionMarkarth\")",
+        "content": "Kaie is a young researcher studying the Dwemer ruins beneath Markarth — works with Calcelmo's team, fascinated by the maths of the old metal.",
+        "display_name": "Kaie - Dwemer Researcher",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "reach.people.kaie",
+        "location": "",
+        "tags": [
+          "Kaie",
+          "Markarth Ruins",
+          "Markarth",
+          "Dwemer",
+          "researcher"
         ],
         "type": "KNOWLEDGE"
       }

@@ -1,9 +1,9 @@
 {
   "skyrimnet_knowledge_pack": {
     "author": "_gaius",
-    "description": "Solitude's notable people — Jarl Elisif and the Blue Palace court, General Tullius's Legion command, the Bards College, and the merchants of the cliff city.",
-    "entry_count": 26,
-    "exported_at": "2026-05-18T04:54:36Z",
+    "description": "Solitude's people — the Blue Palace court, General Tullius's Legion command at Castle Dour, the Bards College, merchants along the street and docks, and every named resident of the cliff city.",
+    "entry_count": 82,
+    "exported_at": "2026-05-18T05:00:00Z",
     "format_version": 2,
     "name": "_VKP - Notable People In Solitude",
     "npc_groups": [],
@@ -447,10 +447,9 @@
         "tags": [
           "Greta",
           "Solitude",
-          "Friga",
-          "Shatter-Shield",
+          "Roggvir",
           "grief",
-          "Windhelm"
+          "Amulet of Talos"
         ],
         "type": "KNOWLEDGE"
       },
@@ -490,6 +489,966 @@
           "madman",
           "Pelagius",
           "statue"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Addvar is a fisherman in Solitude, husband of Greta and father of Svari. He keeps his head down after the tension over his brother-in-law Roggvir's execution.",
+        "display_name": "Addvar - Fisherman",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.addvar",
+        "location": "",
+        "tags": [
+          "Addvar",
+          "fisherman",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Svari is the young daughter of Addvar and Greta in Solitude, often found playing near her home.",
+        "display_name": "Svari - Child",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.svari",
+        "location": "",
+        "tags": [
+          "Svari",
+          "child",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "content": "Aia Arria is a Redguard student at the Bards College in Solitude, learning the bardic arts.",
+        "display_name": "Aia Arria - Bards College Student",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.aia_arria",
+        "location": "",
+        "tags": [
+          "Aia Arria",
+          "Bards College",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "content": "Ataf is a Redguard student at the Bards College in Solitude, studying the bardic traditions.",
+        "display_name": "Ataf - Bards College Student",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.ataf",
+        "location": "",
+        "tags": [
+          "Ataf",
+          "Bards College",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "content": "Bendt is a Nord student at the Bards College in Solitude, a journeyman bard who can be hired as a traveling bodyguard.",
+        "display_name": "Bendt - Bards College Student",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.bendt",
+        "location": "",
+        "tags": [
+          "Bendt",
+          "Bards College",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "content": "Illdi is a Nord bard who teaches at the Bards College and can be hired to perform in inns across Skyrim.",
+        "display_name": "Illdi - Bards College Instructor",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.illdi",
+        "location": "",
+        "tags": [
+          "Illdi",
+          "Bards College",
+          "bard",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@SolitudeBardsCollegeFaction\")",
+        "content": "Jorn is the elderly Nord caretaker at the Bards College in Solitude, keeping the building clean for the staff and students.",
+        "display_name": "Jorn - Bards College Caretaker",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.jorn",
+        "location": "",
+        "tags": [
+          "Jorn",
+          "Bards College",
+          "caretaker",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Kayd co-runs Bits and Pieces with his mother Sayma, selling general goods from their shop on Solitude's main street.",
+        "display_name": "Kayd - Bits and Pieces",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.kayd",
+        "location": "",
+        "tags": [
+          "Kayd",
+          "Bits and Pieces",
+          "merchant",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Sayma owns Bits and Pieces with her son Kayd, a general goods store on Solitude's main street. A shrewd Breton businesswoman.",
+        "display_name": "Sayma - Bits and Pieces (Owner)",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.sayma",
+        "location": "",
+        "tags": [
+          "Sayma",
+          "Bits and Pieces",
+          "merchant",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Erdi is a serving girl at the Blue Palace, part of the household staff attending to Jarl Elisif's court.",
+        "display_name": "Erdi - Palace Servant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.erdi",
+        "location": "",
+        "tags": [
+          "Erdi",
+          "Blue Palace",
+          "servant",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Odar works as a groom and carriage driver at the Blue Palace stables, tending to the Jarl's horses.",
+        "display_name": "Odar - Palace Groom",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.odar",
+        "location": "",
+        "tags": [
+          "Odar",
+          "Blue Palace",
+          "groom",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Una is an elderly serving woman at the Blue Palace, loyal to Elisif and has served the palace for decades.",
+        "display_name": "Una - Palace Servant",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.una",
+        "location": "",
+        "tags": [
+          "Una",
+          "Blue Palace",
+          "servant",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Irnskar Ironhand is Bryling's housecarl and an old veteran of the Great War — grim, practical, and rarely far from his thane's side.",
+        "display_name": "Irnskar Ironhand - Bryling's Housecarl",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "haafingar.people.irnskar",
+        "location": "",
+        "tags": [
+          "Irnskar Ironhand",
+          "housecarl",
+          "Bryling",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "content": "Captain Aldis commands the Solitude guard from Castle Dour — a capable Imperial officer who upholds the law in the city and aids those who earn his trust.",
+        "display_name": "Captain Aldis - Guard Captain",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.aldis",
+        "location": "",
+        "tags": [
+          "Captain Aldis",
+          "Castle Dour",
+          "guard captain",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "content": "Legate Adventus Caesennius is a stern Cyrodiilic Legate stationed at Castle Dour, serving directly under General Tullius.",
+        "display_name": "Legate Adventus Caesennius - Imperial Legate",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.adventus",
+        "location": "",
+        "tags": [
+          "Adventus Caesennius",
+          "Legate",
+          "Imperial Legion",
+          "Castle Dour",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "content": "Bjartur is a Nord courier at Castle Dour who delivers messages across Haafingar for the Imperial Legion.",
+        "display_name": "Bjartur - Legion Courier",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.bjartur",
+        "location": "",
+        "tags": [
+          "Bjartur",
+          "Castle Dour",
+          "courier",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "content": "The Emperor Titus Mede II appears at Vittoria Vici's wedding in Solitude — but this is a body double, a decoy used to protect the real Emperor from assassination.",
+        "display_name": "Emperor Titus Mede II (Decoy)",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "haafingar.people.titus_mede_decoy",
+        "location": "",
+        "tags": [
+          "Titus Mede II",
+          "Emperor",
+          "decoy",
+          "Solitude",
+          "Vittoria Vici",
+          "wedding"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\") or is_in_faction(actorUUID, \"@CWImperialFaction\")",
+        "content": "Gianna is an Imperial serving woman at Castle Dour, keeping the officers' quarters tidy and the mess hall stocked.",
+        "display_name": "Gianna - Castle Dour Servant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.gianna",
+        "location": "",
+        "tags": [
+          "Gianna",
+          "Castle Dour",
+          "servant",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Snorreid works at the East Empire Company Warehouse on the Solitude docks, hauling cargo and keeping the books for incoming shipments.",
+        "display_name": "Snorreid - Dockworker",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.snorreid",
+        "location": "",
+        "tags": [
+          "Snorreid",
+          "East Empire Company",
+          "dockworker",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Gisli is Erikur's sister and steward of his affairs — a sharp businesswoman who handles the books while her brother politicks at court.",
+        "display_name": "Gisli - Erikur's Steward",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "haafingar.people.gisli",
+        "location": "",
+        "tags": [
+          "Gisli",
+          "Erikur",
+          "steward",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Melaran is a Dunmer servant in Erikur's household in Solitude — quiet, keeps to himself, and does his work without drawing notice.",
+        "display_name": "Melaran - Household Servant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.melaran",
+        "location": "",
+        "tags": [
+          "Melaran",
+          "Erikur",
+          "servant",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Evette San lives in Solitude with her son Octieve. A Breton widow who worries about the war's effect on the city and her family.",
+        "display_name": "Evette San - Mother",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.evette_san",
+        "location": "",
+        "tags": [
+          "Evette San",
+          "Solitude",
+          "mother"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Octieve San is the young son of Evette San in Solitude, a boy who loves to run around the market and watch the Legion drills.",
+        "display_name": "Octieve San - Child",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.octieve_san",
+        "location": "",
+        "tags": [
+          "Octieve San",
+          "child",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Fihada the Khajiit runs the Fletcher in Solitude, selling bows, arrows, and archery supplies with brusque practicality.",
+        "display_name": "Fihada - Fletcher",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.fihada",
+        "location": "",
+        "tags": [
+          "Fihada",
+          "Fletcher",
+          "merchant",
+          "Solitude",
+          "Khajiit"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Jawanan is the Redguard apprentice at the Fletcher in Solitude, learning the bowyer's trade from Fihada.",
+        "display_name": "Jawanan - Fletcher's Apprentice",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.jawanan",
+        "location": "",
+        "tags": [
+          "Jawanan",
+          "Fletcher",
+          "apprentice",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Ahtar is Solitude's headsman — the public executioner. Haunted by the deaths he has dealt, he can be recruited as a follower by someone who earns his trust.",
+        "display_name": "Ahtar - Executioner",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.ahtar",
+        "location": "",
+        "tags": [
+          "Ahtar",
+          "executioner",
+          "Solitude",
+          "follower"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Jala is a Breton woman living in Solitude, housemate to Ahtar the executioner. Kind-hearted and quietly worried about her friend's dark moods.",
+        "display_name": "Jala - Ahtar's Housemate",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.jala",
+        "location": "",
+        "tags": [
+          "Jala",
+          "Solitude",
+          "Ahtar"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Blaise works as a stable boy at Katla's Farm outside Solitude — an orphan taken in by Katla, doing his best to earn his keep.",
+        "display_name": "Blaise - Stable Boy",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.blaise",
+        "location": "",
+        "tags": [
+          "Blaise",
+          "Katla's Farm",
+          "stable boy",
+          "child",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Katla runs Katla's Farm just outside Solitude, supplying the city with produce and poultry. A hard-working Nord raising her sons alone.",
+        "display_name": "Katla - Farmer",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.katla",
+        "location": "",
+        "tags": [
+          "Katla",
+          "Katla's Farm",
+          "farmer",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Knud is Katla's youngest son, helping with the animals at Katla's Farm outside Solitude.",
+        "display_name": "Knud - Farm Child",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.knud",
+        "location": "",
+        "tags": [
+          "Knud",
+          "Katla's Farm",
+          "child",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Snilling is Katla's eldest son, doing the heavy farm work at Katla's Farm outside Solitude.",
+        "display_name": "Snilling - Farmhand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.snilling",
+        "location": "",
+        "tags": [
+          "Snilling",
+          "Katla's Farm",
+          "farmer",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Alexia Vici is Vittoria Vici's cousin, an Imperial who travelled from Cyrodiil for the wedding. She shares Vittoria's sharp tongue and political awareness.",
+        "display_name": "Alexia Vici - Vittoria's Cousin",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.alexia_vici",
+        "location": "",
+        "tags": [
+          "Alexia Vici",
+          "Vittoria Vici",
+          "Solitude",
+          "Imperial"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Noster Eagle-Eye is an old veteran living in Solitude, half-blind and rambling about a pirate treasure he once saw. Most dismiss him, but there is truth behind his tales.",
+        "display_name": "Noster Eagle-Eye - Veteran",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.noster",
+        "location": "",
+        "tags": [
+          "Noster Eagle-Eye",
+          "veteran",
+          "Solitude",
+          "pirate treasure"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Roggvir was executed at Solitude's gates for opening them to Ulfric Stormcloak after the duel with Torygg. His sister Greta still mourns him and seeks his Amulet of Talos.",
+        "display_name": "Roggvir - The Gate Opener",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.roggvir",
+        "location": "",
+        "tags": [
+          "Roggvir",
+          "executed",
+          "Solitude",
+          "Greta",
+          "Ulfric",
+          "Torygg"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Deeja is Jaree-Ra's sister and first mate of the Blackblood Marauders — an Argonian pirate who lures ships onto the rocks near Solitude's coast.",
+        "display_name": "Deeja - Blackblood First Mate",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "haafingar.people.deeja",
+        "location": "",
+        "tags": [
+          "Deeja",
+          "Blackblood Marauders",
+          "pirate",
+          "Argonian",
+          "Solitude",
+          "Jaree-Ra"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Jolf is a regular at the Winking Skeever, a Nord fisherman who spends his evenings drinking ale and complaining about the price of salt.",
+        "display_name": "Jolf - Fisherman",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.jolf",
+        "location": "",
+        "tags": [
+          "Jolf",
+          "fisherman",
+          "Winking Skeever",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Jordis the Sword-Maiden is the housecarl of Proudspire Manor in Solitude — sworn to serve the Thane of Haafingar as a shield-sibling and loyal follower.",
+        "display_name": "Jordis the Sword-Maiden - Housecarl",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.jordis",
+        "location": "",
+        "tags": [
+          "Jordis the Sword-Maiden",
+          "housecarl",
+          "Proudspire Manor",
+          "follower",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Dorian is a Breton sailor aboard the Red Wave docked in Solitude, one of Captain Sabine Nytte's crew.",
+        "display_name": "Dorian - Red Wave Sailor",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.dorian",
+        "location": "",
+        "tags": [
+          "Dorian",
+          "Red Wave",
+          "Solitude",
+          "sailor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Eris is a Redguard sailor aboard the Red Wave in Solitude, loyal to Captain Sabine Nytte.",
+        "display_name": "Eris - Red Wave Sailor",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.eris",
+        "location": "",
+        "tags": [
+          "Eris",
+          "Red Wave",
+          "Solitude",
+          "sailor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Sabine Nytte captains the Red Wave, a personal ship docked at the Solitude docks. A Breton who runs a tight ship and offers passage for a price.",
+        "display_name": "Sabine Nytte - Ship Captain",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.sabine_nytte",
+        "location": "",
+        "tags": [
+          "Sabine Nytte",
+          "Red Wave",
+          "captain",
+          "Solitude",
+          "ship"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Safia is a Redguard sailor on the Red Wave, serving under Captain Sabine Nytte in Solitude.",
+        "display_name": "Safia - Red Wave Sailor",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.safia",
+        "location": "",
+        "tags": [
+          "Safia",
+          "Red Wave",
+          "Solitude",
+          "sailor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Xander is a Nord sailor on the Red Wave, a member of Sabine Nytte's crew in Solitude.",
+        "display_name": "Xander - Red Wave Sailor",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.xander",
+        "location": "",
+        "tags": [
+          "Xander",
+          "Red Wave",
+          "Solitude",
+          "sailor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Beirand runs the Solitude Blacksmith, a Nord smith who keeps the city's soldiers and citizens well-armed. A solid craftsman without pretense.",
+        "display_name": "Beirand - Blacksmith",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.beirand",
+        "location": "",
+        "tags": [
+          "Beirand",
+          "Solitude Blacksmith",
+          "blacksmith",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Heimvar is Beirand's apprentice at the Solitude Blacksmith, learning the smithing trade and doing the heavy lifting.",
+        "display_name": "Heimvar - Blacksmith's Apprentice",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.heimvar",
+        "location": "",
+        "tags": [
+          "Heimvar",
+          "Solitude Blacksmith",
+          "apprentice",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Hjorunn runs the Solitude Sawmill, supplying lumber to the city and its construction. A Nord who knows the timber trade.",
+        "display_name": "Hjorunn - Sawmill Operator",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.hjorunn",
+        "location": "",
+        "tags": [
+          "Hjorunn",
+          "Solitude Sawmill",
+          "lumber",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Kharag gro-Shurkul works at the Solitude Sawmill alongside Hjorunn, an Orc who handles the heaviest logs with ease.",
+        "display_name": "Kharag gro-Shurkul - Sawmill Worker",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.kharag",
+        "location": "",
+        "tags": [
+          "Kharag gro-Shurkul",
+          "Solitude Sawmill",
+          "Orc",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Fridrika works at the Solitude Stables, caring for horses and managing the carriage service in and out of the city.",
+        "display_name": "Fridrika - Stable Hand",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.fridrika",
+        "location": "",
+        "tags": [
+          "Fridrika",
+          "Solitude Stables",
+          "stable hand",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Geimund works at the Solitude Stables, a Nord who handles horses and carriage rides for travelers.",
+        "display_name": "Geimund - Stable Hand",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.geimund",
+        "location": "",
+        "tags": [
+          "Geimund",
+          "Solitude Stables",
+          "stable hand",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Horm works at the Solitude Stables, a Nord with a gentle way with horses.",
+        "display_name": "Horm - Stable Hand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.horm",
+        "location": "",
+        "tags": [
+          "Horm",
+          "Solitude Stables",
+          "stable hand",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Thaer works at the Solitude Stables, handling horses and keeping the stable yard in order.",
+        "display_name": "Thaer - Stable Hand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.thaer",
+        "location": "",
+        "tags": [
+          "Thaer",
+          "Solitude Stables",
+          "stable hand",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Freir is an acolyte at the Temple of the Divines in Solitude, quiet and devout, serving the eight Divines alongside Rorlund.",
+        "display_name": "Freir - Temple Acolyte",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.freir",
+        "location": "",
+        "tags": [
+          "Freir",
+          "Temple of the Divines",
+          "acolyte",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Silana Petreia is a beggar who spends her days at the Temple of the Divines in Solitude, seeking the gods' mercy and a few coins from worshippers.",
+        "display_name": "Silana Petreia - Beggar",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.silana",
+        "location": "",
+        "tags": [
+          "Silana Petreia",
+          "Temple of the Divines",
+          "beggar",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Belrand is a spellsword for hire who can often be found at the Winking Skeever in Solitude, available as a follower for those with coin.",
+        "display_name": "Belrand - Spellsword",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "haafingar.people.belrand",
+        "location": "",
+        "tags": [
+          "Belrand",
+          "Winking Skeever",
+          "spellsword",
+          "follower",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Gulum-Ei is an Argonian fence and smuggler based in Solitude, connected to the East Empire Company docks and the city's criminal underworld. The Dark Brotherhood has reason to find him.",
+        "display_name": "Gulum-Ei - Fence",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "haafingar.people.gulum_ei",
+        "location": "",
+        "tags": [
+          "Gulum-Ei",
+          "East Empire Company",
+          "fence",
+          "Argonian",
+          "Dark Brotherhood",
+          "Solitude"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Minette Vinius is Corpulus's youngest daughter, a child who helps at the Winking Skeever when she can.",
+        "display_name": "Minette Vinius - Child",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "haafingar.people.minette",
+        "location": "",
+        "tags": [
+          "Minette Vinius",
+          "Winking Skeever",
+          "child",
+          "Solitude",
+          "Corpulus"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Aquillius Aeresius is Vittoria Vici's bodyguard, a capable Imperial soldier loyal to the East Empire Company and the Mede family.",
+        "display_name": "Aquillius Aeresius - Bodyguard",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.aquillius",
+        "location": "",
+        "tags": [
+          "Aquillius Aeresius",
+          "Vittoria Vici",
+          "bodyguard",
+          "East Empire Company",
+          "Solitude"
         ],
         "type": "KNOWLEDGE"
       }

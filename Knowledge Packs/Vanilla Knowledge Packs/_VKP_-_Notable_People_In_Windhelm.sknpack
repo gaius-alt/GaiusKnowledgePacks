@@ -2,8 +2,8 @@
   "skyrimnet_knowledge_pack": {
     "author": "_gaius",
     "description": "Windhelm's notable people — Ulfric Stormcloak's court, the Gray Quarter Dunmer, the Shatter-Shield clan in their grief, and the boy performing the Black Sacrament in his abandoned house.",
-    "entry_count": 19,
-    "exported_at": "2026-05-18T04:54:36Z",
+    "entry_count": 66,
+    "exported_at": "2026-05-18T05:00:00Z",
     "format_version": 2,
     "name": "_VKP - Notable People In Windhelm",
     "npc_groups": [],
@@ -361,6 +361,846 @@
           "smithy",
           "Stormcloak",
           "Hermir"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Neetrenaza works the Windhelm docks as a member of the Argonian Assemblage. She keeps her head down and avoids the Nord N'wah who sling mud at her people.",
+        "display_name": "Neetrenaza - Dockworker",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.neetrenaza",
+        "location": "",
+        "tags": [
+          "Neetrenaza",
+          "Argonian",
+          "Windhelm",
+          "Assemblage",
+          "docks"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Scouts-Many-Marshes is an Argonian dockworker living in the isolated Argonian Assemblage in Windhelm. He works the docks alongside his fellow Saxhleel.",
+        "display_name": "Scouts-Many-Marshes - Dockworker",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.scoutsmany",
+        "location": "",
+        "tags": [
+          "Scouts-Many-Marshes",
+          "Argonian",
+          "Windhelm",
+          "Assemblage",
+          "docks"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Shahvee is an Argonian dockworker in Windhelm, known for her unusually cheerful disposition despite living in the squalid Argonian Assemblage. She believes hard work and a positive outlook will see her through.",
+        "display_name": "Shahvee - Dockworker",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "eastmarch.people.shahvee",
+        "location": "",
+        "tags": [
+          "Shahvee",
+          "Argonian",
+          "Windhelm",
+          "Assemblage",
+          "docks"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Stands-In-Shallows is an Argonian dockworker living in the Assemblage outside Windhelm's walls. He keeps to himself and works the loading cranes at the docks.",
+        "display_name": "Stands-In-Shallows - Dockworker",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.standsinshallows",
+        "location": "",
+        "tags": [
+          "Stands-In-Shallows",
+          "Argonian",
+          "Windhelm",
+          "Assemblage",
+          "docks"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Aval Atheron lives in the Gray Quarter with his siblings Faryl and Suvaris. Dunmer, young, quietly enduring the Nord hostility that defines life in Windhelm for his people.",
+        "display_name": "Aval Atheron - Gray Quarter Resident",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.avalatheron",
+        "location": "",
+        "tags": [
+          "Aval Atheron",
+          "Dunmer",
+          "Windhelm",
+          "Gray Quarter",
+          "Atheron"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Faryl Atheron shares the Atheron family home in the Gray Quarter with his siblings Suvaris and Aval. Dunmer, keeps his head down and works where he can.",
+        "display_name": "Faryl Atheron - Gray Quarter Resident",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.farylatheron",
+        "location": "",
+        "tags": [
+          "Faryl Atheron",
+          "Dunmer",
+          "Windhelm",
+          "Gray Quarter",
+          "Atheron"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Belyn Hlaalu runs Hlaalu Farm outside Windhelm — one of the few Dunmer who managed to buy land and work it. His family name carries weight from Morrowind, but here he is just another Dark Elf scraping a living.",
+        "display_name": "Belyn Hlaalu - Farmer",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "eastmarch.people.belyn",
+        "location": "",
+        "tags": [
+          "Belyn Hlaalu",
+          "Dunmer",
+          "Windhelm",
+          "Hlaalu Farm",
+          "farmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Hermir Strong-Heart is Oengul War-Anvil's apprentice at the Windhelm smithy. Young Nord woman learning the forge, helping outfit Stormcloak soldiers bound for the front.",
+        "display_name": "Hermir Strong-Heart - Blacksmith's Apprentice",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "eastmarch.people.hermir",
+        "location": "",
+        "tags": [
+          "Hermir Strong-Heart",
+          "Windhelm",
+          "smithy",
+          "apprentice",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Bolfrida Brandy-Mug runs Brandy-Mug Farm outside Windhelm. Cheerful Nord woman, grows crops for the Candlehearth Hall and the city market.",
+        "display_name": "Bolfrida Brandy-Mug - Farmer",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.bolfrida",
+        "location": "",
+        "tags": [
+          "Bolfrida Brandy-Mug",
+          "Windhelm",
+          "Brandy-Mug Farm",
+          "farmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Adonato Leotelli is a regular at Candlehearth Hall — an Imperial merchant passing through Windhelm, keeping his head down and his mouth shut about the war.",
+        "display_name": "Adonato Leotelli - Merchant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.adonato",
+        "location": "",
+        "tags": [
+          "Adonato Leotelli",
+          "Windhelm",
+          "Candlehearth Hall",
+          "Imperial"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Angrenor Once-Honored is a homeless Nord veteran who fought for Ulfric in the Markarth incident. Now he begs for coin in the Windhelm marketplace, telling anyone who will listen about the good old days.",
+        "display_name": "Angrenor Once-Honored - Beggar",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.people.angrenor",
+        "location": "",
+        "tags": [
+          "Angrenor Once-Honored",
+          "Windhelm",
+          "beggar",
+          "veteran",
+          "Markarth"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Captain Lonely-Gale is a retired sea captain who spends his days drinking at Candlehearth Hall. Old Nord, more stories than teeth, claims he sailed past Atmora once.",
+        "display_name": "Captain Lonely-Gale - Retired Sailor",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "eastmarch.people.lonelygale",
+        "location": "",
+        "tags": [
+          "Captain Lonely-Gale",
+          "Windhelm",
+          "Candlehearth Hall",
+          "sailor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Luaffyn is a Bosmer who lives at Candlehearth Hall in Windhelm. She keeps to herself, nursing a drink by the fire and offering little about where she came from.",
+        "display_name": "Luaffyn - Candlehearth Hall Regular",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.luaffyn",
+        "location": "",
+        "tags": [
+          "Luaffyn",
+          "Windhelm",
+          "Candlehearth Hall",
+          "Bosmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Nils is a Nord regular at Candlehearth Hall who takes his cues from Rolff Stone-Fist. Loud, drunk, and full of bile for the non-Nords of Windhelm.",
+        "display_name": "Nils - Candlehearth Hall Regular",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.nils",
+        "location": "",
+        "tags": [
+          "Nils",
+          "Windhelm",
+          "Candlehearth Hall",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Stenvar is a mercenary for hire who waits at Candlehearth Hall for work. Nord, two-handed warrior, no questions asked if the coin is right.",
+        "display_name": "Stenvar - Mercenary",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "eastmarch.people.stenvar",
+        "location": "",
+        "tags": [
+          "Stenvar",
+          "Windhelm",
+          "Candlehearth Hall",
+          "mercenary",
+          "follower"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Susanna the Wicked was a young Nord serving girl at Candlehearth Hall — found murdered behind the inn, the first victim of the Butcher of Windhelm. Her death hangs over the city.",
+        "display_name": "Susanna the Wicked - Murdered Servant",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.people.susanna",
+        "location": "",
+        "tags": [
+          "Susanna the Wicked",
+          "Windhelm",
+          "Candlehearth Hall",
+          "Butcher",
+          "murder victim"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Adelaisa Vendicci represents the East Empire Company in Windhelm. Imperial-born, sharp-tongued, she manages the Company's shipping interests from the Windhelm docks office.",
+        "display_name": "Adelaisa Vendicci - East Empire Company Agent",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "eastmarch.people.adelaisa",
+        "location": "",
+        "tags": [
+          "Adelaisa Vendicci",
+          "Windhelm",
+          "East Empire Company",
+          "docks",
+          "Imperial"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Orthus Endario works for the East Empire Company at the Windhelm docks. Dunmer, weary of Nord hostility, but the Company pays well enough to endure it.",
+        "display_name": "Orthus Endario - Dock Clerk",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "eastmarch.people.orthus",
+        "location": "",
+        "tags": [
+          "Orthus Endario",
+          "Windhelm",
+          "East Empire Company",
+          "docks",
+          "Dunmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Calder is the housecarl of Hjerim in Windhelm. Nord, loyal to the property's owner, stands guard in the abandoned house waiting for a thane worthy of his service.",
+        "display_name": "Calder - Housecarl",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.people.calder",
+        "location": "",
+        "tags": [
+          "Calder",
+          "Windhelm",
+          "Hjerim",
+          "housecarl",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Adisla works Hlaalu Farm outside Windhelm alongside Belyn Hlaalu. Dunmer woman, works the fields from dawn to dusk, grateful for honest work in a city that despises her kind.",
+        "display_name": "Adisla - Farmhand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.adisla",
+        "location": "",
+        "tags": [
+          "Adisla",
+          "Dunmer",
+          "Windhelm",
+          "Hlaalu Farm",
+          "farmhand"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Tulvur runs Hollyfrost Farm outside Windhelm. Young Nord, works the frozen soil alone, sells his harvest at the city market.",
+        "display_name": "Tulvur - Farmer",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.tulvur",
+        "location": "",
+        "tags": [
+          "Tulvur",
+          "Windhelm",
+          "Hollyfrost Farm",
+          "farmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Grimvar Cruel-Sea is a member of Clan Cruel-Sea, one of Windhelm's old Nord families. Shares the Cruel-Sea household with his mother Hillevi and his aunt Idesa.",
+        "display_name": "Grimvar Cruel-Sea - Clan Member",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.grimvar",
+        "location": "",
+        "tags": [
+          "Grimvar Cruel-Sea",
+          "Windhelm",
+          "Cruel-Sea",
+          "Nord",
+          "clan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Hillevi Cruel-Sea is the matriarch of Clan Cruel-Sea in Windhelm. Nord widow, proud of her family name, keeps to the old ways in her ancestral home.",
+        "display_name": "Hillevi Cruel-Sea - Clan Matriarch",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "eastmarch.people.hillevi",
+        "location": "",
+        "tags": [
+          "Hillevi Cruel-Sea",
+          "Windhelm",
+          "Cruel-Sea",
+          "Nord",
+          "clan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Idesa Sadri married into Clan Cruel-Sea — a Dunmer woman living in a Nord household. She keeps her Sadri name with stubborn pride and bridges two worlds in Windhelm.",
+        "display_name": "Idesa Sadri - Household Member",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "eastmarch.people.idesa",
+        "location": "",
+        "tags": [
+          "Idesa Sadri",
+          "Windhelm",
+          "Cruel-Sea",
+          "Dunmer",
+          "Sadri"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Torsten Cruel-Sea is the patriarch of Clan Cruel-Sea. Old Nord, deeply traditional, watches the Gray Quarter's growth with suspicion from his family's ancestral home.",
+        "display_name": "Torsten Cruel-Sea - Clan Patriarch",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.people.torsten",
+        "location": "",
+        "tags": [
+          "Torsten Cruel-Sea",
+          "Windhelm",
+          "Cruel-Sea",
+          "Nord",
+          "clan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Brelas is the Orsimer barmaid at the New Gnisis Cornerclub in the Gray Quarter. Works for Ambarys Rendar, serves the Dunmer clientele with quiet efficiency.",
+        "display_name": "Brelas - Barmaid",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.brelas",
+        "location": "",
+        "tags": [
+          "Brelas",
+          "Windhelm",
+          "New Gnisis Cornerclub",
+          "Gray Quarter",
+          "Orsimer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Malborn is a Bosmer who works for the Thalmor as a courier. Hiding in the New Gnisis Cornerclub in Windhelm, he can smuggle equipment into the Thalmor Embassy for the right price.",
+        "display_name": "Malborn - Thalmor Courier",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "eastmarch.people.malborn",
+        "location": "",
+        "tags": [
+          "Malborn",
+          "Windhelm",
+          "New Gnisis Cornerclub",
+          "Thalmor",
+          "Bosmer",
+          "Embassy"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Malthyr Elenil is a Dunmer regular at the New Gnisis Cornerclub. Gray Quarter resident, drinks away the indignity of living under Stormcloak rule.",
+        "display_name": "Malthyr Elenil - Gray Quarter Resident",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.malthyr",
+        "location": "",
+        "tags": [
+          "Malthyr Elenil",
+          "Windhelm",
+          "New Gnisis Cornerclub",
+          "Gray Quarter",
+          "Dunmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Gort is a day laborer in Windhelm, working odd jobs around the city. Nord, poor, barely scraping by in the shadow of the Palace of the Kings.",
+        "display_name": "Gort - Laborer",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.gort",
+        "location": "",
+        "tags": [
+          "Gort",
+          "Windhelm",
+          "laborer",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "J'datharr is a Khajiit caravan hand passing through Windhelm. Keeps to the stables outside the city walls, knowing his kind are not welcome inside.",
+        "display_name": "J'datharr - Caravan Hand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.jdatharr",
+        "location": "",
+        "tags": [
+          "J'datharr",
+          "Windhelm",
+          "Khajiit",
+          "caravan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Silda the Unseen is a blind beggar woman who haunts the streets of Windhelm. She calls herself 'unseen' because no one looks twice at a beggar, and she uses that invisibility to survive.",
+        "display_name": "Silda the Unseen - Beggar",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "eastmarch.people.silda",
+        "location": "",
+        "tags": [
+          "Silda the Unseen",
+          "Windhelm",
+          "beggar",
+          "blind"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Sofie is a young orphan girl who sells flowers in the Windhelm market. She sleeps in the Gray Quarter by the fire, keeping her earnings hidden from the older street children.",
+        "display_name": "Sofie - Orphan Flower Vendor",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "eastmarch.people.sofie",
+        "location": "",
+        "tags": [
+          "Sofie",
+          "Windhelm",
+          "orphan",
+          "flower vendor",
+          "child"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Sifnar Ironkettle is the Palace of the Kings' cook, keeping Ulfric's court fed through the war. Nord, stout, unfazed by the comings and goings of generals.",
+        "display_name": "Sifnar Ironkettle - Palace Cook",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "eastmarch.people.sifnar",
+        "location": "",
+        "tags": [
+          "Sifnar Ironkettle",
+          "Windhelm",
+          "Palace of the Kings",
+          "cook",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Jora is a priestess tending the Temple of Talos in Windhelm. Old Nord woman who keeps the flame of Talos worship alive despite the White-Gold Concordat's ban.",
+        "display_name": "Jora - Priestess of Talos",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.people.jora",
+        "location": "",
+        "tags": [
+          "Jora",
+          "Windhelm",
+          "Temple of Talos",
+          "priestess",
+          "Nord",
+          "Talos"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Lortheim tends the Temple of Talos in Windhelm alongside Jora. Nord priest who brazenly preaches Talos worship in the heart of the Stormcloak capital, Thalmor be damned.",
+        "display_name": "Lortheim - Priest of Talos",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.people.lortheim",
+        "location": "",
+        "tags": [
+          "Lortheim",
+          "Windhelm",
+          "Temple of Talos",
+          "priest",
+          "Nord",
+          "Talos"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Dalan Merchad runs The North Wind general goods shop in Windhelm's Gray Quarter. Dunmer merchant selling essential supplies to the city's Dunmer and Argonian communities.",
+        "display_name": "Dalan Merchad - General Goods Merchant",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.people.dalan",
+        "location": "",
+        "tags": [
+          "Dalan Merchad",
+          "Windhelm",
+          "The North Wind",
+          "Gray Quarter",
+          "Dunmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Kjar is a young Dunmer who works at The North Wind shop in the Gray Quarter, cleaning and stocking shelves for Dalan Merchad.",
+        "display_name": "Kjar - Shop Assistant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.kjar",
+        "location": "",
+        "tags": [
+          "Kjar",
+          "Windhelm",
+          "The North Wind",
+          "Gray Quarter",
+          "Dunmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Voldsea Giryon lives above The North Wind shop in the Gray Quarter. Dunmer woman, keeps to herself, one of the many refugees from Morrowind eking out a life in Windhelm.",
+        "display_name": "Voldsea Giryon - Resident",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.voldsea",
+        "location": "",
+        "tags": [
+          "Voldsea Giryon",
+          "Windhelm",
+          "The North Wind",
+          "Gray Quarter",
+          "Dunmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Gjalund Salt-Sage is the Nord captain of The Northern Maiden, a cargo ship docked at Windhelm. He sails the Sea of Ghosts hauling goods for the East Empire Company.",
+        "display_name": "Gjalund Salt-Sage - Ship Captain",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "eastmarch.people.gjalund",
+        "location": "",
+        "tags": [
+          "Gjalund Salt-Sage",
+          "Windhelm",
+          "The Northern Maiden",
+          "captain",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Lygrleid is a Nord sailor aboard The Northern Maiden in Windhelm. Works the rigging and the cargo holds under Captain Gjalund Salt-Sage.",
+        "display_name": "Lygrleid - Sailor",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.lygrleid",
+        "location": "",
+        "tags": [
+          "Lygrleid",
+          "Windhelm",
+          "The Northern Maiden",
+          "sailor",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Sogrlaf is a Nord crewman on The Northern Maiden at the Windhelm docks. Hardy sailor used to the treacherous waters of the Sea of Ghosts.",
+        "display_name": "Sogrlaf - Sailor",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.sogrlaf",
+        "location": "",
+        "tags": [
+          "Sogrlaf",
+          "Windhelm",
+          "The Northern Maiden",
+          "sailor",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Nurelion is the elderly founder of The White Phial alchemy shop in Windhelm. Old Altmer, bedridden and dying, desperate for a rare ingredient to restore his shop's namesake artifact to working order.",
+        "display_name": "Nurelion - The White Phial Founder",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "eastmarch.people.nurelion",
+        "location": "",
+        "tags": [
+          "Nurelion",
+          "Windhelm",
+          "The White Phial",
+          "alchemy",
+          "Altmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Quintus Navale runs The White Phial day-to-day while Nurelion is bedridden. Young Dunmer alchemist, skilled but deferential, seeking ingredients to restore the legendary White Phial.",
+        "display_name": "Quintus Navale - Alchemist's Apprentice",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "eastmarch.people.quintus",
+        "location": "",
+        "tags": [
+          "Quintus Navale",
+          "Windhelm",
+          "The White Phial",
+          "alchemy",
+          "Dunmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Viola Giordano is an Imperial woman living in Windhelm who has taken an obsessive interest in the Butcher murders. She keeps detailed notes on the killings and suspects half the city.",
+        "display_name": "Viola Giordano - Amateur Investigator",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "eastmarch.people.viola",
+        "location": "",
+        "tags": [
+          "Viola Giordano",
+          "Windhelm",
+          "Butcher",
+          "investigator",
+          "Imperial"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Alfarinn runs the Windhelm stables outside the city gates. Nord horseman who tends the mounts of Stormcloak soldiers and travelers passing through the city.",
+        "display_name": "Alfarinn - Stablemaster",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "eastmarch.people.alfarinn",
+        "location": "",
+        "tags": [
+          "Alfarinn",
+          "Windhelm",
+          "stables",
+          "stablemaster",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Arivanya works at the Windhelm stables just outside the city. Nord woman, helps Alfarinn keep the horses and handles the travelers who come through.",
+        "display_name": "Arivanya - Stable Hand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "eastmarch.people.arivanya",
+        "location": "",
+        "tags": [
+          "Arivanya",
+          "Windhelm",
+          "stables",
+          "stable hand",
+          "Nord"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
+        "content": "Ulundil is a Dunmer stable hand at the Windhelm stables. One of the few Dark Elves working outside the Gray Quarter, he tends horses for Stormcloak soldiers who barely tolerate his presence.",
+        "display_name": "Ulundil - Stable Hand",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "eastmarch.people.ulundil",
+        "location": "",
+        "tags": [
+          "Ulundil",
+          "Windhelm",
+          "stables",
+          "stable hand",
+          "Dunmer"
         ],
         "type": "KNOWLEDGE"
       }

@@ -2,7 +2,7 @@
   "skyrimnet_knowledge_pack": {
     "author": "_gaius",
     "description": "Dawnstar's notable people — Jarl Skald and his court, the rival mine owners, and the priest of Mara who came to investigate the nightmares.",
-    "entry_count": 15,
+    "entry_count": 28,
     "exported_at": "2026-05-18T04:54:36Z",
     "format_version": 2,
     "name": "_VKP - Notable People In Dawnstar",
@@ -278,6 +278,236 @@
           "Dawnstar",
           "Skald",
           "Imperial sympathizer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Frorkmar Banner-Torn is the Stormcloak field commander stationed at Dawnstar's White Hall — a hard Nord officer who commands the Pale's Stormcloak forces and answers to Skald.",
+        "display_name": "Frorkmar Banner-Torn - Stormcloak Commander",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "pale.people.frorkmar",
+        "location": "",
+        "tags": [
+          "Frorkmar Banner-Torn",
+          "Stormcloak",
+          "Dawnstar",
+          "White Hall",
+          "commander"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Fruki works Leigelf's Quicksilver Mine on Dawnstar's east side — a young Nord miner who defends her boss against Irgnir's jabs and believes Mara will save the town from the nightmares.",
+        "display_name": "Fruki - Quicksilver Miner",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "pale.people.fruki",
+        "location": "",
+        "tags": [
+          "Fruki",
+          "Quicksilver Mine",
+          "Dawnstar",
+          "miner",
+          "Leigelf"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Irgnir works Beitild's Iron-Breaker Mine in Dawnstar — a Nord miner plagued by the same nightmares that have been tormenting the town, insists the dreams are real.",
+        "display_name": "Irgnir - Iron-Breaker Miner",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "pale.people.irgnir",
+        "location": "",
+        "tags": [
+          "Irgnir",
+          "Iron-Breaker Mine",
+          "Dawnstar",
+          "miner",
+          "nightmares",
+          "Beitild"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Bodil is one of the miners working Beitild's Iron-Breaker Mine — keeps her head down and digs ore like the rest.",
+        "display_name": "Bodil - Miner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "pale.people.bodil",
+        "location": "",
+        "tags": [
+          "Bodil",
+          "Iron-Breaker Mine",
+          "Dawnstar",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Gjak works the Iron-Breaker Mine beside Bodil and Karl — a Nord miner who spends his days hauling ore for Beitild.",
+        "display_name": "Gjak - Miner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "pale.people.gjak",
+        "location": "",
+        "tags": [
+          "Gjak",
+          "Iron-Breaker Mine",
+          "Dawnstar",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Karl is Irgnir's confidant at the Iron-Breaker Mine — another Nord miner putting in long shifts for Beitild.",
+        "display_name": "Karl - Miner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "pale.people.karl",
+        "location": "",
+        "tags": [
+          "Karl",
+          "Iron-Breaker Mine",
+          "Dawnstar",
+          "miner",
+          "Irgnir"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Borgny is a Nord miner in Leigelf's Quicksilver Mine on Dawnstar's east end — quiet, keeps to the work.",
+        "display_name": "Borgny - Quicksilver Miner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "pale.people.borgny",
+        "location": "",
+        "tags": [
+          "Borgny",
+          "Quicksilver Mine",
+          "Dawnstar",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Edith is a Nord miner working the Quicksilver Mine for Leigelf — another of Dawnstar's ore-pounders.",
+        "display_name": "Edith - Quicksilver Miner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "pale.people.edith",
+        "location": "",
+        "tags": [
+          "Edith",
+          "Quicksilver Mine",
+          "Dawnstar",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Lond is a Nord miner in Leigelf's Quicksilver Mine — keeps his head down and swings his pick.",
+        "display_name": "Lond - Quicksilver Miner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "pale.people.lond",
+        "location": "",
+        "tags": [
+          "Lond",
+          "Quicksilver Mine",
+          "Dawnstar",
+          "miner"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Seren is a Redguard blacksmith living in Dawnstar with her husband Rustleif — expecting their first child, hoping to convince him to move to Hammerfell where the cold won't bite.",
+        "display_name": "Seren - Blacksmith",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "pale.people.seren",
+        "location": "",
+        "tags": [
+          "Seren",
+          "blacksmith",
+          "Dawnstar",
+          "Rustleif",
+          "Hammerfell",
+          "Redguard"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Abelone works the grounds at the Windpeak Inn in Dawnstar — hauling firewood, chopping, running errands for Thoring.",
+        "display_name": "Abelone - Windpeak Inn Worker",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "pale.people.abelone",
+        "location": "",
+        "tags": [
+          "Abelone",
+          "Windpeak Inn",
+          "Dawnstar",
+          "worker"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Guthrum is an aging Nord sailor on the permanently docked Sea Squall in Dawnstar — spent his whole life on the water and talks like he'll never leave the deck.",
+        "display_name": "Guthrum - Old Sailor",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "pale.people.guthrum",
+        "location": "",
+        "tags": [
+          "Guthrum",
+          "Sea Squall",
+          "Dawnstar",
+          "sailor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Ravam Verethi is a Dunmer sailor on the Sea Squall in Dawnstar — openly resents the young Captain Wayfinder and grumbles about running the ship better himself.",
+        "display_name": "Ravam Verethi - Dunmer Sailor",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "pale.people.ravam",
+        "location": "",
+        "tags": [
+          "Ravam Verethi",
+          "Sea Squall",
+          "Dawnstar",
+          "Dunmer",
+          "sailor",
+          "Captain Wayfinder"
         ],
         "type": "KNOWLEDGE"
       }

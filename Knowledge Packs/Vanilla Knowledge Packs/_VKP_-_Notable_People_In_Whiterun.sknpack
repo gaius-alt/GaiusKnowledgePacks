@@ -2,8 +2,8 @@
   "skyrimnet_knowledge_pack": {
     "author": "_gaius",
     "description": "Whiterun's notable people — the Jarl's court, the Companions, the great clans of Battle-Born and Gray-Mane, and the shopkeepers everyone in the city knows.",
-    "entry_count": 22,
-    "exported_at": "2026-05-18T04:54:36Z",
+    "entry_count": 77,
+    "exported_at": "2026-05-18T05:00:00Z",
     "format_version": 2,
     "name": "_VKP - Notable People In Whiterun",
     "npc_groups": [],
@@ -32,6 +32,128 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Dagny is Balgruuf's middle child — a young Nord girl who spends her days in Dragonsreach near her father's throne.",
+        "display_name": "Dagny - Jarl's Daughter",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.dagny",
+        "location": "",
+        "tags": [
+          "Dagny",
+          "Balgruuf",
+          "Whiterun",
+          "Dragonsreach"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Frothar is Balgruuf's elder son, still a boy training with wooden swords around Dragonsreach with dreams of becoming a warrior.",
+        "display_name": "Frothar - Jarl's Son",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.frothar",
+        "location": "",
+        "tags": [
+          "Frothar",
+          "Balgruuf",
+          "Whiterun",
+          "Dragonsreach"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Nelkir is Balgruuf's youngest son — sullen and withdrawn, he has been influenced by a whispering blade in Dragonsreach's basement that speaks with Mephala's voice.",
+        "display_name": "Nelkir - Jarl's Youngest Son",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.nelkir",
+        "location": "",
+        "tags": [
+          "Nelkir",
+          "Balgruuf",
+          "Whiterun",
+          "Dragonsreach",
+          "Mephala"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Fianna is the serving maid in Dragonsreach who tends to the great hall and keeps the keep running day-to-day.",
+        "display_name": "Fianna - Dragonsreach Maid",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.fianna",
+        "location": "",
+        "tags": [
+          "Fianna",
+          "Whiterun",
+          "Dragonsreach",
+          "maid"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Gerda is the cook in Dragonsreach, working the kitchen to feed the Jarl, his court, and the keep's guards.",
+        "display_name": "Gerda - Dragonsreach Cook",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.gerda",
+        "location": "",
+        "tags": [
+          "Gerda",
+          "Whiterun",
+          "Dragonsreach",
+          "cook"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Hjornskar Head-Smasher is a Nord guard stationed in Dragonsreach — named for his preferred method of dealing with threats.",
+        "display_name": "Hjornskar Head-Smasher - Dragonsreach Guard",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.hjornskar",
+        "location": "",
+        "tags": [
+          "Hjornskar Head-Smasher",
+          "Whiterun",
+          "Dragonsreach",
+          "guard"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Legate Quentin Cipius is an Imperial Legion officer stationed in Dragonsreach after the Civil War, advising the Jarl on Imperial matters.",
+        "display_name": "Legate Quentin Cipius - Imperial Legate",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.quentin",
+        "location": "",
+        "tags": [
+          "Quentin Cipius",
+          "Imperial",
+          "Legate",
+          "Whiterun",
+          "Dragonsreach",
+          "Civil War"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
         "content": "Irileth is Balgruuf's Dunmer housecarl, sword-sworn to the Jarl. Sharp-tempered and loyal, she runs the keep's guards and rarely leaves Balgruuf's side.",
         "display_name": "Irileth - Balgruuf's Housecarl",
         "emotion": "",
@@ -45,6 +167,23 @@
           "Balgruuf",
           "Whiterun",
           "Dragonsreach"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Commander Caius is the commander of the Whiterun city guard, based at the Guard Barracks near the main gate. He keeps order in the city and reports to the Jarl.",
+        "display_name": "Commander Caius - Guard Commander",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.caius",
+        "location": "",
+        "tags": [
+          "Commander Caius",
+          "Whiterun",
+          "guard",
+          "Guard Barracks"
         ],
         "type": "KNOWLEDGE"
       },
@@ -100,6 +239,24 @@
           "Balgruuf",
           "brother",
           "Stormcloak sympathies"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Lydia is a Nord warrior assigned as the Dragonborn's housecarl after acquiring Breezehome. A capable shield-maiden who follows the Dragonborn into danger without complaint.",
+        "display_name": "Lydia - Housecarl of Breezehome",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "whiterun.people.lydia",
+        "location": "",
+        "tags": [
+          "Lydia",
+          "housecarl",
+          "Breezehome",
+          "Whiterun",
+          "Dragonborn"
         ],
         "type": "KNOWLEDGE"
       },
@@ -182,6 +339,112 @@
       },
       {
         "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "content": "Athis is a Dunmer warrior of the Companions at Jorrvaskr — one of the few mer among the Nord-heavy circle of shield-brothers.",
+        "display_name": "Athis - Companions Shield-Brother",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.athis",
+        "location": "",
+        "tags": [
+          "Athis",
+          "Dunmer",
+          "Companions",
+          "Jorrvaskr",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "content": "Njada Stonearm is a sharp-tongued Nord woman among the Companions at Jorrvaskr. She spars with new recruits and tests their mettle without mercy.",
+        "display_name": "Njada Stonearm - Companions Shield-Sister",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.njada",
+        "location": "",
+        "tags": [
+          "Njada Stonearm",
+          "Companions",
+          "Jorrvaskr",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "content": "Ria is an Imperial woman who recently joined the Companions — eager to prove herself among the Nords of Jorrvaskr.",
+        "display_name": "Ria - Companions Recruit",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "whiterun.people.ria",
+        "location": "",
+        "tags": [
+          "Ria",
+          "Imperial",
+          "Companions",
+          "Jorrvaskr",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "content": "Torvar is a Companion with a reputation for drinking more than he fights — though he can hold his own when roused.",
+        "display_name": "Torvar - Companions Drunk",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "whiterun.people.torvar",
+        "location": "",
+        "tags": [
+          "Torvar",
+          "Companions",
+          "Jorrvaskr",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "content": "Brill is a young Companion shield-brother who works the forge at Jorrvaskr, learning the craft under Eorlund Gray-Mane's shadow.",
+        "display_name": "Brill - Companions Forge-Apprentice",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.brill",
+        "location": "",
+        "tags": [
+          "Brill",
+          "Companions",
+          "Jorrvaskr",
+          "Whiterun",
+          "forge"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") or is_in_faction(actorUUID, \"@CompanionsFaction\")",
+        "content": "Tilma the Haggard is the elderly maid who has kept Jorrvaskr clean for longer than anyone can remember. She grumbles at the mess the Companions make but cares for them all.",
+        "display_name": "Tilma the Haggard - Jorrvaskr Maid",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.tilma",
+        "location": "",
+        "tags": [
+          "Tilma the Haggard",
+          "Jorrvaskr",
+          "Companions",
+          "Whiterun",
+          "maid"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
         "content": "Eorlund Gray-Mane works the Skyforge above Jorrvaskr — the finest blacksmith in Skyrim by most reckonings. Head of the Gray-Mane clan, with Stormcloak sympathies despite Whiterun's Imperial neutrality.",
         "display_name": "Eorlund Gray-Mane - Skyforge Smith",
@@ -220,6 +483,58 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Avulstein Gray-Mane is Fralia's son and a Stormcloak soldier. He was captured in the Battle of Whiterun, and his mother seeks help freeing him.",
+        "display_name": "Avulstein Gray-Mane - Stormcloak Soldier",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.avulstein",
+        "location": "",
+        "tags": [
+          "Avulstein Gray-Mane",
+          "Gray-Mane",
+          "Stormcloak",
+          "Whiterun",
+          "Fralia"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Fralia Gray-Mane is the matriarch of the Gray-Mane clan, living in the Wind District house. Her husband Thorald was captured by the Thalmor, and she desperately seeks his rescue.",
+        "display_name": "Fralia Gray-Mane - Gray-Mane Matriarch",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "whiterun.people.fralia",
+        "location": "",
+        "tags": [
+          "Fralia Gray-Mane",
+          "Gray-Mane",
+          "Whiterun",
+          "Thorald",
+          "Thalmor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Olfina Gray-Mane is a young Nord woman of the Gray-Mane clan, caught up in her family's bitter rivalry with the Battle-Borns.",
+        "display_name": "Olfina Gray-Mane - Gray-Mane Daughter",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "whiterun.people.olfina",
+        "location": "",
+        "tags": [
+          "Olfina Gray-Mane",
+          "Gray-Mane",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
         "content": "Olfrid Battle-Born heads the Battle-Born clan from his manor in the Plains District — an Imperial sympathizer and Balgruuf's strongest ally. His son Idolaf has joined the Legion.",
         "display_name": "Olfrid Battle-Born - Imperial Patriarch",
         "emotion": "",
@@ -238,6 +553,105 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Alfhild Battle-Born is Olfrid's wife and the matriarch of the Battle-Born household, keeping the family manor in order.",
+        "display_name": "Alfhild Battle-Born - Battle-Born Matriarch",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.alfhild",
+        "location": "",
+        "tags": [
+          "Alfhild Battle-Born",
+          "Battle-Born",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Bergritte Battle-Born is the elderly aunt of the Battle-Born clan, living in the family manor in Whiterun's Plains District.",
+        "display_name": "Bergritte Battle-Born - Battle-Born Elder",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.bergritte",
+        "location": "",
+        "tags": [
+          "Bergritte Battle-Born",
+          "Battle-Born",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Idolaf Battle-Born is Olfrid's son and a soldier in the Imperial Legion — an outspoken supporter of the Empire in Whiterun.",
+        "display_name": "Idolaf Battle-Born - Imperial Soldier",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.idolaf",
+        "location": "",
+        "tags": [
+          "Idolaf Battle-Born",
+          "Battle-Born",
+          "Imperial",
+          "Legion",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Jon Battle-Born is a member of the Battle-Born clan and a regular at the Bannered Mare — caught between his family's Imperial loyalties and his own misgivings.",
+        "display_name": "Jon Battle-Born - Battle-Born Son",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.jon",
+        "location": "",
+        "tags": [
+          "Jon Battle-Born",
+          "Battle-Born",
+          "Bannered Mare",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Lars Battle-Born is a young Nord boy of the Battle-Born clan who plays in the streets of Whiterun's Plains District.",
+        "display_name": "Lars Battle-Born - Battle-Born Child",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.lars",
+        "location": "",
+        "tags": [
+          "Lars Battle-Born",
+          "Battle-Born",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Gwendolyn is a Nord woman who works the fields at Battle-Born Farm outside Whiterun's walls.",
+        "display_name": "Gwendolyn - Battle-Born Farmhand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.gwendolyn",
+        "location": "",
+        "tags": [
+          "Gwendolyn",
+          "Battle-Born Farm",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
         "content": "Hulda runs the Bannered Mare in the Plains District. Older Nord woman, sharp eye for trouble, knows everyone's business and trades none of it without good reason.",
         "display_name": "Hulda - Bannered Mare Innkeeper",
         "emotion": "",
@@ -250,6 +664,23 @@
           "innkeeper",
           "Whiterun",
           "market"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Mikael is the bard at the Bannered Mare — a Breton with a quick hand on the lute and a quicker eye for the ladies, much to Hulda's annoyance.",
+        "display_name": "Mikael - Bannered Mare Bard",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.mikael",
+        "location": "",
+        "tags": [
+          "Mikael",
+          "Bannered Mare",
+          "bard",
+          "Whiterun"
         ],
         "type": "KNOWLEDGE"
       },
@@ -276,18 +707,17 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
-        "content": "Brenuin sleeps near Whiterun's main gate, begging for coin and asking after Argonian Bloodwine that he can never afford.",
-        "display_name": "Brenuin - Drunk at the Gates",
+        "content": "Sinmir is a former Stormcloak soldier nursing his grudges at the Bannered Mare — bitter about the war and spoiling for a fight.",
+        "display_name": "Sinmir - Former Stormcloak",
         "emotion": "",
-        "importance": 0.55,
-        "knowledge_key": "whiterun.people.brenuin",
+        "importance": 0.6,
+        "knowledge_key": "whiterun.people.sinmir",
         "location": "",
         "tags": [
-          "Brenuin",
-          "drunk",
-          "Whiterun",
-          "beggar",
-          "Argonian Bloodwine"
+          "Sinmir",
+          "Bannered Mare",
+          "Stormcloak",
+          "Whiterun"
         ],
         "type": "KNOWLEDGE"
       },
@@ -306,6 +736,23 @@
           "Whiterun",
           "Breton",
           "Plains District"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Sigurd works the counter at Belethor's General Goods — the Breton shopkeeper's beleaguered assistant who handles the day-to-day business.",
+        "display_name": "Sigurd - Belethor's Assistant",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.sigurd",
+        "location": "",
+        "tags": [
+          "Sigurd",
+          "Belethor",
+          "Whiterun",
+          "general store"
         ],
         "type": "KNOWLEDGE"
       },
@@ -350,6 +797,24 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Ulfberth War-Bear is Adrianne's husband — a Nord who minds the counter at Warmaiden's and sells the weapons and armor his wife forges at the gate.",
+        "display_name": "Ulfberth War-Bear - Warmaiden's Clerk",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.ulfberth",
+        "location": "",
+        "tags": [
+          "Ulfberth War-Bear",
+          "Warmaiden's",
+          "Whiterun",
+          "smith",
+          "Adrianne Avenicci"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
         "content": "Carlotta Valentia runs a produce stall in Whiterun's market — Imperial widow raising her daughter Mila. Half the unmarried men in Whiterun have tried to court her, none successfully.",
         "display_name": "Carlotta Valentia - Market Vendor",
         "emotion": "",
@@ -362,6 +827,112 @@
           "market",
           "produce",
           "Mila"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Mila Valentia is Carlotta's young daughter who plays near her mother's market stall, often running errands around the city.",
+        "display_name": "Mila Valentia - Carlotta's Daughter",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.mila",
+        "location": "",
+        "tags": [
+          "Mila Valentia",
+          "Whiterun",
+          "market",
+          "Carlotta Valentia"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Elrindir is a Bosmer who runs the Drunken Huntsman in Whiterun's Plains District — a tavern-cum-hunting-shop that sells meat, archery supplies, and strong drink.",
+        "display_name": "Elrindir - Drunken Huntsman Owner",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.people.elrindir",
+        "location": "",
+        "tags": [
+          "Elrindir",
+          "Drunken Huntsman",
+          "Bosmer",
+          "Whiterun",
+          "Plains District"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Anoriath is a Bosmer hunter who runs the meat stall in Whiterun's market and works with his brother Elrindir at the Drunken Huntsman.",
+        "display_name": "Anoriath - Market Butcher",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.anoriath",
+        "location": "",
+        "tags": [
+          "Anoriath",
+          "Bosmer",
+          "Whiterun",
+          "Drunken Huntsman",
+          "market",
+          "Elrindir"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Jenassa is a Dunmer mercenary who can be hired for a price at the Drunken Huntsman in Whiterun — a capable sellsword with a dark sense of humor.",
+        "display_name": "Jenassa - Drunken Huntsman Mercenary",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.jenassa",
+        "location": "",
+        "tags": [
+          "Jenassa",
+          "Dunmer",
+          "mercenary",
+          "Whiterun",
+          "Drunken Huntsman"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Nazeem is a pompous Nord who frequents the Drunken Huntsman and the Jarl's Cloud District — though as he'll remind anyone, he doesn't actually live in the Cloud District. His wife Ahlam runs the farm.",
+        "display_name": "Nazeem - Cloud District Regular",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.nazeem",
+        "location": "",
+        "tags": [
+          "Nazeem",
+          "Whiterun",
+          "Drunken Huntsman",
+          "Cloud District",
+          "Ahlam"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Ahlam is Nazeem's wife — an aloof Nord woman who keeps to herself in their home near the Drunken Huntsman in Whiterun.",
+        "display_name": "Ahlam - Nazeem's Wife",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.ahlam",
+        "location": "",
+        "tags": [
+          "Ahlam",
+          "Whiterun",
+          "Nazeem"
         ],
         "type": "KNOWLEDGE"
       },
@@ -387,6 +958,59 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Acolyte Jenssen is a young acolyte at the Temple of Kynareth in Whiterun, assisting Danica Pure-Spring with the temple's duties.",
+        "display_name": "Acolyte Jenssen - Temple Acolyte",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.jenssen",
+        "location": "",
+        "tags": [
+          "Jenssen",
+          "Kynareth",
+          "Temple of Kynareth",
+          "Whiterun",
+          "acolyte"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Maurice Jondrelle is a Breton pilgrim of Kynareth traveling to Whiterun to pray at the Gildergreen — a gentle soul with a deep reverence for nature.",
+        "display_name": "Maurice Jondrelle - Kynareth Pilgrim",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.maurice",
+        "location": "",
+        "tags": [
+          "Maurice Jondrelle",
+          "Kynareth",
+          "Gildergreen",
+          "Whiterun",
+          "pilgrim"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Rulnik Wind-Strider is a Nord acolyte at the Temple of Kynareth in Whiterun, devoted to the goddess of the air and healing.",
+        "display_name": "Rulnik Wind-Strider - Temple Acolyte",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.rulnik",
+        "location": "",
+        "tags": [
+          "Rulnik Wind-Strider",
+          "Kynareth",
+          "Temple of Kynareth",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
         "content": "Heimskr preaches the worship of Talos at his shrine in Whiterun's Wind District at all hours — defying the White-Gold Concordat openly. The Thalmor have noticed; Balgruuf protects him for now.",
         "display_name": "Heimskr - Talos Preacher",
         "emotion": "",
@@ -406,6 +1030,94 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Ysolda is a young Nord woman living near Whiterun's market who dreams of becoming a merchant. Sharp-witted and ambitious, she trades with the Khajiit caravans and seeks a wedding ring.",
+        "display_name": "Ysolda - Merchant in Training",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.ysolda",
+        "location": "",
+        "tags": [
+          "Ysolda",
+          "Whiterun",
+          "market",
+          "Khajiit",
+          "merchant"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Brenuin sleeps near Whiterun's main gate, begging for coin and asking after Argonian Bloodwine that he can never afford.",
+        "display_name": "Brenuin - Drunk at the Gates",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.brenuin",
+        "location": "",
+        "tags": [
+          "Brenuin",
+          "drunk",
+          "Whiterun",
+          "beggar",
+          "Argonian Bloodwine"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Lucia is a young orphan girl who begs for coin in Whiterun's market district — alone and homeless since her parents died.",
+        "display_name": "Lucia - Orphan Beggar",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.lucia",
+        "location": "",
+        "tags": [
+          "Lucia",
+          "orphan",
+          "Whiterun",
+          "beggar",
+          "market"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Uthgerd the Unbroken is a hulking Nord woman living in the Plains District — a disgraced former fighter who killed a young challenger in a fit of rage. She can be recruited as a follower.",
+        "display_name": "Uthgerd the Unbroken - Disgraced Warrior",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.uthgerd",
+        "location": "",
+        "tags": [
+          "Uthgerd the Unbroken",
+          "Whiterun",
+          "follower",
+          "warrior"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Olava the Feeble is an old woman living in the Plains District near the Temple of Kynareth — believed by some to be a witch who reads futures and whispers prophecies.",
+        "display_name": "Olava the Feeble - Fortune Teller",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.olava",
+        "location": "",
+        "tags": [
+          "Olava the Feeble",
+          "Whiterun",
+          "Plains District",
+          "prophecy"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
         "content": "Amren lives in the Plains District with his wife Saffir and his bullying daughter Braith. He's looking for his stolen family sword — and his daughter's behavior is the talk of the neighborhood.",
         "display_name": "Amren - Family Sword",
         "emotion": "",
@@ -419,6 +1131,245 @@
           "family heirloom",
           "Saffir",
           "Braith"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Saffir is Amren's wife and Braith's mother — a Redguard woman who stays at home and worries about her family.",
+        "display_name": "Saffir - Amren's Wife",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.saffir",
+        "location": "",
+        "tags": [
+          "Saffir",
+          "Redguard",
+          "Whiterun",
+          "Amren",
+          "Braith"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Braith is Amren and Saffir's daughter — a bullying child who terrorizes the other children of Whiterun, particularly Lars Battle-Born.",
+        "display_name": "Braith - Neighborhood Bully",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.braith",
+        "location": "",
+        "tags": [
+          "Braith",
+          "Whiterun",
+          "Amren",
+          "Saffir",
+          "Lars Battle-Born"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Andurs is the priest of Arkay who tends the Hall of the Dead in Whiterun's Wind District — overseeing burials and comforting the grieving.",
+        "display_name": "Andurs - Priest of Arkay",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.andurs",
+        "location": "",
+        "tags": [
+          "Andurs",
+          "Arkay",
+          "Hall of the Dead",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Sabjorn was the original owner of Honningbrew Meadery southeast of Whiterun — a bitter Nord who lost his business to Maven Black-Briar's scheming.",
+        "display_name": "Sabjorn - Former Honningbrew Owner",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "whiterun.people.sabjorn",
+        "location": "",
+        "tags": [
+          "Sabjorn",
+          "Honningbrew Meadery",
+          "Whiterun",
+          "Maven Black-Briar",
+          "mead"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Mallus Maccius is an Imperial who runs Honningbrew Meadery after Sabjorn's fall — a capable manager loyal to the Black-Briar family's interests.",
+        "display_name": "Mallus Maccius - Honningbrew Manager",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "whiterun.people.mallus",
+        "location": "",
+        "tags": [
+          "Mallus Maccius",
+          "Honningbrew Meadery",
+          "Imperial",
+          "Whiterun",
+          "Black-Briar"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Eimar is a Nord laborer working at Honningbrew Meadery outside Whiterun — hauling kegs and keeping the brewing vats running.",
+        "display_name": "Eimar - Honningbrew Worker",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.eimar",
+        "location": "",
+        "tags": [
+          "Eimar",
+          "Honningbrew Meadery",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Severio Pelagia owns Pelagia Farm just outside Whiterun's walls — a Nord farmer struggling to make ends meet selling produce to the city's markets.",
+        "display_name": "Severio Pelagia - Pelagia Farm Owner",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.severio",
+        "location": "",
+        "tags": [
+          "Severio Pelagia",
+          "Pelagia Farm",
+          "Whiterun",
+          "farmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Gloth is an Orc farmhand working at Pelagia Farm outside Whiterun's walls.",
+        "display_name": "Gloth - Pelagia Farmhand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.gloth",
+        "location": "",
+        "tags": [
+          "Gloth",
+          "Orc",
+          "Pelagia Farm",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Nimriel is a Dunmer farmhand working at Pelagia Farm outside Whiterun's walls alongside Gloth.",
+        "display_name": "Nimriel - Pelagia Farmhand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.nimriel",
+        "location": "",
+        "tags": [
+          "Nimriel",
+          "Dunmer",
+          "Pelagia Farm",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Wilmuth is a Nord farmer who works Chillfurrow Farm outside Whiterun's walls, one of several farms that supply the city.",
+        "display_name": "Wilmuth - Chillfurrow Farmer",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.wilmuth",
+        "location": "",
+        "tags": [
+          "Wilmuth",
+          "Chillfurrow Farm",
+          "Whiterun",
+          "farmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Bjorlam is a carriage driver at the Whiterun Stables who offers rides to all of Skyrim's major holds for a modest fee.",
+        "display_name": "Bjorlam - Whiterun Carriage Driver",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.bjorlam",
+        "location": "",
+        "tags": [
+          "Bjorlam",
+          "Whiterun Stables",
+          "carriage",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Skulvar Sable-Hilt is the owner of the Whiterun Stables, a Nord who runs the horse trade and carriage services at the city's gates.",
+        "display_name": "Skulvar Sable-Hilt - Stable Master",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.skulvar",
+        "location": "",
+        "tags": [
+          "Skulvar Sable-Hilt",
+          "Whiterun Stables",
+          "Whiterun",
+          "horses"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Lillith Maiden-Loom works at the Whiterun Stables — a Nord woman who tends the horses and assists Skulvar Sable-Hilt.",
+        "display_name": "Lillith Maiden-Loom - Stable Hand",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "whiterun.people.lillith",
+        "location": "",
+        "tags": [
+          "Lillith Maiden-Loom",
+          "Whiterun Stables",
+          "Whiterun"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Jervar is a stablehand at the Whiterun Stables who helps look after the horses and manage the day-to-day work.",
+        "display_name": "Jervar - Stable Hand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.jervar",
+        "location": "",
+        "tags": [
+          "Jervar",
+          "Whiterun Stables",
+          "Whiterun"
         ],
         "type": "KNOWLEDGE"
       }

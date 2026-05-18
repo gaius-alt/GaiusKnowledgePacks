@@ -1,9 +1,9 @@
 {
   "skyrimnet_knowledge_pack": {
     "author": "_gaius",
-    "description": "Morthal's notable people — Jarl Idgrod and her family, Falion the mage, and the handful of folk who scrape a living out of the marsh.",
-    "entry_count": 14,
-    "exported_at": "2026-05-18T04:54:36Z",
+    "description": "Morthal's notable people — Jarl Idgrod and her court, Falion the mage, and the handful of folk who scrape a living out of the marsh.",
+    "entry_count": 18,
+    "exported_at": "2026-05-18T05:00:00Z",
     "format_version": 2,
     "name": "_VKP - Notable People In Morthal",
     "npc_groups": [],
@@ -103,6 +103,42 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Legate Taurinus Duilis is the Imperial Legate stationed at Highmoon Hall in Morthal. He keeps the Imperial presence in Hjaalmarch lean but visible, reporting directly to General Tullius.",
+        "display_name": "Legate Taurinus Duilis - Imperial Legate",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "hjaalmarch.people.taurinus_duilis",
+        "location": "",
+        "tags": [
+          "Legate Taurinus Duilis",
+          "Imperial",
+          "Morthal",
+          "Hjaalmarch",
+          "Legate"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Valdimar is a Nord warrior who serves as the Dragonborn's housecarl in Morthal once they become Thane of Hjaalmarch. He can be found standing vigil at Highmoon Hall.",
+        "display_name": "Valdimar - Thane's Housecarl",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "hjaalmarch.people.valdimar",
+        "location": "",
+        "tags": [
+          "Valdimar",
+          "housecarl",
+          "Morthal",
+          "Hjaalmarch",
+          "Thane"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
         "content": "Falion is the Redguard mage living in Morthal. Quiet, scholarly, and quietly disturbing — the townsfolk whisper about his nightly trips into the marsh. He has refined a rite to cure vampirism and taken in a vampire-orphaned girl named Agni.",
         "display_name": "Falion - Mage of Morthal",
         "emotion": "",
@@ -117,6 +153,24 @@
           "vampirism",
           "cure",
           "Agni"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Agni is a Breton girl orphaned by vampires and taken in by Falion, living in his house. Her memories of the attack are fragmented, and she clings to Falion as a protector.",
+        "display_name": "Agni - Orphan",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "hjaalmarch.people.agni",
+        "location": "",
+        "tags": [
+          "Agni",
+          "Morthal",
+          "Falion",
+          "orphan",
+          "apprentice"
         ],
         "type": "KNOWLEDGE"
       },
@@ -227,6 +281,23 @@
           "hunter",
           "Laelette",
           "missing wife"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownMorthalFaction\") or is_in_faction(actorUUID, \"GuardFactionMorthal\")",
+        "content": "Virkmund is a Nord woodcutter who lodges with Thonnir in Morthal, spending his days chopping firewood to keep the hearths burning through the marsh winters.",
+        "display_name": "Virkmund - Woodcutter",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "hjaalmarch.people.virkmund",
+        "location": "",
+        "tags": [
+          "Virkmund",
+          "Morthal",
+          "Thonnir",
+          "woodcutter"
         ],
         "type": "KNOWLEDGE"
       },

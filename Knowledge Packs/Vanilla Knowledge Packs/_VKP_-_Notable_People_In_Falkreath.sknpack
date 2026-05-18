@@ -2,8 +2,8 @@
   "skyrimnet_knowledge_pack": {
     "author": "_gaius",
     "description": "Falkreath's notable people — the Jarl's small court, the innkeeper, the priests of Arkay, and the families who tend the largest cemetery in Skyrim.",
-    "entry_count": 13,
-    "exported_at": "2026-05-18T04:54:36Z",
+    "entry_count": 31,
+    "exported_at": "2026-05-18T05:00:00Z",
     "format_version": 2,
     "name": "_VKP - Notable People In Falkreath",
     "npc_groups": [],
@@ -246,6 +246,334 @@
           "veteran",
           "stolen book",
           "grief"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Indara Caerellia works Corpselight Farm alongside her husband Mathies. A Breton woman, she carries the weight of losing their daughter Lavinia to the werewolf Sinding.",
+        "display_name": "Indara Caerellia - Corpselight Farm",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "falkreath.people.indara",
+        "location": "",
+        "tags": [
+          "Indara Caerellia",
+          "Corpselight Farm",
+          "Falkreath",
+          "Breton",
+          "Mathies",
+          "Lavinia"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Delacourt is a Redguard bouncer at the Dead Man's Drink, hired by Valga Vinicia to keep rowdy patrons in line. He's a quiet, watchful presence who rarely speaks but never misses a thing.",
+        "display_name": "Delacourt - Dead Man's Drink Bouncer",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "falkreath.people.delacourt",
+        "location": "",
+        "tags": [
+          "Delacourt",
+          "Dead Man's Drink",
+          "Falkreath",
+          "Redguard",
+          "bouncer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Narri is Valga Vinicia's daughter, a young Imperial who works the floor at the Dead Man's Drink. She keeps the inn running smoothly alongside her sharp-witted mother.",
+        "display_name": "Narri - Dead Man's Drink",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "falkreath.people.narri",
+        "location": "",
+        "tags": [
+          "Narri",
+          "Dead Man's Drink",
+          "Falkreath",
+          "Valga Vinicia",
+          "Imperial"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Valdr is a hunter recovering at the Dead Man's Drink after a werewolf attack left him badly wounded. He knows the location of Sinding's lair and will pass that information to anyone brave enough to pursue the beast.",
+        "display_name": "Valdr - Injured Hunter",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "falkreath.people.valdr",
+        "location": "",
+        "tags": [
+          "Valdr",
+          "Dead Man's Drink",
+          "Falkreath",
+          "hunter",
+          "werewolf",
+          "Sinding"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Tekla is Helvard's wife and serves as a maid in Dengeir of Stuhn's household. A quiet Nord woman who keeps the former Jarl's home in order.",
+        "display_name": "Tekla - Dengeir's Maid",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "falkreath.people.tekla",
+        "location": "",
+        "tags": [
+          "Tekla",
+          "Falkreath",
+          "Dengeir of Stuhn",
+          "Helvard",
+          "maid"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Sinding is a Nord werewolf locked in Falkreath's Barracks for killing a child during a cursed transformation. He wears the Ring of Hircine and is the central figure in the Daedric quest the people of Falkreath whisper about.",
+        "display_name": "Sinding - The Werewolf of Falkreath",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "falkreath.people.sinding",
+        "location": "",
+        "tags": [
+          "Sinding",
+          "werewolf",
+          "Falkreath",
+          "Hircine",
+          "Ring of Hircine",
+          "Barracks"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Legate Skulnar is an Imperial Legate stationed at Falkreath's Jarl's Longhouse, representing Imperial military authority in the hold. He answers directly to General Tullius.",
+        "display_name": "Legate Skulnar - Imperial Legate",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "falkreath.people.skulnar",
+        "location": "",
+        "tags": [
+          "Legate Skulnar",
+          "Imperial",
+          "Falkreath",
+          "Legate",
+          "Tullius"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Rayya is a Redguard warrior who serves as housecarl to the Dragonborn once they are named Thane of Falkreath. Stern, fiercely loyal, and deadly with a blade.",
+        "display_name": "Rayya - Housecarl",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "falkreath.people.rayya",
+        "location": "",
+        "tags": [
+          "Rayya",
+          "housecarl",
+          "Falkreath",
+          "Redguard",
+          "Thane"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Arcturus is a member of the Dark Brotherhood serving in the Falkreath Sanctuary, pledged to Sithis and the Night Mother.",
+        "display_name": "Arcturus - Dark Brotherhood",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "falkreath.people.arcturus",
+        "location": "",
+        "tags": [
+          "Arcturus",
+          "Dark Brotherhood",
+          "Falkreath",
+          "Sithis"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Arnbjorn is Astrid's husband and the enforcer of the Falkreath Dark Brotherhood Sanctuary. A werewolf barely controlling his beast blood, he handles anyone who threatens the Brotherhood.",
+        "display_name": "Arnbjorn - Dark Brotherhood Enforcer",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "falkreath.people.arnbjorn",
+        "location": "",
+        "tags": [
+          "Arnbjorn",
+          "Dark Brotherhood",
+          "Falkreath",
+          "Astrid",
+          "werewolf"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Astrid is the leader of the Falkreath Dark Brotherhood Sanctuary, having taken control after the previous Listener failed to hear the Night Mother. Pragmatic, ruthless, and fiercely protective of her family of assassins.",
+        "display_name": "Astrid - Dark Brotherhood Leader",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "falkreath.people.astrid",
+        "location": "",
+        "tags": [
+          "Astrid",
+          "Dark Brotherhood",
+          "Falkreath",
+          "Listener",
+          "Night Mother",
+          "Arnbjorn"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Babette appears to be a young girl but is in fact a vampire over 300 years old, serving as the Dark Brotherhood Sanctuary's alchemist in Falkreath. Her innocent looks hide centuries of deadly experience.",
+        "display_name": "Babette - Dark Brotherhood Alchemist",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "falkreath.people.babette",
+        "location": "",
+        "tags": [
+          "Babette",
+          "Dark Brotherhood",
+          "Falkreath",
+          "vampire",
+          "alchemist"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Cicero is the eccentric Keeper of the Night Mother, who transported her corpse from the ruined Cheydinhal Sanctuary to Falkreath. Bursting with manic energy and unwavering devotion, he speaks to the Night Mother as if she answers back.",
+        "display_name": "Cicero - Keeper of the Night Mother",
+        "emotion": "",
+        "importance": 0.75,
+        "knowledge_key": "falkreath.people.cicero",
+        "location": "",
+        "tags": [
+          "Cicero",
+          "Dark Brotherhood",
+          "Falkreath",
+          "Keeper",
+          "Night Mother",
+          "jester"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Festus Krex is an elderly mage and veteran member of the Dark Brotherhood in the Falkreath Sanctuary. Bitter, cynical, and endlessly sarcastic, he has served Sithis longer than most can remember.",
+        "display_name": "Festus Krex - Dark Brotherhood Mage",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "falkreath.people.festuskrex",
+        "location": "",
+        "tags": [
+          "Festus Krex",
+          "Dark Brotherhood",
+          "Falkreath",
+          "mage"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Gabriella is a Dunmer member of the Dark Brotherhood in Falkreath, one of Astrid's most trusted assassins. Seductive and deadly, she serves the Night Mother without question.",
+        "display_name": "Gabriella - Dark Brotherhood Assassin",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "falkreath.people.gabriella",
+        "location": "",
+        "tags": [
+          "Gabriella",
+          "Dark Brotherhood",
+          "Falkreath",
+          "Dunmer",
+          "assassin"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Nazir is a Redguard member of the Dark Brotherhood who handles initiation contracts and administrative duties in the Falkreath Sanctuary. Practical and sardonic, he survives the Sanctuary's purge and carries on the Brotherhood's work.",
+        "display_name": "Nazir - Dark Brotherhood Handler",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "falkreath.people.nazir",
+        "location": "",
+        "tags": [
+          "Nazir",
+          "Dark Brotherhood",
+          "Falkreath",
+          "Redguard",
+          "assassin"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "The Night Mother is the preserved corpse of the original Listener of the Dark Brotherhood, revered as a saint. Housed in the Falkreath Sanctuary and tended by Cicero, her spectral voice guides the new Listener through the Black Sacrament.",
+        "display_name": "Night Mother - Saint of the Dark Brotherhood",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "falkreath.people.nightmother",
+        "location": "",
+        "tags": [
+          "Night Mother",
+          "Dark Brotherhood",
+          "Falkreath",
+          "Listener",
+          "Sithis",
+          "Black Sacrament"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownFalkreathFaction\") or is_in_faction(actorUUID, \"GuardFactionFalkreath\")",
+        "content": "Veezara is an Argonian Shadowscale of the Dark Brotherhood in the Falkreath Sanctuary, raised from the egg to serve Sithis. Quiet and deadly, he is a loyal member of Astrid's family.",
+        "display_name": "Veezara - Dark Brotherhood Shadowscale",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "falkreath.people.veezara",
+        "location": "",
+        "tags": [
+          "Veezara",
+          "Dark Brotherhood",
+          "Falkreath",
+          "Argonian",
+          "Shadowscale"
         ],
         "type": "KNOWLEDGE"
       }

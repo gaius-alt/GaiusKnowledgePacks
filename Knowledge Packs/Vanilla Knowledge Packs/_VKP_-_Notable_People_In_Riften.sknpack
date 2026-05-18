@@ -2,8 +2,8 @@
   "skyrimnet_knowledge_pack": {
     "author": "_gaius",
     "description": "Riften's notable people — Jarl Laila's court, the Black-Briar family who really run the city, the Thieves Guild operating beneath it, Mjoll the Lioness who would dismantle them, and the canal-side merchants caught between.",
-    "entry_count": 34,
-    "exported_at": "2026-05-18T04:54:36Z",
+    "entry_count": 96,
+    "exported_at": "2026-05-18T05:00:00Z",
     "format_version": 2,
     "name": "_VKP - Notable People In Riften",
     "npc_groups": [],
@@ -435,6 +435,23 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Nivenor is Bolli's much younger wife. She lives in Bolli's House in Riften and is unhappy in her marriage, aware that her husband visits Haelga's Bunkhouse.",
+        "display_name": "Nivenor - Bolli's Wife",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.nivenor",
+        "location": "",
+        "tags": [
+          "Nivenor",
+          "Bolli's House",
+          "Bolli",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
         "content": "Bersi Honey-Hand runs the Pawned Prawn with his wife Drifa. The Thieves Guild has been pressuring him for protection money — and breaking his prize urn whenever he refuses.",
         "display_name": "Bersi Honey-Hand - Pawned Prawn",
         "emotion": "",
@@ -626,6 +643,1070 @@
           "Riften",
           "Imperial",
           "kindly"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Edda is an elderly beggar who lost her husband and sons. She can be found begging outside the Temple of Mara in Riften.",
+        "display_name": "Edda - Beggar",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.edda",
+        "location": "",
+        "tags": [
+          "Edda",
+          "beggar",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Snilf is an Argonian beggar who panhandles near the Riften marketplace. He can often be seen wandering the canals.",
+        "display_name": "Snilf - Beggar",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.snilf",
+        "location": "",
+        "tags": [
+          "Snilf",
+          "beggar",
+          "Argonian",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "From-Deepest-Fathoms is an Argonian dockworker who rents a room at Haelga's Bunkhouse. He keeps mostly to himself.",
+        "display_name": "From-Deepest-Fathoms - Bunkhouse Lodger",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.fromdeepestfathoms",
+        "location": "",
+        "tags": [
+          "From-Deepest-Fathoms",
+          "Argonian",
+          "Haelga's Bunkhouse",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Niluva Hlaalu is a Dunmer woman staying at Haelga's Bunkhouse. She keeps up with Riften gossip and has strong opinions on everyone in the lower canal.",
+        "display_name": "Niluva Hlaalu - Bunkhouse Lodger",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "riften.people.niluva",
+        "location": "",
+        "tags": [
+          "Niluva Hlaalu",
+          "Dunmer",
+          "Haelga's Bunkhouse",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Svana Far-Shield is Haelga's niece who helps run the Bunkhouse. She disapproves of her aunt's promiscuous lifestyle and devotion to Dibella.",
+        "display_name": "Svana Far-Shield - Bunkhouse Assistant",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.svana",
+        "location": "",
+        "tags": [
+          "Svana Far-Shield",
+          "Haelga's Bunkhouse",
+          "Haelga",
+          "Riften",
+          "Dibella"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Tythis Ulen is a Dunmer renting a room at Haelga's Bunkhouse. He works odd jobs around the Riften canals.",
+        "display_name": "Tythis Ulen - Bunkhouse Lodger",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.tythis",
+        "location": "",
+        "tags": [
+          "Tythis Ulen",
+          "Dunmer",
+          "Haelga's Bunkhouse",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Ungrien is a Nord staying at Haelga's Bunkhouse. He is rarely seen around the city during the day.",
+        "display_name": "Ungrien - Bunkhouse Lodger",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.ungrien",
+        "location": "",
+        "tags": [
+          "Ungrien",
+          "Nord",
+          "Haelga's Bunkhouse",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Wujeeta is an Argonian who works at the Riften Fishery and rents a room at Haelga's Bunkhouse. She struggles with a skooma addiction that the player can help her overcome.",
+        "display_name": "Wujeeta - Fishery Worker",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "riften.people.wujeeta",
+        "location": "",
+        "tags": [
+          "Wujeeta",
+          "Argonian",
+          "Riften Fishery",
+          "Haelga's Bunkhouse",
+          "skooma"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Alessandra tends the Hall of the Dead in Riften as a priestess of Arkay. She performs funeral rites and keeps the crypts in order.",
+        "display_name": "Alessandra - Priestess of Arkay",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.alessandra",
+        "location": "",
+        "tags": [
+          "Alessandra",
+          "Hall of the Dead",
+          "Arkay",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Iona is the housecarl provided to the Thane of Riften once Honeyside is purchased. She is a Nord woman fiercely loyal to the Thane.",
+        "display_name": "Iona - Honeyside Housecarl",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.iona",
+        "location": "",
+        "tags": [
+          "Iona",
+          "housecarl",
+          "Honeyside",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Francois Beaufort is an orphan living at Honorhall Orphanage under Grelod's harsh care. He is one of several children hoping for a better life.",
+        "display_name": "Francois Beaufort - Orphan",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.francois",
+        "location": "",
+        "tags": [
+          "Francois Beaufort",
+          "Honorhall Orphanage",
+          "Riften",
+          "orphan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Hroar is an orphan at Honorhall Orphanage, enduring Grelod's abusive treatment. He was placed there after his parents died.",
+        "display_name": "Hroar - Orphan",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.hroar",
+        "location": "",
+        "tags": [
+          "Hroar",
+          "Honorhall Orphanage",
+          "Riften",
+          "orphan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Runa Fair-Shield is one of the older orphans at Honorhall. She is protective of the younger children and openly defiant of Grelod.",
+        "display_name": "Runa Fair-Shield - Orphan",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.runa",
+        "location": "",
+        "tags": [
+          "Runa Fair-Shield",
+          "Honorhall Orphanage",
+          "Riften",
+          "orphan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Samuel is a young orphan at Honorhall Orphanage. He is quiet and keeps his head down to avoid Grelod's anger.",
+        "display_name": "Samuel - Orphan",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.samuel",
+        "location": "",
+        "tags": [
+          "Samuel",
+          "Honorhall Orphanage",
+          "Riften",
+          "orphan"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Dravin Llanith runs Merryfair Farm outside Riften's walls with his wife Synda. They grow crops for the city market.",
+        "display_name": "Dravin Llanith - Merryfair Farmer",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.dravin",
+        "location": "",
+        "tags": [
+          "Dravin Llanith",
+          "Merryfair Farm",
+          "Riften",
+          "farmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Synda Llanith works Merryfair Farm alongside her husband Dravin. She tends the crops and sells produce in the Riften market.",
+        "display_name": "Synda Llanith - Merryfair Farmer",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.synda",
+        "location": "",
+        "tags": [
+          "Synda Llanith",
+          "Merryfair Farm",
+          "Riften",
+          "farmer"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Drifa is the wife of Bersi Honey-Hand and helps run the Pawned Prawn. She worries about the Thieves Guild's pressure on their business.",
+        "display_name": "Drifa - Pawned Prawn",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "riften.people.drifa",
+        "location": "",
+        "tags": [
+          "Drifa",
+          "Pawned Prawn",
+          "Bersi Honey-Hand",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Snippy is an Argonian who works at the Riften Fishery. He can be found hauling crates and working the docks.",
+        "display_name": "Snippy - Fishery Worker",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.snippy",
+        "location": "",
+        "tags": [
+          "Snippy",
+          "Argonian",
+          "Riften Fishery",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Swims-In-Deep-Water is an Argonian who works on the Riften docks. He can often be found at the Fishery or wandering the canals.",
+        "display_name": "Swims-In-Deep-Water - Docks",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.swimsindeepwater",
+        "location": "",
+        "tags": [
+          "Swims-In-Deep-Water",
+          "Argonian",
+          "Riften Fishery",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Viriya is an Argonian working at the Riften Fishery. She helps process the daily catch from Lake Honrich.",
+        "display_name": "Viriya - Fishery Worker",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.viriya",
+        "location": "",
+        "tags": [
+          "Viriya",
+          "Argonian",
+          "Riften Fishery",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Molgrom Twice-Killed is a Nord prisoner in the Riften Jail. He earned his name by surviving an execution that should have killed him.",
+        "display_name": "Molgrom Twice-Killed - Prisoner",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.molgrom",
+        "location": "",
+        "tags": [
+          "Molgrom Twice-Killed",
+          "Riften Jail",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Threki the Innocent is a Nord woman imprisoned in the Riften Jail. She protests her innocence loudly to anyone who passes her cell.",
+        "display_name": "Threki the Innocent - Prisoner",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.threki",
+        "location": "",
+        "tags": [
+          "Threki the Innocent",
+          "Riften Jail",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Hofgrir Horse-Crusher runs the Riften Stables outside the city gates. He offers horse rental and is always looking to buy and sell mounts.",
+        "display_name": "Hofgrir Horse-Crusher - Stablemaster",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.hofgrir",
+        "location": "",
+        "tags": [
+          "Hofgrir Horse-Crusher",
+          "Riften Stables",
+          "Riften",
+          "stablemaster"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Shadr works at the Riften Stables but is deeply indebted to Sapphire of the Thieves Guild. He is desperate to pay off what he owes.",
+        "display_name": "Shadr - Stable Hand",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "riften.people.shadr",
+        "location": "",
+        "tags": [
+          "Shadr",
+          "Riften Stables",
+          "Sapphire",
+          "Thieves Guild",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Sigaar is a Redguard who works as a stable hand at the Riften Stables alongside Shadr.",
+        "display_name": "Sigaar - Stable Hand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.sigaar",
+        "location": "",
+        "tags": [
+          "Sigaar",
+          "Riften Stables",
+          "Redguard",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Orini Dral is a Dunmer who works at the Riften Warehouse. He seems nervous and keeps watch on the warehouse's contents.",
+        "display_name": "Orini Dral - Warehouse Worker",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.orinidral",
+        "location": "",
+        "tags": [
+          "Orini Dral",
+          "Riften Warehouse",
+          "Dunmer",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Sarthis Idren operates out of the Riften Warehouse and deals in skooma. He employs Orini Dral and has connections to questionable suppliers.",
+        "display_name": "Sarthis Idren - Skooma Dealer",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.sarthis",
+        "location": "",
+        "tags": [
+          "Sarthis Idren",
+          "Riften Warehouse",
+          "skooma",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Addvild is a Nord farmhand working at Snow-Shod Farm outside Riften. He tends livestock alongside Leonara Arius.",
+        "display_name": "Addvild - Snow-Shod Farmhand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.addvild",
+        "location": "",
+        "tags": [
+          "Addvild",
+          "Snow-Shod Farm",
+          "Nord",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Leonara Arius is an Imperial who works the fields at Snow-Shod Farm alongside Addvild. She is a quiet and hard worker.",
+        "display_name": "Leonara Arius - Snow-Shod Farmhand",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.leonara",
+        "location": "",
+        "tags": [
+          "Leonara Arius",
+          "Snow-Shod Farm",
+          "Imperial",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Asgeir Snow-Shod is the son of Vulwulf Snow-Shod and lives at Snow-Shod Manor. He supports his father's Stormcloak loyalties and the family name.",
+        "display_name": "Asgeir Snow-Shod - Snow-Shod Heir",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.asgeir",
+        "location": "",
+        "tags": [
+          "Asgeir Snow-Shod",
+          "Snow-Shod Manor",
+          "Nord",
+          "Riften",
+          "Stormcloak"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Nura Snow-Shod is the wife of Vulwulf Snow-Shod and matriarch of the Snow-Shod Manor. She manages the household and family affairs.",
+        "display_name": "Nura Snow-Shod - Snow-Shod Matriarch",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.nura",
+        "location": "",
+        "tags": [
+          "Nura Snow-Shod",
+          "Snow-Shod Manor",
+          "Nord",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Vulwulf Snow-Shod is the aging patriarch of the Snow-Shod clan, one of Riften's oldest Nord families. He is a staunch Stormcloak who lives at Snow-Shod Manor with his wife Nura and son Asgeir.",
+        "display_name": "Vulwulf Snow-Shod - Clan Patriarch",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.vulwulf",
+        "location": "",
+        "tags": [
+          "Vulwulf Snow-Shod",
+          "Snow-Shod Manor",
+          "Nord",
+          "Riften",
+          "Stormcloak"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Briehl is a priest at the Temple of Mara in Riften. He assists Maramal and Dinya Balu with temple services and blessings.",
+        "display_name": "Briehl - Mara Priest",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.briehl",
+        "location": "",
+        "tags": [
+          "Briehl",
+          "Temple of Mara",
+          "Riften",
+          "priest"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Dinya Balu is a priestess at the Temple of Mara and Maramal's wife. She counsels pilgrims and tends to the temple's daily needs.",
+        "display_name": "Dinya Balu - Mara Priestess",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.dinya",
+        "location": "",
+        "tags": [
+          "Dinya Balu",
+          "Temple of Mara",
+          "Maramal",
+          "Riften",
+          "priestess"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Louis Letrush is a Nord who can often be found at the Bee and Barb. He hired the previous horse thief who stole Frost from the Black-Briar family.",
+        "display_name": "Louis Letrush - Bee and Barb Patron",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.louis",
+        "location": "",
+        "tags": [
+          "Louis Letrush",
+          "Bee and Barb",
+          "Nord",
+          "Riften",
+          "Frost"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Marcurio is an Imperial mercenary mage who can be hired at the Bee and Barb. He has a sharp tongue but proves himself in a fight.",
+        "display_name": "Marcurio - Mercenary Mage",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.marcurio",
+        "location": "",
+        "tags": [
+          "Marcurio",
+          "Bee and Barb",
+          "Imperial",
+          "Riften",
+          "mercenary",
+          "mage"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Harrald is Laila Law-Giver's young son who can be found playing in Mistveil Keep. He is still too young to understand the politics of the Rift.",
+        "display_name": "Harrald - Jarl's Son",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.harrald",
+        "location": "",
+        "tags": [
+          "Harrald",
+          "Mistveil Keep",
+          "Riften",
+          "Laila Law-Giver"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Saerlund is Laila Law-Giver's elder son who lives in Riften but supports the Imperial Legion. He is alienated from his mother and brother over their Stormcloak loyalties.",
+        "display_name": "Saerlund - Jarl's Elder Son",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.saerlund",
+        "location": "",
+        "tags": [
+          "Saerlund",
+          "Mistveil Keep",
+          "Riften",
+          "Laila Law-Giver",
+          "Imperial"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Asbjorn Fire-Tamer is Balimund's apprentice at the Scorched Hammer forge. He is learning the smithing trade and helps keep the forge running.",
+        "display_name": "Asbjorn Fire-Tamer - Blacksmith's Apprentice",
+        "emotion": "",
+        "importance": 0.65,
+        "knowledge_key": "riften.people.asbjorn",
+        "location": "",
+        "tags": [
+          "Asbjorn Fire-Tamer",
+          "Scorched Hammer",
+          "Riften",
+          "Balimund",
+          "apprentice"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Valindor is an Altmer wizard who lives alone in his house in Riften. He keeps to himself and is rarely seen outside.",
+        "display_name": "Valindor - Reclusive Wizard",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.valindor",
+        "location": "",
+        "tags": [
+          "Valindor",
+          "Altmer",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Drahff is a vagrant living in the Ratway beneath Riften. He sleeps among the refuse and mumbles to himself.",
+        "display_name": "Drahff - Ratway Vagrant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.drahff",
+        "location": "",
+        "tags": [
+          "Drahff",
+          "Ratway",
+          "Riften",
+          "vagrant"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Esbern is a Blades operative hiding from the Thalmor in the Ratway beneath Riften. He is one of the last surviving members of the Blades and possesses invaluable knowledge about Alduin and the dragons.",
+        "display_name": "Esbern - Blades Operative",
+        "emotion": "",
+        "importance": 0.8,
+        "knowledge_key": "riften.people.esbern",
+        "location": "",
+        "tags": [
+          "Esbern",
+          "Ratway",
+          "Riften",
+          "Blades",
+          "dragons",
+          "Alduin",
+          "Thalmor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Gian the Fist is a vagrant in the Ratway. He is known for his scarred hands and unsettling demeanor.",
+        "display_name": "Gian the Fist - Ratway Vagrant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.gian",
+        "location": "",
+        "tags": [
+          "Gian the Fist",
+          "Ratway",
+          "Riften",
+          "vagrant"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Hefid the Deaf is a vagrant living in the Ratway who has lost most of her hearing. She shouts when she speaks and sleeps amid the ruins.",
+        "display_name": "Hefid the Deaf - Ratway Vagrant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.hefid",
+        "location": "",
+        "tags": [
+          "Hefid the Deaf",
+          "Ratway",
+          "Riften",
+          "vagrant"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Hewnon Black-Skeever is a named skeever that dwells in the Ratway. It has earned a reputation among the vagrants as the king of the Ratway's vermin.",
+        "display_name": "Hewnon Black-Skeever - Ratway Creature",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.hewnon",
+        "location": "",
+        "tags": [
+          "Hewnon Black-Skeever",
+          "Ratway",
+          "Riften",
+          "skeever"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Knjakr is a vagrant living deep in the Ratway. He avoids contact with others and survives on scraps.",
+        "display_name": "Knjakr - Ratway Vagrant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.knjakr",
+        "location": "",
+        "tags": [
+          "Knjakr",
+          "Ratway",
+          "Riften",
+          "vagrant"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownRiftenFaction\") or is_in_faction(actorUUID, \"GuardFactionRiften\")",
+        "content": "Salvianus is a Breton vagrant who lives in the Ratway. He has been down there so long he has lost track of time.",
+        "display_name": "Salvianus - Ratway Vagrant",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.salvianus",
+        "location": "",
+        "tags": [
+          "Salvianus",
+          "Ratway",
+          "Riften",
+          "vagrant",
+          "Breton"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Arnskar Ember-Master is a blacksmith who works in the Ragged Flagon. He was a former smith for the Guild and maintains weapons and armor for its members.",
+        "display_name": "Arnskar Ember-Master - Flagon Blacksmith",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.arnskar",
+        "location": "",
+        "tags": [
+          "Arnskar Ember-Master",
+          "Ragged Flagon",
+          "Thieves Guild",
+          "blacksmith",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Dirge is the Nord bouncer at the Ragged Flagon and Maul's brother. He keeps unwanted visitors out of the Guild's headquarters.",
+        "display_name": "Dirge - Flagon Bouncer",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.dirge",
+        "location": "",
+        "tags": [
+          "Dirge",
+          "Ragged Flagon",
+          "Thieves Guild",
+          "bouncer",
+          "Maul",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Galathil is a Dunmer face sculptor who offers her services in the Ragged Flagon. She can change a client's appearance for a steep price.",
+        "display_name": "Galathil - Face Sculptor",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "riften.people.galathil",
+        "location": "",
+        "tags": [
+          "Galathil",
+          "Ragged Flagon",
+          "Thieves Guild",
+          "face sculptor",
+          "Dunmer",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Herluin Lothaire is a Breton patron who can be found drinking in the Ragged Flagon. He keeps to himself and watches the Guild's dealings.",
+        "display_name": "Herluin Lothaire - Flagon Patron",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.herluin",
+        "location": "",
+        "tags": [
+          "Herluin Lothaire",
+          "Ragged Flagon",
+          "Thieves Guild",
+          "Breton",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Syndus is a Dunmer who frequents the Ragged Flagon. He is known to take on odd jobs for the Guild when coin is short.",
+        "display_name": "Syndus - Flagon Regular",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.syndus",
+        "location": "",
+        "tags": [
+          "Syndus",
+          "Ragged Flagon",
+          "Thieves Guild",
+          "Dunmer",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Vanryth Gatharian is a Dunmer who supplies the Thieves Guild with goods and can be found in the Ragged Flagon. He handles logistics for Guild operations.",
+        "display_name": "Vanryth Gatharian - Guild Supplier",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.vanryth",
+        "location": "",
+        "tags": [
+          "Vanryth Gatharian",
+          "Ragged Flagon",
+          "Thieves Guild",
+          "Dunmer",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Cynric Endell is a Breton member of the Thieves Guild. He can be found training or loitering in the Cistern beneath the Ragged Flagon.",
+        "display_name": "Cynric Endell - Guild Thief",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.cynric",
+        "location": "",
+        "tags": [
+          "Cynric Endell",
+          "Cistern",
+          "Thieves Guild",
+          "Breton",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Etienne Rarnis is a Breton thief who operates out of the Cistern. He handles lockpicking and infiltration jobs for the Guild.",
+        "display_name": "Etienne Rarnis - Guild Thief",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.etienne",
+        "location": "",
+        "tags": [
+          "Etienne Rarnis",
+          "Cistern",
+          "Thieves Guild",
+          "Breton",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Garthar is a Nord member of the Thieves Guild who can be found in the Cistern. He is one of the Guild's muscle for difficult jobs.",
+        "display_name": "Garthar - Guild Thief",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.garthar",
+        "location": "",
+        "tags": [
+          "Garthar",
+          "Cistern",
+          "Thieves Guild",
+          "Nord",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Niruin is a Bosmer thief who operates from the Cistern. He is a skilled archer and scout for the Thieves Guild.",
+        "display_name": "Niruin - Guild Scout",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.niruin",
+        "location": "",
+        "tags": [
+          "Niruin",
+          "Cistern",
+          "Thieves Guild",
+          "Bosmer",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Ravyn Imyan is a Dunmer thief who lives and works from the Cistern. He specializes in night work and shadow operations.",
+        "display_name": "Ravyn Imyan - Guild Thief",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.ravyn",
+        "location": "",
+        "tags": [
+          "Ravyn Imyan",
+          "Cistern",
+          "Thieves Guild",
+          "Dunmer",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Rune is an Imperial member of the Thieves Guild. He can be found in the Cistern studying maps and planning heists.",
+        "display_name": "Rune - Guild Thief",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.rune",
+        "location": "",
+        "tags": [
+          "Rune",
+          "Cistern",
+          "Thieves Guild",
+          "Imperial",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Thrynn is a Nord thief who operates from the Cistern. He is a reliable hand for the Guild's more straightforward jobs.",
+        "display_name": "Thrynn - Guild Thief",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "riften.people.thrynn",
+        "location": "",
+        "tags": [
+          "Thrynn",
+          "Cistern",
+          "Thieves Guild",
+          "Nord",
+          "Riften"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"@ThievesGuildFaction\") or is_in_faction(actorUUID, \"@RiftenTGHeadquartersFaction\")",
+        "content": "Vipir the Fleet is a Nord thief and one of the Guild's most reliable operatives in the Cistern. He boasts that he has never been caught by any lock or trap.",
+        "display_name": "Vipir the Fleet - Guild Thief",
+        "emotion": "",
+        "importance": 0.6,
+        "knowledge_key": "riften.people.vipir",
+        "location": "",
+        "tags": [
+          "Vipir the Fleet",
+          "Cistern",
+          "Thieves Guild",
+          "Nord",
+          "Riften"
         ],
         "type": "KNOWLEDGE"
       }
