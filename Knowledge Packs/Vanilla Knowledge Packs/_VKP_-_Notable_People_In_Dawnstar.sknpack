@@ -2,7 +2,7 @@
   "skyrimnet_knowledge_pack": {
     "author": "_gaius",
     "description": "Dawnstar's notable people — Jarl Skald and his court, the rival mine owners, and the priest of Mara who came to investigate the nightmares.",
-    "entry_count": 28,
+    "entry_count": 29,
     "exported_at": "2026-05-18T04:54:36Z",
     "format_version": 2,
     "name": "_VKP - Notable People In Dawnstar",
@@ -584,6 +584,29 @@
           "sailing",
           "seafaring",
           "resentment"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownDawnstarFaction\") or is_in_faction(actorUUID, \"GuardFactionDawnstar\")",
+        "content": "Alesan is the only child in Dawnstar — a young Redguard orphan who runs food and water out to the miners at the Iron-Breaker and Quicksilver shafts to earn his keep. Sleeps wherever the cold lets him, and dreams of being adopted by someone with a real fireplace.",
+        "display_name": "Alesan - Dawnstar Orphan",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "pale.people.alesan",
+        "location": "",
+        "tags": [
+          "Alesan",
+          "Dawnstar",
+          "orphan",
+          "Redguard",
+          "child",
+          "Iron-Breaker Mine",
+          "Quicksilver Mine",
+          "food runner",
+          "hardship",
+          "adoption"
         ],
         "type": "KNOWLEDGE"
       }

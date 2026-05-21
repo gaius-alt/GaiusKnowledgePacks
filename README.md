@@ -195,6 +195,17 @@ If any specific entry's `condition_expr` doesn't fire on an NPC you expect, the 
 
 ## Changelog
 
+### Notable People completeness pass (2026-05-20)
+
+Cross-checked every Notable People pack against the in-game `TownXFaction` membership (dumped via an xEdit Pascal script over the vanilla masters) and filled in the gaps the 2026-05-18 expansion missed. Same install workflow; re-run the Bulk Importer in Replace mode after pulling.
+
+- **Seven entries added across three holds.**
+  - **Dawnstar:** Alesan - the Redguard orphan who runs food and water out to the miners at Iron-Breaker and Quicksilver, HearthFires-adoptable. Pack 28 -> 29.
+  - **Solitude:** Elenwen (Thalmor First Emissary at the Embassy, ran Ulfric's Great War interrogation), Pelagius the Mad (the dead Septim emperor whose fractured mind Sheogorath keeps in the sealed wing of the Blue Palace), Ma'zaka (the Khajiit who tends the Solitude Lighthouse). Pack 82 -> 85.
+  - **Whiterun:** Thorald Gray-Mane (Fralia and Vignar's missing son, held by the Thalmor at Northwatch Keep - *Missing in Action*), Sickly Farmer and Wounded Soldier (the two patients on the healing altars at the Temple of Kynareth). Pack 77 -> 80.
+- **Oengul surname fix (Windhelm).** The Stormcloak smith was written as "Oengul One-Eye" in display_name, content, and tags; the in-game FULL name is "Oengul War-Anvil". All three references corrected; entry count unchanged.
+- **Deliberate skips.** Ten other `TownXFaction` members were left out after UESP lookup. Captain Metilius (Solitude), Terek (Whiterun), Benkum, Brond, Edorfin, Huki Seven-Swords, Liesl, and Sulvar the Steady (all Windhelm) are unused/cut content - the Windhelm arena, the Wheelhouse, and a Dragon Rising legion variant that didn't ship. Gadnor is a Saints & Seducers Creation Club body in Crystaldrift Cave, not a Solitude resident. Valie is a dead-from-start corpse in a tent at Alftand. Gemma Uriel is a Kynesgrove resident who never enters Windhelm despite the faction membership.
+
 ### Pack content updates (2026-05-18)
 
 Several rounds of edits to the pack data itself. None of these change the install process; just re-run the Bulk Importer in Replace mode after pulling the new files and your existing packs will be swapped out.
