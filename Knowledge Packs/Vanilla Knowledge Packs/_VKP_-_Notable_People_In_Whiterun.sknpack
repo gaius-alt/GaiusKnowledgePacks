@@ -2,7 +2,7 @@
   "skyrimnet_knowledge_pack": {
     "author": "_gaius",
     "description": "Whiterun's notable people — the Jarl's court, the Companions, the great clans of Battle-Born and Gray-Mane, and the shopkeepers everyone in the city knows.",
-    "entry_count": 77,
+    "entry_count": 80,
     "exported_at": "2026-05-18T05:00:00Z",
     "format_version": 2,
     "name": "_VKP - Notable People In Whiterun",
@@ -1603,6 +1603,76 @@
           "stable",
           "horses",
           "labor"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "Thorald Gray-Mane is Fralia and Vignar's missing son — a Stormcloak the Imperials captured and handed to the Thalmor, who took him to Northwatch Keep to be broken. His mother won't believe he's dead. His brother Avulstein won't either, and waits in hiding for proof or for vengeance.",
+        "display_name": "Thorald Gray-Mane - Missing Son",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "whiterun.people.thorald",
+        "location": "",
+        "tags": [
+          "Thorald Gray-Mane",
+          "Gray-Mane",
+          "Stormcloak",
+          "Thalmor prisoner",
+          "Northwatch Keep",
+          "Fralia",
+          "Avulstein",
+          "Vignar",
+          "Missing in Action",
+          "Whiterun",
+          "family",
+          "captivity",
+          "war"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "A sickly farmer lies on one of the healing altars at Whiterun's Temple of Kynareth, too weak to speak. Danica Pure-Spring and Acolyte Jenssen tend her in turns. Even the Battle for Whiterun only briefly drives her from the bed.",
+        "display_name": "Sickly Farmer - Temple Patient",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.sicklyfarmer",
+        "location": "",
+        "tags": [
+          "sickly farmer",
+          "Temple of Kynareth",
+          "Whiterun",
+          "patient",
+          "Danica Pure-Spring",
+          "Acolyte Jenssen",
+          "illness",
+          "healing",
+          "faith"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
+        "content": "A wounded Whiterun guard lies on the second healing altar at the Temple of Kynareth, half-conscious and unable to answer a question — only groans of pain. Danica Pure-Spring keeps him alive. His yellow Whiterun armor never changes, even after the city falls.",
+        "display_name": "Wounded Soldier - Temple Patient",
+        "emotion": "",
+        "importance": 0.5,
+        "knowledge_key": "whiterun.people.woundedsoldier",
+        "location": "",
+        "tags": [
+          "wounded soldier",
+          "Whiterun guard",
+          "Temple of Kynareth",
+          "Whiterun",
+          "patient",
+          "Danica Pure-Spring",
+          "injury",
+          "healing",
+          "faith"
         ],
         "type": "KNOWLEDGE"
       }

@@ -2,7 +2,7 @@
   "skyrimnet_knowledge_pack": {
     "author": "_gaius",
     "description": "Solitude's people — the Blue Palace court, General Tullius's Legion command at Castle Dour, the Bards College, merchants along the street and docks, and every named resident of the cliff city.",
-    "entry_count": 82,
+    "entry_count": 85,
     "exported_at": "2026-05-18T05:00:00Z",
     "format_version": 2,
     "name": "_VKP - Notable People In Solitude",
@@ -1678,6 +1678,82 @@
           "protection",
           "soldier",
           "security"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Elenwen is the First Emissary of the Thalmor — an Altmer ambassador who runs the Thalmor Embassy in the hills west of Solitude and enforces the Empire's ban on Talos worship with a courteous smile. She hosts lavish parties for Skyrim's nobility; less openly, she ran the interrogation of Ulfric Stormcloak during the Great War, and Ulfric has not forgotten.",
+        "display_name": "Elenwen - Thalmor Ambassador",
+        "emotion": "",
+        "importance": 0.85,
+        "knowledge_key": "haafingar.people.elenwen",
+        "location": "",
+        "tags": [
+          "Elenwen",
+          "Thalmor",
+          "Thalmor Embassy",
+          "Altmer",
+          "ambassador",
+          "First Emissary",
+          "Solitude",
+          "Haafingar",
+          "Talos ban",
+          "interrogator",
+          "Great War",
+          "Ulfric",
+          "diplomacy",
+          "politics"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Pelagius Septim III, the Mad — twelfth emperor of the Septim Dynasty — has been dead for centuries, but his fractured mind still inhabits the sealed wing of the Blue Palace that bears his name. Sheogorath keeps his shadow there as a companion. Falk Firebeard would prefer the Pelagius Wing stay shut; the Mad God's priest Dervenin wants someone to go in and bring his master home.",
+        "display_name": "Pelagius the Mad - Sheogorath's Companion",
+        "emotion": "",
+        "importance": 0.7,
+        "knowledge_key": "haafingar.people.pelagius",
+        "location": "",
+        "tags": [
+          "Pelagius the Mad",
+          "Pelagius Septim III",
+          "emperor",
+          "Septim Dynasty",
+          "madness",
+          "Blue Palace",
+          "Pelagius Wing",
+          "Sheogorath",
+          "Dervenin",
+          "Mind of Madness",
+          "Solitude",
+          "history",
+          "Daedric"
+        ],
+        "type": "KNOWLEDGE"
+      },
+      {
+        "always_inject": false,
+        "condition_expr": "is_in_faction(actorUUID, \"TownSolitudeFaction\") or is_in_faction(actorUUID, \"GuardFactionHaafingar\")",
+        "content": "Ma'zaka is the Khajiit who tends the Solitude Lighthouse on the rocks below the city — a retired sailor who keeps the flame for the ships rounding the headland. Never leaves the lighthouse, doesn't want to. Eats four times a day and naps between.",
+        "display_name": "Ma'zaka - Lighthouse Keeper",
+        "emotion": "",
+        "importance": 0.55,
+        "knowledge_key": "haafingar.people.mazaka",
+        "location": "",
+        "tags": [
+          "Ma'zaka",
+          "Khajiit",
+          "Solitude Lighthouse",
+          "Solitude",
+          "Haafingar",
+          "lighthouse keeper",
+          "retired sailor",
+          "seafaring",
+          "seclusion",
+          "retirement"
         ],
         "type": "KNOWLEDGE"
       }

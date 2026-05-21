@@ -404,14 +404,14 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownWindhelmFaction\") or is_in_faction(actorUUID, \"GuardFactionWindhelm\")",
-        "content": "Oengul One-Eye forges weapons for the Stormcloaks at the Windhelm smithy. Hard old Nord with the eye and patience to forge for an army. His apprentice Hermir Strong-Heart works beside him.",
-        "display_name": "Oengul One-Eye - Stormcloak Smith",
+        "content": "Oengul War-Anvil forges weapons for the Stormcloaks at the Windhelm smithy. Hard old Nord with the eye and patience to forge for an army. His apprentice Hermir Strong-Heart works beside him.",
+        "display_name": "Oengul War-Anvil - Stormcloak Smith",
         "emotion": "",
         "importance": 0.65,
         "knowledge_key": "eastmarch.people.oengul",
         "location": "",
         "tags": [
-          "Oengul One-Eye",
+          "Oengul War-Anvil",
           "Windhelm",
           "smithy",
           "Stormcloak",
