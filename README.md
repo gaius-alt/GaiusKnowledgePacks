@@ -86,7 +86,7 @@ NPCs answer questions about active quests with current state, not stale pre-ques
 Major story dungeons (Bleak Falls Barrow, Dustman's Cairn, etc.) also have stage-gated cleared / uncleared variants in the dungeon packs.
 
 ---
-
+## DEPRICATED. DO NOT USE. SKYRIMNET NOW HAS ITS OWN BULK IMPORTING TOOL!
 ## Bulk Importer tool
 
 A small JavaScript snippet that drives the existing **Import Pack** button in the SkyrimNet web UI. Picks a folder via the File System Access API, feeds each `.sknpack` file through the same code path the manual button uses, optionally deletes existing same-named packs first.
