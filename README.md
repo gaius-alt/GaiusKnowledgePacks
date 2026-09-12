@@ -39,7 +39,7 @@ A bundle of 45 SkyrimNet knowledge packs covering vanilla Skyrim and DLCs. ~840 
 
 Three ways, listed best to worst:
 
-1. **Bulk Importer (recommended).** See [Bulk Importer tool](#bulk-importer-tool). Drag-and-drop a bookmarklet, pick the folder, done.
+1. (Depricated, do not use.) **Bulk Importer (recommended).** See [Bulk Importer tool](#bulk-importer-tool). Drag-and-drop a bookmarklet, pick the folder, done.
 2. **Tampermonkey userscript.** Adds a permanent **Bulk Import** button to the SkyrimNet web UI.
 3. **Manual.** Click **Import Pack** on the SkyrimNet web UI 45 times.
 
