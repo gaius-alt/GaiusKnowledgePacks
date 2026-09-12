@@ -12,7 +12,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Niranye\" or actorName == \"Aval Atheron\" or actorName == \"Revyn Sadri\"",
-        "content": "{% if get_quest_stage(\"FreeformWindhelmA\", false) == 0 %}A delivery is waiting in Windhelm and needs running across town.{% else %}{{ playerName }} ran the delivery in Windhelm.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformWindhelmA\", false) < 200 %}A delivery is waiting in Windhelm and needs running across town.{% else %}{{ playerName }} ran the delivery in Windhelm.{% endif %}",
         "display_name": "Delivery in Windhelm",
         "emotion": "",
         "importance": 0.55,
@@ -30,7 +30,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Stian Crescent-Moon\" or actorName == \"Adonato Leotelli\"",
-        "content": "{% if get_quest_stage(\"FreeformShipsWindhelm\", false) == 0 %}A dockworker at Windhelm's harbor needs help with a ledger before the captain notices it's missing.{% else %}{{ playerName }} brought the dockworker his ledger back.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformShipsWindhelm\", false) < 20 %}A dockworker at Windhelm's harbor needs help with a ledger before the captain notices it's missing.{% else %}{{ playerName }} brought the dockworker his ledger back.{% endif %}",
         "display_name": "Harsh Master",
         "emotion": "",
         "importance": 0.6,
@@ -48,7 +48,7 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionEastmarch\") or is_in_faction(actorUUID, \"TownWindhelmFaction\")",
-        "content": "{% if get_quest_stage(\"MS11\", false) == 0 %}A girl named Susanna the Wicked was murdered in Windhelm's graveyard — and she is not the first. A killer the locals call the Butcher walks the streets at night.{% elif get_quest_stage(\"MS11\", false) < 40 %}{{ playerName }} is hunting the Butcher of Windhelm with Jorleif's blessing — and looking through Hjerim, the house once owned by the Shatter-Shields, for the truth.{% else %}The Butcher of Windhelm is dead. {{ playerName }} ended the killings — by killing Calixto Corrium, the museum-keeper hiding his sister's mummy in his house.{% endif %}",
+        "content": "{% if get_quest_stage(\"MS11\", false) < 10 %}Windhelm has a killer. Women have been found butchered in the streets and the graveyard over the years, and the guards have never caught him — the locals call him the Butcher.{% elif get_quest_stage(\"MS11\", false) < 60 %}A girl named Susanna the Wicked was found murdered in Windhelm's graveyard — and she is not the first. The guard has asked {{ playerName }} to help look into it, and the killer the locals call the Butcher is still walking the streets at night.{% elif get_quest_stage(\"MS11\", false) == 100 %}Wuunferth the Unliving sits in the cells beneath the Palace of the Kings. {{ playerName }} gave the old court wizard's name to Jorleif, and Windhelm calls the Butcher caught — though Wuunferth swears through the bars that they have taken the wrong man.{% elif get_quest_stage(\"MS11\", false) < 250 %}{{ playerName }} is hunting the Butcher of Windhelm with Jorleif's blessing — and looking through Hjerim, the house once owned by the Shatter-Shields, for the truth.{% else %}The Butcher of Windhelm is dead. {{ playerName }} ended the killings — by killing Calixto Corrium, the museum-keeper hiding his sister's mummy in his house.{% endif %}",
         "display_name": "Blood on the Ice",
         "emotion": "",
         "importance": 0.9,
@@ -59,14 +59,16 @@
           "investigation",
           "collecting",
           "Calixto Corrium",
-          "favor"
+          "favor",
+          "Wuunferth the Unliving",
+          "Jorleif"
         ],
         "type": "KNOWLEDGE"
       },
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Aventus Aretino\" or actorName == \"Grelod the Kind\" or actorName == \"Constance Michel\"",
-        "content": "{% if get_quest_stage(\"DB01\", false) == 0 %}A child named Aventus Aretino has run from Honorhall Orphanage in Riften to his family home in Windhelm. The boy is performing the Black Sacrament — calling the Dark Brotherhood to kill Grelod the Kind.{% else %}{{ playerName }} answered Aventus Aretino's Black Sacrament. Grelod the Kind is dead — and the Dark Brotherhood is watching.{% endif %}",
+        "content": "{% if get_quest_stage(\"DB01\", false) < 200 %}A child named Aventus Aretino has run from Honorhall Orphanage in Riften to his family home in Windhelm. The boy is performing the Black Sacrament — calling the Dark Brotherhood to kill Grelod the Kind.{% else %}{{ playerName }} answered Aventus Aretino's Black Sacrament. Grelod the Kind is dead — and the Dark Brotherhood is watching.{% endif %}",
         "display_name": "Innocence Lost",
         "emotion": "",
         "importance": 0.85,
@@ -85,7 +87,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Atub\" or actorName == \"Yamarz\" or actorName == \"Gularzob\" or actorName == \"Borgakh the Steel Heart\" or actorName == \"Shuftharz\" or actorName == \"Malacath\"",
-        "content": "{% if get_quest_stage(\"DA06\", false) == 0 %}Largashbur, the Orc stronghold southwest of Riften, is besieged by giants. Atub the wise woman speaks of Malacath's curse upon the Chief — Yamarz cannot defend his clan.{% else %}{{ playerName }} carried Yamarz's burden — or refused it — and Malacath blessed them with the Volendrung as the Cursed Tribe was lifted.{% endif %}",
+        "content": "{% if get_quest_stage(\"DA06\", false) < 200 %}Largashbur, the Orc stronghold southwest of Riften, is besieged by giants. Atub the wise woman speaks of Malacath's curse upon the Chief — Yamarz cannot defend his clan.{% else %}{{ playerName }} carried Yamarz's burden — or refused it — and Malacath blessed them with the Volendrung as the Cursed Tribe was lifted.{% endif %}",
         "display_name": "The Cursed Tribe",
         "emotion": "",
         "importance": 0.8,
@@ -103,7 +105,7 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"DA02GuardFaction\") or actorName == \"Boethiah\" or actorName == \"Priestess of Boethiah\"",
-        "content": "{% if get_quest_stage(\"DA02\", false) == 0 %}A book — Boethiah's Proving — has surfaced in Skyrim. Whoever reads it hears the Prince's call: bring a follower to the Sacellum of Boethiah, kill them on the altar, and become her champion.{% else %}{{ playerName }} killed for Boethiah at her Sacellum and won her Ebony Mail. A follower lies dead at the altar.{% endif %}",
+        "content": "{% if get_quest_stage(\"DA02\", false) < 40 %}A book — Boethiah's Proving — has surfaced in Skyrim. Whoever reads it hears the Prince's call: bring a follower to the Sacellum of Boethiah, kill them on the altar, and become her champion.{% else %}{{ playerName }} killed for Boethiah at her Sacellum and won her Ebony Mail. A follower lies dead at the altar.{% endif %}",
         "display_name": "Boethiah's Calling",
         "emotion": "",
         "importance": 0.8,
@@ -121,7 +123,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Esbern\" or actorName == \"Delphine\" or is_in_faction(actorUUID, \"ThalmorFaction\")",
-        "content": "{% if get_quest_stage(\"MQ202\", false) == 0 %}Word travels that the Dragonborn seeks Esbern of the Blades — and Esbern hides in the Ratway beneath Riften. The Thalmor and the Dragonborn race for him.{% else %}{{ playerName }} found Esbern in the Ratway Warrens. The old Blade can finally read the prophecy he survived to keep.{% endif %}",
+        "content": "{% if get_quest_stage(\"MQ202\", false) < 180 %}Word travels that the Dragonborn seeks Esbern of the Blades — and Esbern hides in the Ratway beneath Riften. The Thalmor and the Dragonborn race for him.{% else %}{{ playerName }} found Esbern in the Ratway Warrens. The old Blade can finally read the prophecy he survived to keep.{% endif %}",
         "display_name": "A Cornered Rat",
         "emotion": "",
         "importance": 0.9,
@@ -139,7 +141,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Quintus Navale\" or actorName == \"Nurelion\"",
-        "content": "{% if get_quest_stage(\"MS12b\", false) == 0 %}Quintus Navale at the White Phial in Windhelm is trying to restore the legendary alchemical Phial. He needs rare reagents — mammoth tusk powder, briarheart, and a fragment of Unmelting Snow.{% else %}{{ playerName }} brought Quintus the components to repair the White Phial.{% endif %}",
+        "content": "{% if get_quest_stage(\"MS12b\", false) < 100 %}Quintus Navale at the White Phial in Windhelm is trying to restore the legendary alchemical Phial. He needs rare reagents — mammoth tusk powder, briarheart, and a fragment of Unmelting Snow.{% else %}{{ playerName }} brought Quintus the components to repair the White Phial.{% endif %}",
         "display_name": "Repairing the Phial",
         "emotion": "",
         "importance": 0.7,

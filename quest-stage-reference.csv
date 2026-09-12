@@ -1,0 +1,82 @@
+quest,name,pack_branches,entries,vanilla_stages,vanilla_journal,vanilla_complete,vanilla_accepted,vanilla_done,ussep_complete,ussep_done
+C01,Proving Honor,<200,dungeon.whiterun.dustmans_cairn_pre,0 1 10 20 30 40 200,10 20 200,200,,,,
+DA01,The Black Star,<10 <50 <100,quest.winterhold.the_black_star,0 10 20 25 30 50 57 58 60 61 62 65 70 75 80 85 90 95 100 110 250,10 30 50 70 75 100 110,100 110,10,100,100 110,100
+DA02,Boethiah's Calling,<40,quest.eastmarch.boethiahs_calling,0 1 4 5 6 7 9 10 11 12 15 17 20 21 30 31 40 41 50 60 70 80 81 100 200,1 5 10 15 20 40,50 100,1,50,50 100,50
+DA03,A Daedra's Best Friend,<25 <50 <100 <200,quest.falkreath.daedras_best_friend,0 5 7 10 15 20 25 27 50 60 70 75 77 90 100 105 107 110 150 151 152 155 200 205,25 50 70 150 155 200,200 205,25,200,200 205,200
+DA05,Ill Met By Moonlight,<20 <50 <100,quest.falkreath.ill_met_by_moonlight,0 10 20 50 55 60 61 65 70 80 100 105 200 205 210,10 20 50 70 100 105,100 105,10,100,100 105,100
+DA06,The Cursed Tribe,<200,quest.eastmarch.cursed_tribe,0 10 20 30 40 50 60 70 80 90 100 110 120 200 255,10 50 70 80 100 110 200,200,10,200,200,200
+DA07,Pieces of the Past,<13 <50 <100,quest.pale.pieces_of_the_past,5 10 11 13 15 20 25 30 35 40 45 50 52 53 55 60 65 70 75 80 90 95 100 150 200,10 13 50 70 80 90 100 150 200,100 150,10,100,100 150,100
+DA08,The Whispering Door,<10 <60,quest.whiterun.whispering_door,0 1 10 20 25 30 40 50 51 60 80,10 25 60 80,60,10,60,60,60
+DA09,The Break of Dawn,<500,quest.haafingar.break_of_dawn,0 1 50 100 150 200 300 350 400 410 450 500,50 100 300 500,500,50,500,500,500
+DA10,The House of Horrors,<10 <200,quest.reach.house_of_horrors,0 3 10 15 17 20 25 30 32 35 36 37 38 40 45 65 70 72 74 76 80 85 90 92 95 100 110 120 130 140 200 500 550,10 80 200 500 550,200,10,200,200,200
+DA11,The Taste of Death,<100,quest.reach.taste_of_death,0 5 10 15 20 30 40 45 50 60 70 100 200 225 250 500 600,10 30 60 100 250 500,100,10,100,100,100
+DA15,The Mind of Madness,<200,quest.haafingar.mind_of_madness,0 10 20 30 40 45 50 55 90 95 100 150 190 200,10 50 100 200,200,10,200,200,200
+DA16,Waking Nightmare,<25 <50 <200,quest.pale.waking_nightmare,0 5 10 20 22 25 28 30 40 50 60 70 80 90 100 110 120 140 145 148 150 155 160 170 180 190 191 192 195 196 197 198 199 200,20 25 50 90 140 150 180 197 200,200,20,200,200,200
+DB01,Innocence Lost,<200,quest.eastmarch.innocence_lost,0 5 20 30 200 255,5 20 200,200,5,200,200,200
+Favor250,Thane of the Reach,==0 <200,quest.reach.thane_of_the_reach,0 10 15 20 25 200,,,20,200,,200
+Favor252,Thane of Haafingar,==0 <200,quest.haafingar.thane_of_haafingar,0 10 15 20 25 200,,,20,200,,200
+Favor253,Thane of Whiterun,==0 <200,quest.whiterun.thane_of_whiterun,0 10 15 20 25 200,,,20,200,,200
+Favor254,Thane of Eastmarch,==0 <200,quest.eastmarch.thane_of_eastmarch,0 10 15 20 25 200,,,20,200,,200
+Favor255,Thane of Hjaalmarch,==0 <200,quest.hjaalmarch.thane_of_hjaalmarch,0 10 20 25 200,,,20,200,,200
+Favor256,Thane of the Pale,==0 <200,quest.pale.thane_of_the_pale,0 10 20 25 200,,,20,200,,200
+Favor257,Thane of Winterhold,==0 <200,quest.winterhold.thane_of_winterhold,0 10 20 25 200,,,20,200,,200
+Favor258,Thane of Falkreath,==0 <200,quest.falkreath.thane_of_falkreath,0 10 20 25 200,,,20,200,,200
+FreeformFalkreathQuest02,Runil's Dark Past,==0 <20,quest.falkreath.runils_dark_past,0 10 20,,,20,20,,20
+FreeformFalkreathQuest03,Dark Ancestor,==0 <200,quest.falkreath.dark_ancestor,0 10 20 200,,200,20,200,200,200
+FreeformMarkarthD,Delivery to Calcelmo,<200,quest.reach.calcelmo_delivery,10 20 200,,,20,200,,200
+FreeformMarkarthE,Lisbet's Missing Shipment,<20,quest.reach.lisbets_shipment,10 12 15 20,,,20,20,,30
+FreeformMarkarthJ,Bothela's Discreet Delivery,<20,quest.reach.bothelas_delivery,10 20,,,20,20,,20
+FreeformMarkarthL,Skilled Apprenticeship,<200,quest.reach.skilled_apprenticeship,10 20 200,,,20,200,,200
+FreeformMarkarthM,Search and Seizure,<200,quest.reach.search_and_seizure,10 15 20 25 200,,,20,200,,200
+FreeformMarkarthN,Coated in Blood,<200,quest.reach.coated_in_blood,10 20 200,,,20,200,,200
+FreeformMarkarthO,"Nimhe, the Poisoned One",<20,quest.reach.nimhe,10 15 20,,,20,20,,20
+FreeformMorthalA,Falion's Secret,==0 <200,quest.hjaalmarch.falions_secret,0 5 10 20 30 200,,200,20,200,10 200,10
+FreeformMorthalB,For the Good of Morthal,<20,quest.hjaalmarch.for_the_good_of_morthal,0 10 20 255,,20,20,20,20,20
+FreeformRiften01,Supply and Demand,<20 <200,quest.rift.supply_and_demand,10 20 30 40 200,,200,20,200,200,200
+FreeformRiften02,The Lover's Requital,<200,quest.rift.lovers_requital,10 20 30 200 250,,200,20,200,200,200
+FreeformRiften03,Under the Table,<200,quest.rift.under_the_table,10 20 200 250,,200,20,200,200,200
+FreeformRiften04,Few and Far Between,<200,quest.rift.few_and_far_between,10 20 30 40 50 60 200 250,,,20,200,,200
+FreeformRiften05,Spread the Love,<200,quest.rift.spread_the_love,10 20 25 30 200 250,,,20,200,,200
+FreeformRiften06,Sealing the Deal,<200,quest.rift.sealing_the_deal,10 20 200 250,,200,20,200,200,200
+FreeformRiften07,Ice Cold,<200,quest.rift.ice_cold,10 20 200 250,,,20,200,,200
+FreeformRiften08,Distant Memories,<200,quest.rift.distant_memories,0 10 20 30 200 250,,,20,200,,200
+FreeformRiften09,Grimsever's Return,<200,quest.rift.grimsevers_return,10 20 30 200 250,,200,20,200,200,200
+FreeformRiften10,Stoking the Flames,<200,quest.rift.stoking_the_flames,10 20 200 250,,200,20,200,200,200
+FreeformRiften11,Caught Red Handed,<200,quest.rift.caught_red_handed,10 20 30 40 50 60 70 200 250,,,20,200,,200
+FreeformRiften12,Helping Hand,<200,quest.rift.helping_hand,10 20 25 200 250,,,20,200,,200
+FreeformRiften13,Pilgrimage,<200,quest.rift.pilgrimage,10 20 30 200 250,,,20,200,,200
+FreeformRiften14,Hunt and Gather,<200,quest.rift.hunt_and_gather,10 20 30 40 50 60 200 250,,,20,200,,200
+FreeformRiftenThane,I Done Got Thaned!,==0 <20 <200,quest.rift.thane_of_riften,10 15 20 200,,,20,200,,200
+FreeformShipsDawnstar,Salty Sea-Dogs,<20,quest.pale.salty_sea_dogs,10 15 20 200,,20,20,20,20,20
+FreeformShipsWindhelm,Harsh Master,<20,quest.eastmarch.harsh_master,10 15 20 200,,20,20,20,20,20
+FreeformWhiterunQuest01,,<200,quest.whiterun.braith_and_lars,0 10 200 255 300,,200,10,200,200,200
+FreeformWhiterunQuest02,,<200,quest.whiterun.argonian_ale,0 10 20 200 255 500,,200,20,200,200,200
+FreeformWhiterunQuest03,,<200,quest.whiterun.greatsword_for_balgruuf,0 10 200 255 300,,200,10,200,200,200
+FreeformWhiterunQuest04,,<200,quest.whiterun.amulet_of_arkay,0 10 20 200 300,,200,20,200,200,200
+FreeformWhiterunQuest05,,<200,quest.whiterun.frost_salts_for_arcadia,0 10 200 255 300,,200,10,200,200,200
+FreeformWindhelmA,Delivery,<200,quest.eastmarch.delivery,10 20 200,,,20,200,,200
+FreeformWinterholdA,A Bad Trade,<30,quest.winterhold.a_bad_trade,0 10 20 30,,,20,30,,30
+FreeformWinterholdC,Drowned Sorrows,<40,quest.winterhold.drowned_sorrows,0 10 20 30 40,,,20,40,40,40
+FreeformWinterholdCollegeA,Research Thief,<200,quest.winterhold.research_thief,0 10 20 200,,200,20,200,200,200
+FreeformWinterholdCollegeB,The Missing Apprentices,<200,quest.winterhold.missing_apprentices,10 20 200,,200,20,200,200,200
+MQ103,Bleak Falls Barrow,<80 >=80,dungeon.whiterun.bleakfallsbarrow_cleared dungeon.whiterun.bleakfallsbarrow_uncleared,0 1 5 8 10 15 20 50 55 60 80 90 100 180 182 185 190 200,10 50 190,190,,,,
+MQ202,A Cornered Rat,<180,quest.eastmarch.cornered_rat,0 1 5 10 20 50 55 56 60 65 70 100 130 140 145 150 160 170 175 180 200 300,10 50 150 180,180,10,180,180,180
+MS01,The Forsworn Conspiracy,<20 <95,quest.reach.forsworn_conspiracy,0 10 12 13 15 20 30 32 35 36 37 38 39 40 41 42 43 45 46 47 48 49 50 52 54 55 57 60 61 66 70 72 74 76 80 82 90 95 100,15 20 95 100,95 100,15,95,95 100,95
+MS02,No One Escapes Cidhna Mine,<5 <100,quest.reach.no_one_escapes_cidhna_mine,0 5 10 20 25 30 40 50 55 60 70 75 77 80 100 200 210 220 230 250,5 100 250,100 250,5,100,100 250,100
+MS05,Tending the Flames,<300,quest.haafingar.tending_the_flames,0 10 75 90 100 125 135 145 150 175 200 225 250 253 254 255 260 265 290 300,75 125 150 175 200 225 250 254 255 300,300,75,300,300,300
+MS06,The Wolf Queen Awakened,<50 <250,quest.haafingar.wolf_queen_awakened,0 5 10 50 60 100 125 150 160 170 190 250,50 100 150 250,250,50,250,250,250
+MS06Start,The Man Who Cried Wolf,<250,quest.haafingar.man_who_cried_wolf,0 5 10 15 50 60 65 70 75 80 83 85 90 100 105 110 115 250,15 50 100,250,15,250,250,250
+MS07,Lights Out!,<250,quest.haafingar.lights_out,0 3 5 8 10 50 100 125 150 175 200 225 250,10 50 100 125 150 175 225 250,250,10,250,250,250
+MS08,In My Time Of Need,<25 <200,quest.whiterun.in_my_time_of_need,0 10 20 25 50 75 100 101 125 130 150 160 175 199 200 201 255 300,10 25 175 200 201,200 201,10,200,200 201,200
+MS11,Blood on the Ice,<10 <60 ==100 <250,quest.eastmarch.blood_on_the_ice,0 1 10 20 30 40 50 60 70 76 80 90 100 105 110 120 130 150 200 205 250,10 40 100 250,100 250,10,100,100 250,100
+MS12b,Repairing the Phial,<100,quest.eastmarch.repairing_the_phial,0 10 30 60 100,10 30 100,100,10,100,100,100
+MS14,Laid to Rest,<30 <70 <200,quest.hjaalmarch.laid_to_rest,1 5 6 7 9 10 20 25 30 35 40 50 60 70 80 90 95 97 100 110 120 130 200,20 30 70 95 100 200,200,20,200,200,200
+SolitudeFreeform01,No News is Good News,<200,quest.haafingar.no_news_is_good_news,0 5 10 20 30 200,,200,20,200,200,200
+SolitudeFreeform02,Fit for a Jarl,<200,quest.haafingar.fit_for_a_jarl,0 10 20 30 200,,,20,200,,200
+SolitudeFreeform03,Return to Grace,<200,quest.haafingar.return_to_grace,0 10 20 30 40 200,,,20,200,200,200
+SolitudeFreeform04,Delivery,<200,quest.haafingar.delivery,10 20 200,,,20,200,,200
+SolitudeFreeform06,The Spiced Wine,<200,quest.haafingar.spiced_wine,10 20 30 200,,,20,200,,200
+SolitudeFreeform07,Elisif's Tribute,<200,quest.haafingar.elisifs_tribute,0 10 20 30 200,,,20,200,,200
+TG00,A Chance Arrangement,<200,quest.rift.thieves_guild_recruit,0 5 8 10 20 30 35 40 200,8 200,200,8,200,200,200
+TG03,Dampened Spirits,<200,quest.whiterun.dampened_spirits,0 10 20 30 40 45 55 60 70 80 90 100 110 200,10 20 30 40 80 90 200,200,10,200,200,200
+dunFrostmereCryptQST,The Pale Lady,==0 <100,quest.pale.pale_lady,0 1 2 3 4 7 8 9 10 15 16 19 20 21 30 31 40 41 50 55 60 70 75 76 85 90 91 100,1 7 8 9 90 91,,1,100,,100

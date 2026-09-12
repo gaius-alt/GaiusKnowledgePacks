@@ -30,7 +30,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Idgrod Ravencrone\" or actorName == \"Aslfur\" or actorName == \"Idgrod the Younger\"",
-        "content": "{% if get_quest_stage(\"FreeformMorthalB\", false) == 0 %}Jarl Idgrod Ravencrone sees visions, and they have not been kind. She has been asking outsiders to lend a hand with what walks the marsh.{% else %}{{ playerName }} aided Jarl Idgrod's effort to keep Morthal whole.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformMorthalB\", false) < 20 %}Jarl Idgrod Ravencrone sees visions, and they have not been kind. She has been asking outsiders to lend a hand with what walks the marsh.{% else %}{{ playerName }} aided Jarl Idgrod's effort to keep Morthal whole.{% endif %}",
         "display_name": "For the Good of Morthal",
         "emotion": "",
         "importance": 0.7,
@@ -48,7 +48,7 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"CrimeFactionHjaalmarch\") or is_in_faction(actorUUID, \"TownMorthalFaction\")",
-        "content": "{% if get_quest_stage(\"MS14\", false) == 0 %}A house in Morthal burned down with a mother and her child inside. Hroggar moved on so quickly people whisper murder — and the child's ghost has been seen on the ash.{% elif get_quest_stage(\"MS14\", false) < 30 %}{{ playerName }} is investigating Hroggar's burned house at Jarl Idgrod's request, and the trail keeps leading back to Alva, the woman Hroggar took up with after the fire.{% elif get_quest_stage(\"MS14\", false) < 70 %}{{ playerName }} has confirmed Alva is a vampire. Her thrall is Hroggar, and her coven hides at Movarth's Lair north of Morthal.{% else %}Morthal was hiding a vampire coven. {{ playerName }} put them down at Movarth's Lair. The marsh-town can breathe again.{% endif %}",
+        "content": "{% if get_quest_stage(\"MS14\", false) < 30 %}A house in Morthal burned down with a mother and her child inside. Hroggar moved on so quickly people whisper murder — and the child's ghost has been seen on the ash.{% elif get_quest_stage(\"MS14\", false) < 70 %}{{ playerName }} is investigating Hroggar's burned house at Jarl Idgrod's request, and the trail keeps leading back to Alva, the woman Hroggar took up with after the fire.{% elif get_quest_stage(\"MS14\", false) < 200 %}{{ playerName }} has confirmed Alva is a vampire. Her thrall is Hroggar, and her coven hides at Movarth's Lair north of Morthal.{% else %}Morthal was hiding a vampire coven. {{ playerName }} put them down at Movarth's Lair. The marsh-town can breathe again.{% endif %}",
         "display_name": "Laid to Rest",
         "emotion": "",
         "importance": 0.9,
