@@ -2,7 +2,7 @@
 
 A bundle of 45 SkyrimNet knowledge packs covering vanilla Skyrim and DLCs. ~840 entries: notable people, buildings, quests, dungeons, mines, and Orc strongholds. Every entry is faction-scoped so it doesn't leak to NPCs who'd have no reason to know.
 
-Ships with a one-click **Bulk Importer** so you don't have to click *Import Pack* 45 times.
+(Depricated) Ships with a one-click **Bulk Importer** so you don't have to click *Import Pack* 45 times.
 
 ---
 
