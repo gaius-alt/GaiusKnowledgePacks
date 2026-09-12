@@ -12,7 +12,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Birna\" or actorName == \"Ranmir\"",
-        "content": "{% if get_quest_stage(\"FreeformWinterholdA\", false) == 0 %}Birna in Winterhold thinks her brother-in-law Ranmir is being swindled — and she's the one stuck cleaning up after his drinking either way.{% else %}{{ playerName }} sorted out the trade dispute for Birna in Winterhold.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformWinterholdA\", false) < 30 %}Birna in Winterhold thinks her brother-in-law Ranmir is being swindled — and she's the one stuck cleaning up after his drinking either way.{% else %}{{ playerName }} sorted out the trade dispute for Birna in Winterhold.{% endif %}",
         "display_name": "A Bad Trade",
         "emotion": "",
         "importance": 0.6,
@@ -30,7 +30,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Ranmir\" or actorName == \"Birna\" or actorName == \"Dagur\" or actorName == \"Haran\" or actorName == \"Isabelle Rolaine\"",
-        "content": "{% if get_quest_stage(\"FreeformWinterholdC\", false) == 0 %}Ranmir drinks himself blind at the Frozen Hearth in Winterhold — his lover Isabelle Rolaine vanished without a trace, and no one has the heart to tell him she ran off with thieves.{% else %}{{ playerName }} brought Ranmir the truth about Isabelle Rolaine, for better or worse.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformWinterholdC\", false) < 40 %}Ranmir drinks himself blind at the Frozen Hearth in Winterhold — his lover Isabelle Rolaine vanished without a trace, and no one has the heart to tell him she ran off with thieves.{% else %}{{ playerName }} brought Ranmir the truth about Isabelle Rolaine, for better or worse.{% endif %}",
         "display_name": "Drowned Sorrows",
         "emotion": "",
         "importance": 0.7,
@@ -48,7 +48,7 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or actorName == \"Faralda\"",
-        "content": "{% if get_quest_stage(\"FreeformWinterholdCollegeA\", false) == 0 %}A thief has been picking through research at the College of Winterhold. The mages would prefer it handled quietly.{% else %}{{ playerName }} caught the research thief at the College of Winterhold.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformWinterholdCollegeA\", false) < 200 %}A thief has been picking through research at the College of Winterhold. The mages would prefer it handled quietly.{% else %}{{ playerName }} caught the research thief at the College of Winterhold.{% endif %}",
         "display_name": "Research Thief",
         "emotion": "",
         "importance": 0.6,
@@ -66,7 +66,7 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"CollegeofWinterholdFaction\") or actorName == \"Faralda\"",
-        "content": "{% if get_quest_stage(\"FreeformWinterholdCollegeB\", false) == 0 %}Several apprentices at the College of Winterhold have disappeared. Faralda is asking for someone with a steady hand to track them down.{% else %}{{ playerName }} found out what happened to the missing apprentices of the College.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformWinterholdCollegeB\", false) < 200 %}Several apprentices at the College of Winterhold have disappeared. Faralda is asking for someone with a steady hand to track them down.{% else %}{{ playerName }} found out what happened to the missing apprentices of the College.{% endif %}",
         "display_name": "The Missing Apprentices",
         "emotion": "",
         "importance": 0.65,
@@ -84,7 +84,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Aranea Ienith\" or actorName == \"Nelacar\" or is_in_faction(actorUUID, \"CollegeofWinterholdFaction\")",
-        "content": "{% if get_quest_stage(\"DA01\", false) == 0 %}A shrine to Azura stands above Winterhold. The priestess Aranea Ienith offers visions to any who climb to it. Azura herself has need of a mortal — to deal with Malyn Varen, the necromancer who corrupted her Star.{% elif get_quest_stage(\"DA01\", false) < 30 %}{{ playerName }} is hunting Azura's Star at Ilinalta's Deep, where Malyn Varen withdrew with what he stole.{% elif get_quest_stage(\"DA01\", false) < 60 %}{{ playerName }} entered the Star itself to face Malyn Varen — and chose whose hand it would be reforged in.{% else %}The Star is reforged. {{ playerName }} dedicated it to Azura — restoring its purity — or to Nelacar, leaving it the Black Star and able to hold black souls. Either way, Malyn Varen is done.{% endif %}",
+        "content": "{% if get_quest_stage(\"DA01\", false) < 10 %}Azura has need of a mortal — to deal with Malyn Varen, the necromancer who corrupted her Star and hid himself inside it. Her priestess above Winterhold has been waiting for someone willing.{% elif get_quest_stage(\"DA01\", false) < 50 %}{{ playerName }} is hunting Azura's Star at Ilinalta's Deep, where Malyn Varen withdrew with what he stole.{% elif get_quest_stage(\"DA01\", false) < 100 %}{{ playerName }} entered the Star itself to face Malyn Varen — and chose whose hand it would be reforged in.{% else %}The Star is reforged. {{ playerName }} dedicated it to Azura — restoring its purity — or to Nelacar, leaving it the Black Star and able to hold black souls. Either way, Malyn Varen is done.{% endif %}",
         "display_name": "The Black Star",
         "emotion": "",
         "importance": 0.9,

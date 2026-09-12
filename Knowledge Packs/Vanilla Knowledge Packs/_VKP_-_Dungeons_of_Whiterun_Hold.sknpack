@@ -11,7 +11,7 @@
     "entries": [
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") and get_quest_stage(\"MQ102\", false) < 90",
+        "condition_expr": "(is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")) and get_quest_stage(\"MQ103\", false) < 80",
         "content": "Bleak Falls Barrow is the Nordic ruin above Riverwood — a tomb crawling with bandits in the upper chambers and draugr below. The Dragonstone is rumored to lie at its deepest level.",
         "display_name": "Bleak Falls Barrow - Uncleared",
         "emotion": "",
@@ -31,7 +31,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") and get_quest_stage(\"MQ102\", false) >= 90",
+        "condition_expr": "(is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")) and get_quest_stage(\"MQ103\", false) >= 80",
         "content": "Bleak Falls Barrow stands silent above Riverwood now — the bandits and draugr cleared, the Dragonstone taken from the deep chamber where it slept.",
         "display_name": "Bleak Falls Barrow - Cleared",
         "emotion": "",
@@ -49,7 +49,7 @@
       },
       {
         "always_inject": false,
-        "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\") and get_quest_stage(\"C00\", false) < 200",
+        "condition_expr": "(is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")) and get_quest_stage(\"C01\", false) < 200",
         "content": "Dustman's Cairn is the Nordic crypt where the Companions' trial-of-blood is run — and where a fragment of Wuuthrad is said to wait beneath draugr and silver-armed hunters.",
         "display_name": "Dustman's Cairn - Companions Trial",
         "emotion": "",

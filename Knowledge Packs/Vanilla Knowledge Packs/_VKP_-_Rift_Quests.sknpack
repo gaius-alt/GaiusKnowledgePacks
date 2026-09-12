@@ -12,7 +12,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Laila Law-Giver\" or actorName == \"Anuriel\" or actorName == \"Wylandriah\" or actorName == \"Hemming Black-Briar\" or actorName == \"Unmid Snow-Shod\" or actorName == \"Wujeeta\" or actorName == \"Sarthis Idren\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften01\", false) == 0 %}Wujeeta at the fishery in Riften is hooked on skooma. Jarl Laila wants the source — Sarthis Idren — exposed and the operation broken.{% elif get_quest_stage(\"FreeformRiften01\", false) < 40 %}{{ playerName }} is hunting the skooma source for Jarl Laila Law-Giver. Cragslane Cavern is the trail's end.{% else %}The Cragslane skooma operation is broken. {{ playerName }} reported the result to Jarl Laila — the addicts of Riften will lose their supply for a while.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften01\", false) < 20 %}Wujeeta at the fishery in Riften is hooked on skooma. Jarl Laila wants the source — Sarthis Idren — exposed and the operation broken.{% elif get_quest_stage(\"FreeformRiften01\", false) < 200 %}{{ playerName }} is hunting the skooma source for Jarl Laila Law-Giver. Cragslane Cavern is the trail's end.{% else %}The Cragslane skooma operation is broken. {{ playerName }} reported the result to Jarl Laila — the addicts of Riften will lose their supply for a while.{% endif %}",
         "display_name": "Supply and Demand",
         "emotion": "",
         "importance": 0.75,
@@ -30,7 +30,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Sibbi Black-Briar\" or actorName == \"Svidi\" or actorName == \"Maven Black-Briar\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften02\", false) == 0 %}Svidi has gone missing from Riften — her father Sibbi Black-Briar (locked in Riften jail) wants her found and silenced. The Black-Briars don't take such matters lightly.{% else %}{{ playerName }} handled Sibbi Black-Briar's request — by finding Svidi for him, or by warning her.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften02\", false) < 200 %}Svidi has gone missing from Riften — her father Sibbi Black-Briar (locked in Riften jail) wants her found and silenced. The Black-Briars don't take such matters lightly.{% else %}{{ playerName }} handled Sibbi Black-Briar's request — by finding Svidi for him, or by warning her.{% endif %}",
         "display_name": "The Lover's Requital",
         "emotion": "",
         "importance": 0.65,
@@ -48,7 +48,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Maven Black-Briar\" or actorName == \"Indaryn\" or actorName == \"Hemming Black-Briar\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften03\", false) == 0 %}Maven Black-Briar wants her contraband moved through the Black-Briar Meadery — Indaryn is holding the next lot awaiting pick-up.{% else %}{{ playerName }} moved Maven's shipments under the table. Her contraband flows.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften03\", false) < 200 %}Maven Black-Briar wants her contraband moved through the Black-Briar Meadery — Indaryn is holding the next lot awaiting pick-up.{% else %}{{ playerName }} moved Maven's shipments under the table. Her contraband flows.{% endif %}",
         "display_name": "Under the Table",
         "emotion": "",
         "importance": 0.7,
@@ -66,7 +66,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Indaryn\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften04\", false) == 0 %}Indaryn at Black-Briar Meadery wants someone to fetch his lost honey shipment back from skeevers.{% else %}{{ playerName }} recovered the honey shipment for Black-Briar Meadery.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften04\", false) < 200 %}Indaryn at Black-Briar Meadery wants someone to fetch his lost honey shipment back from skeevers.{% else %}{{ playerName }} recovered the honey shipment for Black-Briar Meadery.{% endif %}",
         "display_name": "Few and Far Between",
         "emotion": "",
         "importance": 0.6,
@@ -84,7 +84,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Dinya Balu\" or actorName == \"Maramal\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften05\", false) == 0 %}Dinya Balu at the Temple of Mara in Riften has Amulets of Mara to spread across Skyrim — anyone wearing one is signaling availability.{% else %}{{ playerName }} placed Mara's amulets for Dinya Balu. Love finds who it finds.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften05\", false) < 200 %}Dinya Balu at the Temple of Mara in Riften has Amulets of Mara to spread across Skyrim — anyone wearing one is signaling availability.{% else %}{{ playerName }} placed Mara's amulets for Dinya Balu. Love finds who it finds.{% endif %}",
         "display_name": "Spread the Love",
         "emotion": "",
         "importance": 0.55,
@@ -102,7 +102,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Bersi Honey-Hand\" or actorName == \"Drifa\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften06\", false) == 0 %}Bersi Honey-Hand at the Pawned Prawn in Riften has been threatened by the Thieves Guild. He'd rather not pay — but they don't ask twice.{% else %}{{ playerName }} settled Bersi's matter with the Thieves Guild.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften06\", false) < 200 %}Bersi Honey-Hand at the Pawned Prawn in Riften has been threatened by the Thieves Guild. He'd rather not pay — but they don't ask twice.{% else %}{{ playerName }} settled Bersi's matter with the Thieves Guild.{% endif %}",
         "display_name": "Sealing the Deal",
         "emotion": "",
         "importance": 0.6,
@@ -120,7 +120,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Talen-Jei\" or actorName == \"Keerava\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften07\", false) == 0 %}Talen-Jei at the Bee and Barb wants three flawless amethysts to make a wedding ring for Keerava.{% else %}{{ playerName }} brought Talen-Jei his flawless amethysts. He can ask Keerava to marry him now.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften07\", false) < 200 %}Talen-Jei at the Bee and Barb wants three flawless amethysts to make a wedding ring for Keerava.{% else %}{{ playerName }} brought Talen-Jei his flawless amethysts. He can ask Keerava to marry him now.{% endif %}",
         "display_name": "Ice Cold",
         "emotion": "",
         "importance": 0.55,
@@ -138,7 +138,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Romlyn Dreth\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften08\", false) == 0 %}Romlyn Dreth, the Dunmer brewer at Black-Briar Meadery, will pay for honnigbrew mead smuggled in for old times' sake.{% else %}{{ playerName }} smuggled mead to Romlyn Dreth.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften08\", false) < 200 %}Romlyn Dreth, the Dunmer brewer at Black-Briar Meadery, will pay for honnigbrew mead smuggled in for old times' sake.{% else %}{{ playerName }} smuggled mead to Romlyn Dreth.{% endif %}",
         "display_name": "Distant Memories",
         "emotion": "",
         "importance": 0.6,
@@ -156,7 +156,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Mjoll the Lioness\" or actorName == \"Aerin\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften09\", false) == 0 %}Mjoll the Lioness lost her old sword Grimsever in the Dwemer ruin of Mzinchaleft and gave up adventuring after. She'd take it back if it came to her.{% else %}{{ playerName }} brought Grimsever home to Mjoll the Lioness.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften09\", false) < 200 %}Mjoll the Lioness lost her old sword Grimsever in the Dwemer ruin of Mzinchaleft and gave up adventuring after. She'd take it back if it came to her.{% else %}{{ playerName }} brought Grimsever home to Mjoll the Lioness.{% endif %}",
         "display_name": "Grimsever's Return",
         "emotion": "",
         "importance": 0.7,
@@ -174,7 +174,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Balimund\" or actorName == \"Asbjorn Fire-Tamer\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften10\", false) == 0 %}Balimund the Riften blacksmith needs ten salt piles to keep his forge running. His apprentice keeps forgetting to bring them.{% else %}{{ playerName }} brought Balimund his fire salts.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften10\", false) < 200 %}Balimund the Riften blacksmith needs ten salt piles to keep his forge running. His apprentice keeps forgetting to bring them.{% else %}{{ playerName }} brought Balimund his fire salts.{% endif %}",
         "display_name": "Stoking the Flames",
         "emotion": "",
         "importance": 0.55,
@@ -192,7 +192,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Svana Far-Shield\" or actorName == \"Haelga\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften11\", false) == 0 %}Haelga at the Bunkhouse in Riften has been broken-hearted by three men — each holding her Mark of Dibella as a token. Her niece Svana wants to humiliate her.{% else %}{{ playerName }} returned the three Marks of Dibella to Svana, exposing Haelga's affairs.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften11\", false) < 200 %}Haelga at the Bunkhouse in Riften has been broken-hearted by three men — each holding her Mark of Dibella as a token. Her niece Svana wants to humiliate her.{% else %}{{ playerName }} returned the three Marks of Dibella to Svana, exposing Haelga's affairs.{% endif %}",
         "display_name": "Caught Red Handed",
         "emotion": "",
         "importance": 0.65,
@@ -210,7 +210,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Shadr\" or actorName == \"Sapphire\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften12\", false) == 0 %}Shadr the Redguard at the Riften stables has had his horse stolen by Sapphire of the Thieves Guild over a bad debt. He'd like it back — discreetly.{% else %}{{ playerName }} helped Shadr settle his debt with Sapphire.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften12\", false) < 200 %}Shadr the Redguard at the Riften stables has had his horse stolen by Sapphire of the Thieves Guild over a bad debt. He'd like it back — discreetly.{% else %}{{ playerName }} helped Shadr settle his debt with Sapphire.{% endif %}",
         "display_name": "Helping Hand",
         "emotion": "",
         "importance": 0.65,
@@ -228,7 +228,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Dinya Balu\" or actorName == \"Maramal\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften13\", false) == 0 %}Dinya Balu at Mara's Temple in Riften wants a pilgrimage made to the Shrine of Mara — a personal vision of the goddess waits there for the worthy.{% else %}{{ playerName }} made the pilgrimage to Mara's shrine for Dinya Balu.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften13\", false) < 200 %}Dinya Balu at Mara's Temple in Riften wants a pilgrimage made to the Shrine of Mara — a personal vision of the goddess waits there for the worthy.{% else %}{{ playerName }} made the pilgrimage to Mara's shrine for Dinya Balu.{% endif %}",
         "display_name": "Pilgrimage",
         "emotion": "",
         "importance": 0.55,
@@ -246,7 +246,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Wylandriah\"",
-        "content": "{% if get_quest_stage(\"FreeformRiften14\", false) == 0 %}Wylandriah, the Mistveil Keep court mage, keeps losing her belongings around the Rift. She wants them back.{% else %}{{ playerName }} recovered Wylandriah's lost things from across the Rift.{% endif %}",
+        "content": "{% if get_quest_stage(\"FreeformRiften14\", false) < 200 %}Wylandriah, the Mistveil Keep court mage, keeps losing her belongings around the Rift. She wants them back.{% else %}{{ playerName }} recovered Wylandriah's lost things from across the Rift.{% endif %}",
         "display_name": "Hunt and Gather",
         "emotion": "",
         "importance": 0.55,
@@ -264,7 +264,7 @@
       {
         "always_inject": false,
         "condition_expr": "actorName == \"Brynjolf\" or is_in_faction(actorUUID, \"ThievesGuildFaction\")",
-        "content": "{% if get_quest_stage(\"TG00\", false) == 0 %}Brynjolf in the Riften marketplace is looking for someone clever enough to plant a ring on Brand-Shei for him — an audition for the Thieves Guild.{% else %}{{ playerName }} took Brynjolf's audition and earned an invitation down to the Ratway.{% endif %}",
+        "content": "{% if get_quest_stage(\"TG00\", false) < 200 %}Brynjolf in the Riften marketplace is looking for someone clever enough to plant a ring on Brand-Shei for him — an audition for the Thieves Guild.{% else %}{{ playerName }} took Brynjolf's audition and earned an invitation down to the Ratway.{% endif %}",
         "display_name": "A Chance Arrangement / Brynjolf's Test",
         "emotion": "",
         "importance": 0.75,
