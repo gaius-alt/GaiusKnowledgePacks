@@ -1054,7 +1054,7 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
-        "content": "Nazeem is a pompous Nord who frequents the Drunken Huntsman and the Jarl's Cloud District — though as he'll remind anyone, he doesn't actually live in the Cloud District. His wife Ahlam runs the farm.",
+        "content": "Nazeem is a pompous Redguard who frequents the Drunken Huntsman and the Jarl's Cloud District — though as he'll remind anyone, he doesn't actually live in the Cloud District. His wife Ahlam runs the farm.",
         "display_name": "Nazeem - Cloud District Regular",
         "emotion": "",
         "importance": 0.55,
@@ -1075,7 +1075,7 @@
       {
         "always_inject": false,
         "condition_expr": "is_in_faction(actorUUID, \"TownWhiterunFaction\") or is_in_faction(actorUUID, \"GuardFactionWhiterun\")",
-        "content": "Ahlam is Nazeem's wife — an aloof Nord woman who keeps to herself in their home near the Drunken Huntsman in Whiterun.",
+        "content": "Ahlam is Nazeem's wife — an aloof Redguard woman who keeps to herself in their home near the Drunken Huntsman in Whiterun.",
         "display_name": "Ahlam - Nazeem's Wife",
         "emotion": "",
         "importance": 0.5,
